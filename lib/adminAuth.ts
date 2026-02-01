@@ -1,7 +1,6 @@
 import crypto from "crypto";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import nodemailer from "nodemailer";
 import {
   getSessionSecret,
   readAdminUsers,
@@ -153,18 +152,15 @@ export const createPasswordReset = async (email: string, origin = "") => {
 
   const users = readAdminUsers();
   const user = users.find((u) => u.email === normalized);
-  // Generic response to avoid email enumeration
   const generic = { ok: true, message: "If an account exists we sent reset instructions." };
 
-  if (!user) {
-    return generic;
-  }
+  if (!user) return generic;
 
   pruneExpiredResetTokens();
 
   const token = generateToken(32);
   const tokenHash = sha256Hex(token);
-  const expiresAt = new Date(Date.now() + 1000 * 60 * 60).toISOString(); // 1 hour
+  const expiresAt = new Date(Date.now() + 1000 * 60 * 60).toISOString();
 
   const tokens = readResetTokens();
   const nextRecord = {
@@ -179,40 +175,18 @@ export const createPasswordReset = async (email: string, origin = "") => {
     ? `${origin.replace(/\/$/, "")}/admin/password-reset/${token}`
     : `/admin/password-reset/${token}`;
 
-  // Try SMTP if configured
-  const smtpHost = process.env.SMTP_HOST;
-  const smtpPort = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) : undefined;
-  const smtpUser = process.env.SMTP_USER;
-  const smtpPass = process.env.SMTP_PASS;
-  const fromEmail = process.env.FROM_EMAIL ?? `no-reply@${process.env.VERCEL_URL ?? "localhost"}`;
+  // Always log the link to server logs (useful when no email configured)
+  console.info("Password reset link:", resetUrl);
 
-  if (smtpHost && smtpPort && smtpUser && smtpPass) {
-    try {
-      const transporter = nodemailer.createTransport({
-        host: smtpHost,
-        port: smtpPort,
-        secure: smtpPort === 465,
-        auth: { user: smtpUser, pass: smtpPass },
-      });
+  // Only return the link in responses when explicitly allowed.
+  const showResetLink =
+    process.env.SHOW_RESET_LINK === "true" || origin.includes("localhost") || process.env.NODE_ENV !== "production";
 
-      await transporter.sendMail({
-        from: fromEmail,
-        to: normalized,
-        subject: "Password reset for your admin account",
-        text: `Use this link to reset your password (valid 1 hour): ${resetUrl}`,
-        html: `<p>Use this link to reset your password (valid 1 hour):</p><p><a href="${resetUrl}">${resetUrl}</a></p>`,
-      });
-
-      return generic;
-    } catch (e) {
-      console.error("Failed to send reset email:", e);
-      // fall back to logging
-    }
+  if (showResetLink) {
+    return { ok: true, message: "Reset link generated.", resetUrl };
   }
 
-  // Fallback: log link to server logs
-  console.info("Password reset link (no SMTP configured):", resetUrl);
-  return { ok: true, message: "Reset link generated (check server logs if email not configured)." };
+  return generic;
 };
 
 export const resetPasswordWithToken = (token: string, newPassword: string) => {
