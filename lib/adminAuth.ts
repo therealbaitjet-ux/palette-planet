@@ -1,7 +1,16 @@
 import crypto from "crypto";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { getSessionSecret, readAdminUsers, writeAdminUsers, AdminUser } from "@/lib/adminStore";
+import nodemailer from "nodemailer";
+import {
+  getSessionSecret,
+  readAdminUsers,
+  writeAdminUsers,
+  AdminUser,
+  readResetTokens,
+  writeResetTokens,
+  pruneExpiredResetTokens,
+} from "@/lib/adminStore";
 
 const SESSION_COOKIE = "admin_session";
 const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 7;
@@ -132,3 +141,112 @@ export const requireAdmin = () => {
 };
 
 export const canSignUp = () => readAdminUsers().length < ADMIN_LIMIT;
+
+/* Password reset helpers (store only token hashes) */
+const sha256Hex = (input: string) => crypto.createHash("sha256").update(input).digest("hex");
+
+const generateToken = (len = 48) => base64UrlEncode(crypto.randomBytes(len));
+
+export const createPasswordReset = async (email: string, origin = "") => {
+  const normalized = email.trim().toLowerCase();
+  if (!normalized) return { ok: false, error: "Provide an email." };
+
+  const users = readAdminUsers();
+  const user = users.find((u) => u.email === normalized);
+  // Generic response to avoid email enumeration
+  const generic = { ok: true, message: "If an account exists we sent reset instructions." };
+
+  if (!user) {
+    return generic;
+  }
+
+  pruneExpiredResetTokens();
+
+  const token = generateToken(32);
+  const tokenHash = sha256Hex(token);
+  const expiresAt = new Date(Date.now() + 1000 * 60 * 60).toISOString(); // 1 hour
+
+  const tokens = readResetTokens();
+  const nextRecord = {
+    email: normalized,
+    tokenHash,
+    expiresAt,
+    createdAt: new Date().toISOString(),
+  };
+  writeResetTokens([...tokens, nextRecord]);
+
+  const resetUrl = origin
+    ? `${origin.replace(/\/$/, "")}/admin/password-reset/${token}`
+    : `/admin/password-reset/${token}`;
+
+  // Try SMTP if configured
+  const smtpHost = process.env.SMTP_HOST;
+  const smtpPort = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) : undefined;
+  const smtpUser = process.env.SMTP_USER;
+  const smtpPass = process.env.SMTP_PASS;
+  const fromEmail = process.env.FROM_EMAIL ?? `no-reply@${process.env.VERCEL_URL ?? "localhost"}`;
+
+  if (smtpHost && smtpPort && smtpUser && smtpPass) {
+    try {
+      const transporter = nodemailer.createTransport({
+        host: smtpHost,
+        port: smtpPort,
+        secure: smtpPort === 465,
+        auth: { user: smtpUser, pass: smtpPass },
+      });
+
+      await transporter.sendMail({
+        from: fromEmail,
+        to: normalized,
+        subject: "Password reset for your admin account",
+        text: `Use this link to reset your password (valid 1 hour): ${resetUrl}`,
+        html: `<p>Use this link to reset your password (valid 1 hour):</p><p><a href="${resetUrl}">${resetUrl}</a></p>`,
+      });
+
+      return generic;
+    } catch (e) {
+      console.error("Failed to send reset email:", e);
+      // fall back to logging
+    }
+  }
+
+  // Fallback: log link to server logs
+  console.info("Password reset link (no SMTP configured):", resetUrl);
+  return { ok: true, message: "Reset link generated (check server logs if email not configured)." };
+};
+
+export const resetPasswordWithToken = (token: string, newPassword: string) => {
+  if (!token || typeof token !== "string" || newPassword.length < 8) {
+    return { ok: false, error: "Invalid token or password too short (min 8 chars)." };
+  }
+
+  pruneExpiredResetTokens();
+  const tokens = readResetTokens();
+  const tokenHash = sha256Hex(token);
+  const now = Date.now();
+  const idx = tokens.findIndex((t) => t.tokenHash === tokenHash && new Date(t.expiresAt).getTime() > now);
+  if (idx === -1) {
+    return { ok: false, error: "Invalid or expired token." };
+  }
+
+  const rec = tokens[idx];
+  const users = readAdminUsers();
+  const userIndex = users.findIndex((u) => u.email === rec.email);
+  if (userIndex === -1) {
+    tokens.splice(idx, 1);
+    writeResetTokens(tokens);
+    return { ok: false, error: "Account not found." };
+  }
+
+  const salt = crypto.randomBytes(16).toString("hex");
+  const passwordHash = hashPassword(newPassword, salt);
+  users[userIndex].salt = salt;
+  users[userIndex].passwordHash = passwordHash;
+  writeAdminUsers(users);
+
+  // consume token
+  tokens.splice(idx, 1);
+  writeResetTokens(tokens);
+
+  return { ok: true };
+};

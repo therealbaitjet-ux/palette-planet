@@ -10,8 +10,10 @@ import {
   requireAdmin,
   setAdminSession,
   verifyAdminCredentials,
+  createPasswordReset,
+  resetPasswordWithToken,
 } from "@/lib/adminAuth";
-import { readAdminBrands, writeAdminBrands } from "@/lib/adminStore";
+import { readAdminBrands, writeAdminBrands, readResetTokens } from "@/lib/adminStore";
 import { getBrandBySlug } from "@/lib/data";
 
 type ActionState = {
@@ -286,4 +288,24 @@ export const deleteLogo = async (formData: FormData) => {
   }
 
   redirect("/admin/logos");
+};
+
+/* Password reset actions */
+
+export const requestPasswordReset = async (_prev: ActionState, formData: FormData): Promise<ActionState> => {
+  const email = String(formData.get("email") ?? "");
+  const origin = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : (process.env.ORIGIN || "");
+  const res = await createPasswordReset(email, origin);
+  if (!res.ok) return { error: res.error || "Could not request reset." };
+  return { success: res.message || "If the account exists, instructions were sent." };
+};
+
+export const performPasswordReset = async (_prev: ActionState, formData: FormData): Promise<ActionState> => {
+  const token = String(formData.get("token") ?? "");
+  const password = String(formData.get("password") ?? "");
+  const res = resetPasswordWithToken(token, password);
+  if (!res.ok) {
+    return { error: res.error };
+  }
+  return { success: "Password updated. You can sign in now." };
 };

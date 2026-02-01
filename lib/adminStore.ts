@@ -29,6 +29,7 @@ const dataDir = path.join(process.cwd(), "data");
 const usersPath = path.join(dataDir, "admin-users.json");
 const brandsPath = path.join(dataDir, "admin-brands.json");
 const sessionSecretPath = path.join(dataDir, "admin-session-secret");
+const resetTokensPath = path.join(dataDir, "admin-reset-tokens.json");
 
 const ensureDataDir = () => {
   if (!fs.existsSync(dataDir)) {
@@ -79,4 +80,27 @@ export const getSessionSecret = () => {
   const secret = crypto.randomBytes(32).toString("hex");
   fs.writeFileSync(sessionSecretPath, secret, { encoding: "utf8", mode: 0o600 });
   return secret;
+};
+
+/* Password reset token storage (token hashes only) */
+export type ResetTokenRecord = {
+  email: string;
+  tokenHash: string;
+  expiresAt: string; // ISO
+  createdAt: string;
+};
+
+export const readResetTokens = () => readJson<ResetTokenRecord[]>(resetTokensPath, []);
+
+export const writeResetTokens = (tokens: ResetTokenRecord[]) => {
+  writeJson(resetTokensPath, tokens);
+};
+
+export const pruneExpiredResetTokens = () => {
+  const tokens = readResetTokens();
+  const now = Date.now();
+  const remaining = tokens.filter((t) => new Date(t.expiresAt).getTime() > now);
+  if (remaining.length !== tokens.length) {
+    writeResetTokens(remaining);
+  }
 };
