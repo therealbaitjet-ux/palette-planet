@@ -13,7 +13,7 @@ import {
 
 const SESSION_COOKIE = "admin_session";
 const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 7;
-const ADMIN_LIMIT = 2;
+const ADMIN_LIMIT = 7;
 
 const base64UrlEncode = (input: Buffer | string) =>
   Buffer.from(input).toString("base64").replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
