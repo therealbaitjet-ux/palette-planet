@@ -1,0 +1,21 @@
+[
+  {
+    "id": "adm-1769979788120",
+    "name": "Burger King",
+    "slug": "burger-king",
+    "description": "its a biurger place",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "Burgers",
+      "Food",
+      "Fast Food"
+    ],
+    "logoUrl": "/uploads/logos/burger-king.png",
+    "dominantColors": [],
+    "country": "United States",
+    "website": "https://burgerking.com",
+    "createdAt": "2026-02-01T21:03:08.120Z",
+    "featured": true,
+    "views": 0
+  }
+]

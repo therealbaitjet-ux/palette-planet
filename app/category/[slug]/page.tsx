@@ -1,0 +1,96 @@
+import { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import BrandGrid from "@/components/BrandGrid";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import { getBrands, categories, getCategoryBySlug } from "@/lib/data";
+import { absoluteUrl, truncate } from "@/lib/seo";
+
+export const dynamic = "force-dynamic";
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> => {
+  const category = getCategoryBySlug(params.slug);
+  if (!category) {
+    return {};
+  }
+
+  const title = `${category.name} Logos`;
+  const description = truncate(category.description, 155);
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: absoluteUrl(`/category/${category.slug}`),
+    },
+    openGraph: {
+      title,
+      description,
+      url: absoluteUrl(`/category/${category.slug}`),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+};
+
+export default function CategoryPage({ params }: { params: { slug: string } }) {
+  const category = getCategoryBySlug(params.slug);
+  if (!category) {
+    notFound();
+  }
+
+  const filtered = getBrands().filter((brand) => brand.categorySlug === category.slug);
+
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: filtered.map((brand, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: absoluteUrl(`/brand/${brand.slug}`),
+      name: brand.name,
+    })),
+  };
+
+  return (
+    <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-16">
+      <SeoJsonLd data={itemList} id={`category-${category.slug}-itemlist`} />
+      <div className="space-y-4">
+        <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Category</p>
+        <h1 className="text-3xl font-semibold text-white md:text-4xl">{category.name}</h1>
+        <p className="max-w-3xl text-sm text-slate-300">{category.description}</p>
+      </div>
+
+      <div className="glass rounded-3xl p-8">
+        <h2 className="text-lg font-semibold text-white">SEO overview</h2>
+        <p className="mt-3 text-sm text-slate-300">{category.seoIntro}</p>
+      </div>
+
+      <BrandGrid brands={filtered} />
+
+      <div className="flex flex-wrap gap-4 text-sm text-slate-300">
+        <Link href="/gallery" className="hover:text-white focus-ring">
+          Browse full gallery
+        </Link>
+        {categories
+          .filter((cat) => cat.slug !== category.slug)
+          .map((cat) => (
+            <Link
+              key={cat.slug}
+              href={`/category/${cat.slug}`}
+              className="hover:text-white focus-ring"
+            >
+              {cat.name}
+            </Link>
+          ))}
+      </div>
+    </div>
+  );
+}
