@@ -25,7 +25,8 @@ export type StoredBrand = {
   views: number;
 };
 
-const dataDir = path.join(process.cwd(), "data");
+const dataDir =
+  process.env.DATA_DIR || (process.env.NODE_ENV === "production" ? path.join("/tmp", "brian-data") : path.join(process.cwd(), "data"));
 const usersPath = path.join(dataDir, "admin-users.json");
 const brandsPath = path.join(dataDir, "admin-brands.json");
 const sessionSecretPath = path.join(dataDir, "admin-session-secret");
