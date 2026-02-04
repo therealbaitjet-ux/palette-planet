@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import BrandGrid from "@/components/BrandGrid";
 import GodLevelSearch from "@/components/GodLevelSearch";
+import TagsFilter from "@/components/TagsFilter";
 import SeoJsonLd from "@/components/SeoJsonLd";
 import AdUnit from "@/components/AdUnit";
 import { Brand, getBrands, categories } from "@/lib/data";
@@ -192,31 +193,13 @@ export default function GalleryPage({
               ))}
             </div>
           </div>
-          {tagOptions.length > 0 ? (
-            <div>
-              <label className="text-xs uppercase tracking-[0.3em] text-slate-400">Tags</label>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {tagOptions.map((chip) => (
-                  <Link
-                    key={chip}
-                    href={`/gallery${buildQueryString({
-                      q: query || undefined,
-                      category,
-                      sort,
-                      tag: chip,
-                    })}`}
-                    className={`rounded-full border px-3 py-1 text-xs transition focus-ring ${
-                      tag === chip
-                        ? "border-indigo-400 bg-indigo-500/20 text-indigo-100"
-                        : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30"
-                    }`}
-                  >
-                    {chip}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ) : null}
+          <TagsFilter
+            tags={tagOptions}
+            selectedTag={tag}
+            basePath="/gallery"
+            queryParams={{ q: query || undefined, category, sort }}
+            brands={brands}
+          />
         </div>
       </div>
 
