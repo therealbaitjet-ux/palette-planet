@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background Planet (lighter for dark backgrounds) -->
+  <circle cx="100" cy="100" r="60" fill="#ffffff"/>
+  <circle cx="100" cy="100" r="58" fill="#f8f9fa"/>
+  
+  <!-- Orbital Color Swatches -->
+  <ellipse cx="100" cy="100" rx="85" ry="20" fill="none" stroke="#e94560" stroke-width="8" stroke-linecap="round" transform="rotate(-30 100 100)"/>
+  <ellipse cx="100" cy="100" rx="85" ry="20" fill="none" stroke="#667eea" stroke-width="8" stroke-linecap="round" transform="rotate(30 100 100)"/>
+  <ellipse cx="100" cy="100" rx="85" ry="20" fill="none" stroke="#533483" stroke-width="8" stroke-linecap="round" transform="rotate(90 100 100)"/>
+  
+  <!-- Inner Accent -->
+  <circle cx="100" cy="100" r="15" fill="#e94560"/>
+</svg>

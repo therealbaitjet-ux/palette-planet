@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Inter, Playfair_Display } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
@@ -25,10 +26,10 @@ export const metadata: Metadata = {
     siteName: "palette-planet.com",
     images: [
       {
-        url: absoluteUrl("/og-image.svg"),
+        url: absoluteUrl("/logos/palette-planet-logo.svg"),
         width: 1200,
         height: 630,
-        alt: "palette-planet.com",
+        alt: "Palette Planet - Logo Gallery & Brand Identity Directory",
       },
     ],
     locale: "en_US",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
-    images: [absoluteUrl("/og-image.svg")],
+    images: [absoluteUrl("/logos/palette-planet-logo.svg")],
   },
 };
 
@@ -57,8 +58,17 @@ export default function RootLayout({
           <div className="pointer-events-none absolute inset-0 bg-hero-glow" />
           <header className="relative z-10 border-b border-white/10">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-              <Link href="/" className="text-lg font-semibold tracking-tight text-white">
-                palette-planet.com
+              <Link href="/" className="flex items-center gap-3 transition hover:opacity-80 focus-ring">
+                <Image
+                  src="/logos/palette-planet-icon.svg"
+                  alt="Palette Planet"
+                  width={32}
+                  height={32}
+                  className="rounded-lg"
+                />
+                <span className="text-lg font-semibold tracking-tight text-white">
+                  palette-planet.com
+                </span>
               </Link>
               <nav className="flex items-center gap-6 text-sm text-slate-300">
                 <Link href="/" className="transition hover:text-white focus-ring">

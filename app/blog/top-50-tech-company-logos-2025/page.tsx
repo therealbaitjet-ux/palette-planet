@@ -38,7 +38,7 @@ export default function TechLogosArticle() {
     publisher: {
       "@type": "Organization",
       name: "Palette Planet",
-      logo: absoluteUrl("/logos/abstract-mark.svg"),
+      logo: absoluteUrl("/logos/palette-planet-logo.svg"),
     },
     datePublished: "2025-02-04",
     dateModified: "2025-02-04",
