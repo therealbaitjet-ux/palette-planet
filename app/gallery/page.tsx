@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import BrandGrid from "@/components/BrandGrid";
-import SearchBar from "@/components/SearchBar";
+import GodLevelSearch from "@/components/GodLevelSearch";
 import SeoJsonLd from "@/components/SeoJsonLd";
 import AdUnit from "@/components/AdUnit";
 import { Brand, getBrands, categories } from "@/lib/data";
@@ -138,7 +138,7 @@ export default function GalleryPage({
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-        <SearchBar placeholder="Search logos, tags, or descriptions" />
+        <GodLevelSearch placeholder="Search 196+ brand logos..." />
         <div className="glass flex flex-col gap-4 rounded-2xl p-4">
           <div>
             <label className="text-xs uppercase tracking-[0.3em] text-slate-400">Category</label>

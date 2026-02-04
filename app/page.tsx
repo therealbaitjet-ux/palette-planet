@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import SearchBar from "@/components/SearchBar";
+import GodLevelSearch from "@/components/GodLevelSearch";
 import BrandGrid from "@/components/BrandGrid";
 import AdUnit from "@/components/AdUnit";
 import { categories, getFeaturedBrands } from "@/lib/data";
@@ -32,7 +32,7 @@ export default function HomePage() {
               Each brand includes thoughtful context to inspire your next build.
             </p>
           </div>
-          <SearchBar placeholder="Search 101+ Fortune 500 brands" basePath="/gallery" />
+          <GodLevelSearch placeholder="Search 196+ brand logos..." basePath="/gallery" />
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
             <span>Popular categories:</span>
             {categories.slice(0, 3).map((category) => (
