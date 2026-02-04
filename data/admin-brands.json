@@ -571,7 +571,7 @@
       "metaverse",
       "software"
     ],
-    "logoUrl": "/logos/meta.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#0081FB",
       "#FFFFFF"
@@ -697,7 +697,7 @@
       "gaming",
       "software"
     ],
-    "logoUrl": "/logos/nvidia.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#76B900",
       "#000000"
@@ -723,7 +723,7 @@
       "ev",
       "elon-musk"
     ],
-    "logoUrl": "/logos/tesla.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#CC0000",
       "#FFFFFF"
@@ -771,7 +771,7 @@
       "media",
       "theme-parks"
     ],
-    "logoUrl": "/logos/disney.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#000000",
       "#FFFFFF"
@@ -1113,7 +1113,7 @@
       "ai",
       "software"
     ],
-    "logoUrl": "/logos/ibm.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#054ADA",
       "#FFFFFF"
@@ -1236,7 +1236,7 @@
       "computing",
       "software"
     ],
-    "logoUrl": "/logos/intel.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#0071C5",
       "#FFFFFF"
@@ -1261,7 +1261,7 @@
       "cloud",
       "software"
     ],
-    "logoUrl": "/logos/oracle.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#F80000",
       "#FFFFFF"
@@ -1361,7 +1361,7 @@
       "technology",
       "software"
     ],
-    "logoUrl": "/logos/visa.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#1A1F71",
       "#F7B600"
@@ -1389,7 +1389,7 @@
       "technology",
       "software"
     ],
-    "logoUrl": "/logos/mastercard.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#EB001B",
       "#F79E1B"
@@ -1440,7 +1440,7 @@
       "enterprise",
       "technology"
     ],
-    "logoUrl": "/logos/adobe.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#FF0000",
       "#FFFFFF"
@@ -1466,7 +1466,7 @@
       "technology",
       "software"
     ],
-    "logoUrl": "/logos/salesforce.svg",
+    "logoUrl": "",
     "dominantColors": [
       "#00A1E0",
       "#FFFFFF"

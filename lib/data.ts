@@ -78,27 +78,44 @@ const readAdminBrands = (): Brand[] => {
   }
 };
 
-// Check if a brand has a real logo (not generated)
-const hasRealLogo = (brand: Brand): boolean => {
-  if (!brand.logoUrl) return false;
-  // Real logos are in /logos/ directory (PNG or SVG)
-  return brand.logoUrl.startsWith('/logos/') && 
-    (brand.logoUrl.endsWith('.png') || brand.logoUrl.endsWith('.svg'));
+// Logo quality tiers for sorting
+// Tier 1: PNG logos (Logo.dev - best quality)
+// Tier 2: SVG logos (Wikipedia - good quality)
+// Tier 3: Generated initials (lowest priority)
+const getLogoTier = (brand: Brand): number => {
+  if (!brand.logoUrl) return 0;
+  // Tier 1: PNG from Logo.dev or other sources
+  if (brand.logoUrl.startsWith('/logos/') && brand.logoUrl.endsWith('.png')) {
+    return 3;
+  }
+  // Tier 2: SVG from Wikipedia
+  if (brand.logoUrl.startsWith('/logos/') && brand.logoUrl.endsWith('.svg')) {
+    return 2;
+  }
+  // Tier 0: Generated initials (/uploads/logos/)
+  if (brand.logoUrl.includes('/uploads/')) {
+    return 0;
+  }
+  // Default: any other /logos/ path
+  if (brand.logoUrl.startsWith('/logos/')) {
+    return 1;
+  }
+  return 0;
 };
 
 export const getBrands = () => {
   const allBrands = [...baseBrands, ...readAdminBrands()];
-  // Sort: featured first, then by logo quality (real logos first), then by views
+  // Sort: featured first, then by logo tier (PNG > SVG > generated), then by views
   return allBrands.sort((a, b) => {
     // Featured brands always come first
     if (a.featured !== b.featured) {
       return a.featured ? -1 : 1;
     }
-    // Then sort by real logo presence
-    const aHasLogo = hasRealLogo(a) ? 1 : 0;
-    const bHasLogo = hasRealLogo(b) ? 1 : 0;
-    if (aHasLogo !== bHasLogo) {
-      return bHasLogo - aHasLogo; // Real logos first
+    // Then sort by logo tier (higher tier = better logo)
+    const aTier = getLogoTier(a);
+    const bTier = getLogoTier(b);
+    if (aTier !== bTier) {
+      return bTier - aTier; // Higher tier first
     }
     // Then by views (popularity)
     return b.views - a.views;
