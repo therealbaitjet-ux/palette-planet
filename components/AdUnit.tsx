@@ -25,7 +25,7 @@ export default function AdUnit({ slot, style, className }: AdUnitProps) {
         display: "block",
         ...style,
       }}
-      data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+      data-ad-client="ca-pub-5666528673778539"
       data-ad-slot={slot}
       data-ad-format="auto"
       data-full-width-responsive="true"
