@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import AdUnit from "@/components/AdUnit";
 import { absoluteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -84,11 +83,6 @@ export default function BlogPage() {
         </p>
       </div>
 
-      {/* Top Ad */}
-      <div className="mx-auto w-full max-w-4xl">
-        <AdUnit slot="blog-top" style={{ minHeight: "90px" }} />
-      </div>
-
       {/* Blog Grid */}
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {blogPosts.map((post, index) => (
@@ -121,19 +115,8 @@ export default function BlogPage() {
                 </Link>
               </div>
             </article>
-            {/* Ad after every 3 posts */}
-            {(index + 1) % 3 === 0 && (
-              <div className="md:col-span-2 lg:col-span-3 mx-auto w-full max-w-4xl my-4">
-                <AdUnit slot={`blog-mid-${index}`} style={{ minHeight: "250px" }} />
-              </div>
-            )}
           </>
         ))}
-      </div>
-
-      {/* Bottom Ad */}
-      <div className="mx-auto w-full max-w-4xl">
-        <AdUnit slot="blog-bottom" style={{ minHeight: "90px" }} />
       </div>
 
       {/* Newsletter Section */}

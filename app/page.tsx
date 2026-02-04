@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import GodLevelSearch from "@/components/GodLevelSearch";
 import BrandGrid from "@/components/BrandGrid";
-import AdUnit from "@/components/AdUnit";
 import { categories, getTopBrands } from "@/lib/data";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -47,11 +46,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Top Ad Unit - Above the Fold */}
-      <div className="mx-auto w-full max-w-4xl">
-        <AdUnit slot="top-banner" style={{ minHeight: "90px" }} />
-      </div>
 
       <section className="space-y-8">
         <div className="flex items-center justify-between">
@@ -110,11 +104,6 @@ export default function HomePage() {
         </div>
         <BrandGrid brands={featuredBrands} />
       </section>
-
-      {/* Middle Ad Unit - In Content */}
-      <div className="mx-auto w-full max-w-4xl">
-        <AdUnit slot="middle-banner" style={{ minHeight: "250px" }} />
-      </div>
 
       <section className="glass rounded-3xl p-10 text-center">
         <h2 className="text-3xl font-semibold text-white">Browse the complete gallery</h2>
