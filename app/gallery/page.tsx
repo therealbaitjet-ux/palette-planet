@@ -7,7 +7,7 @@ import AdUnit from "@/components/AdUnit";
 import { Brand, getBrands, categories } from "@/lib/data";
 import { DEFAULT_DESCRIPTION, absoluteUrl, truncate } from "@/lib/seo";
 
-const PAGE_SIZE = 30;
+const PAGE_SIZE = 20;
 
 const sortOptions = [
   { value: "popular", label: "Popular" },
