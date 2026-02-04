@@ -14,6 +14,14 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: "top-50-tech-company-logos-2025",
+    title: "Top 50 Tech Company Logos of 2025: Technology Brand Identity Guide",
+    excerpt: "Explore the best tech company logos from Fortune 500 giants to innovative startups. Discover design trends, color psychology, and what makes a great technology brand identity.",
+    date: "February 4, 2026",
+    readTime: "12 min read",
+    category: "Analysis",
+  },
+  {
     slug: "fortune-500-logo-trends-2025",
     title: "Fortune 500 Logo Trends for 2025: What Big Brands Are Doing",
     excerpt: "Discover the latest logo design trends from America's biggest companies. From minimalism to bold color choices, see what's dominating the Fortune 500.",

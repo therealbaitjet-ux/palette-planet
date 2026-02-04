@@ -19,8 +19,8 @@ export const generateMetadata = async ({
     return {};
   }
 
-  const title = `${brand.name} Logo`;
-  const description = truncate(brand.description, 155);
+  const title = `${brand.name} Logo - ${brand.categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())} Brand Identity | Palette Planet`;
+  const description = truncate(`${brand.name} logo and brand identity analysis. ${brand.description} Explore design elements, color palette, and typography. Part of our curated gallery of ${brand.tags.slice(0, 3).join(', ')} brand designs.`, 155);
   const url = absoluteUrl(`/brand/${brand.slug}`);
 
   return {
@@ -72,13 +72,62 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
     "@type": "Organization",
     name: brand.name,
     url: brand.website ?? absoluteUrl(`/brand/${brand.slug}`),
-    logo: absoluteUrl(brand.logoUrl),
+    logo: {
+      "@type": "ImageObject",
+      url: absoluteUrl(brand.logoUrl),
+      caption: `${brand.name} logo - ${brand.categorySlug.replace(/-/g, ' ')} brand identity`,
+    },
     sameAs: brand.website ? [brand.website] : undefined,
+    description: brand.description,
+    brand: {
+      "@type": "Brand",
+      name: brand.name,
+      logo: absoluteUrl(brand.logoUrl),
+    },
+  };
+
+  const imageObject = {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    contentUrl: absoluteUrl(brand.logoUrl),
+    name: `${brand.name} logo`,
+    description: `${brand.name} ${brand.categorySlug.replace(/-/g, ' ')} logo design and brand identity`,
+    author: {
+      "@type": "Organization",
+      name: brand.name,
+    },
+  };
+
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Gallery",
+        item: absoluteUrl("/gallery"),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: brand.name,
+        item: absoluteUrl(`/brand/${brand.slug}`),
+      },
+    ],
   };
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-16">
       <SeoJsonLd data={organization} id={`brand-${brand.slug}-org`} />
+      <SeoJsonLd data={imageObject} id={`brand-${brand.slug}-image`} />
+      <SeoJsonLd data={breadcrumb} id={`brand-${brand.slug}-breadcrumb`} />
       <section className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-10">
           <div
@@ -92,10 +141,11 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
           <Link href={`/logo/${brand.slug}`} className="relative z-10 block focus-ring">
             <Image
               src={brand.logoUrl}
-              alt={`${brand.name} logo`}
+              alt={`${brand.name} logo - ${brand.categorySlug.replace(/-/g, ' ')} brand identity design`}
               width={520}
               height={320}
               className="h-44 w-full object-contain drop-shadow-[0_28px_50px_rgba(15,23,42,0.6)] transition hover:scale-[1.02] md:h-56"
+              priority
             />
           </Link>
         </div>
