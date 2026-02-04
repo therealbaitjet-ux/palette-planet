@@ -17,5 +17,2412 @@
     "createdAt": "2026-02-01T21:03:08.120Z",
     "featured": true,
     "views": 0
+  },
+  {
+    "id": "adm-f500-001",
+    "name": "Walmart",
+    "slug": "walmart",
+    "description": "Walmart is the world's largest retailer by revenue, operating a chain of hypermarkets, discount department stores, and grocery stores. The brand identity emphasizes everyday low prices and accessibility with a clean, modern wordmark.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "discount",
+      "grocery"
+    ],
+    "logoUrl": "/logos/walmart.svg",
+    "dominantColors": [
+      "#0071CE",
+      "#FFC220"
+    ],
+    "country": "United States",
+    "website": "https://walmart.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-002",
+    "name": "Amazon",
+    "slug": "amazon",
+    "description": "Amazon is a multinational technology company focusing on e-commerce, cloud computing, and digital streaming. The iconic smile logo connects the A to Z, representing the vast selection available.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "e-commerce",
+      "fortune-500",
+      "america",
+      "cloud",
+      "technology"
+    ],
+    "logoUrl": "/logos/amazon.svg",
+    "dominantColors": [
+      "#FF9900",
+      "#232F3E"
+    ],
+    "country": "United States",
+    "website": "https://amazon.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-003",
+    "name": "Apple",
+    "slug": "apple",
+    "description": "Apple is a technology company renowned for its minimalist design philosophy. The bitten apple logo is one of the most recognizable brand marks globally, symbolizing innovation and premium quality.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "consumer-electronics",
+      "innovation"
+    ],
+    "logoUrl": "/logos/apple.svg",
+    "dominantColors": [
+      "#000000",
+      "#555555"
+    ],
+    "country": "United States",
+    "website": "https://apple.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-004",
+    "name": "UnitedHealth Group",
+    "slug": "unitedhealth-group",
+    "description": "UnitedHealth Group is the largest healthcare company by revenue, offering health care products and insurance services. The brand conveys trust, care, and medical expertise.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "healthcare",
+      "fortune-500",
+      "america",
+      "insurance",
+      "medical"
+    ],
+    "logoUrl": "/logos/unitedhealth.svg",
+    "dominantColors": [
+      "#002F87",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://unitedhealthgroup.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-005",
+    "name": "Berkshire Hathaway",
+    "slug": "berkshire-hathaway",
+    "description": "Berkshire Hathaway is a multinational conglomerate holding company led by Warren Buffett. The brand represents long-term value investing and diverse business holdings.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "investment",
+      "fortune-500",
+      "america",
+      "conglomerate",
+      "finance"
+    ],
+    "logoUrl": "/logos/berkshire-hathaway.svg",
+    "dominantColors": [
+      "#002F6C",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://berkshirehathaway.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-006",
+    "name": "CVS Health",
+    "slug": "cvs-health",
+    "description": "CVS Health is a healthcare conglomerate that includes CVS Pharmacy, a retail pharmacy chain. The heart-shaped logo reflects the company's focus on health and wellness.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "pharmacy",
+      "fortune-500",
+      "america",
+      "healthcare",
+      "retail"
+    ],
+    "logoUrl": "/logos/cvs-health.svg",
+    "dominantColors": [
+      "#CC0000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://cvshealth.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-007",
+    "name": "Exxon Mobil",
+    "slug": "exxon-mobil",
+    "description": "Exxon Mobil is one of the world's largest publicly traded energy providers and chemical manufacturers. The interlocking X logo represents the merger of Exxon and Mobil.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "energy",
+      "fortune-500",
+      "america",
+      "oil",
+      "gas"
+    ],
+    "logoUrl": "/logos/exxon-mobil.svg",
+    "dominantColors": [
+      "#ED1C24",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://exxonmobil.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-008",
+    "name": "Alphabet",
+    "slug": "alphabet",
+    "description": "Alphabet is the parent company of Google and several former Google subsidiaries. The brand represents innovation across technology, life sciences, and investment sectors.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "google",
+      "internet"
+    ],
+    "logoUrl": "/logos/alphabet.svg",
+    "dominantColors": [
+      "#4285F4",
+      "#34A853",
+      "#FBBC05",
+      "#EA4335"
+    ],
+    "country": "United States",
+    "website": "https://abc.xyz",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-009",
+    "name": "McKesson",
+    "slug": "mckesson",
+    "description": "McKesson is a global leader in healthcare supply chain management solutions, retail pharmacy, community oncology and specialty care. The brand conveys reliability in medical distribution.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "healthcare",
+      "fortune-500",
+      "america",
+      "pharmaceutical",
+      "distribution"
+    ],
+    "logoUrl": "/logos/mckesson.svg",
+    "dominantColors": [
+      "#005EB8",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://mckesson.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-010",
+    "name": "Cencora",
+    "slug": "cencora",
+    "description": "Cencora (formerly AmerisourceBergen) is a leading pharmaceutical sourcing and distribution services company. The rebrand reflects a modern approach to healthcare logistics.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "pharmaceutical",
+      "fortune-500",
+      "america",
+      "healthcare",
+      "distribution"
+    ],
+    "logoUrl": "/logos/cencora.svg",
+    "dominantColors": [
+      "#0057B8",
+      "#00A3E0"
+    ],
+    "country": "United States",
+    "website": "https://cencora.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-011",
+    "name": "JPMorgan Chase",
+    "slug": "jpmorgan-chase",
+    "description": "JPMorgan Chase is the largest bank in the United States and a leading global financial services firm. The octagon logo symbolizes strength, stability, and trust in banking.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "banking",
+      "fortune-500",
+      "america",
+      "finance",
+      "investment"
+    ],
+    "logoUrl": "/logos/jpmorgan-chase.svg",
+    "dominantColors": [
+      "#003087",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://jpmorganchase.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-012",
+    "name": "Costco Wholesale",
+    "slug": "costco-wholesale",
+    "description": "Costco operates an international chain of membership-only warehouse clubs. The brand identity emphasizes value, quality, and the treasure-hunt shopping experience.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "warehouse",
+      "membership"
+    ],
+    "logoUrl": "/logos/costco.svg",
+    "dominantColors": [
+      "#E31837",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://costco.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-013",
+    "name": "Cigna",
+    "slug": "cigna",
+    "description": "Cigna is a global health services company dedicated to improving health and well-being. The tree of life logo represents growth, vitality, and comprehensive care.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "healthcare",
+      "fortune-500",
+      "america",
+      "insurance",
+      "wellness"
+    ],
+    "logoUrl": "/logos/cigna.svg",
+    "dominantColors": [
+      "#005587",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://cigna.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-014",
+    "name": "Microsoft",
+    "slug": "microsoft",
+    "description": "Microsoft is a technology corporation producing computer software, consumer electronics, and personal computers. The four-color window represents productivity and innovation across platforms.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "software",
+      "cloud"
+    ],
+    "logoUrl": "/logos/microsoft.svg",
+    "dominantColors": [
+      "#00A4EF",
+      "#7FBA00",
+      "#FFB900",
+      "#F25022"
+    ],
+    "country": "United States",
+    "website": "https://microsoft.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-015",
+    "name": "Cardinal Health",
+    "slug": "cardinal-health",
+    "description": "Cardinal Health is a distributor of pharmaceuticals and medical products. The cardinal bird logo represents vitality, care, and the company's commitment to healthcare.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "healthcare",
+      "fortune-500",
+      "america",
+      "pharmaceutical",
+      "distribution"
+    ],
+    "logoUrl": "/logos/cardinal-health.svg",
+    "dominantColors": [
+      "#E41E2B",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://cardinalhealth.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-016",
+    "name": "Chevron",
+    "slug": "chevron",
+    "description": "Chevron is one of the world's leading integrated energy companies. The distinctive chevron pattern in the logo represents upward progress and the company's pioneering spirit.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "energy",
+      "fortune-500",
+      "america",
+      "oil",
+      "gas"
+    ],
+    "logoUrl": "/logos/chevron.svg",
+    "dominantColors": [
+      "#E31837",
+      "#00558C"
+    ],
+    "country": "United States",
+    "website": "https://chevron.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-017",
+    "name": "Bank of America",
+    "slug": "bank-of-america",
+    "description": "Bank of America is one of the world's leading financial institutions. The flag-like logo symbolizes American heritage and the bank's nationwide presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "banking",
+      "fortune-500",
+      "america",
+      "finance",
+      "investment"
+    ],
+    "logoUrl": "/logos/bank-of-america.svg",
+    "dominantColors": [
+      "#012169",
+      "#E31837"
+    ],
+    "country": "United States",
+    "website": "https://bankofamerica.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-018",
+    "name": "General Motors",
+    "slug": "general-motors",
+    "description": "General Motors is an American multinational automotive manufacturing corporation. The GM monogram has evolved over decades while maintaining its authoritative presence.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "automotive",
+      "fortune-500",
+      "america",
+      "manufacturing",
+      "vehicles"
+    ],
+    "logoUrl": "/logos/general-motors.svg",
+    "dominantColors": [
+      "#0057B8",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://gm.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-019",
+    "name": "Ford Motor",
+    "slug": "ford-motor",
+    "description": "Ford Motor Company is an American multinational automaker. The iconic blue oval is one of the most enduring and recognizable logos in automotive history.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "automotive",
+      "fortune-500",
+      "america",
+      "manufacturing",
+      "vehicles"
+    ],
+    "logoUrl": "/logos/ford.svg",
+    "dominantColors": [
+      "#003478",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://ford.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-020",
+    "name": "Elevance Health",
+    "slug": "elevance-health",
+    "description": "Elevance Health (formerly Anthem) is a health benefits company dedicated to improving lives and communities. The modern identity reflects digital-first healthcare solutions.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "healthcare",
+      "fortune-500",
+      "america",
+      "insurance",
+      "wellness"
+    ],
+    "logoUrl": "/logos/elevance-health.svg",
+    "dominantColors": [
+      "#0057B8",
+      "#00A3E0"
+    ],
+    "country": "United States",
+    "website": "https://elevancehealth.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-021",
+    "name": "Citigroup",
+    "slug": "citigroup",
+    "description": "Citigroup is a multinational investment bank and financial services corporation. The umbrella logo represents protection and comprehensive financial services.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "banking",
+      "fortune-500",
+      "america",
+      "finance",
+      "investment"
+    ],
+    "logoUrl": "/logos/citigroup.svg",
+    "dominantColors": [
+      "#003B70",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://citigroup.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-022",
+    "name": "Meta Platforms",
+    "slug": "meta",
+    "description": "Meta Platforms is a technology conglomerate focusing on social media, virtual reality, and the metaverse. The infinity loop logo represents limitless connection and innovation.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "social-media",
+      "vr"
+    ],
+    "logoUrl": "/logos/meta.svg",
+    "dominantColors": [
+      "#0081FB",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://meta.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-023",
+    "name": "Home Depot",
+    "slug": "home-depot",
+    "description": "Home Depot is the largest home improvement retailer in the United States. The bold orange logo conveys energy, DIY spirit, and construction expertise.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "home-improvement",
+      "construction"
+    ],
+    "logoUrl": "/logos/home-depot.svg",
+    "dominantColors": [
+      "#F96302",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://homedepot.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-024",
+    "name": "Walgreens Boots Alliance",
+    "slug": "walgreens",
+    "description": "Walgreens Boots Alliance is a global leader in retail pharmacy. The trusted red and white identity represents accessible healthcare and everyday wellness.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "pharmacy",
+      "fortune-500",
+      "america",
+      "retail",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/walgreens.svg",
+    "dominantColors": [
+      "#E31837",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://walgreens.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-025",
+    "name": "Kroger",
+    "slug": "kroger",
+    "description": "Kroger is one of the largest supermarket chains in the United States. The fresh, modern identity reflects the company's commitment to food and community.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "grocery",
+      "fortune-500",
+      "america",
+      "supermarket",
+      "food"
+    ],
+    "logoUrl": "/logos/kroger.svg",
+    "dominantColors": [
+      "#0043CE",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://kroger.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-026",
+    "name": "Verizon Communications",
+    "slug": "verizon",
+    "description": "Verizon is one of the largest telecommunications companies in the world. The checkmark in the logo represents reliability, speed, and connection.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "telecommunications",
+      "fortune-500",
+      "america",
+      "wireless",
+      "internet"
+    ],
+    "logoUrl": "/logos/verizon.svg",
+    "dominantColors": [
+      "#CD040B",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://verizon.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-027",
+    "name": "Nvidia",
+    "slug": "nvidia",
+    "description": "Nvidia is a technology company known for designing graphics processing units. The eye-like logo represents vision, AI, and the future of computing.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "ai",
+      "gpu"
+    ],
+    "logoUrl": "/logos/nvidia.svg",
+    "dominantColors": [
+      "#76B900",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://nvidia.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-028",
+    "name": "Tesla",
+    "slug": "tesla",
+    "description": "Tesla is an electric vehicle and clean energy company. The stylized T in the logo represents a cross-section of an electric motor, symbolizing innovation in sustainable transport.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "automotive",
+      "fortune-500",
+      "america",
+      "electric-vehicles",
+      "energy"
+    ],
+    "logoUrl": "/logos/tesla.svg",
+    "dominantColors": [
+      "#CC0000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://tesla.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-029",
+    "name": "PepsiCo",
+    "slug": "pepsico",
+    "description": "PepsiCo is a multinational food, snack, and beverage corporation. The globe-like logo represents the company's global reach and diverse portfolio of brands.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "beverages",
+      "fortune-500",
+      "america",
+      "food",
+      "snacks"
+    ],
+    "logoUrl": "/logos/pepsico.svg",
+    "dominantColors": [
+      "#004B93",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://pepsico.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-030",
+    "name": "Walt Disney",
+    "slug": "disney",
+    "description": "The Walt Disney Company is a multinational entertainment and media conglomerate. The iconic castle logo represents magic, imagination, and storytelling excellence.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "entertainment",
+      "fortune-500",
+      "america",
+      "media",
+      "theme-parks"
+    ],
+    "logoUrl": "/logos/disney.svg",
+    "dominantColors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://disney.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-031",
+    "name": "Johnson & Johnson",
+    "slug": "johnson-johnson",
+    "description": "Johnson & Johnson is a multinational corporation developing medical devices, pharmaceuticals, and consumer packaged goods. The iconic red script and cross represent care and healing.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "healthcare",
+      "fortune-500",
+      "america",
+      "pharmaceutical",
+      "consumer-goods"
+    ],
+    "logoUrl": "/logos/johnson-johnson.svg",
+    "dominantColors": [
+      "#C8102E",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://jnj.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-032",
+    "name": "Procter & Gamble",
+    "slug": "procter-gamble",
+    "description": "Procter & Gamble is a multinational consumer goods corporation. The iconic P&G moon and stars logo has evolved into a modern, clean wordmark representing trust and innovation.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "consumer-goods",
+      "fortune-500",
+      "america",
+      "household",
+      "personal-care"
+    ],
+    "logoUrl": "/logos/procter-gamble.svg",
+    "dominantColors": [
+      "#003DA6",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://pg.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-033",
+    "name": "Lowe's",
+    "slug": "lowes",
+    "description": "Lowe's is the second-largest hardware chain in the United States. The blue logo conveys trust, reliability, and expertise in home improvement.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "home-improvement",
+      "hardware"
+    ],
+    "logoUrl": "/logos/lowes.svg",
+    "dominantColors": [
+      "#004990",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://lowes.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-034",
+    "name": "AT&T",
+    "slug": "att",
+    "description": "AT&T is the world's largest telecommunications company. The globe logo represents global connectivity and the company's role in connecting people worldwide.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "telecommunications",
+      "fortune-500",
+      "america",
+      "wireless",
+      "internet"
+    ],
+    "logoUrl": "/logos/att.svg",
+    "dominantColors": [
+      "#00A8E0",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://att.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-035",
+    "name": "Target",
+    "slug": "target",
+    "description": "Target is the eighth-largest retailer in the United States. The iconic bullseye logo is instantly recognizable and represents precision, focus, and hitting the mark on style and value.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "discount",
+      "fashion"
+    ],
+    "logoUrl": "/logos/target.svg",
+    "dominantColors": [
+      "#CC0000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://target.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-036",
+    "name": "Dell Technologies",
+    "slug": "dell",
+    "description": "Dell Technologies is a multinational technology company developing computers and related products. The tilted E in the logo represents innovation and forward-thinking design.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "computers",
+      "enterprise"
+    ],
+    "logoUrl": "/logos/dell.svg",
+    "dominantColors": [
+      "#007DB8",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://dell.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-037",
+    "name": "United Parcel Service",
+    "slug": "ups",
+    "description": "UPS is one of the world's largest package delivery companies. The shield logo with the iconic brown color represents reliability, protection, and trust in global logistics.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "logistics",
+      "fortune-500",
+      "america",
+      "shipping",
+      "delivery"
+    ],
+    "logoUrl": "/logos/ups.svg",
+    "dominantColors": [
+      "#351C15",
+      "#FFB500"
+    ],
+    "country": "United States",
+    "website": "https://ups.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-038",
+    "name": "FedEx",
+    "slug": "fedex",
+    "description": "FedEx is an American multinational conglomerate holding company focusing on transportation, e-commerce, and business services. The hidden arrow between E and X represents speed and precision.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "logistics",
+      "fortune-500",
+      "america",
+      "shipping",
+      "express"
+    ],
+    "logoUrl": "/logos/fedex.svg",
+    "dominantColors": [
+      "#4D148C",
+      "#FF6600"
+    ],
+    "country": "United States",
+    "website": "https://fedex.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-039",
+    "name": "Lockheed Martin",
+    "slug": "lockheed-martin",
+    "description": "Lockheed Martin is an American aerospace, arms, defense, information security, and technology corporation. The star logo represents excellence in defense and aerospace innovation.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "defense",
+      "fortune-500",
+      "america",
+      "aerospace",
+      "technology"
+    ],
+    "logoUrl": "/logos/lockheed-martin.svg",
+    "dominantColors": [
+      "#002D62",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://lockheedmartin.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-040",
+    "name": "Boeing",
+    "slug": "boeing",
+    "description": "Boeing is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, satellites, and telecommunications equipment. The logo represents aviation heritage.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "aerospace",
+      "fortune-500",
+      "america",
+      "aviation",
+      "manufacturing"
+    ],
+    "logoUrl": "/logos/boeing.svg",
+    "dominantColors": [
+      "#0033A0",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://boeing.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-041",
+    "name": "Caterpillar",
+    "slug": "caterpillar",
+    "description": "Caterpillar is the world's leading manufacturer of construction and mining equipment. The CAT wordmark and triangle emblem represent power, durability, and industrial strength.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "manufacturing",
+      "fortune-500",
+      "america",
+      "construction",
+      "equipment"
+    ],
+    "logoUrl": "/logos/caterpillar.svg",
+    "dominantColors": [
+      "#FFCD11",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://caterpillar.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-042",
+    "name": "Merck",
+    "slug": "merck",
+    "description": "Merck is a global pharmaceutical company delivering innovative health solutions. The distinctive logo represents scientific excellence and commitment to improving human health.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "pharmaceutical",
+      "fortune-500",
+      "america",
+      "healthcare",
+      "research"
+    ],
+    "logoUrl": "/logos/merck.svg",
+    "dominantColors": [
+      "#00857D",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://merck.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-043",
+    "name": "Pfizer",
+    "slug": "pfizer",
+    "description": "Pfizer is a multinational pharmaceutical and biotechnology corporation. The oval logo represents the company's focus on wellness, science, and global health solutions.",
+    "categorySlug": "wellness-health",
+    "tags": [
+      "pharmaceutical",
+      "fortune-500",
+      "america",
+      "biotechnology",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/pfizer.svg",
+    "dominantColors": [
+      "#0093D0",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://pfizer.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-044",
+    "name": "IBM",
+    "slug": "ibm",
+    "description": "IBM is a multinational technology corporation producing computer hardware, middleware, and software. The eight-bar logo is a design classic representing speed, dynamism, and innovation.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "enterprise",
+      "ai"
+    ],
+    "logoUrl": "/logos/ibm.svg",
+    "dominantColors": [
+      "#054ADA",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://ibm.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-045",
+    "name": "Delta Air Lines",
+    "slug": "delta",
+    "description": "Delta Air Lines is one of the major airlines of the United States. The triangular widget logo represents the Greek letter delta, symbolizing change and transformation in air travel.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "aviation",
+      "fortune-500",
+      "america",
+      "airlines",
+      "travel"
+    ],
+    "logoUrl": "/logos/delta.svg",
+    "dominantColors": [
+      "#E31837",
+      "#003366"
+    ],
+    "country": "United States",
+    "website": "https://delta.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-046",
+    "name": "American Airlines",
+    "slug": "american-airlines",
+    "description": "American Airlines is a major American airline headquartered in Fort Worth. The eagle logo and red, white, and blue colors represent American heritage and aviation excellence.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "aviation",
+      "fortune-500",
+      "america",
+      "airlines",
+      "travel"
+    ],
+    "logoUrl": "/logos/american-airlines.svg",
+    "dominantColors": [
+      "#0078D2",
+      "#E31837",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://aa.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-047",
+    "name": "United Airlines",
+    "slug": "united-airlines",
+    "description": "United Airlines is a major American airline with a global route network. The globe logo represents the airline's worldwide reach and connectivity.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "aviation",
+      "fortune-500",
+      "america",
+      "airlines",
+      "travel"
+    ],
+    "logoUrl": "/logos/united.svg",
+    "dominantColors": [
+      "#004B91",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://united.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-048",
+    "name": "Cisco Systems",
+    "slug": "cisco",
+    "description": "Cisco Systems is an American multinational technology conglomerate. The bridge logo represents the Golden Gate Bridge and the company's role in connecting networks.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "networking",
+      "enterprise"
+    ],
+    "logoUrl": "/logos/cisco.svg",
+    "dominantColors": [
+      "#049FD9",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://cisco.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-049",
+    "name": "Intel",
+    "slug": "intel",
+    "description": "Intel is a multinational corporation and technology company. The oval swoosh logo represents innovation in microprocessors and the future of computing.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "semiconductor",
+      "computing"
+    ],
+    "logoUrl": "/logos/intel.svg",
+    "dominantColors": [
+      "#0071C5",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://intel.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-050",
+    "name": "Oracle",
+    "slug": "oracle",
+    "description": "Oracle is an American multinational computer technology corporation. The red wordmark represents boldness and leadership in enterprise database software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "database",
+      "cloud"
+    ],
+    "logoUrl": "/logos/oracle.svg",
+    "dominantColors": [
+      "#F80000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://oracle.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-051",
+    "name": "Nike",
+    "slug": "nike",
+    "description": "Nike is a multinational corporation engaged in the design, development, manufacturing, and worldwide marketing of footwear, apparel, and equipment. The Swoosh represents motion and speed.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "apparel",
+      "fortune-500",
+      "america",
+      "footwear",
+      "sports"
+    ],
+    "logoUrl": "/logos/nike.svg",
+    "dominantColors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://nike.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-052",
+    "name": "Coca-Cola",
+    "slug": "coca-cola",
+    "description": "The Coca-Cola Company is a multinational beverage corporation. The iconic Spencerian script is one of the most recognized brand marks globally, representing refreshment and happiness.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "beverages",
+      "fortune-500",
+      "america",
+      "consumer-goods",
+      "iconic"
+    ],
+    "logoUrl": "/logos/coca-cola.svg",
+    "dominantColors": [
+      "#F40009",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://coca-cola.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-053",
+    "name": "Starbucks",
+    "slug": "starbucks",
+    "description": "Starbucks is the world's largest coffeehouse chain. The siren logo represents the allure of coffee and the brand's seafaring heritage from Seattle.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "coffee",
+      "fortune-500",
+      "america",
+      "food-service",
+      "retail"
+    ],
+    "logoUrl": "/logos/starbucks.svg",
+    "dominantColors": [
+      "#00704A",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://starbucks.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-054",
+    "name": "Visa",
+    "slug": "visa",
+    "description": "Visa is a multinational financial services corporation facilitating electronic funds transfers. The blue and gold logo represents trust, security, and global payment networks.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "finance",
+      "fortune-500",
+      "america",
+      "payments",
+      "fintech"
+    ],
+    "logoUrl": "/logos/visa.svg",
+    "dominantColors": [
+      "#1A1F71",
+      "#F7B600"
+    ],
+    "country": "United States",
+    "website": "https://visa.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-055",
+    "name": "Mastercard",
+    "slug": "mastercard",
+    "description": "Mastercard is a multinational financial services corporation. The interlocking circles represent the connection between cardholders and merchants worldwide.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "finance",
+      "fortune-500",
+      "america",
+      "payments",
+      "fintech"
+    ],
+    "logoUrl": "/logos/mastercard.svg",
+    "dominantColors": [
+      "#EB001B",
+      "#F79E1B"
+    ],
+    "country": "United States",
+    "website": "https://mastercard.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-056",
+    "name": "Netflix",
+    "slug": "netflix",
+    "description": "Netflix is a subscription streaming service and production company. The red N lettermark represents entertainment, boldness, and the streaming revolution.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "entertainment",
+      "fortune-500",
+      "america",
+      "streaming",
+      "media"
+    ],
+    "logoUrl": "/logos/netflix.svg",
+    "dominantColors": [
+      "#E50914",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://netflix.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-057",
+    "name": "Adobe",
+    "slug": "adobe",
+    "description": "Adobe is a multinational computer software company. The stylized A represents creativity, digital transformation, and the creative cloud ecosystem.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "software",
+      "fortune-500",
+      "america",
+      "creative",
+      "design"
+    ],
+    "logoUrl": "/logos/adobe.svg",
+    "dominantColors": [
+      "#FF0000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://adobe.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-058",
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "description": "Salesforce is a cloud-based software company specializing in customer relationship management. The cloud logo represents innovation in cloud computing and SaaS.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "crm",
+      "fortune-500",
+      "america",
+      "cloud",
+      "enterprise"
+    ],
+    "logoUrl": "/logos/salesforce.svg",
+    "dominantColors": [
+      "#00A1E0",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://salesforce.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-059",
+    "name": "Chipotle Mexican Grill",
+    "slug": "chipotle",
+    "description": "Chipotle is a chain of fast casual restaurants specializing in tacos and Mission burritos. The pepper logo represents fresh ingredients and bold flavors.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "restaurant",
+      "fortune-500",
+      "america",
+      "fast-casual",
+      "food"
+    ],
+    "logoUrl": "/logos/chipotle.svg",
+    "dominantColors": [
+      "#A81616",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://chipotle.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-060",
+    "name": "McDonald's",
+    "slug": "mcdonalds",
+    "description": "McDonald's is the world's largest fast food restaurant chain. The golden arches M is one of the most recognized symbols globally, representing quick service and consistency.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "restaurant",
+      "fortune-500",
+      "america",
+      "fast-food",
+      "iconic"
+    ],
+    "logoUrl": "/logos/mcdonalds.svg",
+    "dominantColors": [
+      "#FFC72C",
+      "#DA291C"
+    ],
+    "country": "United States",
+    "website": "https://mcdonalds.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-061",
+    "name": "Uber Technologies",
+    "slug": "uber",
+    "description": "Uber Technologies is a mobility-as-a-service provider. The modern wordmark represents ride-sharing, food delivery, and the gig economy transformation.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "transportation",
+      "fortune-500",
+      "america",
+      "ride-sharing",
+      "tech"
+    ],
+    "logoUrl": "/logos/uber.svg",
+    "dominantColors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://uber.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-062",
+    "name": "Airbnb",
+    "slug": "airbnb",
+    "description": "Airbnb is an online marketplace for lodging and tourism experiences. The Bélo symbol represents belonging, people, places, love, and the Airbnb community.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "travel",
+      "fortune-500",
+      "america",
+      "hospitality",
+      "marketplace"
+    ],
+    "logoUrl": "/logos/airbnb.svg",
+    "dominantColors": [
+      "#FF5A5F",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://airbnb.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-063",
+    "name": "Hilton Worldwide",
+    "slug": "hilton",
+    "description": "Hilton is a global hospitality company managing a portfolio of hotels and resorts. The H monogram represents luxury, hospitality, and trusted accommodation.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "hotels",
+      "fortune-500",
+      "america",
+      "hospitality",
+      "luxury"
+    ],
+    "logoUrl": "/logos/hilton.svg",
+    "dominantColors": [
+      "#104C97",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://hilton.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-064",
+    "name": "Marriott International",
+    "slug": "marriott",
+    "description": "Marriott International is a multinational diversified hospitality company. The M logo with three peaks represents the gateway to exceptional travel experiences.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "hotels",
+      "fortune-500",
+      "america",
+      "hospitality",
+      "travel"
+    ],
+    "logoUrl": "/logos/marriott.svg",
+    "dominantColors": [
+      "#9E2A2B",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://marriott.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-065",
+    "name": "PayPal",
+    "slug": "paypal",
+    "description": "PayPal is an online payment system operating worldwide. The overlapping P's represent people coming together to make and receive payments securely.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "fintech",
+      "fortune-500",
+      "america",
+      "payments",
+      "digital-wallet"
+    ],
+    "logoUrl": "/logos/paypal.svg",
+    "dominantColors": [
+      "#003087",
+      "#0070E0"
+    ],
+    "country": "United States",
+    "website": "https://paypal.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-066",
+    "name": "Best Buy",
+    "slug": "best-buy",
+    "description": "Best Buy is a multinational consumer electronics retailer. The yellow price tag logo represents value, deals, and the ultimate electronics shopping destination.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "electronics",
+      "consumer-tech"
+    ],
+    "logoUrl": "/logos/best-buy.svg",
+    "dominantColors": [
+      "#0046BE",
+      "#FFF200"
+    ],
+    "country": "United States",
+    "website": "https://bestbuy.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-067",
+    "name": "eBay",
+    "slug": "ebay",
+    "description": "eBay is a multinational e-commerce corporation facilitating consumer-to-consumer and business-to-consumer sales. The colorful letters represent diversity and global marketplace.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "e-commerce",
+      "fortune-500",
+      "america",
+      "marketplace",
+      "auctions"
+    ],
+    "logoUrl": "/logos/ebay.svg",
+    "dominantColors": [
+      "#E53238",
+      "#0064D2",
+      "#F5AF02",
+      "#86B817"
+    ],
+    "country": "United States",
+    "website": "https://ebay.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-068",
+    "name": "3M",
+    "slug": "3m",
+    "description": "3M is a multinational conglomerate operating in industry, worker safety, health care, and consumer goods. The simple wordmark represents innovation and scientific expertise.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "manufacturing",
+      "fortune-500",
+      "america",
+      "innovation",
+      "diversified"
+    ],
+    "logoUrl": "/logos/3m.svg",
+    "dominantColors": [
+      "#FF0000",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://3m.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-069",
+    "name": "Hewlett Packard Enterprise",
+    "slug": "hpe",
+    "description": "Hewlett Packard Enterprise is a multinational enterprise information technology company. The green rectangle logo represents growth, enterprise solutions, and the split from HP.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "enterprise",
+      "cloud"
+    ],
+    "logoUrl": "/logos/hpe.svg",
+    "dominantColors": [
+      "#00B388",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://hpe.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-070",
+    "name": "HP",
+    "slug": "hp",
+    "description": "HP is an American multinational information technology company. The circle with the blue gradient represents innovation, printing technology, and personal computing.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "computers",
+      "printing"
+    ],
+    "logoUrl": "/logos/hp.svg",
+    "dominantColors": [
+      "#0096D6",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://hp.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-071",
+    "name": "Motorola Solutions",
+    "slug": "motorola",
+    "description": "Motorola Solutions is a data communications and telecommunications equipment provider. The batwing M logo represents communication, innovation, and public safety technology.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "technology",
+      "fortune-500",
+      "america",
+      "communications",
+      "public-safety"
+    ],
+    "logoUrl": "/logos/motorola.svg",
+    "dominantColors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://motorolasolutions.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-072",
+    "name": "Electronic Arts",
+    "slug": "ea",
+    "description": "Electronic Arts is a video game company known for publishing popular franchises. The circular EA logo represents gaming, entertainment, and interactive experiences.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "gaming",
+      "fortune-500",
+      "america",
+      "entertainment",
+      "software"
+    ],
+    "logoUrl": "/logos/ea.svg",
+    "dominantColors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://ea.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-073",
+    "name": "Yum Brands",
+    "slug": "yum-brands",
+    "description": "Yum Brands is a fast food corporation operating KFC, Pizza Hut, Taco Bell, and The Habit Burger Grill. The heart logo represents passion for food and customer satisfaction.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "restaurant",
+      "fortune-500",
+      "america",
+      "fast-food",
+      "franchise"
+    ],
+    "logoUrl": "/logos/yum-brands.svg",
+    "dominantColors": [
+      "#E4002B",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://yum.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-074",
+    "name": "DoorDash",
+    "slug": "doordash",
+    "description": "DoorDash is an online food ordering and delivery platform. The red logo with the D represents speed, delivery, and connecting customers with local restaurants.",
+    "categorySlug": "hospitality-travel",
+    "tags": [
+      "food-delivery",
+      "fortune-500",
+      "america",
+      "technology",
+      "logistics"
+    ],
+    "logoUrl": "/logos/doordash.svg",
+    "dominantColors": [
+      "#FF3008",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://doordash.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-075",
+    "name": "Lululemon",
+    "slug": "lululemon",
+    "description": "Lululemon is an athletic apparel retailer specializing in yoga wear and activewear. The omega symbol represents the company's focus on wellness, balance, and mindful movement.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "apparel",
+      "fortune-500",
+      "america",
+      "athleisure",
+      "wellness"
+    ],
+    "logoUrl": "/logos/lululemon.svg",
+    "dominantColors": [
+      "#C41230",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://lululemon.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-076",
+    "name": "Wells Fargo",
+    "slug": "wells-fargo",
+    "description": "Wells Fargo is one of the largest banking and financial services companies in the world. The stagecoach logo represents trust, heritage, and the company's American frontier history.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "banking",
+      "fortune-500",
+      "america",
+      "finance",
+      "investment"
+    ],
+    "logoUrl": "/logos/wells-fargo.svg",
+    "dominantColors": [
+      "#D71E28",
+      "#FFCD00"
+    ],
+    "country": "United States",
+    "website": "https://wellsfargo.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-077",
+    "name": "Goldman Sachs",
+    "slug": "goldman-sachs",
+    "description": "Goldman Sachs is a multinational investment bank and financial services company. The blue wordmark represents authority, trust, and Wall Street prestige.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "investment",
+      "fortune-500",
+      "america",
+      "banking",
+      "finance"
+    ],
+    "logoUrl": "/logos/goldman-sachs.svg",
+    "dominantColors": [
+      "#7399C6",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://goldmansachs.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-078",
+    "name": "Morgan Stanley",
+    "slug": "morgan-stanley",
+    "description": "Morgan Stanley is a multinational investment bank and financial services company. The blue logo represents stability, global reach, and sophisticated financial services.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "investment",
+      "fortune-500",
+      "america",
+      "banking",
+      "wealth-management"
+    ],
+    "logoUrl": "/logos/morgan-stanley.svg",
+    "dominantColors": [
+      "#003087",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://morganstanley.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-079",
+    "name": "TJX Companies",
+    "slug": "tjx",
+    "description": "TJX Companies is an off-price apparel and home fashions retailer operating TJ Maxx, Marshalls, and HomeGoods. The red logo represents value, discovery, and the treasure hunt shopping experience.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "off-price",
+      "fashion"
+    ],
+    "logoUrl": "/logos/tjx.svg",
+    "dominantColors": [
+      "#D71E28",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://tjx.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-080",
+    "name": "Dollar General",
+    "slug": "dollar-general",
+    "description": "Dollar General is a chain of variety stores operating across the United States. The yellow and black logo represents affordability, accessibility, and everyday value.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "discount",
+      "variety"
+    ],
+    "logoUrl": "/logos/dollar-general.svg",
+    "dominantColors": [
+      "#FED502",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://dollargeneral.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-081",
+    "name": "Tyson Foods",
+    "slug": "tyson-foods",
+    "description": "Tyson Foods is one of the world's largest food companies and a recognized leader in protein. The bold red logo represents strength, quality, and nourishment.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "food",
+      "fortune-500",
+      "america",
+      "protein",
+      "manufacturing"
+    ],
+    "logoUrl": "/logos/tyson.svg",
+    "dominantColors": [
+      "#E31837",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://tysonfoods.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-082",
+    "name": "Sysco",
+    "slug": "sysco",
+    "description": "Sysco is the global leader in selling, marketing and distributing food products to restaurants, healthcare and educational facilities. The logo represents food service excellence.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "food-service",
+      "fortune-500",
+      "america",
+      "distribution",
+      "wholesale"
+    ],
+    "logoUrl": "/logos/sysco.svg",
+    "dominantColors": [
+      "#0047BA",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://sysco.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-083",
+    "name": "Mondelez International",
+    "slug": "mondelez",
+    "description": "Mondelez International is a multinational confectionery, food, and beverage company. The logo represents joy through snacking with beloved brands like Oreo and Cadbury.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "food",
+      "fortune-500",
+      "america",
+      "confectionery",
+      "snacks"
+    ],
+    "logoUrl": "/logos/mondelez.svg",
+    "dominantColors": [
+      "#5C068C",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://mondelezinternational.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-084",
+    "name": "General Mills",
+    "slug": "general-mills",
+    "description": "General Mills is a multinational manufacturer and marketer of branded consumer foods. The blue G logo represents heritage, trust, and beloved brands like Cheerios and Yoplait.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "food",
+      "fortune-500",
+      "america",
+      "consumer-goods",
+      "cereal"
+    ],
+    "logoUrl": "/logos/general-mills.svg",
+    "dominantColors": [
+      "#002F87",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://generalmills.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-085",
+    "name": "Kraft Heinz",
+    "slug": "kraft-heinz",
+    "description": "Kraft Heinz is the third-largest food and beverage company in North America. The combination of two iconic American brands represents a powerhouse in condiments and packaged foods.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "food",
+      "fortune-500",
+      "america",
+      "condiments",
+      "packaged-foods"
+    ],
+    "logoUrl": "/logos/kraft-heinz.svg",
+    "dominantColors": [
+      "#0047BA",
+      "#E4002B"
+    ],
+    "country": "United States",
+    "website": "https://kraftheinzcompany.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-086",
+    "name": "Hershey",
+    "slug": "hershey",
+    "description": "The Hershey Company is one of the largest chocolate manufacturers in the world. The iconic silver foil wrapper logo represents sweet moments and American chocolate heritage.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "chocolate",
+      "fortune-500",
+      "america",
+      "confectionery",
+      "iconic"
+    ],
+    "logoUrl": "/logos/hershey.svg",
+    "dominantColors": [
+      "#3D1E1E",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://thehersheycompany.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-087",
+    "name": "Colgate-Palmolive",
+    "slug": "colgate",
+    "description": "Colgate-Palmolive is a multinational consumer products company producing household, health care, and personal products. The red ribbon logo represents oral care leadership.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "consumer-goods",
+      "fortune-500",
+      "america",
+      "personal-care",
+      "household"
+    ],
+    "logoUrl": "/logos/colgate.svg",
+    "dominantColors": [
+      "#E31937",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://colgatepalmolive.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-088",
+    "name": "Kimberly-Clark",
+    "slug": "kimberly-clark",
+    "description": "Kimberly-Clark is a multinational personal care corporation producing paper-based consumer products. The logo represents care, hygiene, and essential everyday brands.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "consumer-goods",
+      "fortune-500",
+      "america",
+      "personal-care",
+      "hygiene"
+    ],
+    "logoUrl": "/logos/kimberly-clark.svg",
+    "dominantColors": [
+      "#00539B",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://kimberly-clark.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-089",
+    "name": "Estée Lauder",
+    "slug": "estee-lauder",
+    "description": "The Estée Lauder Companies is a multinational manufacturer and marketer of prestige skincare, makeup, fragrance, and hair care products. The logo represents luxury beauty.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "beauty",
+      "fortune-500",
+      "america",
+      "luxury",
+      "cosmetics"
+    ],
+    "logoUrl": "/logos/estee-lauder.svg",
+    "dominantColors": [
+      "#1C1C1B",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://esteelauder.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-090",
+    "name": "Sherwin-Williams",
+    "slug": "sherwin-williams",
+    "description": "Sherwin-Williams is an American Fortune 500 company in the general building materials industry. The paint covering the globe logo represents color expertise worldwide.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "paint",
+      "fortune-500",
+      "america",
+      "manufacturing",
+      "retail"
+    ],
+    "logoUrl": "/logos/sherwin-williams.svg",
+    "dominantColors": [
+      "#004792",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://sherwin-williams.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-091",
+    "name": "Paccar",
+    "slug": "paccar",
+    "description": "Paccar is one of the largest manufacturers of medium- and heavy-duty trucks in the world. The logo represents engineering excellence and commercial vehicle leadership.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "manufacturing",
+      "fortune-500",
+      "america",
+      "trucks",
+      "automotive"
+    ],
+    "logoUrl": "/logos/paccar.svg",
+    "dominantColors": [
+      "#003B71",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://paccar.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-092",
+    "name": "AutoZone",
+    "slug": "autozone",
+    "description": "AutoZone is the largest retailer of aftermarket automotive parts and accessories in the United States. The orange and black logo represents automotive expertise and reliability.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "automotive",
+      "fortune-500",
+      "america",
+      "retail",
+      "parts"
+    ],
+    "logoUrl": "/logos/autozone.svg",
+    "dominantColors": [
+      "#FF6600",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://autozone.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-093",
+    "name": "O'Reilly Automotive",
+    "slug": "oreilly",
+    "description": "O'Reilly Auto Parts is an American auto parts retailer providing automotive aftermarket parts, tools, supplies, and accessories. The green logo represents service and expertise.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "automotive",
+      "fortune-500",
+      "america",
+      "retail",
+      "parts"
+    ],
+    "logoUrl": "/logos/oreilly.svg",
+    "dominantColors": [
+      "#007749",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://oreillyauto.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-094",
+    "name": "Advance Auto Parts",
+    "slug": "advance-auto",
+    "description": "Advance Auto Parts is an automotive aftermarket parts retailer. The red and black logo represents automotive passion, speed, and parts expertise.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "automotive",
+      "fortune-500",
+      "america",
+      "retail",
+      "parts"
+    ],
+    "logoUrl": "/logos/advance-auto.svg",
+    "dominantColors": [
+      "#C41230",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://advanceautoparts.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-095",
+    "name": "Cintas",
+    "slug": "cintas",
+    "description": "Cintas Corporation provides specialized services to businesses including uniform rental, facility services, and first aid. The logo represents professionalism and corporate identity.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "services",
+      "fortune-500",
+      "america",
+      "uniforms",
+      "facilities"
+    ],
+    "logoUrl": "/logos/cintas.svg",
+    "dominantColors": [
+      "#E31937",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://cintas.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-096",
+    "name": "Dollar Tree",
+    "slug": "dollar-tree",
+    "description": "Dollar Tree is an American multi-price-point chain of discount variety stores. The green logo represents value, growth, and affordable shopping.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "discount",
+      "variety"
+    ],
+    "logoUrl": "/logos/dollar-tree.svg",
+    "dominantColors": [
+      "#00973A",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://dollartree.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-097",
+    "name": "Ross Stores",
+    "slug": "ross",
+    "description": "Ross Stores is an American chain of off-price department stores. The blue logo represents treasure hunting and discovery shopping for brand-name bargains.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "off-price",
+      "fashion"
+    ],
+    "logoUrl": "/logos/ross.svg",
+    "dominantColors": [
+      "#00447C",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://rossstores.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-098",
+    "name": "Gap",
+    "slug": "gap",
+    "description": "Gap is an American worldwide clothing and accessories retailer. The iconic blue box logo is a symbol of American casual style and accessible fashion.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "apparel",
+      "fortune-500",
+      "america",
+      "fashion",
+      "retail"
+    ],
+    "logoUrl": "/logos/gap.svg",
+    "dominantColors": [
+      "#000080",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://gap.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-099",
+    "name": "Nordstrom",
+    "slug": "nordstrom",
+    "description": "Nordstrom is a luxury department store chain offering apparel, shoes, and accessories. The script logo represents premium service and upscale fashion retail.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "luxury",
+      "fashion"
+    ],
+    "logoUrl": "/logos/nordstrom.svg",
+    "dominantColors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "country": "United States",
+    "website": "https://nordstrom.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-f500-100",
+    "name": "Foot Locker",
+    "slug": "foot-locker",
+    "description": "Foot Locker is an American sportswear and footwear retailer. The referee-striped logo represents athletic authority and sneaker culture leadership.",
+    "categorySlug": "lifestyle-retail",
+    "tags": [
+      "retail",
+      "fortune-500",
+      "america",
+      "footwear",
+      "athletic"
+    ],
+    "logoUrl": "/logos/foot-locker.svg",
+    "dominantColors": [
+      "#E31837",
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://footlocker.com",
+    "createdAt": "2026-02-04T14:45:00.000Z",
+    "featured": false,
+    "views": 0
   }
 ]
