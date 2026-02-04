@@ -78,7 +78,32 @@ const readAdminBrands = (): Brand[] => {
   }
 };
 
-export const getBrands = () => [...baseBrands, ...readAdminBrands()];
+// Check if a brand has a real logo (not generated)
+const hasRealLogo = (brand: Brand): boolean => {
+  if (!brand.logoUrl) return false;
+  // Real logos are in /logos/ directory (PNG or SVG)
+  return brand.logoUrl.startsWith('/logos/') && 
+    (brand.logoUrl.endsWith('.png') || brand.logoUrl.endsWith('.svg'));
+};
+
+export const getBrands = () => {
+  const allBrands = [...baseBrands, ...readAdminBrands()];
+  // Sort: featured first, then by logo quality (real logos first), then by views
+  return allBrands.sort((a, b) => {
+    // Featured brands always come first
+    if (a.featured !== b.featured) {
+      return a.featured ? -1 : 1;
+    }
+    // Then sort by real logo presence
+    const aHasLogo = hasRealLogo(a) ? 1 : 0;
+    const bHasLogo = hasRealLogo(b) ? 1 : 0;
+    if (aHasLogo !== bHasLogo) {
+      return bHasLogo - aHasLogo; // Real logos first
+    }
+    // Then by views (popularity)
+    return b.views - a.views;
+  });
+};
 
 export const getFeaturedBrands = () => getBrands().filter((brand) => brand.featured);
 
