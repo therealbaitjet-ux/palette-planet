@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import SearchBar from "@/components/SearchBar";
 import BrandGrid from "@/components/BrandGrid";
+import AdUnit from "@/components/AdUnit";
 import { categories, getFeaturedBrands } from "@/lib/data";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -31,7 +32,7 @@ export default function HomePage() {
               Each brand includes thoughtful context to inspire your next build.
             </p>
           </div>
-          <SearchBar placeholder="Search 12 premium brands" basePath="/gallery" />
+          <SearchBar placeholder="Search 101+ Fortune 500 brands" basePath="/gallery" />
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
             <span>Popular categories:</span>
             {categories.slice(0, 3).map((category) => (
@@ -46,6 +47,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Top Ad Unit - Above the Fold */}
+      <div className="mx-auto w-full max-w-4xl">
+        <AdUnit slot="top-banner" style={{ minHeight: "90px" }} />
+      </div>
 
       <section className="space-y-8">
         <div className="flex items-center justify-between">
@@ -104,6 +110,11 @@ export default function HomePage() {
         </div>
         <BrandGrid brands={featuredBrands} />
       </section>
+
+      {/* Middle Ad Unit - In Content */}
+      <div className="mx-auto w-full max-w-4xl">
+        <AdUnit slot="middle-banner" style={{ minHeight: "250px" }} />
+      </div>
 
       <section className="glass rounded-3xl p-10 text-center">
         <h2 className="text-3xl font-semibold text-white">Browse the complete gallery</h2>

@@ -1,4 +1,4 @@
-import { performPasswordReset } from "@/lib/adminActions";
+import { performPasswordResetForm } from "@/lib/adminActions";
 
 export const dynamic = "force-dynamic";
 
@@ -7,7 +7,7 @@ export default function ResetPage({ params }: { params: { token: string } }) {
 
   return (
     <div className="mx-auto flex min-h-[70vh] max-w-6xl items-center justify-center p-8">
-      <form action={performPasswordReset} className="glass w-full max-w-md rounded-3xl p-8">
+      <form action={performPasswordResetForm} className="glass w-full max-w-md rounded-3xl p-8">
         <h1 className="text-xl font-semibold text-white">Set a new password</h1>
         <input type="hidden" name="token" value={token} />
         <label className="flex flex-col gap-2 text-sm text-slate-300 mt-4">

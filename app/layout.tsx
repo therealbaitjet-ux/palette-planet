@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { DEFAULT_DESCRIPTION, DEFAULT_TITLE, SITE_URL, absoluteUrl } from "@/lib/seo";
+import AdSenseScript from "@/components/AdSenseScript";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -48,6 +49,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+      <head>
+        <AdSenseScript />
+      </head>
       <body className="min-h-screen bg-midnight font-sans">
         <div className="relative overflow-hidden">
           <div className="pointer-events-none absolute inset-0 bg-hero-glow" />
@@ -65,6 +69,9 @@ export default function RootLayout({
                 </Link>
                 <Link href="/category" className="transition hover:text-white focus-ring">
                   Categories
+                </Link>
+                <Link href="/blog" className="transition hover:text-white focus-ring">
+                  Blog
                 </Link>
               </nav>
             </div>

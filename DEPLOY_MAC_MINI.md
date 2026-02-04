@@ -101,6 +101,20 @@ cloudflared tunnel run brandgallery
 
 ## 6) Basic security checklist
 
+---
+
+## Optional: Cloudinary uploads (for read-only hosts) 💡
+
+If your hosting platform disallows writing to `public/` (e.g. Vercel), enable Cloudinary for persistent uploads:
+
+- Set `USE_CLOUDINARY=1` and either `CLOUDINARY_URL` or the individual vars `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, and `CLOUDINARY_API_SECRET` in your environment.
+- Optionally set `CLOUDINARY_FOLDER` (default: `brandgallery/logos`).
+- Install the `cloudinary` package locally: `npm install cloudinary`.
+
+When enabled, uploads are stored in Cloudinary and the app saves the remote URL instead of a local path.
+
+## 6) Basic security checklist
+
 - Enable the macOS firewall in System Settings > Network > Firewall.
 - Keep macOS and Homebrew packages updated.
 - Use strong passwords and 2FA for domain/DNS providers.

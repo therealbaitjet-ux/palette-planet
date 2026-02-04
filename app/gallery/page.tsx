@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import BrandGrid from "@/components/BrandGrid";
 import SearchBar from "@/components/SearchBar";
 import SeoJsonLd from "@/components/SeoJsonLd";
+import AdUnit from "@/components/AdUnit";
 import { Brand, getBrands, categories } from "@/lib/data";
 import { DEFAULT_DESCRIPTION, absoluteUrl, truncate } from "@/lib/seo";
 
@@ -131,6 +132,11 @@ export default function GalleryPage({
         </p>
       </div>
 
+      {/* Top Ad */}
+      <div className="mx-auto w-full max-w-4xl">
+        <AdUnit slot="gallery-top" style={{ minHeight: "90px" }} />
+      </div>
+
       <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
         <SearchBar placeholder="Search logos, tags, or descriptions" />
         <div className="glass flex flex-col gap-4 rounded-2xl p-4">
@@ -214,6 +220,11 @@ export default function GalleryPage({
         </div>
       </div>
 
+      {/* Ad Before Results */}
+      <div className="mx-auto w-full max-w-4xl">
+        <AdUnit slot="gallery-mid" style={{ minHeight: "250px" }} />
+      </div>
+
       {paginated.length > 0 ? (
         <BrandGrid brands={paginated} />
       ) : (
@@ -230,6 +241,11 @@ export default function GalleryPage({
           </Link>
         </div>
       )}
+
+      {/* Ad After Results */}
+      <div className="mx-auto w-full max-w-4xl">
+        <AdUnit slot="gallery-bottom" style={{ minHeight: "90px" }} />
+      </div>
 
       <div className="flex items-center justify-between text-sm text-slate-300">
         <span>

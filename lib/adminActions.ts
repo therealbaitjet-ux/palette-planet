@@ -29,6 +29,60 @@ const ensureUploadDir = () => {
   }
 };
 
+const isUploadWritable = () => {
+  try {
+    ensureUploadDir();
+    fs.accessSync(uploadDir, fs.constants.W_OK);
+    return true;
+  } catch (err) {
+    return false;
+  }
+};
+
+const shouldUseCloudinary = () => {
+  const v = (process.env.USE_CLOUDINARY || "").toLowerCase();
+  return v === "1" || v === "true" || Boolean(process.env.CLOUDINARY_URL) || Boolean(process.env.CLOUDINARY_API_KEY);
+};
+
+const uploadToCloudinary = async (buffer: Buffer, filename: string) => {
+  // dynamic import so the package is optional
+  const cloudinaryPkg = await import("cloudinary");
+  const cloudinary = (cloudinaryPkg as any).v2 || (cloudinaryPkg as any);
+
+  if (!cloudinary) throw new Error("Cloudinary module not available.");
+
+  // configure from env (CLOUDINARY_URL or individual vars)
+  if (process.env.CLOUDINARY_URL) {
+    cloudinary.config({ url: process.env.CLOUDINARY_URL });
+  } else {
+    cloudinary.config({
+      cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+      api_key: process.env.CLOUDINARY_API_KEY,
+      api_secret: process.env.CLOUDINARY_API_SECRET,
+    });
+  }
+
+  if (!process.env.CLOUDINARY_CLOUD_NAME) {
+    // cloudinary will still work with CLOUDINARY_URL but warn when missing
+  }
+
+  return new Promise<string>((resolve, reject) => {
+    const opts: any = {
+      folder: process.env.CLOUDINARY_FOLDER || "brandgallery/logos",
+      resource_type: "auto",
+      overwrite: true,
+    };
+
+    const uploadStream = cloudinary.uploader.upload_stream(opts, (err: any, res: any) => {
+      if (err) return reject(err);
+      if (!res || !res.secure_url) return reject(new Error("No URL returned from Cloudinary"));
+      resolve(res.secure_url);
+    });
+
+    uploadStream.end(buffer);
+  });
+};
+
 const slugify = (value: string) =>
   value
     .trim()
@@ -116,11 +170,29 @@ export const createLogo = async (_prev: ActionState, formData: FormData): Promis
     return { error: "Logo must be PNG, JPG, WEBP, or SVG." };
   }
 
-  ensureUploadDir();
-  const filename = `${slug}.${ext}`;
-  const filePath = path.join(uploadDir, filename);
   const buffer = Buffer.from(await file.arrayBuffer());
-  fs.writeFileSync(filePath, buffer);
+  let finalLogoUrl = "";
+
+  if (shouldUseCloudinary()) {
+    try {
+      finalLogoUrl = await uploadToCloudinary(buffer, `${slug}.${ext}`);
+    } catch (err) {
+      return { error: `Cloudinary upload failed: ${err instanceof Error ? err.message : String(err)}` };
+    }
+  } else {
+    if (!isUploadWritable()) {
+      return { error: "Server cannot write to uploads directory. If you're on a read-only host (e.g. Vercel), enable Cloudinary (set USE_CLOUDINARY=1 and CLOUDINARY_* env vars)." };
+    }
+
+    const filename = `${slug}.${ext}`;
+    const filePath = path.join(uploadDir, filename);
+    try {
+      fs.writeFileSync(filePath, buffer);
+      finalLogoUrl = `/uploads/logos/${filename}`;
+    } catch (err) {
+      return { error: `Could not save uploaded file: ${err instanceof Error ? err.message : String(err)}` };
+    }
+  }
 
   const tags = tagsRaw
     ? Array.from(new Set(tagsRaw.split(",").map((tag) => tag.trim()).filter(Boolean)))
@@ -140,7 +212,7 @@ export const createLogo = async (_prev: ActionState, formData: FormData): Promis
     description: description || `${name} logo`,
     categorySlug,
     tags,
-    logoUrl: `/uploads/logos/${filename}`,
+    logoUrl: finalLogoUrl,
     dominantColors,
     country,
     website: website || undefined,
@@ -213,21 +285,48 @@ export const updateLogo = async (_prev: ActionState, formData: FormData): Promis
     if (!ext) {
       return { error: "Logo must be PNG, JPG, WEBP, or SVG." };
     }
-    ensureUploadDir();
-    const filename = `${slug}.${ext}`;
-    const filePath = path.join(uploadDir, filename);
+
     const buffer = Buffer.from(await file.arrayBuffer());
-    fs.writeFileSync(filePath, buffer);
-    logoUrl = `/uploads/logos/${filename}`;
+    if (shouldUseCloudinary()) {
+      try {
+        logoUrl = await uploadToCloudinary(buffer, `${slug}.${ext}`);
+      } catch (err) {
+        return { error: `Cloudinary upload failed: ${err instanceof Error ? err.message : String(err)}` };
+      }
+    } else {
+      if (!isUploadWritable()) {
+        return { error: "Server cannot write to uploads directory. If you're on a read-only host (e.g. Vercel), enable Cloudinary (set USE_CLOUDINARY=1 and CLOUDINARY_* env vars)." };
+      }
+      const filename = `${slug}.${ext}`;
+      const filePath = path.join(uploadDir, filename);
+      try {
+        fs.writeFileSync(filePath, buffer);
+      } catch (err) {
+        return { error: `Could not save uploaded file: ${err instanceof Error ? err.message : String(err)}` };
+      }
+      logoUrl = `/uploads/logos/${filename}`;
+    }
   } else if (slug !== existing.slug && existing.logoUrl.startsWith("/uploads/logos/")) {
-    const existingExt = existing.logoUrl.split(".").pop() ?? "png";
-    const newFilename = `${slug}.${existingExt}`;
-    const oldPath = path.join(process.cwd(), "public", existing.logoUrl);
-    const newPath = path.join(uploadDir, newFilename);
-    ensureUploadDir();
-    if (fs.existsSync(oldPath)) {
-      fs.renameSync(oldPath, newPath);
-      logoUrl = `/uploads/logos/${newFilename}`;
+    // renaming existing local file only applies to local uploads
+    if (shouldUseCloudinary()) {
+      // cannot rename cloudinary remote file; just leave existing URL as-is
+    } else {
+      const existingExt = existing.logoUrl.split(".").pop() ?? "png";
+      const newFilename = `${slug}.${existingExt}`;
+      const oldPath = path.join(process.cwd(), "public", existing.logoUrl);
+      const newPath = path.join(uploadDir, newFilename);
+      if (!isUploadWritable()) {
+        return { error: "Server cannot write to uploads directory. If you're on a read-only host (e.g. Vercel), enable Cloudinary (set USE_CLOUDINARY=1 and CLOUDINARY_* env vars)." };
+      }
+      ensureUploadDir();
+      if (fs.existsSync(oldPath)) {
+        try {
+          fs.renameSync(oldPath, newPath);
+          logoUrl = `/uploads/logos/${newFilename}`;
+        } catch (err) {
+          return { error: `Could not rename logo file: ${err instanceof Error ? err.message : String(err)}` };
+        }
+      }
     }
   }
 
@@ -283,7 +382,11 @@ export const deleteLogo = async (formData: FormData) => {
   if (target.logoUrl.startsWith("/uploads/logos/")) {
     const filePath = path.join(process.cwd(), "public", target.logoUrl);
     if (fs.existsSync(filePath)) {
-      fs.unlinkSync(filePath);
+      try {
+        fs.unlinkSync(filePath);
+      } catch (err) {
+        // ignore delete errors to avoid crashing the server action
+      }
     }
   }
 
@@ -296,8 +399,8 @@ export const requestPasswordReset = async (_prev: ActionState, formData: FormDat
   const email = String(formData.get("email") ?? "");
   const origin = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : (process.env.ORIGIN || "");
   const res = await createPasswordReset(email, origin);
-  if (!res.ok) return { error: res.error || "Could not request reset." };
-  return { success: res.message || "If the account exists, instructions were sent." };
+  if (!res.ok) return { error: (res as any).error || "Could not request reset." };
+  return { success: (res as any).message || "If the account exists, instructions were sent." };
 };
 
 export const performPasswordReset = async (_prev: ActionState, formData: FormData): Promise<ActionState> => {
@@ -308,4 +411,13 @@ export const performPasswordReset = async (_prev: ActionState, formData: FormDat
     return { error: res.error };
   }
   return { success: "Password updated. You can sign in now." };
+};
+
+// Form-compatible wrappers (single FormData param) for use as form actions
+export const requestPasswordResetForm = async (formData: FormData): Promise<ActionState> => {
+  return await requestPasswordReset({} as ActionState, formData);
+};
+
+export const performPasswordResetForm = async (formData: FormData): Promise<ActionState> => {
+  return await performPasswordReset({} as ActionState, formData);
 };
