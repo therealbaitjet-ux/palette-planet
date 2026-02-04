@@ -2424,5 +2424,2095 @@
     "createdAt": "2026-02-04T14:45:00.000Z",
     "featured": false,
     "views": 0
+  },
+  {
+    "id": "adm-pop-001",
+    "name": "Stripe",
+    "slug": "stripe",
+    "description": "Financial infrastructure platform for the internet.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/stripe.png",
+    "dominantColors": [
+      "#635BFF"
+    ],
+    "country": "United States",
+    "website": "https://stripe.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-002",
+    "name": "Shopify",
+    "slug": "shopify",
+    "description": "E-commerce platform powering millions of businesses.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/shopify.png",
+    "dominantColors": [
+      "#96BF48"
+    ],
+    "country": "United States",
+    "website": "https://shopify.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-003",
+    "name": "Notion",
+    "slug": "notion",
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/notion.png",
+    "dominantColors": [
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://notion.so",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-004",
+    "name": "Linear",
+    "slug": "linear",
+    "description": "Issue tracking built for software teams.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/linear.png",
+    "dominantColors": [
+      "#5E6AD2"
+    ],
+    "country": "United States",
+    "website": "https://linear.app",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-005",
+    "name": "Vercel",
+    "slug": "vercel",
+    "description": "Cloud platform for static sites and Serverless Functions.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/vercel.png",
+    "dominantColors": [
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://vercel.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-006",
+    "name": "GitHub",
+    "slug": "github",
+    "description": "Web-based platform for version control and collaboration.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/github.png",
+    "dominantColors": [
+      "#181717"
+    ],
+    "country": "United States",
+    "website": "https://github.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-007",
+    "name": "GitLab",
+    "slug": "gitlab",
+    "description": "DevOps platform for software development and collaboration.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/gitlab.png",
+    "dominantColors": [
+      "#FC6D26"
+    ],
+    "country": "United States",
+    "website": "https://gitlab.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-008",
+    "name": "Docker",
+    "slug": "docker",
+    "description": "Platform for developing, shipping, and running applications.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/docker.png",
+    "dominantColors": [
+      "#2496ED"
+    ],
+    "country": "United States",
+    "website": "https://docker.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-009",
+    "name": "Kubernetes",
+    "slug": "kubernetes",
+    "description": "Open-source container-orchestration system.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/kubernetes.png",
+    "dominantColors": [
+      "#326CE5"
+    ],
+    "country": "United States",
+    "website": "https://kubernetes.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-010",
+    "name": "Slack",
+    "slug": "slack",
+    "description": "Business communication platform for teams.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/slack.png",
+    "dominantColors": [
+      "#4A154B"
+    ],
+    "country": "United States",
+    "website": "https://slack.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-011",
+    "name": "Discord",
+    "slug": "discord",
+    "description": "Voice, video and text communication platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/discord.png",
+    "dominantColors": [
+      "#5865F2"
+    ],
+    "country": "United States",
+    "website": "https://discord.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-012",
+    "name": "Zoom",
+    "slug": "zoom",
+    "description": "Video conferencing and online meeting platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/zoom.png",
+    "dominantColors": [
+      "#2D8CFF"
+    ],
+    "country": "United States",
+    "website": "https://zoom.us",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-013",
+    "name": "Webflow",
+    "slug": "webflow",
+    "description": "Visual web design and development platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/webflow.png",
+    "dominantColors": [
+      "#4353FF"
+    ],
+    "country": "United States",
+    "website": "https://webflow.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-014",
+    "name": "Framer",
+    "slug": "framer",
+    "description": "Interactive design and prototyping tool.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/framer.png",
+    "dominantColors": [
+      "#0055FF"
+    ],
+    "country": "United States",
+    "website": "https://framer.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-015",
+    "name": "Sketch",
+    "slug": "sketch",
+    "description": "Vector graphics editor for digital design.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/sketch.png",
+    "dominantColors": [
+      "#FDB300"
+    ],
+    "country": "United States",
+    "website": "https://sketch.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-016",
+    "name": "InVision",
+    "slug": "invision",
+    "description": "Digital product design and collaboration platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/invision.png",
+    "dominantColors": [
+      "#FF3366"
+    ],
+    "country": "United States",
+    "website": "https://invisionapp.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-017",
+    "name": "Asana",
+    "slug": "asana",
+    "description": "Work management platform for teams.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/asana.png",
+    "dominantColors": [
+      "#F06A6A"
+    ],
+    "country": "United States",
+    "website": "https://asana.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-018",
+    "name": "Monday",
+    "slug": "monday",
+    "description": "Work operating system for project management.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/monday.png",
+    "dominantColors": [
+      "#FF3D57"
+    ],
+    "country": "United States",
+    "website": "https://monday.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-019",
+    "name": "Trello",
+    "slug": "trello",
+    "description": "Collaborative project management tool using Kanban boards.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/trello.png",
+    "dominantColors": [
+      "#0079BF"
+    ],
+    "country": "United States",
+    "website": "https://trello.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-020",
+    "name": "Airtable",
+    "slug": "airtable",
+    "description": "Cloud collaboration service combining spreadsheet and database.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/airtable.png",
+    "dominantColors": [
+      "#18BFFF"
+    ],
+    "country": "United States",
+    "website": "https://airtable.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": true,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-021",
+    "name": "Confluence",
+    "slug": "confluence",
+    "description": "Team workspace for knowledge management and collaboration.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/confluence.png",
+    "dominantColors": [
+      "#172B4D"
+    ],
+    "country": "United States",
+    "website": "https://atlassian.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-022",
+    "name": "Jira",
+    "slug": "jira",
+    "description": "Issue and project tracking software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/jira.png",
+    "dominantColors": [
+      "#0052CC"
+    ],
+    "country": "United States",
+    "website": "https://atlassian.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-023",
+    "name": "Bitbucket",
+    "slug": "bitbucket",
+    "description": "Git-based source code repository hosting service.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/bitbucket.png",
+    "dominantColors": [
+      "#2684FF"
+    ],
+    "country": "United States",
+    "website": "https://bitbucket.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-024",
+    "name": "Dropbox",
+    "slug": "dropbox",
+    "description": "Cloud storage and file synchronization service.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/dropbox.png",
+    "dominantColors": [
+      "#0061FF"
+    ],
+    "country": "United States",
+    "website": "https://dropbox.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-025",
+    "name": "Box",
+    "slug": "box",
+    "description": "Cloud content management and file sharing service.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/box.png",
+    "dominantColors": [
+      "#0061D5"
+    ],
+    "country": "United States",
+    "website": "https://box.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-026",
+    "name": "WeTransfer",
+    "slug": "wetransfer",
+    "description": "Cloud-based file transfer service.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/wetransfer.png",
+    "dominantColors": [
+      "#409FFF"
+    ],
+    "country": "United States",
+    "website": "https://wetransfer.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-027",
+    "name": "Canva",
+    "slug": "canva",
+    "description": "Graphic design platform for creating visual content.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/canva.png",
+    "dominantColors": [
+      "#00C4CC"
+    ],
+    "country": "United States",
+    "website": "https://canva.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-028",
+    "name": "Photoshop",
+    "slug": "photoshop",
+    "description": "Industry-standard image editing software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/photoshop.png",
+    "dominantColors": [
+      "#31A8FF"
+    ],
+    "country": "United States",
+    "website": "https://adobe.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-029",
+    "name": "Illustrator",
+    "slug": "illustrator",
+    "description": "Vector graphics and illustration software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/illustrator.png",
+    "dominantColors": [
+      "#FF9A00"
+    ],
+    "country": "United States",
+    "website": "https://adobe.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-030",
+    "name": "Premiere",
+    "slug": "premiere",
+    "description": "Professional video editing software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/premiere.png",
+    "dominantColors": [
+      "#9999FF"
+    ],
+    "country": "United States",
+    "website": "https://adobe.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-031",
+    "name": "After Effects",
+    "slug": "after-effects",
+    "description": "Digital visual effects and motion graphics software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/after-effects.png",
+    "dominantColors": [
+      "#9999FF"
+    ],
+    "country": "United States",
+    "website": "https://adobe.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-032",
+    "name": "Lightroom",
+    "slug": "lightroom",
+    "description": "Photo editing and management software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/lightroom.png",
+    "dominantColors": [
+      "#31A8FF"
+    ],
+    "country": "United States",
+    "website": "https://adobe.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-033",
+    "name": "ProtoPie",
+    "slug": "protopie",
+    "description": "High-fidelity prototyping tool for creating interactive designs.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/protopie.png",
+    "dominantColors": [
+      "#FC5185"
+    ],
+    "country": "United States",
+    "website": "https://protopie.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-034",
+    "name": "Overflow",
+    "slug": "overflow",
+    "description": "User flow diagramming tool for designers.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/overflow.png",
+    "dominantColors": [
+      "#FF6B6B"
+    ],
+    "country": "United States",
+    "website": "https://overflow.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-035",
+    "name": "Lookback",
+    "slug": "lookback",
+    "description": "User research and usability testing platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/lookback.png",
+    "dominantColors": [
+      "#FF6B6B"
+    ],
+    "country": "United States",
+    "website": "https://lookback.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-036",
+    "name": "User Testing",
+    "slug": "user-testing",
+    "description": "Human insight platform for customer experience research.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/user-testing.png",
+    "dominantColors": [
+      "#00A9CE"
+    ],
+    "country": "United States",
+    "website": "https://usertesting.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-037",
+    "name": "Hotjar",
+    "slug": "hotjar",
+    "description": "Behavior analytics and feedback platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/hotjar.png",
+    "dominantColors": [
+      "#FF3C00"
+    ],
+    "country": "United States",
+    "website": "https://hotjar.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-038",
+    "name": "Crazy Egg",
+    "slug": "crazy-egg",
+    "description": "Website optimization and A/B testing platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/crazy-egg.png",
+    "dominantColors": [
+      "#F59642"
+    ],
+    "country": "United States",
+    "website": "https://crazyegg.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-039",
+    "name": "Optimizely",
+    "slug": "optimizely",
+    "description": "Digital experience platform for experimentation.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/optimizely.png",
+    "dominantColors": [
+      "#0037FF"
+    ],
+    "country": "United States",
+    "website": "https://optimizely.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-040",
+    "name": "Segment",
+    "slug": "segment",
+    "description": "Customer data platform for collecting and routing data.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/segment.png",
+    "dominantColors": [
+      "#52BD94"
+    ],
+    "country": "United States",
+    "website": "https://segment.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-041",
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "description": "Product analytics platform for tracking user behavior.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/mixpanel.png",
+    "dominantColors": [
+      "#7856FF"
+    ],
+    "country": "United States",
+    "website": "https://mixpanel.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-042",
+    "name": "Amplitude",
+    "slug": "amplitude",
+    "description": "Digital analytics platform for product intelligence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/amplitude.png",
+    "dominantColors": [
+      "#1E61F0"
+    ],
+    "country": "United States",
+    "website": "https://amplitude.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-043",
+    "name": "PostHog",
+    "slug": "posthog",
+    "description": "Open-source product analytics platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/posthog.png",
+    "dominantColors": [
+      "#F54E00"
+    ],
+    "country": "United States",
+    "website": "https://posthog.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-044",
+    "name": "Plausible",
+    "slug": "plausible",
+    "description": "Privacy-friendly web analytics tool.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/plausible.png",
+    "dominantColors": [
+      "#5850EC"
+    ],
+    "country": "United States",
+    "website": "https://plausible.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-045",
+    "name": "Fathom",
+    "slug": "fathom",
+    "description": "Simple, privacy-focused website analytics.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/fathom.png",
+    "dominantColors": [
+      "#6B4CFF"
+    ],
+    "country": "United States",
+    "website": "https://fathom.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-046",
+    "name": "Simple Analytics",
+    "slug": "simple-analytics",
+    "description": "Privacy-first analytics without cookies.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/simple-analytics.png",
+    "dominantColors": [
+      "#FF4F64"
+    ],
+    "country": "United States",
+    "website": "https://simpleanalytics.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-047",
+    "name": "AWS",
+    "slug": "aws",
+    "description": "Cloud computing platform offering services globally.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/aws.png",
+    "dominantColors": [
+      "#FF9900"
+    ],
+    "country": "United States",
+    "website": "https://aws.amazon.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-048",
+    "name": "GCP",
+    "slug": "gcp",
+    "description": "Google Cloud Platform for cloud computing services.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/gcp.png",
+    "dominantColors": [
+      "#4285F4"
+    ],
+    "country": "United States",
+    "website": "https://cloud.google.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-049",
+    "name": "Digital Ocean",
+    "slug": "digital-ocean",
+    "description": "Cloud infrastructure provider for developers.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/digital-ocean.png",
+    "dominantColors": [
+      "#0080FF"
+    ],
+    "country": "United States",
+    "website": "https://digitalocean.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-050",
+    "name": "Linode",
+    "slug": "linode",
+    "description": "Cloud hosting and computing platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/linode.png",
+    "dominantColors": [
+      "#00A95C"
+    ],
+    "country": "United States",
+    "website": "https://linode.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-051",
+    "name": "Vultr",
+    "slug": "vultr",
+    "description": "Cloud computing and VPS hosting provider.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/vultr.png",
+    "dominantColors": [
+      "#0069ff"
+    ],
+    "country": "United States",
+    "website": "https://vultr.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-052",
+    "name": "Heroku",
+    "slug": "heroku",
+    "description": "Cloud platform for deploying and running apps.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/heroku.png",
+    "dominantColors": [
+      "#430098"
+    ],
+    "country": "United States",
+    "website": "https://heroku.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-053",
+    "name": "Netlify",
+    "slug": "netlify",
+    "description": "Platform for building and deploying web projects.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/netlify.png",
+    "dominantColors": [
+      "#00C7B7"
+    ],
+    "country": "United States",
+    "website": "https://netlify.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-054",
+    "name": "Cloudflare",
+    "slug": "cloudflare",
+    "description": "Web infrastructure and website security company.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/cloudflare.png",
+    "dominantColors": [
+      "#F48120"
+    ],
+    "country": "United States",
+    "website": "https://cloudflare.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-055",
+    "name": "Fastly",
+    "slug": "fastly",
+    "description": "Edge cloud platform for content delivery.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/fastly.png",
+    "dominantColors": [
+      "#FF282D"
+    ],
+    "country": "United States",
+    "website": "https://fastly.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-056",
+    "name": "Twilio",
+    "slug": "twilio",
+    "description": "Cloud communications platform for messaging and voice.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/twilio.png",
+    "dominantColors": [
+      "#F22F46"
+    ],
+    "country": "United States",
+    "website": "https://twilio.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-057",
+    "name": "SendGrid",
+    "slug": "sendgrid",
+    "description": "Email delivery and marketing platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/sendgrid.png",
+    "dominantColors": [
+      "#1A82E2"
+    ],
+    "country": "United States",
+    "website": "https://sendgrid.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-058",
+    "name": "Mailgun",
+    "slug": "mailgun",
+    "description": "Email automation and delivery service.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/mailgun.png",
+    "dominantColors": [
+      "#F06B66"
+    ],
+    "country": "United States",
+    "website": "https://mailgun.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-059",
+    "name": "Mailchimp",
+    "slug": "mailchimp",
+    "description": "Marketing automation and email marketing platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/mailchimp.png",
+    "dominantColors": [
+      "#FFE01B"
+    ],
+    "country": "United States",
+    "website": "https://mailchimp.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-060",
+    "name": "Klaviyo",
+    "slug": "klaviyo",
+    "description": "Marketing automation platform for e-commerce.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/klaviyo.png",
+    "dominantColors": [
+      "#00A3E0"
+    ],
+    "country": "United States",
+    "website": "https://klaviyo.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-061",
+    "name": "ActiveCampaign",
+    "slug": "active-campaign",
+    "description": "Email marketing and automation platform.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/active-campaign.png",
+    "dominantColors": [
+      "#0068B4"
+    ],
+    "country": "United States",
+    "website": "https://activecampaign.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-062",
+    "name": "HubSpot",
+    "slug": "hubspot",
+    "description": "Inbound marketing, sales, and service software.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/hubspot.png",
+    "dominantColors": [
+      "#FF7A59"
+    ],
+    "country": "United States",
+    "website": "https://hubspot.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-063",
+    "name": "Zapier",
+    "slug": "zapier",
+    "description": "Automation tool connecting web applications.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/zapier.png",
+    "dominantColors": [
+      "#FF4A00"
+    ],
+    "country": "United States",
+    "website": "https://zapier.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-064",
+    "name": "n8n",
+    "slug": "n8n",
+    "description": "Open-source workflow automation tool.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/n8n.png",
+    "dominantColors": [
+      "#FF6D5A"
+    ],
+    "country": "United States",
+    "website": "https://n8n.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-065",
+    "name": "Postman",
+    "slug": "postman",
+    "description": "API platform for building and using APIs.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/postman.png",
+    "dominantColors": [
+      "#FF6C37"
+    ],
+    "country": "United States",
+    "website": "https://postman.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-066",
+    "name": "Insomnia",
+    "slug": "insomnia",
+    "description": "API client for testing REST and GraphQL APIs.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/insomnia.png",
+    "dominantColors": [
+      "#4000BF"
+    ],
+    "country": "United States",
+    "website": "https://insomnia.rest",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-067",
+    "name": "Swagger",
+    "slug": "swagger",
+    "description": "API documentation and design tools.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/swagger.png",
+    "dominantColors": [
+      "#85EA2D"
+    ],
+    "country": "United States",
+    "website": "https://swagger.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-068",
+    "name": "GitBook",
+    "slug": "gitbook",
+    "description": "Documentation platform for technical teams.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/gitbook.png",
+    "dominantColors": [
+      "#3884FF"
+    ],
+    "country": "United States",
+    "website": "https://gitbook.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-069",
+    "name": "Gatsby",
+    "slug": "gatsby",
+    "description": "React-based static site generator.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/gatsby.png",
+    "dominantColors": [
+      "#663399"
+    ],
+    "country": "United States",
+    "website": "https://gatsbyjs.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-070",
+    "name": "Nuxt",
+    "slug": "nuxt",
+    "description": "Vue.js framework for server-side rendering.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/nuxt.png",
+    "dominantColors": [
+      "#00C58E"
+    ],
+    "country": "United States",
+    "website": "https://nuxt.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-071",
+    "name": "Svelte",
+    "slug": "svelte",
+    "description": "Cybernetically enhanced web apps compiler.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/svelte.png",
+    "dominantColors": [
+      "#FF3E00"
+    ],
+    "country": "United States",
+    "website": "https://svelte.dev",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-072",
+    "name": "React",
+    "slug": "react",
+    "description": "JavaScript library for building user interfaces.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/react.png",
+    "dominantColors": [
+      "#61DAFB"
+    ],
+    "country": "United States",
+    "website": "https://react.dev",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-073",
+    "name": "Vue",
+    "slug": "vue",
+    "description": "Progressive JavaScript framework.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/vue.png",
+    "dominantColors": [
+      "#4FC08D"
+    ],
+    "country": "United States",
+    "website": "https://vuejs.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-074",
+    "name": "Angular",
+    "slug": "angular",
+    "description": "Platform for building mobile and desktop web applications.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/angular.png",
+    "dominantColors": [
+      "#DD0031"
+    ],
+    "country": "United States",
+    "website": "https://angular.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-075",
+    "name": "Solid",
+    "slug": "solid",
+    "description": "Declarative, efficient, and flexible JavaScript library.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/solid.png",
+    "dominantColors": [
+      "#446b9e"
+    ],
+    "country": "United States",
+    "website": "https://solidjs.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-076",
+    "name": "Preact",
+    "slug": "preact",
+    "description": "Fast 3kB alternative to React.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/preact.png",
+    "dominantColors": [
+      "#673AB8"
+    ],
+    "country": "United States",
+    "website": "https://preactjs.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-077",
+    "name": "Alpine",
+    "slug": "alpine",
+    "description": "Rugged, minimal framework for JavaScript behavior.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/alpine.png",
+    "dominantColors": [
+      "#8BC0D0"
+    ],
+    "country": "United States",
+    "website": "https://alpinejs.dev",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-078",
+    "name": "Lit",
+    "slug": "lit",
+    "description": "Simple, fast, and lightweight web components.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/lit.png",
+    "dominantColors": [
+      "#324FFF"
+    ],
+    "country": "United States",
+    "website": "https://lit.dev",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-079",
+    "name": "Ionic",
+    "slug": "ionic",
+    "description": "Mobile app development framework.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/ionic.png",
+    "dominantColors": [
+      "#3880FF"
+    ],
+    "country": "United States",
+    "website": "https://ionicframework.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-080",
+    "name": "Capacitor",
+    "slug": "capacitor",
+    "description": "Cross-platform native runtime for web apps.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/capacitor.png",
+    "dominantColors": [
+      "#119EFF"
+    ],
+    "country": "United States",
+    "website": "https://capacitorjs.com",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-081",
+    "name": "Flutter",
+    "slug": "flutter",
+    "description": "UI toolkit for building natively compiled applications.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/flutter.png",
+    "dominantColors": [
+      "#02569B"
+    ],
+    "country": "United States",
+    "website": "https://flutter.dev",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-082",
+    "name": "Swift",
+    "slug": "swift",
+    "description": "Programming language for iOS, macOS, watchOS, and tvOS.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/swift.png",
+    "dominantColors": [
+      "#F05138"
+    ],
+    "country": "United States",
+    "website": "https://swift.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-083",
+    "name": "Kotlin",
+    "slug": "kotlin",
+    "description": "Modern programming language for Android development.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/kotlin.png",
+    "dominantColors": [
+      "#7F52FF"
+    ],
+    "country": "United States",
+    "website": "https://kotlinlang.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-084",
+    "name": "Rust",
+    "slug": "rust",
+    "description": "Systems programming language focused on safety.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/rust.png",
+    "dominantColors": [
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://rust-lang.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-085",
+    "name": "Go",
+    "slug": "go",
+    "description": "Programming language for scalable systems.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/go.png",
+    "dominantColors": [
+      "#00ADD8"
+    ],
+    "country": "United States",
+    "website": "https://golang.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-086",
+    "name": "Python",
+    "slug": "python",
+    "description": "High-level programming language for general-purpose.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/python.png",
+    "dominantColors": [
+      "#3776AB"
+    ],
+    "country": "United States",
+    "website": "https://python.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-087",
+    "name": "Node.js",
+    "slug": "nodejs",
+    "description": "JavaScript runtime built on Chrome's V8 engine.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/nodejs.png",
+    "dominantColors": [
+      "#339933"
+    ],
+    "country": "United States",
+    "website": "https://nodejs.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-088",
+    "name": "Deno",
+    "slug": "deno",
+    "description": "Secure runtime for JavaScript and TypeScript.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/deno.png",
+    "dominantColors": [
+      "#000000"
+    ],
+    "country": "United States",
+    "website": "https://deno.land",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-089",
+    "name": "Bun",
+    "slug": "bun",
+    "description": "Fast JavaScript runtime and bundler.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/bun.png",
+    "dominantColors": [
+      "#FBF0DF"
+    ],
+    "country": "United States",
+    "website": "https://bun.sh",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-090",
+    "name": "Vite",
+    "slug": "vite",
+    "description": "Next generation frontend tooling.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/vite.png",
+    "dominantColors": [
+      "#646CFF"
+    ],
+    "country": "United States",
+    "website": "https://vitejs.dev",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-091",
+    "name": "Webpack",
+    "slug": "webpack",
+    "description": "Static module bundler for JavaScript.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/webpack.png",
+    "dominantColors": [
+      "#8DD6F9"
+    ],
+    "country": "United States",
+    "website": "https://webpack.js.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-092",
+    "name": "ESBuild",
+    "slug": "esbuild",
+    "description": "Extremely fast JavaScript bundler.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/esbuild.png",
+    "dominantColors": [
+      "#FFCF00"
+    ],
+    "country": "United States",
+    "website": "https://esbuild.github.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-093",
+    "name": "ESLint",
+    "slug": "eslint",
+    "description": "Pluggable JavaScript linter.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/eslint.png",
+    "dominantColors": [
+      "#4B32C3"
+    ],
+    "country": "United States",
+    "website": "https://eslint.org",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-094",
+    "name": "Prettier",
+    "slug": "prettier",
+    "description": "Opinionated code formatter.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/prettier.png",
+    "dominantColors": [
+      "#F7B93E"
+    ],
+    "country": "United States",
+    "website": "https://prettier.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
+  },
+  {
+    "id": "adm-pop-095",
+    "name": "Husky",
+    "slug": "husky",
+    "description": "Git hooks made easy.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "tech",
+      "saas",
+      "startup",
+      "developer-tools"
+    ],
+    "logoUrl": "/logos/husky.png",
+    "dominantColors": [
+      "#00C4CC"
+    ],
+    "country": "United States",
+    "website": "https://typicode.github.io",
+    "createdAt": "2026-02-04T21:17:40.700Z",
+    "featured": false,
+    "views": 0
   }
 ]
