@@ -124,6 +124,18 @@ export const getBrands = () => {
 
 export const getFeaturedBrands = () => getBrands().filter((brand) => brand.featured);
 
+// Get top N brands with real logos, sorted by popularity (views)
+export const getTopBrands = (limit: number = 20) => {
+  return getBrands()
+    .filter((brand) => {
+      // Only brands with real logos (PNG or SVG in /logos/)
+      if (!brand.logoUrl) return false;
+      return brand.logoUrl.startsWith('/logos/') && 
+        (brand.logoUrl.endsWith('.png') || brand.logoUrl.endsWith('.svg'));
+    })
+    .slice(0, limit);
+};
+
 export const getCategoryBySlug = (slug: string) =>
   categories.find((category) => category.slug === slug);
 

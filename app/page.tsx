@@ -3,7 +3,7 @@ import Image from "next/image";
 import GodLevelSearch from "@/components/GodLevelSearch";
 import BrandGrid from "@/components/BrandGrid";
 import AdUnit from "@/components/AdUnit";
-import { categories, getFeaturedBrands } from "@/lib/data";
+import { categories, getTopBrands } from "@/lib/data";
 import { absoluteUrl } from "@/lib/seo";
 
 export const metadata = {
@@ -15,7 +15,7 @@ export const metadata = {
 export const dynamic = "force-dynamic";
 
 export default function HomePage() {
-  const featuredBrands = getFeaturedBrands();
+  const featuredBrands = getTopBrands(20);
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-16 px-6 py-16">
       <section className="glass rounded-3xl p-10 md:p-14">
@@ -96,9 +96,9 @@ export default function HomePage() {
       <section className="space-y-8">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-semibold text-white">Featured brands</h2>
+            <h2 className="text-2xl font-semibold text-white">Top 20 Most Popular</h2>
             <p className="text-sm text-slate-400">
-              Standout logos that set the tone for world-class identity systems.
+              The most viewed brand logos on our site, updated daily.
             </p>
           </div>
           <Link
