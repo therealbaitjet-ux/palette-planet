@@ -17,9 +17,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://1password.com",
-    "createdAt": "2026-02-07T00:11:59.471Z",
+    "createdAt": "2026-02-07T14:45:54.481Z",
     "featured": false,
-    "views": 871
+    "views": 834
   },
   {
     "id": "3m",
@@ -36,9 +36,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://3m.com",
-    "createdAt": "2026-02-06T00:11:59.472Z",
+    "createdAt": "2026-02-06T14:45:54.482Z",
     "featured": false,
-    "views": 506
+    "views": 461
   },
   {
     "id": "abstract-mark",
@@ -55,9 +55,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://abstractmark.com",
-    "createdAt": "2026-02-05T00:11:59.472Z",
+    "createdAt": "2026-02-05T14:45:54.482Z",
     "featured": false,
-    "views": 730
+    "views": 506
   },
   {
     "id": "accenture",
@@ -74,9 +74,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://accenture.com",
-    "createdAt": "2026-02-04T00:11:59.472Z",
+    "createdAt": "2026-02-04T14:45:54.482Z",
     "featured": false,
-    "views": 200
+    "views": 747
   },
   {
     "id": "acer",
@@ -93,9 +93,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://acer.com",
-    "createdAt": "2026-02-03T00:11:59.472Z",
+    "createdAt": "2026-02-03T14:45:54.482Z",
     "featured": false,
-    "views": 839
+    "views": 992
   },
   {
     "id": "active-campaign",
@@ -112,9 +112,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://activecampaign.com",
-    "createdAt": "2026-02-02T00:11:59.472Z",
+    "createdAt": "2026-02-02T14:45:54.482Z",
     "featured": false,
-    "views": 125
+    "views": 63
   },
   {
     "id": "activemq",
@@ -131,9 +131,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://activemq.com",
-    "createdAt": "2026-02-01T00:11:59.472Z",
+    "createdAt": "2026-02-01T14:45:54.482Z",
     "featured": false,
-    "views": 770
+    "views": 988
   },
   {
     "id": "adidas",
@@ -150,9 +150,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://adidas.com",
-    "createdAt": "2026-01-31T00:11:59.472Z",
+    "createdAt": "2026-01-31T14:45:54.482Z",
     "featured": false,
-    "views": 222
+    "views": 109
   },
   {
     "id": "adobe-xd",
@@ -169,9 +169,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://adobexd.com",
-    "createdAt": "2026-01-30T00:11:59.472Z",
+    "createdAt": "2026-01-30T14:45:54.482Z",
     "featured": false,
-    "views": 375
+    "views": 535
   },
   {
     "id": "advance-auto",
@@ -188,9 +188,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://advanceauto.com",
-    "createdAt": "2026-01-29T00:11:59.472Z",
+    "createdAt": "2026-01-29T14:45:54.482Z",
     "featured": false,
-    "views": 167
+    "views": 168
   },
   {
     "id": "after-effects",
@@ -207,9 +207,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aftereffects.com",
-    "createdAt": "2026-01-28T00:11:59.472Z",
+    "createdAt": "2026-01-28T14:45:54.482Z",
     "featured": false,
-    "views": 936
+    "views": 971
   },
   {
     "id": "aftership",
@@ -226,9 +226,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aftership.com",
-    "createdAt": "2026-01-27T00:11:59.472Z",
+    "createdAt": "2026-01-27T14:45:54.482Z",
     "featured": false,
-    "views": 567
+    "views": 763
   },
   {
     "id": "airbnb",
@@ -245,9 +245,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://airbnb.com",
-    "createdAt": "2026-01-26T00:11:59.472Z",
+    "createdAt": "2026-01-26T14:45:54.482Z",
     "featured": false,
-    "views": 555
+    "views": 862
   },
   {
     "id": "airbrake",
@@ -264,9 +264,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://airbrake.com",
-    "createdAt": "2026-01-25T00:11:59.472Z",
+    "createdAt": "2026-01-25T14:45:54.482Z",
     "featured": false,
-    "views": 596
+    "views": 7
   },
   {
     "id": "airtable",
@@ -283,9 +283,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://airtable.com",
-    "createdAt": "2026-01-24T00:11:59.472Z",
+    "createdAt": "2026-01-24T14:45:54.482Z",
     "featured": false,
-    "views": 851
+    "views": 628
   },
   {
     "id": "akamai",
@@ -302,9 +302,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://akamai.com",
-    "createdAt": "2026-01-23T00:11:59.472Z",
+    "createdAt": "2026-01-23T14:45:54.482Z",
     "featured": false,
-    "views": 988
+    "views": 880
   },
   {
     "id": "alphabet",
@@ -321,9 +321,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://alphabet.com",
-    "createdAt": "2026-01-22T00:11:59.472Z",
+    "createdAt": "2026-01-22T14:45:54.482Z",
     "featured": false,
-    "views": 275
+    "views": 376
   },
   {
     "id": "alpine",
@@ -340,9 +340,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://alpine.com",
-    "createdAt": "2026-01-21T00:11:59.472Z",
+    "createdAt": "2026-01-21T14:45:54.482Z",
     "featured": false,
-    "views": 513
+    "views": 302
   },
   {
     "id": "amazon",
@@ -359,9 +359,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amazon.com",
-    "createdAt": "2026-01-20T00:11:59.472Z",
+    "createdAt": "2026-01-20T14:45:54.482Z",
     "featured": false,
-    "views": 492
+    "views": 968
   },
   {
     "id": "amd",
@@ -378,9 +378,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amd.com",
-    "createdAt": "2026-01-19T00:11:59.472Z",
+    "createdAt": "2026-01-19T14:45:54.482Z",
     "featured": false,
-    "views": 496
+    "views": 562
   },
   {
     "id": "american-airlines",
@@ -397,9 +397,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://americanairlines.com",
-    "createdAt": "2026-01-18T00:11:59.472Z",
+    "createdAt": "2026-01-18T14:45:54.482Z",
     "featured": false,
-    "views": 932
+    "views": 939
   },
   {
     "id": "amplify",
@@ -416,9 +416,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amplify.com",
-    "createdAt": "2026-01-17T00:11:59.472Z",
+    "createdAt": "2026-01-17T14:45:54.482Z",
     "featured": false,
-    "views": 342
+    "views": 761
   },
   {
     "id": "amplitude",
@@ -435,9 +435,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amplitude.com",
-    "createdAt": "2026-01-16T00:11:59.472Z",
+    "createdAt": "2026-01-16T14:45:54.482Z",
     "featured": false,
-    "views": 266
+    "views": 802
   },
   {
     "id": "angular",
@@ -454,9 +454,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://angular.com",
-    "createdAt": "2026-01-15T00:11:59.472Z",
+    "createdAt": "2026-01-15T14:45:54.482Z",
     "featured": false,
-    "views": 960
+    "views": 623
   },
   {
     "id": "ansible",
@@ -473,9 +473,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ansible.com",
-    "createdAt": "2026-01-14T00:11:59.472Z",
+    "createdAt": "2026-01-14T14:45:54.482Z",
     "featured": false,
-    "views": 83
+    "views": 555
   },
   {
     "id": "anthem",
@@ -492,9 +492,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://anthem.com",
-    "createdAt": "2026-01-13T00:11:59.472Z",
+    "createdAt": "2026-01-13T14:45:54.482Z",
     "featured": false,
-    "views": 991
+    "views": 537
   },
   {
     "id": "apple",
@@ -511,9 +511,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://apple.com",
-    "createdAt": "2026-01-12T00:11:59.472Z",
+    "createdAt": "2026-01-12T14:45:54.482Z",
     "featured": false,
-    "views": 431
+    "views": 94
   },
   {
     "id": "asana",
@@ -530,9 +530,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://asana.com",
-    "createdAt": "2026-01-11T00:11:59.472Z",
+    "createdAt": "2026-01-11T14:45:54.482Z",
     "featured": false,
-    "views": 46
+    "views": 621
   },
   {
     "id": "asus",
@@ -549,9 +549,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://asus.com",
-    "createdAt": "2026-01-10T00:11:59.472Z",
+    "createdAt": "2026-01-10T14:45:54.482Z",
     "featured": false,
-    "views": 821
+    "views": 626
+  },
+  {
+    "id": "at-t",
+    "name": "At T",
+    "slug": "at-t",
+    "description": "At T is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/at-t.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://att.com",
+    "createdAt": "2026-01-09T14:45:54.482Z",
+    "featured": false,
+    "views": 600
   },
   {
     "id": "athena",
@@ -568,9 +587,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://athena.com",
-    "createdAt": "2026-01-09T00:11:59.472Z",
+    "createdAt": "2026-01-08T14:45:54.482Z",
     "featured": false,
-    "views": 137
+    "views": 879
   },
   {
     "id": "atria",
@@ -587,9 +606,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://atria.com",
-    "createdAt": "2026-01-08T00:11:59.472Z",
+    "createdAt": "2026-01-07T14:45:54.482Z",
     "featured": false,
-    "views": 566
+    "views": 824
   },
   {
     "id": "att",
@@ -606,9 +625,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://att.com",
-    "createdAt": "2026-01-07T00:11:59.472Z",
+    "createdAt": "2026-01-06T14:45:54.482Z",
     "featured": false,
-    "views": 77
+    "views": 16
   },
   {
     "id": "attentive",
@@ -625,9 +644,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://attentive.com",
-    "createdAt": "2026-01-06T00:11:59.472Z",
+    "createdAt": "2026-01-05T14:45:54.482Z",
     "featured": false,
-    "views": 850
+    "views": 547
+  },
+  {
+    "id": "audi",
+    "name": "Audi",
+    "slug": "audi",
+    "description": "Audi is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/audi.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://audi.com",
+    "createdAt": "2026-01-04T14:45:54.482Z",
+    "featured": false,
+    "views": 856
   },
   {
     "id": "aurora",
@@ -644,9 +682,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aurora.com",
-    "createdAt": "2026-01-05T00:11:59.472Z",
+    "createdAt": "2026-01-03T14:45:54.482Z",
     "featured": false,
-    "views": 658
+    "views": 92
   },
   {
     "id": "auth0",
@@ -663,9 +701,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://auth0.com",
-    "createdAt": "2026-01-04T00:11:59.472Z",
+    "createdAt": "2026-01-02T14:45:54.482Z",
     "featured": false,
-    "views": 851
+    "views": 43
   },
   {
     "id": "autozone",
@@ -682,9 +720,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://autozone.com",
-    "createdAt": "2026-01-03T00:11:59.472Z",
+    "createdAt": "2026-01-01T14:45:54.482Z",
     "featured": false,
-    "views": 262
+    "views": 151
   },
   {
     "id": "aws",
@@ -701,9 +739,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aws.com",
-    "createdAt": "2026-01-02T00:11:59.472Z",
+    "createdAt": "2025-12-31T14:45:54.482Z",
     "featured": false,
-    "views": 198
+    "views": 535
   },
   {
     "id": "bank-of-america",
@@ -720,9 +758,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bankofamerica.com",
-    "createdAt": "2026-01-01T00:11:59.472Z",
+    "createdAt": "2025-12-30T14:45:54.482Z",
     "featured": false,
-    "views": 260
+    "views": 209
   },
   {
     "id": "beehiiv",
@@ -739,9 +777,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://beehiiv.com",
-    "createdAt": "2025-12-31T00:11:59.472Z",
+    "createdAt": "2025-12-29T14:45:54.482Z",
     "featured": false,
-    "views": 701
+    "views": 541
   },
   {
     "id": "berkshire-hathaway",
@@ -758,9 +796,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://berkshirehathaway.com",
-    "createdAt": "2025-12-30T00:11:59.472Z",
+    "createdAt": "2025-12-28T14:45:54.482Z",
     "featured": false,
-    "views": 913
+    "views": 346
   },
   {
     "id": "best-buy",
@@ -777,9 +815,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bestbuy.com",
-    "createdAt": "2025-12-29T00:11:59.472Z",
+    "createdAt": "2025-12-27T14:45:54.482Z",
     "featured": false,
-    "views": 375
+    "views": 753
   },
   {
     "id": "bigcommerce",
@@ -796,9 +834,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bigcommerce.com",
-    "createdAt": "2025-12-28T00:11:59.472Z",
+    "createdAt": "2025-12-26T14:45:54.482Z",
     "featured": false,
-    "views": 402
+    "views": 234
   },
   {
     "id": "bigquery",
@@ -815,9 +853,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bigquery.com",
-    "createdAt": "2025-12-27T00:11:59.472Z",
+    "createdAt": "2025-12-25T14:45:54.482Z",
     "featured": false,
-    "views": 979
+    "views": 874
+  },
+  {
+    "id": "binance",
+    "name": "Binance",
+    "slug": "binance",
+    "description": "Binance is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/binance.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://binance.com",
+    "createdAt": "2025-12-24T14:45:54.482Z",
+    "featured": false,
+    "views": 12
   },
   {
     "id": "bitbucket",
@@ -834,9 +891,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bitbucket.com",
-    "createdAt": "2025-12-26T00:11:59.472Z",
+    "createdAt": "2025-12-23T14:45:54.482Z",
     "featured": false,
-    "views": 176
+    "views": 300
   },
   {
     "id": "bitwarden",
@@ -853,9 +910,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bitwarden.com",
-    "createdAt": "2025-12-25T00:11:59.472Z",
+    "createdAt": "2025-12-22T14:45:54.482Z",
     "featured": false,
-    "views": 324
+    "views": 821
+  },
+  {
+    "id": "bmw",
+    "name": "Bmw",
+    "slug": "bmw",
+    "description": "Bmw is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/bmw.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://bmw.com",
+    "createdAt": "2025-12-21T14:45:54.482Z",
+    "featured": false,
+    "views": 737
   },
   {
     "id": "boeing",
@@ -872,9 +948,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://boeing.com",
-    "createdAt": "2025-12-24T00:11:59.472Z",
+    "createdAt": "2025-12-20T14:45:54.482Z",
     "featured": false,
-    "views": 29
+    "views": 864
+  },
+  {
+    "id": "booking",
+    "name": "Booking",
+    "slug": "booking",
+    "description": "Booking is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "travel",
+    "tags": [
+      "brand",
+      "logo",
+      "travel"
+    ],
+    "logoUrl": "/logos/booking.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://booking.com",
+    "createdAt": "2025-12-19T14:45:54.482Z",
+    "featured": false,
+    "views": 617
   },
   {
     "id": "box",
@@ -891,9 +986,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://box.com",
-    "createdAt": "2025-12-23T00:11:59.472Z",
+    "createdAt": "2025-12-18T14:45:54.482Z",
     "featured": false,
-    "views": 634
+    "views": 596
+  },
+  {
+    "id": "bp",
+    "name": "Bp",
+    "slug": "bp",
+    "description": "Bp is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "energy",
+    "tags": [
+      "brand",
+      "logo",
+      "energy"
+    ],
+    "logoUrl": "/logos/bp.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://bp.com",
+    "createdAt": "2025-12-17T14:45:54.482Z",
+    "featured": false,
+    "views": 608
   },
   {
     "id": "braze",
@@ -910,9 +1024,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://braze.com",
-    "createdAt": "2025-12-22T00:11:59.472Z",
+    "createdAt": "2025-12-16T14:45:54.482Z",
     "featured": false,
-    "views": 701
+    "views": 168
   },
   {
     "id": "broadcom",
@@ -929,9 +1043,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://broadcom.com",
-    "createdAt": "2025-12-21T00:11:59.472Z",
+    "createdAt": "2025-12-15T14:45:54.482Z",
     "featured": false,
-    "views": 44
+    "views": 158
   },
   {
     "id": "bubble",
@@ -948,9 +1062,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bubble.com",
-    "createdAt": "2025-12-20T00:11:59.472Z",
+    "createdAt": "2025-12-14T14:45:54.482Z",
     "featured": false,
-    "views": 176
+    "views": 196
   },
   {
     "id": "buffer",
@@ -967,9 +1081,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://buffer.com",
-    "createdAt": "2025-12-19T00:11:59.472Z",
+    "createdAt": "2025-12-13T14:45:54.482Z",
     "featured": false,
-    "views": 386
+    "views": 77
   },
   {
     "id": "bugsnag",
@@ -986,9 +1100,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bugsnag.com",
-    "createdAt": "2025-12-18T00:11:59.472Z",
+    "createdAt": "2025-12-12T14:45:54.482Z",
     "featured": false,
-    "views": 62
+    "views": 680
   },
   {
     "id": "bun",
@@ -1005,9 +1119,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bun.com",
-    "createdAt": "2025-12-17T00:11:59.472Z",
+    "createdAt": "2025-12-11T14:45:54.482Z",
     "featured": false,
-    "views": 16
+    "views": 392
   },
   {
     "id": "canva",
@@ -1024,9 +1138,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://canva.com",
-    "createdAt": "2025-12-16T00:11:59.472Z",
+    "createdAt": "2025-12-10T14:45:54.482Z",
     "featured": false,
-    "views": 349
+    "views": 134
   },
   {
     "id": "canva",
@@ -1043,9 +1157,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://canva.com",
-    "createdAt": "2025-12-15T00:11:59.472Z",
+    "createdAt": "2025-12-09T14:45:54.482Z",
     "featured": false,
-    "views": 614
+    "views": 165
   },
   {
     "id": "capacitor",
@@ -1062,9 +1176,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://capacitor.com",
-    "createdAt": "2025-12-14T00:11:59.472Z",
+    "createdAt": "2025-12-08T14:45:54.482Z",
     "featured": false,
-    "views": 12
+    "views": 663
+  },
+  {
+    "id": "capital-one",
+    "name": "Capital One",
+    "slug": "capital-one",
+    "description": "Capital One is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/capital-one.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://capitalone.com",
+    "createdAt": "2025-12-07T14:45:54.482Z",
+    "featured": false,
+    "views": 788
   },
   {
     "id": "cardinal-health",
@@ -1081,9 +1214,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cardinalhealth.com",
-    "createdAt": "2025-12-13T00:11:59.472Z",
+    "createdAt": "2025-12-06T14:45:54.482Z",
     "featured": false,
-    "views": 965
+    "views": 782
   },
   {
     "id": "cassandra",
@@ -1100,9 +1233,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cassandra.com",
-    "createdAt": "2025-12-12T00:11:59.472Z",
+    "createdAt": "2025-12-05T14:45:54.482Z",
     "featured": false,
-    "views": 197
+    "views": 757
   },
   {
     "id": "caterpillar",
@@ -1119,9 +1252,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://caterpillar.com",
-    "createdAt": "2025-12-11T00:11:59.472Z",
+    "createdAt": "2025-12-04T14:45:54.482Z",
     "featured": false,
-    "views": 150
+    "views": 691
   },
   {
     "id": "cencora",
@@ -1138,9 +1271,47 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cencora.com",
-    "createdAt": "2025-12-10T00:11:59.472Z",
+    "createdAt": "2025-12-03T14:45:54.482Z",
     "featured": false,
-    "views": 802
+    "views": 441
+  },
+  {
+    "id": "charter",
+    "name": "Charter",
+    "slug": "charter",
+    "description": "Charter is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "telecom",
+    "tags": [
+      "brand",
+      "logo",
+      "telecom"
+    ],
+    "logoUrl": "/logos/charter.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://charter.com",
+    "createdAt": "2025-12-02T14:45:54.482Z",
+    "featured": false,
+    "views": 32
+  },
+  {
+    "id": "chase",
+    "name": "Chase",
+    "slug": "chase",
+    "description": "Chase is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "finance",
+    "tags": [
+      "brand",
+      "logo",
+      "finance"
+    ],
+    "logoUrl": "/logos/chase.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://chase.com",
+    "createdAt": "2025-12-01T14:45:54.482Z",
+    "featured": false,
+    "views": 925
   },
   {
     "id": "chef",
@@ -1157,9 +1328,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chef.com",
-    "createdAt": "2025-12-09T00:11:59.472Z",
+    "createdAt": "2025-11-30T14:45:54.482Z",
     "featured": false,
-    "views": 579
+    "views": 455
   },
   {
     "id": "chevron",
@@ -1176,9 +1347,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chevron.com",
-    "createdAt": "2025-12-08T00:11:59.472Z",
+    "createdAt": "2025-11-29T14:45:54.482Z",
     "featured": false,
-    "views": 666
+    "views": 473
   },
   {
     "id": "chipotle",
@@ -1195,9 +1366,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chipotle.com",
-    "createdAt": "2025-12-07T00:11:59.472Z",
+    "createdAt": "2025-11-28T14:45:54.482Z",
     "featured": false,
-    "views": 94
+    "views": 464
   },
   {
     "id": "cigna",
@@ -1214,9 +1385,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cigna.com",
-    "createdAt": "2025-12-06T00:11:59.472Z",
+    "createdAt": "2025-11-27T14:45:54.482Z",
     "featured": false,
-    "views": 997
+    "views": 951
   },
   {
     "id": "cintas",
@@ -1233,9 +1404,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cintas.com",
-    "createdAt": "2025-12-05T00:11:59.472Z",
+    "createdAt": "2025-11-26T14:45:54.482Z",
     "featured": false,
-    "views": 845
+    "views": 77
   },
   {
     "id": "circleci",
@@ -1252,9 +1423,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://circleci.com",
-    "createdAt": "2025-12-04T00:11:59.472Z",
+    "createdAt": "2025-11-25T14:45:54.482Z",
     "featured": false,
-    "views": 88
+    "views": 824
   },
   {
     "id": "cisco",
@@ -1271,9 +1442,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cisco.com",
-    "createdAt": "2025-12-03T00:11:59.472Z",
+    "createdAt": "2025-11-24T14:45:54.482Z",
     "featured": false,
-    "views": 622
+    "views": 525
+  },
+  {
+    "id": "citi",
+    "name": "Citi",
+    "slug": "citi",
+    "description": "Citi is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "finance",
+    "tags": [
+      "brand",
+      "logo",
+      "finance"
+    ],
+    "logoUrl": "/logos/citi.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://citi.com",
+    "createdAt": "2025-11-23T14:45:54.482Z",
+    "featured": false,
+    "views": 351
   },
   {
     "id": "citigroup",
@@ -1290,9 +1480,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://citigroup.com",
-    "createdAt": "2025-12-02T00:11:59.472Z",
+    "createdAt": "2025-11-22T14:45:54.482Z",
     "featured": false,
-    "views": 69
+    "views": 608
   },
   {
     "id": "clevertap",
@@ -1309,9 +1499,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://clevertap.com",
-    "createdAt": "2025-12-01T00:11:59.472Z",
+    "createdAt": "2025-11-21T14:45:54.482Z",
     "featured": false,
-    "views": 952
+    "views": 784
   },
   {
     "id": "clickup",
@@ -1328,9 +1518,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://clickup.com",
-    "createdAt": "2025-11-30T00:11:59.472Z",
+    "createdAt": "2025-11-20T14:45:54.482Z",
     "featured": false,
-    "views": 316
+    "views": 717
   },
   {
     "id": "cloudflare-registrar",
@@ -1347,9 +1537,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cloudflareregistrar.com",
-    "createdAt": "2025-11-29T00:11:59.472Z",
+    "createdAt": "2025-11-19T14:45:54.482Z",
     "featured": false,
-    "views": 208
+    "views": 321
   },
   {
     "id": "cloudflare",
@@ -1366,9 +1556,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cloudflare.com",
-    "createdAt": "2025-11-28T00:11:59.472Z",
+    "createdAt": "2025-11-18T14:45:54.482Z",
     "featured": false,
-    "views": 459
+    "views": 652
   },
   {
     "id": "cloudflare",
@@ -1385,9 +1575,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cloudflare.com",
-    "createdAt": "2025-11-27T00:11:59.472Z",
+    "createdAt": "2025-11-17T14:45:54.482Z",
     "featured": false,
-    "views": 558
+    "views": 362
   },
   {
     "id": "coca-cola",
@@ -1404,9 +1594,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cocacola.com",
-    "createdAt": "2025-11-26T00:11:59.472Z",
+    "createdAt": "2025-11-16T14:45:54.482Z",
     "featured": false,
-    "views": 571
+    "views": 804
   },
   {
     "id": "coinbase",
@@ -1423,9 +1613,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://coinbase.com",
-    "createdAt": "2025-11-25T00:11:59.472Z",
+    "createdAt": "2025-11-15T14:45:54.482Z",
     "featured": false,
-    "views": 843
+    "views": 97
   },
   {
     "id": "colgate",
@@ -1442,9 +1632,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://colgate.com",
-    "createdAt": "2025-11-24T00:11:59.472Z",
+    "createdAt": "2025-11-14T14:45:54.482Z",
     "featured": false,
-    "views": 6
+    "views": 332
   },
   {
     "id": "comcast",
@@ -1461,9 +1651,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://comcast.com",
-    "createdAt": "2025-11-23T00:11:59.472Z",
+    "createdAt": "2025-11-13T14:45:54.482Z",
     "featured": false,
-    "views": 949
+    "views": 854
   },
   {
     "id": "confluence",
@@ -1480,9 +1670,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://confluence.com",
-    "createdAt": "2025-11-22T00:11:59.472Z",
+    "createdAt": "2025-11-12T14:45:54.482Z",
     "featured": false,
-    "views": 653
+    "views": 816
   },
   {
     "id": "convertkit",
@@ -1499,9 +1689,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://convertkit.com",
-    "createdAt": "2025-11-21T00:11:59.472Z",
+    "createdAt": "2025-11-11T14:45:54.482Z",
     "featured": false,
-    "views": 444
+    "views": 930
   },
   {
     "id": "cosmos-db",
@@ -1518,9 +1708,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cosmosdb.com",
-    "createdAt": "2025-11-20T00:11:59.472Z",
+    "createdAt": "2025-11-10T14:45:54.482Z",
     "featured": false,
-    "views": 996
+    "views": 511
   },
   {
     "id": "costco",
@@ -1537,9 +1727,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://costco.com",
-    "createdAt": "2025-11-19T00:11:59.472Z",
+    "createdAt": "2025-11-09T14:45:54.482Z",
     "featured": false,
-    "views": 472
+    "views": 395
   },
   {
     "id": "couchbase",
@@ -1556,9 +1746,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://couchbase.com",
-    "createdAt": "2025-11-18T00:11:59.472Z",
+    "createdAt": "2025-11-08T14:45:54.482Z",
     "featured": false,
-    "views": 788
+    "views": 319
   },
   {
     "id": "crazy-egg",
@@ -1575,9 +1765,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://crazyegg.com",
-    "createdAt": "2025-11-17T00:11:59.472Z",
+    "createdAt": "2025-11-07T14:45:54.482Z",
     "featured": false,
-    "views": 524
+    "views": 434
   },
   {
     "id": "crowdstrike",
@@ -1594,9 +1784,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://crowdstrike.com",
-    "createdAt": "2025-11-16T00:11:59.472Z",
+    "createdAt": "2025-11-06T14:45:54.482Z",
     "featured": false,
-    "views": 69
+    "views": 823
   },
   {
     "id": "customer-io",
@@ -1613,9 +1803,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://customerio.com",
-    "createdAt": "2025-11-15T00:11:59.472Z",
+    "createdAt": "2025-11-05T14:45:54.482Z",
     "featured": false,
-    "views": 634
+    "views": 375
   },
   {
     "id": "cvs-health",
@@ -1632,9 +1822,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cvshealth.com",
-    "createdAt": "2025-11-14T00:11:59.472Z",
+    "createdAt": "2025-11-04T14:45:54.482Z",
     "featured": false,
-    "views": 215
+    "views": 704
+  },
+  {
+    "id": "cvs",
+    "name": "Cvs",
+    "slug": "cvs",
+    "description": "Cvs is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "healthcare",
+    "tags": [
+      "brand",
+      "logo",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/cvs.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://cvs.com",
+    "createdAt": "2025-11-03T14:45:54.482Z",
+    "featured": false,
+    "views": 186
   },
   {
     "id": "dashlane",
@@ -1651,9 +1860,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dashlane.com",
-    "createdAt": "2025-11-13T00:11:59.472Z",
+    "createdAt": "2025-11-02T14:45:54.482Z",
     "featured": false,
-    "views": 803
+    "views": 152
   },
   {
     "id": "databricks",
@@ -1670,9 +1879,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://databricks.com",
-    "createdAt": "2025-11-12T00:11:59.472Z",
+    "createdAt": "2025-11-01T14:45:54.482Z",
     "featured": false,
-    "views": 640
+    "views": 777
   },
   {
     "id": "datadog",
@@ -1689,9 +1898,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://datadog.com",
-    "createdAt": "2025-11-11T00:11:59.472Z",
+    "createdAt": "2025-10-31T14:45:54.482Z",
     "featured": false,
-    "views": 655
+    "views": 330
   },
   {
     "id": "datadog",
@@ -1708,9 +1917,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://datadog.com",
-    "createdAt": "2025-11-10T00:11:59.472Z",
+    "createdAt": "2025-10-30T14:45:54.482Z",
     "featured": false,
-    "views": 112
+    "views": 137
   },
   {
     "id": "dbt",
@@ -1727,9 +1936,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dbt.com",
-    "createdAt": "2025-11-09T00:11:59.472Z",
+    "createdAt": "2025-10-29T14:45:54.482Z",
     "featured": false,
-    "views": 562
+    "views": 961
   },
   {
     "id": "dell",
@@ -1746,9 +1955,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dell.com",
-    "createdAt": "2025-11-08T00:11:59.472Z",
+    "createdAt": "2025-10-28T14:45:54.482Z",
     "featured": false,
-    "views": 538
+    "views": 876
   },
   {
     "id": "delta",
@@ -1765,9 +1974,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://delta.com",
-    "createdAt": "2025-11-07T00:11:59.472Z",
+    "createdAt": "2025-10-27T14:45:54.482Z",
     "featured": false,
-    "views": 624
+    "views": 617
   },
   {
     "id": "deno",
@@ -1784,9 +1993,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://deno.com",
-    "createdAt": "2025-11-06T00:11:59.472Z",
+    "createdAt": "2025-10-26T14:45:54.482Z",
     "featured": false,
-    "views": 793
+    "views": 955
   },
   {
     "id": "digital-ocean",
@@ -1803,9 +2012,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://digitalocean.com",
-    "createdAt": "2025-11-05T00:11:59.472Z",
+    "createdAt": "2025-10-25T14:45:54.482Z",
     "featured": false,
-    "views": 330
+    "views": 904
   },
   {
     "id": "discord",
@@ -1822,9 +2031,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://discord.com",
-    "createdAt": "2025-11-04T00:11:59.472Z",
+    "createdAt": "2025-10-24T14:45:54.482Z",
     "featured": false,
-    "views": 621
+    "views": 819
   },
   {
     "id": "discord",
@@ -1841,9 +2050,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://discord.com",
-    "createdAt": "2025-11-03T00:11:59.472Z",
+    "createdAt": "2025-10-23T14:45:54.482Z",
     "featured": false,
-    "views": 910
+    "views": 425
+  },
+  {
+    "id": "discover",
+    "name": "Discover",
+    "slug": "discover",
+    "description": "Discover is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/discover.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://discover.com",
+    "createdAt": "2025-10-22T14:45:54.482Z",
+    "featured": false,
+    "views": 43
   },
   {
     "id": "disney",
@@ -1860,9 +2088,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://disney.com",
-    "createdAt": "2025-11-02T00:11:59.472Z",
+    "createdAt": "2025-10-21T14:45:54.482Z",
     "featured": false,
-    "views": 377
+    "views": 590
   },
   {
     "id": "docker",
@@ -1879,9 +2107,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://docker.com",
-    "createdAt": "2025-11-01T00:11:59.472Z",
+    "createdAt": "2025-10-20T14:45:54.482Z",
     "featured": false,
-    "views": 410
+    "views": 854
   },
   {
     "id": "dollar-general",
@@ -1898,9 +2126,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dollargeneral.com",
-    "createdAt": "2025-10-31T00:11:59.472Z",
+    "createdAt": "2025-10-19T14:45:54.482Z",
     "featured": false,
-    "views": 532
+    "views": 539
   },
   {
     "id": "dollar-tree",
@@ -1917,9 +2145,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dollartree.com",
-    "createdAt": "2025-10-30T00:11:59.472Z",
+    "createdAt": "2025-10-18T14:45:54.482Z",
     "featured": false,
-    "views": 26
+    "views": 954
   },
   {
     "id": "doordash",
@@ -1936,9 +2164,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://doordash.com",
-    "createdAt": "2025-10-29T00:11:59.472Z",
+    "createdAt": "2025-10-17T14:45:54.482Z",
     "featured": false,
-    "views": 320
+    "views": 383
   },
   {
     "id": "dropbox",
@@ -1955,9 +2183,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dropbox.com",
-    "createdAt": "2025-10-28T00:11:59.472Z",
+    "createdAt": "2025-10-16T14:45:54.482Z",
     "featured": false,
-    "views": 766
+    "views": 815
   },
   {
     "id": "dropbox",
@@ -1974,9 +2202,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dropbox.com",
-    "createdAt": "2025-10-27T00:11:59.472Z",
+    "createdAt": "2025-10-15T14:45:54.482Z",
     "featured": false,
-    "views": 749
+    "views": 869
   },
   {
     "id": "drupal",
@@ -1993,9 +2221,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://drupal.com",
-    "createdAt": "2025-10-26T00:11:59.472Z",
+    "createdAt": "2025-10-14T14:45:54.482Z",
     "featured": false,
-    "views": 783
+    "views": 628
   },
   {
     "id": "duo",
@@ -2012,9 +2240,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://duo.com",
-    "createdAt": "2025-10-25T00:11:59.472Z",
+    "createdAt": "2025-10-13T14:45:54.482Z",
     "featured": false,
-    "views": 310
+    "views": 200
   },
   {
     "id": "duolingo",
@@ -2031,9 +2259,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://duolingo.com",
-    "createdAt": "2025-10-24T00:11:59.472Z",
+    "createdAt": "2025-10-12T14:45:54.482Z",
     "featured": false,
-    "views": 133
+    "views": 211
   },
   {
     "id": "dynamodb",
@@ -2050,9 +2278,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dynamodb.com",
-    "createdAt": "2025-10-23T00:11:59.472Z",
+    "createdAt": "2025-10-11T14:45:54.482Z",
     "featured": false,
-    "views": 804
+    "views": 979
   },
   {
     "id": "ea",
@@ -2069,9 +2297,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ea.com",
-    "createdAt": "2025-10-22T00:11:59.472Z",
+    "createdAt": "2025-10-10T14:45:54.482Z",
     "featured": false,
-    "views": 595
+    "views": 926
   },
   {
     "id": "easypost",
@@ -2088,9 +2316,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://easypost.com",
-    "createdAt": "2025-10-21T00:11:59.472Z",
+    "createdAt": "2025-10-09T14:45:54.482Z",
     "featured": false,
-    "views": 185
+    "views": 550
   },
   {
     "id": "ebay",
@@ -2107,9 +2335,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ebay.com",
-    "createdAt": "2025-10-20T00:11:59.472Z",
+    "createdAt": "2025-10-08T14:45:54.482Z",
     "featured": false,
-    "views": 317
+    "views": 895
   },
   {
     "id": "elasticsearch",
@@ -2126,9 +2354,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://elasticsearch.com",
-    "createdAt": "2025-10-19T00:11:59.472Z",
+    "createdAt": "2025-10-07T14:45:54.482Z",
     "featured": false,
-    "views": 177
+    "views": 733
   },
   {
     "id": "elevance-health",
@@ -2145,9 +2373,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://elevancehealth.com",
-    "createdAt": "2025-10-18T00:11:59.472Z",
+    "createdAt": "2025-10-06T14:45:54.482Z",
     "featured": false,
-    "views": 629
+    "views": 540
   },
   {
     "id": "elk",
@@ -2164,9 +2392,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://elk.com",
-    "createdAt": "2025-10-17T00:11:59.472Z",
+    "createdAt": "2025-10-05T14:45:54.482Z",
     "featured": false,
-    "views": 956
+    "views": 954
   },
   {
     "id": "esbuild",
@@ -2183,9 +2411,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://esbuild.com",
-    "createdAt": "2025-10-16T00:11:59.472Z",
+    "createdAt": "2025-10-04T14:45:54.482Z",
     "featured": false,
-    "views": 322
+    "views": 166
   },
   {
     "id": "eslint",
@@ -2202,9 +2430,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://eslint.com",
-    "createdAt": "2025-10-15T00:11:59.472Z",
+    "createdAt": "2025-10-03T14:45:54.482Z",
     "featured": false,
-    "views": 593
+    "views": 803
   },
   {
     "id": "estee-lauder",
@@ -2221,9 +2449,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://esteelauder.com",
-    "createdAt": "2025-10-14T00:11:59.472Z",
+    "createdAt": "2025-10-02T14:45:54.482Z",
     "featured": false,
-    "views": 149
+    "views": 966
   },
   {
     "id": "everwell",
@@ -2240,9 +2468,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://everwell.com",
-    "createdAt": "2025-10-13T00:11:59.473Z",
+    "createdAt": "2025-10-01T14:45:54.482Z",
     "featured": false,
-    "views": 627
+    "views": 83
   },
   {
     "id": "exxon-mobil",
@@ -2259,9 +2487,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://exxonmobil.com",
-    "createdAt": "2025-10-12T00:11:59.473Z",
+    "createdAt": "2025-09-30T14:45:54.482Z",
     "featured": false,
-    "views": 992
+    "views": 199
+  },
+  {
+    "id": "exxon",
+    "name": "Exxon",
+    "slug": "exxon",
+    "description": "Exxon is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "energy",
+    "tags": [
+      "brand",
+      "logo",
+      "energy"
+    ],
+    "logoUrl": "/logos/exxon.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://exxon.com",
+    "createdAt": "2025-09-29T14:45:54.482Z",
+    "featured": false,
+    "views": 659
   },
   {
     "id": "fastly",
@@ -2278,9 +2525,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fastly.com",
-    "createdAt": "2025-10-11T00:11:59.473Z",
+    "createdAt": "2025-09-28T14:45:54.482Z",
     "featured": false,
-    "views": 878
+    "views": 896
   },
   {
     "id": "fathom",
@@ -2297,9 +2544,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fathom.com",
-    "createdAt": "2025-10-10T00:11:59.473Z",
+    "createdAt": "2025-09-27T14:45:54.482Z",
     "featured": false,
-    "views": 996
+    "views": 264
   },
   {
     "id": "fedex",
@@ -2316,9 +2563,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fedex.com",
-    "createdAt": "2025-10-09T00:11:59.473Z",
+    "createdAt": "2025-09-26T14:45:54.483Z",
     "featured": false,
-    "views": 632
+    "views": 290
+  },
+  {
+    "id": "ferrari",
+    "name": "Ferrari",
+    "slug": "ferrari",
+    "description": "Ferrari is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/ferrari.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://ferrari.com",
+    "createdAt": "2025-09-25T14:45:54.483Z",
+    "featured": false,
+    "views": 328
   },
   {
     "id": "figma",
@@ -2335,9 +2601,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://figma.com",
-    "createdAt": "2025-10-08T00:11:59.473Z",
+    "createdAt": "2025-09-24T14:45:54.483Z",
     "featured": false,
-    "views": 238
+    "views": 707
   },
   {
     "id": "figma",
@@ -2354,9 +2620,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://figma.com",
-    "createdAt": "2025-10-07T00:11:59.473Z",
+    "createdAt": "2025-09-23T14:45:54.483Z",
     "featured": false,
-    "views": 454
+    "views": 917
   },
   {
     "id": "firebase",
@@ -2373,9 +2639,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://firebase.com",
-    "createdAt": "2025-10-06T00:11:59.473Z",
+    "createdAt": "2025-09-22T14:45:54.483Z",
     "featured": false,
-    "views": 646
+    "views": 108
   },
   {
     "id": "flutter",
@@ -2392,9 +2658,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://flutter.com",
-    "createdAt": "2025-10-05T00:11:59.473Z",
+    "createdAt": "2025-09-21T14:45:54.483Z",
     "featured": false,
-    "views": 76
+    "views": 889
   },
   {
     "id": "foot-locker",
@@ -2411,9 +2677,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://footlocker.com",
-    "createdAt": "2025-10-04T00:11:59.473Z",
+    "createdAt": "2025-09-20T14:45:54.483Z",
     "featured": false,
-    "views": 995
+    "views": 173
   },
   {
     "id": "ford",
@@ -2430,9 +2696,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ford.com",
-    "createdAt": "2025-10-03T00:11:59.473Z",
+    "createdAt": "2025-09-19T14:45:54.483Z",
     "featured": false,
-    "views": 615
+    "views": 893
   },
   {
     "id": "framer",
@@ -2449,9 +2715,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://framer.com",
-    "createdAt": "2025-10-02T00:11:59.473Z",
+    "createdAt": "2025-09-18T14:45:54.483Z",
     "featured": false,
-    "views": 164
+    "views": 816
+  },
+  {
+    "id": "ftx",
+    "name": "Ftx",
+    "slug": "ftx",
+    "description": "Ftx is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/ftx.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://ftx.com",
+    "createdAt": "2025-09-17T14:45:54.483Z",
+    "featured": false,
+    "views": 482
   },
   {
     "id": "fullstory",
@@ -2468,9 +2753,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fullstory.com",
-    "createdAt": "2025-10-01T00:11:59.473Z",
+    "createdAt": "2025-09-16T14:45:54.483Z",
     "featured": false,
-    "views": 865
+    "views": 595
   },
   {
     "id": "gap",
@@ -2487,9 +2772,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gap.com",
-    "createdAt": "2025-09-30T00:11:59.473Z",
+    "createdAt": "2025-09-15T14:45:54.483Z",
     "featured": false,
-    "views": 983
+    "views": 917
   },
   {
     "id": "gatsby",
@@ -2506,9 +2791,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gatsby.com",
-    "createdAt": "2025-09-29T00:11:59.473Z",
+    "createdAt": "2025-09-14T14:45:54.483Z",
     "featured": false,
-    "views": 539
+    "views": 686
   },
   {
     "id": "gcp",
@@ -2525,9 +2810,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gcp.com",
-    "createdAt": "2025-09-28T00:11:59.473Z",
+    "createdAt": "2025-09-13T14:45:54.483Z",
     "featured": false,
-    "views": 62
+    "views": 242
   },
   {
     "id": "general-mills",
@@ -2544,9 +2829,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://generalmills.com",
-    "createdAt": "2025-09-27T00:11:59.473Z",
+    "createdAt": "2025-09-12T14:45:54.483Z",
     "featured": false,
-    "views": 542
+    "views": 691
   },
   {
     "id": "general-motors",
@@ -2563,9 +2848,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://generalmotors.com",
-    "createdAt": "2025-09-26T00:11:59.473Z",
+    "createdAt": "2025-09-11T14:45:54.483Z",
     "featured": false,
-    "views": 38
+    "views": 816
   },
   {
     "id": "ghost",
@@ -2582,9 +2867,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ghost.com",
-    "createdAt": "2025-09-25T00:11:59.473Z",
+    "createdAt": "2025-09-10T14:45:54.483Z",
     "featured": false,
-    "views": 282
+    "views": 882
   },
   {
     "id": "gigabyte",
@@ -2601,9 +2886,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gigabyte.com",
-    "createdAt": "2025-09-24T00:11:59.473Z",
+    "createdAt": "2025-09-09T14:45:54.483Z",
     "featured": false,
-    "views": 448
+    "views": 543
   },
   {
     "id": "gitbook",
@@ -2620,9 +2905,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gitbook.com",
-    "createdAt": "2025-09-23T00:11:59.473Z",
+    "createdAt": "2025-09-08T14:45:54.483Z",
     "featured": false,
-    "views": 815
+    "views": 31
   },
   {
     "id": "github",
@@ -2639,9 +2924,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://github.com",
-    "createdAt": "2025-09-22T00:11:59.473Z",
+    "createdAt": "2025-09-07T14:45:54.483Z",
     "featured": false,
-    "views": 962
+    "views": 513
   },
   {
     "id": "gitlab",
@@ -2658,9 +2943,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gitlab.com",
-    "createdAt": "2025-09-21T00:11:59.473Z",
+    "createdAt": "2025-09-06T14:45:54.483Z",
     "featured": false,
-    "views": 564
+    "views": 452
   },
   {
     "id": "go",
@@ -2677,9 +2962,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://go.com",
-    "createdAt": "2025-09-20T00:11:59.473Z",
+    "createdAt": "2025-09-05T14:45:54.483Z",
     "featured": false,
-    "views": 455
+    "views": 822
   },
   {
     "id": "godaddy",
@@ -2696,9 +2981,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://godaddy.com",
-    "createdAt": "2025-09-19T00:11:59.473Z",
+    "createdAt": "2025-09-04T14:45:54.483Z",
     "featured": false,
-    "views": 682
+    "views": 164
   },
   {
     "id": "goldman-sachs",
@@ -2715,9 +3000,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://goldmansachs.com",
-    "createdAt": "2025-09-18T00:11:59.473Z",
+    "createdAt": "2025-09-03T14:45:54.483Z",
     "featured": false,
-    "views": 535
+    "views": 964
   },
   {
     "id": "google-drive",
@@ -2734,9 +3019,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://googledrive.com",
-    "createdAt": "2025-09-17T00:11:59.473Z",
+    "createdAt": "2025-09-02T14:45:54.483Z",
     "featured": false,
-    "views": 999
+    "views": 704
   },
   {
     "id": "google",
@@ -2753,9 +3038,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://google.com",
-    "createdAt": "2025-09-16T00:11:59.473Z",
+    "createdAt": "2025-09-01T14:45:54.483Z",
     "featured": false,
-    "views": 176
+    "views": 458
   },
   {
     "id": "grafana",
@@ -2772,9 +3057,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://grafana.com",
-    "createdAt": "2025-09-15T00:11:59.473Z",
+    "createdAt": "2025-08-31T14:45:54.483Z",
     "featured": false,
-    "views": 81
+    "views": 304
   },
   {
     "id": "grammarly",
@@ -2791,9 +3076,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://grammarly.com",
-    "createdAt": "2025-09-14T00:11:59.473Z",
+    "createdAt": "2025-08-30T14:45:54.483Z",
     "featured": false,
-    "views": 254
+    "views": 944
   },
   {
     "id": "harborline",
@@ -2810,9 +3095,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://harborline.com",
-    "createdAt": "2025-09-13T00:11:59.473Z",
+    "createdAt": "2025-08-29T14:45:54.483Z",
     "featured": false,
-    "views": 124
+    "views": 436
   },
   {
     "id": "hasura",
@@ -2829,9 +3114,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hasura.com",
-    "createdAt": "2025-09-12T00:11:59.473Z",
+    "createdAt": "2025-08-28T14:45:54.483Z",
     "featured": false,
-    "views": 171
+    "views": 581
+  },
+  {
+    "id": "hbo",
+    "name": "Hbo",
+    "slug": "hbo",
+    "description": "Hbo is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "entertainment",
+    "tags": [
+      "brand",
+      "logo",
+      "entertainment"
+    ],
+    "logoUrl": "/logos/hbo.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://hbo.com",
+    "createdAt": "2025-08-27T14:45:54.483Z",
+    "featured": false,
+    "views": 357
   },
   {
     "id": "heap",
@@ -2848,9 +3152,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://heap.com",
-    "createdAt": "2025-09-11T00:11:59.473Z",
+    "createdAt": "2025-08-26T14:45:54.483Z",
     "featured": false,
-    "views": 32
+    "views": 697
   },
   {
     "id": "heroku",
@@ -2867,9 +3171,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://heroku.com",
-    "createdAt": "2025-09-10T00:11:59.473Z",
+    "createdAt": "2025-08-25T14:45:54.483Z",
     "featured": false,
-    "views": 520
+    "views": 212
   },
   {
     "id": "hershey",
@@ -2886,9 +3190,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hershey.com",
-    "createdAt": "2025-09-09T00:11:59.473Z",
+    "createdAt": "2025-08-24T14:45:54.483Z",
     "featured": false,
-    "views": 392
+    "views": 346
   },
   {
     "id": "hilton",
@@ -2905,9 +3209,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hilton.com",
-    "createdAt": "2025-09-08T00:11:59.473Z",
+    "createdAt": "2025-08-23T14:45:54.483Z",
     "featured": false,
-    "views": 526
+    "views": 312
   },
   {
     "id": "home-depot",
@@ -2924,9 +3228,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://homedepot.com",
-    "createdAt": "2025-09-07T00:11:59.473Z",
+    "createdAt": "2025-08-22T14:45:54.483Z",
     "featured": false,
-    "views": 578
+    "views": 17
+  },
+  {
+    "id": "honda",
+    "name": "Honda",
+    "slug": "honda",
+    "description": "Honda is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/honda.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://honda.com",
+    "createdAt": "2025-08-21T14:45:54.483Z",
+    "featured": false,
+    "views": 631
   },
   {
     "id": "hootsuite",
@@ -2943,9 +3266,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hootsuite.com",
-    "createdAt": "2025-09-06T00:11:59.473Z",
+    "createdAt": "2025-08-20T14:45:54.483Z",
     "featured": false,
-    "views": 914
+    "views": 883
   },
   {
     "id": "hotjar",
@@ -2962,9 +3285,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hotjar.com",
-    "createdAt": "2025-09-05T00:11:59.473Z",
+    "createdAt": "2025-08-19T14:45:54.483Z",
     "featured": false,
-    "views": 67
+    "views": 463
   },
   {
     "id": "hover",
@@ -2981,9 +3304,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hover.com",
-    "createdAt": "2025-09-04T00:11:59.473Z",
+    "createdAt": "2025-08-18T14:45:54.483Z",
     "featured": false,
-    "views": 855
+    "views": 850
   },
   {
     "id": "hp",
@@ -3000,9 +3323,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hp.com",
-    "createdAt": "2025-09-03T00:11:59.473Z",
+    "createdAt": "2025-08-17T14:45:54.483Z",
     "featured": false,
-    "views": 754
+    "views": 672
   },
   {
     "id": "hpe",
@@ -3019,9 +3342,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hpe.com",
-    "createdAt": "2025-09-02T00:11:59.473Z",
+    "createdAt": "2025-08-16T14:45:54.483Z",
     "featured": false,
-    "views": 533
+    "views": 56
   },
   {
     "id": "hubspot",
@@ -3038,9 +3361,47 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hubspot.com",
-    "createdAt": "2025-09-01T00:11:59.473Z",
+    "createdAt": "2025-08-15T14:45:54.483Z",
     "featured": false,
-    "views": 939
+    "views": 46
+  },
+  {
+    "id": "hulu",
+    "name": "Hulu",
+    "slug": "hulu",
+    "description": "Hulu is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "entertainment",
+    "tags": [
+      "brand",
+      "logo",
+      "entertainment"
+    ],
+    "logoUrl": "/logos/hulu.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://hulu.com",
+    "createdAt": "2025-08-14T14:45:54.483Z",
+    "featured": false,
+    "views": 420
+  },
+  {
+    "id": "humana",
+    "name": "Humana",
+    "slug": "humana",
+    "description": "Humana is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/humana.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://humana.com",
+    "createdAt": "2025-08-13T14:45:54.483Z",
+    "featured": false,
+    "views": 224
   },
   {
     "id": "husky",
@@ -3057,9 +3418,47 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://husky.com",
-    "createdAt": "2025-08-31T00:11:59.473Z",
+    "createdAt": "2025-08-12T14:45:54.483Z",
     "featured": false,
-    "views": 600
+    "views": 301
+  },
+  {
+    "id": "hyatt",
+    "name": "Hyatt",
+    "slug": "hyatt",
+    "description": "Hyatt is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "telecom",
+    "tags": [
+      "brand",
+      "logo",
+      "telecom"
+    ],
+    "logoUrl": "/logos/hyatt.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://hyatt.com",
+    "createdAt": "2025-08-11T14:45:54.483Z",
+    "featured": false,
+    "views": 418
+  },
+  {
+    "id": "hyundai",
+    "name": "Hyundai",
+    "slug": "hyundai",
+    "description": "Hyundai is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/hyundai.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://hyundai.com",
+    "createdAt": "2025-08-10T14:45:54.483Z",
+    "featured": false,
+    "views": 730
   },
   {
     "id": "ibm",
@@ -3076,9 +3475,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ibm.com",
-    "createdAt": "2025-08-30T00:11:59.473Z",
+    "createdAt": "2025-08-09T14:45:54.483Z",
     "featured": false,
-    "views": 374
+    "views": 63
   },
   {
     "id": "icloud",
@@ -3095,9 +3494,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://icloud.com",
-    "createdAt": "2025-08-29T00:11:59.473Z",
+    "createdAt": "2025-08-08T14:45:54.483Z",
     "featured": false,
-    "views": 862
+    "views": 756
+  },
+  {
+    "id": "ihg",
+    "name": "Ihg",
+    "slug": "ihg",
+    "description": "Ihg is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/ihg.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://ihg.com",
+    "createdAt": "2025-08-07T14:45:54.483Z",
+    "featured": false,
+    "views": 43
   },
   {
     "id": "illustrator",
@@ -3114,9 +3532,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://illustrator.com",
-    "createdAt": "2025-08-28T00:11:59.473Z",
+    "createdAt": "2025-08-06T14:45:54.483Z",
     "featured": false,
-    "views": 801
+    "views": 556
   },
   {
     "id": "insomnia",
@@ -3133,9 +3551,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://insomnia.com",
-    "createdAt": "2025-08-27T00:11:59.473Z",
+    "createdAt": "2025-08-05T14:45:54.483Z",
     "featured": false,
-    "views": 796
+    "views": 345
   },
   {
     "id": "instacart",
@@ -3152,9 +3570,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://instacart.com",
-    "createdAt": "2025-08-26T00:11:59.473Z",
+    "createdAt": "2025-08-04T14:45:54.483Z",
     "featured": false,
-    "views": 270
+    "views": 388
   },
   {
     "id": "intel",
@@ -3171,9 +3589,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://intel.com",
-    "createdAt": "2025-08-25T00:11:59.473Z",
+    "createdAt": "2025-08-03T14:45:54.483Z",
     "featured": false,
-    "views": 784
+    "views": 651
   },
   {
     "id": "intercom",
@@ -3190,9 +3608,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://intercom.com",
-    "createdAt": "2025-08-24T00:11:59.473Z",
+    "createdAt": "2025-08-02T14:45:54.483Z",
     "featured": false,
-    "views": 67
+    "views": 217
   },
   {
     "id": "invision",
@@ -3209,9 +3627,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://invision.com",
-    "createdAt": "2025-08-23T00:11:59.473Z",
+    "createdAt": "2025-08-01T14:45:54.483Z",
     "featured": false,
-    "views": 886
+    "views": 878
   },
   {
     "id": "ionic",
@@ -3228,9 +3646,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ionic.com",
-    "createdAt": "2025-08-22T00:11:59.473Z",
+    "createdAt": "2025-07-31T14:45:54.483Z",
     "featured": false,
-    "views": 583
+    "views": 729
   },
   {
     "id": "iterable",
@@ -3247,9 +3665,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://iterable.com",
-    "createdAt": "2025-08-21T00:11:59.473Z",
+    "createdAt": "2025-07-30T14:45:54.483Z",
     "featured": false,
-    "views": 767
+    "views": 797
+  },
+  {
+    "id": "jaguar",
+    "name": "Jaguar",
+    "slug": "jaguar",
+    "description": "Jaguar is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/jaguar.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://jaguar.com",
+    "createdAt": "2025-07-29T14:45:54.483Z",
+    "featured": false,
+    "views": 561
   },
   {
     "id": "jenkins",
@@ -3266,9 +3703,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jenkins.com",
-    "createdAt": "2025-08-20T00:11:59.473Z",
+    "createdAt": "2025-07-28T14:45:54.483Z",
     "featured": false,
-    "views": 755
+    "views": 469
+  },
+  {
+    "id": "jetblue",
+    "name": "Jetblue",
+    "slug": "jetblue",
+    "description": "Jetblue is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/jetblue.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://jetblue.com",
+    "createdAt": "2025-07-27T14:45:54.483Z",
+    "featured": false,
+    "views": 895
   },
   {
     "id": "jira",
@@ -3285,9 +3741,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jira.com",
-    "createdAt": "2025-08-19T00:11:59.473Z",
+    "createdAt": "2025-07-26T14:45:54.483Z",
     "featured": false,
-    "views": 76
+    "views": 4
   },
   {
     "id": "johnson-johnson",
@@ -3304,9 +3760,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://johnsonjohnson.com",
-    "createdAt": "2025-08-18T00:11:59.473Z",
+    "createdAt": "2025-07-25T14:45:54.483Z",
     "featured": false,
-    "views": 336
+    "views": 166
   },
   {
     "id": "joomla",
@@ -3323,9 +3779,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://joomla.com",
-    "createdAt": "2025-08-17T00:11:59.473Z",
+    "createdAt": "2025-07-24T14:45:54.483Z",
     "featured": false,
-    "views": 548
+    "views": 723
   },
   {
     "id": "jpmorgan-chase",
@@ -3342,9 +3798,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jpmorganchase.com",
-    "createdAt": "2025-08-16T00:11:59.473Z",
+    "createdAt": "2025-07-23T14:45:54.483Z",
     "featured": false,
-    "views": 45
+    "views": 63
   },
   {
     "id": "justuno",
@@ -3361,9 +3817,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://justuno.com",
-    "createdAt": "2025-08-15T00:11:59.473Z",
+    "createdAt": "2025-07-22T14:45:54.483Z",
     "featured": false,
-    "views": 269
+    "views": 546
   },
   {
     "id": "kafka",
@@ -3380,9 +3836,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kafka.com",
-    "createdAt": "2025-08-14T00:11:59.473Z",
+    "createdAt": "2025-07-21T14:45:54.483Z",
     "featured": false,
-    "views": 600
+    "views": 156
   },
   {
     "id": "keeper",
@@ -3399,9 +3855,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://keeper.com",
-    "createdAt": "2025-08-13T00:11:59.473Z",
+    "createdAt": "2025-07-20T14:45:54.483Z",
     "featured": false,
-    "views": 936
+    "views": 914
+  },
+  {
+    "id": "kia",
+    "name": "Kia",
+    "slug": "kia",
+    "description": "Kia is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/kia.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://kia.com",
+    "createdAt": "2025-07-19T14:45:54.483Z",
+    "featured": false,
+    "views": 119
   },
   {
     "id": "kimberly-clark",
@@ -3418,9 +3893,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kimberlyclark.com",
-    "createdAt": "2025-08-12T00:11:59.473Z",
+    "createdAt": "2025-07-18T14:45:54.483Z",
     "featured": false,
-    "views": 983
+    "views": 619
   },
   {
     "id": "kinetic",
@@ -3437,9 +3912,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kinetic.com",
-    "createdAt": "2025-08-11T00:11:59.473Z",
+    "createdAt": "2025-07-17T14:45:54.483Z",
     "featured": false,
-    "views": 476
+    "views": 929
   },
   {
     "id": "klaviyo",
@@ -3456,9 +3931,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://klaviyo.com",
-    "createdAt": "2025-08-10T00:11:59.473Z",
+    "createdAt": "2025-07-16T14:45:54.483Z",
     "featured": false,
-    "views": 130
+    "views": 423
   },
   {
     "id": "kotlin",
@@ -3475,9 +3950,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kotlin.com",
-    "createdAt": "2025-08-09T00:11:59.473Z",
+    "createdAt": "2025-07-15T14:45:54.483Z",
     "featured": false,
-    "views": 193
+    "views": 436
   },
   {
     "id": "kraft-heinz",
@@ -3494,9 +3969,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kraftheinz.com",
-    "createdAt": "2025-08-08T00:11:59.473Z",
+    "createdAt": "2025-07-14T14:45:54.483Z",
     "featured": false,
-    "views": 45
+    "views": 497
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken",
+    "slug": "kraken",
+    "description": "Kraken is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/kraken.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://kraken.com",
+    "createdAt": "2025-07-13T14:45:54.483Z",
+    "featured": false,
+    "views": 713
   },
   {
     "id": "kroger",
@@ -3513,9 +4007,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kroger.com",
-    "createdAt": "2025-08-07T00:11:59.473Z",
+    "createdAt": "2025-07-12T14:45:54.483Z",
     "featured": false,
-    "views": 496
+    "views": 616
   },
   {
     "id": "kubernetes",
@@ -3532,9 +4026,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kubernetes.com",
-    "createdAt": "2025-08-06T00:11:59.473Z",
+    "createdAt": "2025-07-11T14:45:54.483Z",
     "featured": false,
-    "views": 91
+    "views": 644
+  },
+  {
+    "id": "lamborghini",
+    "name": "Lamborghini",
+    "slug": "lamborghini",
+    "description": "Lamborghini is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/lamborghini.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://lamborghini.com",
+    "createdAt": "2025-07-10T14:45:54.483Z",
+    "featured": false,
+    "views": 733
   },
   {
     "id": "lastpass",
@@ -3551,9 +4064,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lastpass.com",
-    "createdAt": "2025-08-05T00:11:59.473Z",
+    "createdAt": "2025-07-09T14:45:54.483Z",
     "featured": false,
-    "views": 756
+    "views": 160
   },
   {
     "id": "lenovo",
@@ -3570,9 +4083,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lenovo.com",
-    "createdAt": "2025-08-04T00:11:59.473Z",
+    "createdAt": "2025-07-08T14:45:54.483Z",
     "featured": false,
-    "views": 10
+    "views": 163
   },
   {
     "id": "lightroom",
@@ -3589,9 +4102,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lightroom.com",
-    "createdAt": "2025-08-03T00:11:59.473Z",
+    "createdAt": "2025-07-07T14:45:54.483Z",
     "featured": false,
-    "views": 129
+    "views": 654
   },
   {
     "id": "linear",
@@ -3608,9 +4121,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://linear.com",
-    "createdAt": "2025-08-02T00:11:59.473Z",
+    "createdAt": "2025-07-06T14:45:54.483Z",
     "featured": false,
-    "views": 158
+    "views": 442
   },
   {
     "id": "linode",
@@ -3627,9 +4140,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://linode.com",
-    "createdAt": "2025-08-01T00:11:59.473Z",
+    "createdAt": "2025-07-05T14:45:54.483Z",
     "featured": false,
-    "views": 369
+    "views": 451
   },
   {
     "id": "lit",
@@ -3646,9 +4159,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lit.com",
-    "createdAt": "2025-07-31T00:11:59.473Z",
+    "createdAt": "2025-07-04T14:45:54.483Z",
     "featured": false,
-    "views": 395
+    "views": 624
   },
   {
     "id": "lockheed-martin",
@@ -3665,9 +4178,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lockheedmartin.com",
-    "createdAt": "2025-07-30T00:11:59.473Z",
+    "createdAt": "2025-07-03T14:45:54.483Z",
     "featured": false,
-    "views": 596
+    "views": 320
   },
   {
     "id": "logitech",
@@ -3684,9 +4197,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://logitech.com",
-    "createdAt": "2025-07-29T00:11:59.473Z",
+    "createdAt": "2025-07-02T14:45:54.483Z",
     "featured": false,
-    "views": 327
+    "views": 712
   },
   {
     "id": "logrocket",
@@ -3703,9 +4216,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://logrocket.com",
-    "createdAt": "2025-07-28T00:11:59.473Z",
+    "createdAt": "2025-07-01T14:45:54.483Z",
     "featured": false,
-    "views": 971
+    "views": 48
   },
   {
     "id": "lookback",
@@ -3722,9 +4235,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lookback.com",
-    "createdAt": "2025-07-27T00:11:59.473Z",
+    "createdAt": "2025-06-30T14:45:54.483Z",
     "featured": false,
-    "views": 675
+    "views": 459
   },
   {
     "id": "looker",
@@ -3741,9 +4254,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://looker.com",
-    "createdAt": "2025-07-26T00:11:59.473Z",
+    "createdAt": "2025-06-29T14:45:54.483Z",
     "featured": false,
-    "views": 684
+    "views": 948
   },
   {
     "id": "lowes",
@@ -3760,9 +4273,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lowes.com",
-    "createdAt": "2025-07-25T00:11:59.473Z",
+    "createdAt": "2025-06-28T14:45:54.483Z",
     "featured": false,
-    "views": 25
+    "views": 94
   },
   {
     "id": "lululemon",
@@ -3779,9 +4292,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lululemon.com",
-    "createdAt": "2025-07-24T00:11:59.473Z",
+    "createdAt": "2025-06-27T14:45:54.483Z",
     "featured": false,
-    "views": 588
+    "views": 351
   },
   {
     "id": "lumen",
@@ -3798,9 +4311,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lumen.com",
-    "createdAt": "2025-07-23T00:11:59.473Z",
+    "createdAt": "2025-06-26T14:45:54.483Z",
     "featured": false,
-    "views": 921
+    "views": 514
   },
   {
     "id": "lyft",
@@ -3817,9 +4330,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lyft.com",
-    "createdAt": "2025-07-22T00:11:59.473Z",
+    "createdAt": "2025-06-25T14:45:54.483Z",
     "featured": false,
-    "views": 761
+    "views": 939
   },
   {
     "id": "lyft",
@@ -3836,9 +4349,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lyft.com",
-    "createdAt": "2025-07-21T00:11:59.473Z",
+    "createdAt": "2025-06-24T14:45:54.483Z",
     "featured": false,
-    "views": 197
+    "views": 35
   },
   {
     "id": "magento",
@@ -3855,9 +4368,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://magento.com",
-    "createdAt": "2025-07-20T00:11:59.473Z",
+    "createdAt": "2025-06-23T14:45:54.483Z",
     "featured": false,
-    "views": 147
+    "views": 819
   },
   {
     "id": "mailchimp",
@@ -3874,9 +4387,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mailchimp.com",
-    "createdAt": "2025-07-19T00:11:59.473Z",
+    "createdAt": "2025-06-22T14:45:54.483Z",
     "featured": false,
-    "views": 423
+    "views": 833
   },
   {
     "id": "mailerlite",
@@ -3893,9 +4406,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mailerlite.com",
-    "createdAt": "2025-07-18T00:11:59.473Z",
+    "createdAt": "2025-06-21T14:45:54.483Z",
     "featured": false,
-    "views": 535
+    "views": 547
   },
   {
     "id": "mailgun",
@@ -3912,9 +4425,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mailgun.com",
-    "createdAt": "2025-07-17T00:11:59.473Z",
+    "createdAt": "2025-06-20T14:45:54.483Z",
     "featured": false,
-    "views": 512
+    "views": 539
   },
   {
     "id": "marriott",
@@ -3931,9 +4444,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://marriott.com",
-    "createdAt": "2025-07-16T00:11:59.473Z",
+    "createdAt": "2025-06-19T14:45:54.483Z",
     "featured": false,
-    "views": 682
+    "views": 444
   },
   {
     "id": "marvel",
@@ -3950,9 +4463,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://marvel.com",
-    "createdAt": "2025-07-15T00:11:59.473Z",
+    "createdAt": "2025-06-18T14:45:54.483Z",
     "featured": false,
-    "views": 49
+    "views": 34
   },
   {
     "id": "mcdonalds",
@@ -3969,9 +4482,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mcdonalds.com",
-    "createdAt": "2025-07-14T00:11:59.473Z",
+    "createdAt": "2025-06-17T14:45:54.483Z",
     "featured": false,
-    "views": 93
+    "views": 139
   },
   {
     "id": "mckesson",
@@ -3988,9 +4501,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mckesson.com",
-    "createdAt": "2025-07-13T00:11:59.473Z",
+    "createdAt": "2025-06-16T14:45:54.483Z",
     "featured": false,
-    "views": 95
+    "views": 338
   },
   {
     "id": "medium",
@@ -4007,9 +4520,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://medium.com",
-    "createdAt": "2025-07-12T00:11:59.473Z",
+    "createdAt": "2025-06-15T14:45:54.483Z",
     "featured": false,
-    "views": 92
+    "views": 348
+  },
+  {
+    "id": "mercedes",
+    "name": "Mercedes",
+    "slug": "mercedes",
+    "description": "Mercedes is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/mercedes.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://mercedes.com",
+    "createdAt": "2025-06-14T14:45:54.483Z",
+    "featured": false,
+    "views": 358
   },
   {
     "id": "merck",
@@ -4026,9 +4558,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://merck.com",
-    "createdAt": "2025-07-11T00:11:59.473Z",
+    "createdAt": "2025-06-13T14:45:54.483Z",
     "featured": false,
-    "views": 40
+    "views": 826
   },
   {
     "id": "meta-platforms",
@@ -4045,9 +4577,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://metaplatforms.com",
-    "createdAt": "2025-07-10T00:11:59.473Z",
+    "createdAt": "2025-06-12T14:45:54.483Z",
     "featured": false,
-    "views": 581
+    "views": 717
   },
   {
     "id": "meta",
@@ -4064,9 +4596,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://meta.com",
-    "createdAt": "2025-07-09T00:11:59.473Z",
+    "createdAt": "2025-06-11T14:45:54.483Z",
     "featured": false,
-    "views": 725
+    "views": 310
   },
   {
     "id": "micron",
@@ -4083,9 +4615,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://micron.com",
-    "createdAt": "2025-07-08T00:11:59.473Z",
+    "createdAt": "2025-06-10T14:45:54.483Z",
     "featured": false,
-    "views": 766
+    "views": 57
   },
   {
     "id": "microsoft",
@@ -4102,9 +4634,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://microsoft.com",
-    "createdAt": "2025-07-07T00:11:59.473Z",
+    "createdAt": "2025-06-09T14:45:54.483Z",
     "featured": false,
-    "views": 976
+    "views": 941
   },
   {
     "id": "mixpanel",
@@ -4121,9 +4653,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mixpanel.com",
-    "createdAt": "2025-07-06T00:11:59.473Z",
+    "createdAt": "2025-06-08T14:45:54.483Z",
     "featured": false,
-    "views": 184
+    "views": 516
+  },
+  {
+    "id": "moderna",
+    "name": "Moderna",
+    "slug": "moderna",
+    "description": "Moderna is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "healthcare",
+    "tags": [
+      "brand",
+      "logo",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/moderna.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://moderna.com",
+    "createdAt": "2025-06-07T14:45:54.483Z",
+    "featured": false,
+    "views": 160
   },
   {
     "id": "moengage",
@@ -4140,9 +4691,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://moengage.com",
-    "createdAt": "2025-07-05T00:11:59.473Z",
+    "createdAt": "2025-06-06T14:45:54.483Z",
     "featured": false,
-    "views": 70
+    "views": 824
   },
   {
     "id": "monday",
@@ -4159,9 +4710,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://monday.com",
-    "createdAt": "2025-07-04T00:11:59.473Z",
+    "createdAt": "2025-06-05T14:45:54.483Z",
     "featured": false,
-    "views": 410
+    "views": 167
   },
   {
     "id": "mondelez",
@@ -4178,9 +4729,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mondelez.com",
-    "createdAt": "2025-07-03T00:11:59.473Z",
+    "createdAt": "2025-06-04T14:45:54.483Z",
     "featured": false,
-    "views": 219
+    "views": 995
   },
   {
     "id": "mongodb",
@@ -4197,9 +4748,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mongodb.com",
-    "createdAt": "2025-07-02T00:11:59.473Z",
+    "createdAt": "2025-06-03T14:45:54.483Z",
     "featured": false,
-    "views": 918
+    "views": 999
   },
   {
     "id": "morgan-stanley",
@@ -4216,9 +4767,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://morganstanley.com",
-    "createdAt": "2025-07-01T00:11:59.473Z",
+    "createdAt": "2025-06-02T14:45:54.483Z",
     "featured": false,
-    "views": 8
+    "views": 872
   },
   {
     "id": "motorola",
@@ -4235,9 +4786,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://motorola.com",
-    "createdAt": "2025-06-30T00:11:59.473Z",
+    "createdAt": "2025-06-01T14:45:54.483Z",
     "featured": false,
-    "views": 999
+    "views": 331
   },
   {
     "id": "msi",
@@ -4254,9 +4805,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://msi.com",
-    "createdAt": "2025-06-29T00:11:59.473Z",
+    "createdAt": "2025-05-31T14:45:54.483Z",
     "featured": false,
-    "views": 64
+    "views": 59
   },
   {
     "id": "mysql",
@@ -4273,9 +4824,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mysql.com",
-    "createdAt": "2025-06-28T00:11:59.473Z",
+    "createdAt": "2025-05-30T14:45:54.483Z",
     "featured": false,
-    "views": 685
+    "views": 308
   },
   {
     "id": "n8n",
@@ -4292,9 +4843,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://n8n.com",
-    "createdAt": "2025-06-27T00:11:59.473Z",
+    "createdAt": "2025-05-29T14:45:54.483Z",
     "featured": false,
-    "views": 686
+    "views": 903
   },
   {
     "id": "namecheap",
@@ -4311,9 +4862,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://namecheap.com",
-    "createdAt": "2025-06-26T00:11:59.473Z",
+    "createdAt": "2025-05-28T14:45:54.483Z",
     "featured": false,
-    "views": 501
+    "views": 236
   },
   {
     "id": "narvar",
@@ -4330,9 +4881,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://narvar.com",
-    "createdAt": "2025-06-25T00:11:59.473Z",
+    "createdAt": "2025-05-27T14:45:54.483Z",
     "featured": false,
-    "views": 431
+    "views": 862
   },
   {
     "id": "nats",
@@ -4349,9 +4900,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nats.com",
-    "createdAt": "2025-06-24T00:11:59.473Z",
+    "createdAt": "2025-05-26T14:45:54.483Z",
     "featured": false,
-    "views": 984
+    "views": 137
   },
   {
     "id": "neo4j",
@@ -4368,9 +4919,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://neo4j.com",
-    "createdAt": "2025-06-23T00:11:59.473Z",
+    "createdAt": "2025-05-25T14:45:54.483Z",
     "featured": false,
-    "views": 607
+    "views": 917
   },
   {
     "id": "netflix",
@@ -4387,9 +4938,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://netflix.com",
-    "createdAt": "2025-06-22T00:11:59.473Z",
+    "createdAt": "2025-05-24T14:45:54.483Z",
     "featured": false,
-    "views": 297
+    "views": 915
   },
   {
     "id": "netlify",
@@ -4406,9 +4957,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://netlify.com",
-    "createdAt": "2025-06-21T00:11:59.473Z",
+    "createdAt": "2025-05-23T14:45:54.483Z",
     "featured": false,
-    "views": 478
+    "views": 764
   },
   {
     "id": "nike",
@@ -4425,9 +4976,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nike.com",
-    "createdAt": "2025-06-20T00:11:59.473Z",
+    "createdAt": "2025-05-22T14:45:54.483Z",
     "featured": false,
-    "views": 475
+    "views": 796
   },
   {
     "id": "nodejs",
@@ -4444,9 +4995,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nodejs.com",
-    "createdAt": "2025-06-19T00:11:59.473Z",
+    "createdAt": "2025-05-21T14:45:54.483Z",
     "featured": false,
-    "views": 497
+    "views": 966
   },
   {
     "id": "nordpass",
@@ -4463,9 +5014,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nordpass.com",
-    "createdAt": "2025-06-18T00:11:59.473Z",
+    "createdAt": "2025-05-20T14:45:54.483Z",
     "featured": false,
-    "views": 152
+    "views": 434
   },
   {
     "id": "nordstrom",
@@ -4482,9 +5033,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nordstrom.com",
-    "createdAt": "2025-06-17T00:11:59.473Z",
+    "createdAt": "2025-05-19T14:45:54.483Z",
     "featured": false,
-    "views": 708
+    "views": 617
   },
   {
     "id": "notion",
@@ -4501,9 +5052,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://notion.com",
-    "createdAt": "2025-06-16T00:11:59.473Z",
+    "createdAt": "2025-05-18T14:45:54.483Z",
     "featured": false,
-    "views": 310
+    "views": 656
   },
   {
     "id": "notion",
@@ -4520,9 +5071,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://notion.com",
-    "createdAt": "2025-06-15T00:11:59.473Z",
+    "createdAt": "2025-05-17T14:45:54.483Z",
     "featured": false,
-    "views": 879
+    "views": 679
   },
   {
     "id": "nova",
@@ -4539,9 +5090,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nova.com",
-    "createdAt": "2025-06-14T00:11:59.473Z",
+    "createdAt": "2025-05-16T14:45:54.483Z",
     "featured": false,
-    "views": 699
+    "views": 458
+  },
+  {
+    "id": "novartis",
+    "name": "Novartis",
+    "slug": "novartis",
+    "description": "Novartis is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "healthcare",
+    "tags": [
+      "brand",
+      "logo",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/novartis.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://novartis.com",
+    "createdAt": "2025-05-15T14:45:54.483Z",
+    "featured": false,
+    "views": 800
   },
   {
     "id": "nuxt",
@@ -4558,9 +5128,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nuxt.com",
-    "createdAt": "2025-06-13T00:11:59.473Z",
+    "createdAt": "2025-05-14T14:45:54.483Z",
     "featured": false,
-    "views": 593
+    "views": 136
   },
   {
     "id": "nvidia",
@@ -4577,9 +5147,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nvidia.com",
-    "createdAt": "2025-06-12T00:11:59.473Z",
+    "createdAt": "2025-05-13T14:45:54.483Z",
     "featured": false,
-    "views": 261
+    "views": 63
   },
   {
     "id": "okta",
@@ -4596,9 +5166,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://okta.com",
-    "createdAt": "2025-06-11T00:11:59.473Z",
+    "createdAt": "2025-05-12T14:45:54.483Z",
     "featured": false,
-    "views": 998
+    "views": 157
   },
   {
     "id": "okta",
@@ -4615,9 +5185,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://okta.com",
-    "createdAt": "2025-06-10T00:11:59.473Z",
+    "createdAt": "2025-05-11T14:45:54.483Z",
     "featured": false,
-    "views": 591
+    "views": 251
   },
   {
     "id": "onelogin",
@@ -4634,9 +5204,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://onelogin.com",
-    "createdAt": "2025-06-09T00:11:59.473Z",
+    "createdAt": "2025-05-10T14:45:54.483Z",
     "featured": false,
-    "views": 767
+    "views": 539
   },
   {
     "id": "opencart",
@@ -4653,9 +5223,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://opencart.com",
-    "createdAt": "2025-06-08T00:11:59.473Z",
+    "createdAt": "2025-05-09T14:45:54.483Z",
     "featured": false,
-    "views": 700
+    "views": 67
   },
   {
     "id": "opsgenie",
@@ -4672,9 +5242,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://opsgenie.com",
-    "createdAt": "2025-06-07T00:11:59.473Z",
+    "createdAt": "2025-05-08T14:45:54.483Z",
     "featured": false,
-    "views": 233
+    "views": 454
   },
   {
     "id": "optimizely",
@@ -4691,9 +5261,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://optimizely.com",
-    "createdAt": "2025-06-06T00:11:59.473Z",
+    "createdAt": "2025-05-07T14:45:54.483Z",
     "featured": false,
-    "views": 561
+    "views": 643
   },
   {
     "id": "optimonk",
@@ -4710,9 +5280,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://optimonk.com",
-    "createdAt": "2025-06-05T00:11:59.473Z",
+    "createdAt": "2025-05-06T14:45:54.483Z",
     "featured": false,
-    "views": 887
+    "views": 974
   },
   {
     "id": "oracle",
@@ -4729,9 +5299,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://oracle.com",
-    "createdAt": "2025-06-04T00:11:59.473Z",
+    "createdAt": "2025-05-05T14:45:54.483Z",
     "featured": false,
-    "views": 678
+    "views": 410
   },
   {
     "id": "ordoro",
@@ -4748,9 +5318,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ordoro.com",
-    "createdAt": "2025-06-03T00:11:59.473Z",
+    "createdAt": "2025-05-04T14:45:54.483Z",
     "featured": false,
-    "views": 541
+    "views": 906
   },
   {
     "id": "oreilly",
@@ -4767,9 +5337,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://oreilly.com",
-    "createdAt": "2025-06-02T00:11:59.473Z",
+    "createdAt": "2025-05-03T14:45:54.483Z",
     "featured": false,
-    "views": 66
+    "views": 655
   },
   {
     "id": "overflow",
@@ -4786,9 +5356,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://overflow.com",
-    "createdAt": "2025-06-01T00:11:59.473Z",
+    "createdAt": "2025-05-02T14:45:54.483Z",
     "featured": false,
-    "views": 940
+    "views": 220
   },
   {
     "id": "paccar",
@@ -4805,9 +5375,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paccar.com",
-    "createdAt": "2025-05-31T00:11:59.473Z",
+    "createdAt": "2025-05-01T14:45:54.483Z",
     "featured": false,
-    "views": 784
+    "views": 48
   },
   {
     "id": "pagerduty",
@@ -4824,9 +5394,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pagerduty.com",
-    "createdAt": "2025-05-30T00:11:59.473Z",
+    "createdAt": "2025-04-30T14:45:54.483Z",
     "featured": false,
-    "views": 781
+    "views": 93
   },
   {
     "id": "palantir",
@@ -4843,9 +5413,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://palantir.com",
-    "createdAt": "2025-05-29T00:11:59.473Z",
+    "createdAt": "2025-04-29T14:45:54.483Z",
     "featured": false,
-    "views": 786
+    "views": 313
   },
   {
     "id": "palette-planet-icon",
@@ -4862,9 +5432,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paletteplaneticon.com",
-    "createdAt": "2025-05-28T00:11:59.473Z",
+    "createdAt": "2025-04-28T14:45:54.483Z",
     "featured": false,
-    "views": 390
+    "views": 580
   },
   {
     "id": "palette-planet-logo-light",
@@ -4881,9 +5451,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paletteplanetlogolight.com",
-    "createdAt": "2025-05-27T00:11:59.473Z",
+    "createdAt": "2025-04-27T14:45:54.483Z",
     "featured": false,
-    "views": 165
+    "views": 980
   },
   {
     "id": "palette-planet-logo",
@@ -4900,9 +5470,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paletteplanetlogo.com",
-    "createdAt": "2025-05-26T00:11:59.473Z",
+    "createdAt": "2025-04-26T14:45:54.483Z",
     "featured": false,
-    "views": 926
+    "views": 243
+  },
+  {
+    "id": "paramount",
+    "name": "Paramount",
+    "slug": "paramount",
+    "description": "Paramount is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "entertainment",
+    "tags": [
+      "brand",
+      "logo",
+      "entertainment"
+    ],
+    "logoUrl": "/logos/paramount.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://paramount.com",
+    "createdAt": "2025-04-25T14:45:54.483Z",
+    "featured": false,
+    "views": 469
   },
   {
     "id": "paypal",
@@ -4919,9 +5508,47 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paypal.com",
-    "createdAt": "2025-05-25T00:11:59.473Z",
+    "createdAt": "2025-04-24T14:45:54.483Z",
     "featured": false,
-    "views": 335
+    "views": 913
+  },
+  {
+    "id": "peacock",
+    "name": "Peacock",
+    "slug": "peacock",
+    "description": "Peacock is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/peacock.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://peacock.com",
+    "createdAt": "2025-04-23T14:45:54.483Z",
+    "featured": false,
+    "views": 936
+  },
+  {
+    "id": "pepsi",
+    "name": "Pepsi",
+    "slug": "pepsi",
+    "description": "Pepsi is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "food-beverage",
+    "tags": [
+      "brand",
+      "logo",
+      "food-beverage"
+    ],
+    "logoUrl": "/logos/pepsi.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://pepsi.com",
+    "createdAt": "2025-04-22T14:45:54.483Z",
+    "featured": false,
+    "views": 995
   },
   {
     "id": "pepsico",
@@ -4938,9 +5565,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pepsico.com",
-    "createdAt": "2025-05-24T00:11:59.473Z",
+    "createdAt": "2025-04-21T14:45:54.483Z",
     "featured": false,
-    "views": 359
+    "views": 960
   },
   {
     "id": "pfizer",
@@ -4957,9 +5584,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pfizer.com",
-    "createdAt": "2025-05-23T00:11:59.473Z",
+    "createdAt": "2025-04-20T14:45:54.483Z",
     "featured": false,
-    "views": 237
+    "views": 972
   },
   {
     "id": "photoshop",
@@ -4976,9 +5603,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://photoshop.com",
-    "createdAt": "2025-05-22T00:11:59.473Z",
+    "createdAt": "2025-04-19T14:45:54.483Z",
     "featured": false,
-    "views": 355
+    "views": 356
   },
   {
     "id": "pinterest",
@@ -4995,9 +5622,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pinterest.com",
-    "createdAt": "2025-05-21T00:11:59.473Z",
+    "createdAt": "2025-04-18T14:45:54.483Z",
     "featured": false,
-    "views": 461
+    "views": 743
   },
   {
     "id": "plaid",
@@ -5014,9 +5641,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://plaid.com",
-    "createdAt": "2025-05-20T00:11:59.473Z",
+    "createdAt": "2025-04-17T14:45:54.483Z",
     "featured": false,
-    "views": 305
+    "views": 43
   },
   {
     "id": "plausible",
@@ -5033,9 +5660,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://plausible.com",
-    "createdAt": "2025-05-19T00:11:59.473Z",
+    "createdAt": "2025-04-16T14:45:54.483Z",
     "featured": false,
-    "views": 857
+    "views": 764
+  },
+  {
+    "id": "porsche",
+    "name": "Porsche",
+    "slug": "porsche",
+    "description": "Porsche is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/porsche.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://porsche.com",
+    "createdAt": "2025-04-15T14:45:54.483Z",
+    "featured": false,
+    "views": 955
   },
   {
     "id": "postgres",
@@ -5052,9 +5698,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://postgres.com",
-    "createdAt": "2025-05-18T00:11:59.473Z",
+    "createdAt": "2025-04-14T14:45:54.483Z",
     "featured": false,
-    "views": 49
+    "views": 272
   },
   {
     "id": "posthog",
@@ -5071,9 +5717,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://posthog.com",
-    "createdAt": "2025-05-17T00:11:59.473Z",
+    "createdAt": "2025-04-13T14:45:54.483Z",
     "featured": false,
-    "views": 383
+    "views": 101
   },
   {
     "id": "postman",
@@ -5090,9 +5736,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://postman.com",
-    "createdAt": "2025-05-16T00:11:59.473Z",
+    "createdAt": "2025-04-12T14:45:54.483Z",
     "featured": false,
-    "views": 1
+    "views": 511
   },
   {
     "id": "postscript",
@@ -5109,9 +5755,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://postscript.com",
-    "createdAt": "2025-05-15T00:11:59.473Z",
+    "createdAt": "2025-04-11T14:45:54.483Z",
     "featured": false,
-    "views": 612
+    "views": 967
   },
   {
     "id": "powerbi",
@@ -5128,9 +5774,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://powerbi.com",
-    "createdAt": "2025-05-14T00:11:59.473Z",
+    "createdAt": "2025-04-10T14:45:54.483Z",
     "featured": false,
-    "views": 765
+    "views": 853
   },
   {
     "id": "preact",
@@ -5147,9 +5793,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://preact.com",
-    "createdAt": "2025-05-13T00:11:59.473Z",
+    "createdAt": "2025-04-09T14:45:54.483Z",
     "featured": false,
-    "views": 799
+    "views": 994
   },
   {
     "id": "premiere",
@@ -5166,9 +5812,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://premiere.com",
-    "createdAt": "2025-05-12T00:11:59.473Z",
+    "createdAt": "2025-04-08T14:45:54.483Z",
     "featured": false,
-    "views": 407
+    "views": 826
   },
   {
     "id": "prestashop",
@@ -5185,9 +5831,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://prestashop.com",
-    "createdAt": "2025-05-11T00:11:59.473Z",
+    "createdAt": "2025-04-07T14:45:54.483Z",
     "featured": false,
-    "views": 434
+    "views": 644
   },
   {
     "id": "presto",
@@ -5204,9 +5850,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://presto.com",
-    "createdAt": "2025-05-10T00:11:59.473Z",
+    "createdAt": "2025-04-06T14:45:54.483Z",
     "featured": false,
-    "views": 559
+    "views": 959
   },
   {
     "id": "prettier",
@@ -5223,9 +5869,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://prettier.com",
-    "createdAt": "2025-05-09T00:11:59.473Z",
+    "createdAt": "2025-04-05T14:45:54.483Z",
     "featured": false,
-    "views": 834
+    "views": 640
   },
   {
     "id": "privy",
@@ -5242,9 +5888,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://privy.com",
-    "createdAt": "2025-05-08T00:11:59.473Z",
+    "createdAt": "2025-04-04T14:45:54.483Z",
     "featured": false,
-    "views": 847
+    "views": 516
   },
   {
     "id": "procter-gamble",
@@ -5261,9 +5907,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://proctergamble.com",
-    "createdAt": "2025-05-07T00:11:59.473Z",
+    "createdAt": "2025-04-03T14:45:54.483Z",
     "featured": false,
-    "views": 687
+    "views": 132
   },
   {
     "id": "prometheus",
@@ -5280,9 +5926,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://prometheus.com",
-    "createdAt": "2025-05-06T00:11:59.473Z",
+    "createdAt": "2025-04-02T14:45:54.483Z",
     "featured": false,
-    "views": 289
+    "views": 785
   },
   {
     "id": "protopie",
@@ -5299,9 +5945,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://protopie.com",
-    "createdAt": "2025-05-05T00:11:59.473Z",
+    "createdAt": "2025-04-01T14:45:54.483Z",
     "featured": false,
-    "views": 141
+    "views": 985
   },
   {
     "id": "pulse",
@@ -5318,9 +5964,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pulse.com",
-    "createdAt": "2025-05-04T00:11:59.473Z",
+    "createdAt": "2025-03-31T14:45:54.483Z",
     "featured": false,
-    "views": 836
+    "views": 935
+  },
+  {
+    "id": "puma",
+    "name": "Puma",
+    "slug": "puma",
+    "description": "Puma is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/puma.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://puma.com",
+    "createdAt": "2025-03-30T14:45:54.483Z",
+    "featured": false,
+    "views": 803
   },
   {
     "id": "puppet",
@@ -5337,9 +6002,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://puppet.com",
-    "createdAt": "2025-05-03T00:11:59.473Z",
+    "createdAt": "2025-03-29T14:45:54.483Z",
     "featured": false,
-    "views": 946
+    "views": 382
   },
   {
     "id": "python",
@@ -5356,9 +6021,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://python.com",
-    "createdAt": "2025-05-02T00:11:59.473Z",
+    "createdAt": "2025-03-28T14:45:54.483Z",
     "featured": false,
-    "views": 658
+    "views": 990
   },
   {
     "id": "qlik",
@@ -5375,9 +6040,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://qlik.com",
-    "createdAt": "2025-05-01T00:11:59.473Z",
+    "createdAt": "2025-03-27T14:45:54.483Z",
     "featured": false,
-    "views": 878
+    "views": 352
   },
   {
     "id": "qualcomm",
@@ -5394,9 +6059,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://qualcomm.com",
-    "createdAt": "2025-04-30T00:11:59.473Z",
+    "createdAt": "2025-03-26T14:45:54.483Z",
     "featured": false,
-    "views": 518
+    "views": 642
   },
   {
     "id": "railway",
@@ -5413,9 +6078,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://railway.com",
-    "createdAt": "2025-04-29T00:11:59.473Z",
+    "createdAt": "2025-03-25T14:45:54.483Z",
     "featured": false,
-    "views": 154
+    "views": 449
   },
   {
     "id": "razer",
@@ -5432,9 +6097,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://razer.com",
-    "createdAt": "2025-04-28T00:11:59.473Z",
+    "createdAt": "2025-03-24T14:45:54.483Z",
     "featured": false,
-    "views": 225
+    "views": 878
   },
   {
     "id": "react",
@@ -5451,9 +6116,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://react.com",
-    "createdAt": "2025-04-27T00:11:59.473Z",
+    "createdAt": "2025-03-23T14:45:54.483Z",
     "featured": false,
-    "views": 733
+    "views": 282
   },
   {
     "id": "recart",
@@ -5470,9 +6135,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://recart.com",
-    "createdAt": "2025-04-26T00:11:59.473Z",
+    "createdAt": "2025-03-22T14:45:54.483Z",
     "featured": false,
-    "views": 300
+    "views": 58
   },
   {
     "id": "reddit",
@@ -5489,9 +6154,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://reddit.com",
-    "createdAt": "2025-04-25T00:11:59.473Z",
+    "createdAt": "2025-03-21T14:45:54.483Z",
     "featured": false,
-    "views": 665
+    "views": 551
   },
   {
     "id": "redis",
@@ -5508,9 +6173,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://redis.com",
-    "createdAt": "2025-04-24T00:11:59.473Z",
+    "createdAt": "2025-03-20T14:45:54.483Z",
     "featured": false,
-    "views": 576
+    "views": 662
   },
   {
     "id": "redshift",
@@ -5527,9 +6192,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://redshift.com",
-    "createdAt": "2025-04-23T00:11:59.473Z",
+    "createdAt": "2025-03-19T14:45:54.483Z",
     "featured": false,
-    "views": 606
+    "views": 34
   },
   {
     "id": "render",
@@ -5546,9 +6211,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://render.com",
-    "createdAt": "2025-04-22T00:11:59.473Z",
+    "createdAt": "2025-03-18T14:45:54.483Z",
     "featured": false,
-    "views": 369
+    "views": 966
   },
   {
     "id": "retool",
@@ -5565,9 +6230,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://retool.com",
-    "createdAt": "2025-04-21T00:11:59.473Z",
+    "createdAt": "2025-03-17T14:45:54.483Z",
     "featured": false,
-    "views": 705
+    "views": 835
   },
   {
     "id": "robinhood",
@@ -5584,9 +6249,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://robinhood.com",
-    "createdAt": "2025-04-20T00:11:59.473Z",
+    "createdAt": "2025-03-16T14:45:54.483Z",
     "featured": false,
-    "views": 902
+    "views": 691
+  },
+  {
+    "id": "roche",
+    "name": "Roche",
+    "slug": "roche",
+    "description": "Roche is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "healthcare",
+    "tags": [
+      "brand",
+      "logo",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/roche.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://roche.com",
+    "createdAt": "2025-03-15T14:45:54.483Z",
+    "featured": false,
+    "views": 877
   },
   {
     "id": "rockset",
@@ -5603,9 +6287,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rockset.com",
-    "createdAt": "2025-04-19T00:11:59.473Z",
+    "createdAt": "2025-03-14T14:45:54.483Z",
     "featured": false,
-    "views": 950
+    "views": 385
   },
   {
     "id": "roku",
@@ -5622,9 +6306,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://roku.com",
-    "createdAt": "2025-04-18T00:11:59.473Z",
+    "createdAt": "2025-03-13T14:45:54.483Z",
     "featured": false,
-    "views": 354
+    "views": 74
   },
   {
     "id": "rollbar",
@@ -5641,9 +6325,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rollbar.com",
-    "createdAt": "2025-04-17T00:11:59.473Z",
+    "createdAt": "2025-03-12T14:45:54.483Z",
     "featured": false,
-    "views": 928
+    "views": 439
   },
   {
     "id": "ross",
@@ -5660,9 +6344,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ross.com",
-    "createdAt": "2025-04-16T00:11:59.473Z",
+    "createdAt": "2025-03-11T14:45:54.483Z",
     "featured": false,
-    "views": 336
+    "views": 219
   },
   {
     "id": "rust",
@@ -5679,9 +6363,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rust.com",
-    "createdAt": "2025-04-15T00:11:59.473Z",
+    "createdAt": "2025-03-10T14:45:54.483Z",
     "featured": false,
-    "views": 160
+    "views": 546
   },
   {
     "id": "sable",
@@ -5698,9 +6382,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sable.com",
-    "createdAt": "2025-04-14T00:11:59.473Z",
+    "createdAt": "2025-03-09T14:45:54.483Z",
     "featured": false,
-    "views": 412
+    "views": 60
   },
   {
     "id": "salesforce",
@@ -5717,9 +6401,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://salesforce.com",
-    "createdAt": "2025-04-13T00:11:59.473Z",
+    "createdAt": "2025-03-08T14:45:54.483Z",
     "featured": false,
-    "views": 324
+    "views": 404
   },
   {
     "id": "saltstack",
@@ -5736,9 +6420,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://saltstack.com",
-    "createdAt": "2025-04-12T00:11:59.473Z",
+    "createdAt": "2025-03-07T14:45:54.483Z",
     "featured": false,
-    "views": 773
+    "views": 700
   },
   {
     "id": "scaleway",
@@ -5755,9 +6439,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://scaleway.com",
-    "createdAt": "2025-04-11T00:11:59.473Z",
+    "createdAt": "2025-03-06T14:45:54.483Z",
     "featured": false,
-    "views": 991
+    "views": 801
   },
   {
     "id": "seagate",
@@ -5774,9 +6458,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://seagate.com",
-    "createdAt": "2025-04-10T00:11:59.473Z",
+    "createdAt": "2025-03-05T14:45:54.483Z",
     "featured": false,
-    "views": 156
+    "views": 610
   },
   {
     "id": "segment",
@@ -5793,9 +6477,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://segment.com",
-    "createdAt": "2025-04-09T00:11:59.473Z",
+    "createdAt": "2025-03-04T14:45:54.483Z",
     "featured": false,
-    "views": 577
+    "views": 304
   },
   {
     "id": "sendcloud",
@@ -5812,9 +6496,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sendcloud.com",
-    "createdAt": "2025-04-08T00:11:59.473Z",
+    "createdAt": "2025-03-03T14:45:54.483Z",
     "featured": false,
-    "views": 589
+    "views": 14
   },
   {
     "id": "sendgrid",
@@ -5831,9 +6515,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sendgrid.com",
-    "createdAt": "2025-04-07T00:11:59.473Z",
+    "createdAt": "2025-03-02T14:45:54.483Z",
     "featured": false,
-    "views": 395
+    "views": 776
   },
   {
     "id": "sentry",
@@ -5850,9 +6534,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sentry.com",
-    "createdAt": "2025-04-06T00:11:59.473Z",
+    "createdAt": "2025-03-01T14:45:54.483Z",
     "featured": false,
-    "views": 754
+    "views": 21
+  },
+  {
+    "id": "shell",
+    "name": "Shell",
+    "slug": "shell",
+    "description": "Shell is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "energy",
+    "tags": [
+      "brand",
+      "logo",
+      "energy"
+    ],
+    "logoUrl": "/logos/shell.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://shell.com",
+    "createdAt": "2025-02-28T14:45:54.483Z",
+    "featured": false,
+    "views": 576
   },
   {
     "id": "sherwin-williams",
@@ -5869,9 +6572,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sherwinwilliams.com",
-    "createdAt": "2025-04-05T00:11:59.473Z",
+    "createdAt": "2025-02-27T14:45:54.483Z",
     "featured": false,
-    "views": 265
+    "views": 72
   },
   {
     "id": "shippo",
@@ -5888,9 +6591,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shippo.com",
-    "createdAt": "2025-04-04T00:11:59.473Z",
+    "createdAt": "2025-02-26T14:45:54.483Z",
     "featured": false,
-    "views": 398
+    "views": 238
   },
   {
     "id": "shipstation",
@@ -5907,9 +6610,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shipstation.com",
-    "createdAt": "2025-04-03T00:11:59.473Z",
+    "createdAt": "2025-02-25T14:45:54.483Z",
     "featured": false,
-    "views": 31
+    "views": 663
   },
   {
     "id": "shopify",
@@ -5926,9 +6629,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shopify.com",
-    "createdAt": "2025-04-02T00:11:59.473Z",
+    "createdAt": "2025-02-24T14:45:54.483Z",
     "featured": false,
-    "views": 874
+    "views": 937
   },
   {
     "id": "shopify",
@@ -5945,9 +6648,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shopify.com",
-    "createdAt": "2025-04-01T00:11:59.473Z",
+    "createdAt": "2025-02-23T14:45:54.483Z",
     "featured": false,
-    "views": 904
+    "views": 887
   },
   {
     "id": "simple-analytics",
@@ -5964,9 +6667,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://simpleanalytics.com",
-    "createdAt": "2025-03-31T00:11:59.473Z",
+    "createdAt": "2025-02-22T14:45:54.483Z",
     "featured": false,
-    "views": 119
+    "views": 857
   },
   {
     "id": "sisense",
@@ -5983,9 +6686,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sisense.com",
-    "createdAt": "2025-03-30T00:11:59.473Z",
+    "createdAt": "2025-02-21T14:45:54.483Z",
     "featured": false,
-    "views": 445
+    "views": 329
   },
   {
     "id": "sketch",
@@ -6002,9 +6705,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sketch.com",
-    "createdAt": "2025-03-29T00:11:59.473Z",
+    "createdAt": "2025-02-20T14:45:54.483Z",
     "featured": false,
-    "views": 591
+    "views": 406
   },
   {
     "id": "skylane",
@@ -6021,9 +6724,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://skylane.com",
-    "createdAt": "2025-03-28T00:11:59.473Z",
+    "createdAt": "2025-02-19T14:45:54.483Z",
     "featured": false,
-    "views": 878
+    "views": 460
   },
   {
     "id": "slack",
@@ -6040,9 +6743,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://slack.com",
-    "createdAt": "2025-03-27T00:11:59.473Z",
+    "createdAt": "2025-02-18T14:45:54.483Z",
     "featured": false,
-    "views": 918
+    "views": 388
   },
   {
     "id": "slack",
@@ -6059,9 +6762,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://slack.com",
-    "createdAt": "2025-03-26T00:11:59.473Z",
+    "createdAt": "2025-02-17T14:45:54.483Z",
     "featured": false,
-    "views": 369
+    "views": 189
   },
   {
     "id": "smsbump",
@@ -6078,9 +6781,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://smsbump.com",
-    "createdAt": "2025-03-25T00:11:59.473Z",
+    "createdAt": "2025-02-16T14:45:54.483Z",
     "featured": false,
-    "views": 493
+    "views": 64
   },
   {
     "id": "snap",
@@ -6097,9 +6800,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://snap.com",
-    "createdAt": "2025-03-24T00:11:59.473Z",
+    "createdAt": "2025-02-15T14:45:54.483Z",
     "featured": false,
-    "views": 842
+    "views": 182
+  },
+  {
+    "id": "snapchat",
+    "name": "Snapchat",
+    "slug": "snapchat",
+    "description": "Snapchat is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/snapchat.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://snapchat.com",
+    "createdAt": "2025-02-14T14:45:54.483Z",
+    "featured": false,
+    "views": 593
   },
   {
     "id": "snowflake",
@@ -6116,9 +6838,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://snowflake.com",
-    "createdAt": "2025-03-23T00:11:59.473Z",
+    "createdAt": "2025-02-13T14:45:54.483Z",
     "featured": false,
-    "views": 703
+    "views": 507
   },
   {
     "id": "snowflake",
@@ -6135,9 +6857,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://snowflake.com",
-    "createdAt": "2025-03-22T00:11:59.473Z",
+    "createdAt": "2025-02-12T14:45:54.483Z",
     "featured": false,
-    "views": 825
+    "views": 326
   },
   {
     "id": "solid",
@@ -6154,9 +6876,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://solid.com",
-    "createdAt": "2025-03-21T00:11:59.473Z",
+    "createdAt": "2025-02-11T14:45:54.483Z",
     "featured": false,
-    "views": 46
+    "views": 807
   },
   {
     "id": "sonos",
@@ -6173,9 +6895,47 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sonos.com",
-    "createdAt": "2025-03-20T00:11:59.473Z",
+    "createdAt": "2025-02-10T14:45:54.483Z",
     "featured": false,
-    "views": 219
+    "views": 834
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "slug": "sony",
+    "description": "Sony is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "entertainment",
+    "tags": [
+      "brand",
+      "logo",
+      "entertainment"
+    ],
+    "logoUrl": "/logos/sony.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://sony.com",
+    "createdAt": "2025-02-09T14:45:54.483Z",
+    "featured": false,
+    "views": 23
+  },
+  {
+    "id": "southwest",
+    "name": "Southwest",
+    "slug": "southwest",
+    "description": "Southwest is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/southwest.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://southwest.com",
+    "createdAt": "2025-02-08T14:45:54.483Z",
+    "featured": false,
+    "views": 705
   },
   {
     "id": "splunk",
@@ -6192,9 +6952,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://splunk.com",
-    "createdAt": "2025-03-19T00:11:59.473Z",
+    "createdAt": "2025-02-07T14:45:54.483Z",
     "featured": false,
-    "views": 522
+    "views": 579
   },
   {
     "id": "spotify",
@@ -6211,9 +6971,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://spotify.com",
-    "createdAt": "2025-03-18T00:11:59.473Z",
+    "createdAt": "2025-02-06T14:45:54.483Z",
     "featured": false,
-    "views": 947
+    "views": 857
   },
   {
     "id": "spotify",
@@ -6230,9 +6990,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://spotify.com",
-    "createdAt": "2025-03-17T00:11:59.473Z",
+    "createdAt": "2025-02-05T14:45:54.483Z",
     "featured": false,
-    "views": 234
+    "views": 816
   },
   {
     "id": "sprout-social",
@@ -6249,9 +7009,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sproutsocial.com",
-    "createdAt": "2025-03-16T00:11:59.474Z",
+    "createdAt": "2025-02-04T14:45:54.483Z",
     "featured": false,
-    "views": 84
+    "views": 963
   },
   {
     "id": "square",
@@ -6268,9 +7028,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://square.com",
-    "createdAt": "2025-03-15T00:11:59.474Z",
+    "createdAt": "2025-02-03T14:45:54.483Z",
     "featured": false,
-    "views": 782
+    "views": 566
   },
   {
     "id": "square",
@@ -6287,9 +7047,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://square.com",
-    "createdAt": "2025-03-14T00:11:59.474Z",
+    "createdAt": "2025-02-02T14:45:54.483Z",
     "featured": false,
-    "views": 299
+    "views": 650
   },
   {
     "id": "starbucks",
@@ -6306,9 +7066,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://starbucks.com",
-    "createdAt": "2025-03-13T00:11:59.474Z",
+    "createdAt": "2025-02-01T14:45:54.483Z",
     "featured": false,
-    "views": 742
+    "views": 292
   },
   {
     "id": "starburst",
@@ -6325,9 +7085,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://starburst.com",
-    "createdAt": "2025-03-12T00:11:59.474Z",
+    "createdAt": "2025-01-31T14:45:54.483Z",
     "featured": false,
-    "views": 582
+    "views": 220
   },
   {
     "id": "stripe",
@@ -6344,9 +7104,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://stripe.com",
-    "createdAt": "2025-03-11T00:11:59.474Z",
+    "createdAt": "2025-01-30T14:45:54.483Z",
     "featured": false,
-    "views": 869
+    "views": 229
   },
   {
     "id": "stripe",
@@ -6363,9 +7123,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://stripe.com",
-    "createdAt": "2025-03-10T00:11:59.474Z",
+    "createdAt": "2025-01-29T14:45:54.483Z",
     "featured": false,
-    "views": 759
+    "views": 76
   },
   {
     "id": "substack",
@@ -6382,9 +7142,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://substack.com",
-    "createdAt": "2025-03-09T00:11:59.474Z",
+    "createdAt": "2025-01-28T14:45:54.483Z",
     "featured": false,
-    "views": 615
+    "views": 910
   },
   {
     "id": "sumo-logic",
@@ -6401,9 +7161,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sumologic.com",
-    "createdAt": "2025-03-08T00:11:59.474Z",
+    "createdAt": "2025-01-27T14:45:54.483Z",
     "featured": false,
-    "views": 297
+    "views": 706
   },
   {
     "id": "supabase",
@@ -6420,9 +7180,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://supabase.com",
-    "createdAt": "2025-03-07T00:11:59.474Z",
+    "createdAt": "2025-01-26T14:45:54.483Z",
     "featured": false,
-    "views": 261
+    "views": 188
   },
   {
     "id": "svelte",
@@ -6439,9 +7199,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://svelte.com",
-    "createdAt": "2025-03-06T00:11:59.474Z",
+    "createdAt": "2025-01-25T14:45:54.483Z",
     "featured": false,
-    "views": 577
+    "views": 779
   },
   {
     "id": "swagger",
@@ -6458,9 +7218,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://swagger.com",
-    "createdAt": "2025-03-05T00:11:59.474Z",
+    "createdAt": "2025-01-24T14:45:54.483Z",
     "featured": false,
-    "views": 515
+    "views": 845
   },
   {
     "id": "swift",
@@ -6477,9 +7237,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://swift.com",
-    "createdAt": "2025-03-04T00:11:59.474Z",
+    "createdAt": "2025-01-23T14:45:54.483Z",
     "featured": false,
-    "views": 347
+    "views": 707
   },
   {
     "id": "synapse",
@@ -6496,9 +7256,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://synapse.com",
-    "createdAt": "2025-03-03T00:11:59.474Z",
+    "createdAt": "2025-01-22T14:45:54.483Z",
     "featured": false,
-    "views": 468
+    "views": 519
   },
   {
     "id": "sysco",
@@ -6515,9 +7275,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sysco.com",
-    "createdAt": "2025-03-02T00:11:59.474Z",
+    "createdAt": "2025-01-21T14:45:54.483Z",
     "featured": false,
-    "views": 697
+    "views": 667
+  },
+  {
+    "id": "t-mobile",
+    "name": "T Mobile",
+    "slug": "t-mobile",
+    "description": "T Mobile is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/t-mobile.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://tmobile.com",
+    "createdAt": "2025-01-20T14:45:54.483Z",
+    "featured": false,
+    "views": 393
   },
   {
     "id": "tableau",
@@ -6534,9 +7313,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tableau.com",
-    "createdAt": "2025-03-01T00:11:59.474Z",
+    "createdAt": "2025-01-19T14:45:54.483Z",
     "featured": false,
-    "views": 910
+    "views": 484
   },
   {
     "id": "target",
@@ -6553,9 +7332,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://target.com",
-    "createdAt": "2025-02-28T00:11:59.474Z",
+    "createdAt": "2025-01-18T14:45:54.483Z",
     "featured": false,
-    "views": 423
+    "views": 934
   },
   {
     "id": "terraform",
@@ -6572,9 +7351,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://terraform.com",
-    "createdAt": "2025-02-27T00:11:59.474Z",
+    "createdAt": "2025-01-17T14:45:54.484Z",
     "featured": false,
-    "views": 801
+    "views": 81
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "slug": "tesla",
+    "description": "Tesla is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/tesla.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://tesla.com",
+    "createdAt": "2025-01-16T14:45:54.484Z",
+    "featured": false,
+    "views": 840
   },
   {
     "id": "texas-instruments",
@@ -6591,9 +7389,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://texasinstruments.com",
-    "createdAt": "2025-02-26T00:11:59.474Z",
+    "createdAt": "2025-01-15T14:45:54.484Z",
     "featured": false,
-    "views": 80
+    "views": 145
   },
   {
     "id": "thread",
@@ -6610,9 +7408,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://thread.com",
-    "createdAt": "2025-02-25T00:11:59.474Z",
+    "createdAt": "2025-01-14T14:45:54.484Z",
     "featured": false,
-    "views": 437
+    "views": 673
+  },
+  {
+    "id": "tiktok",
+    "name": "Tiktok",
+    "slug": "tiktok",
+    "description": "Tiktok is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/tiktok.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://tiktok.com",
+    "createdAt": "2025-01-13T14:45:54.484Z",
+    "featured": false,
+    "views": 782
   },
   {
     "id": "tjx",
@@ -6629,9 +7446,47 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tjx.com",
-    "createdAt": "2025-02-24T00:11:59.474Z",
+    "createdAt": "2025-01-12T14:45:54.484Z",
     "featured": false,
-    "views": 363
+    "views": 937
+  },
+  {
+    "id": "total",
+    "name": "Total",
+    "slug": "total",
+    "description": "Total is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/total.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://total.com",
+    "createdAt": "2025-01-11T14:45:54.484Z",
+    "featured": false,
+    "views": 358
+  },
+  {
+    "id": "toyota",
+    "name": "Toyota",
+    "slug": "toyota",
+    "description": "Toyota is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/toyota.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://toyota.com",
+    "createdAt": "2025-01-10T14:45:54.484Z",
+    "featured": false,
+    "views": 387
   },
   {
     "id": "travis-ci",
@@ -6648,9 +7503,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://travisci.com",
-    "createdAt": "2025-02-23T00:11:59.474Z",
+    "createdAt": "2025-01-09T14:45:54.484Z",
     "featured": false,
-    "views": 613
+    "views": 949
   },
   {
     "id": "trello",
@@ -6667,9 +7522,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://trello.com",
-    "createdAt": "2025-02-22T00:11:59.474Z",
+    "createdAt": "2025-01-08T14:45:54.484Z",
     "featured": false,
-    "views": 651
+    "views": 188
   },
   {
     "id": "twilio",
@@ -6686,9 +7541,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twilio.com",
-    "createdAt": "2025-02-21T00:11:59.474Z",
+    "createdAt": "2025-01-07T14:45:54.484Z",
     "featured": false,
-    "views": 751
+    "views": 519
   },
   {
     "id": "twilio",
@@ -6705,9 +7560,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twilio.com",
-    "createdAt": "2025-02-20T00:11:59.474Z",
+    "createdAt": "2025-01-06T14:45:54.484Z",
     "featured": false,
-    "views": 222
+    "views": 669
   },
   {
     "id": "twitch",
@@ -6724,9 +7579,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twitch.com",
-    "createdAt": "2025-02-19T00:11:59.474Z",
+    "createdAt": "2025-01-05T14:45:54.484Z",
     "featured": false,
-    "views": 277
+    "views": 776
   },
   {
     "id": "twitter",
@@ -6743,9 +7598,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twitter.com",
-    "createdAt": "2025-02-18T00:11:59.474Z",
+    "createdAt": "2025-01-04T14:45:54.484Z",
     "featured": false,
-    "views": 753
+    "views": 35
   },
   {
     "id": "tyson",
@@ -6762,9 +7617,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tyson.com",
-    "createdAt": "2025-02-17T00:11:59.474Z",
+    "createdAt": "2025-01-03T14:45:54.484Z",
     "featured": false,
-    "views": 266
+    "views": 231
   },
   {
     "id": "uber",
@@ -6781,9 +7636,66 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://uber.com",
-    "createdAt": "2025-02-16T00:11:59.474Z",
+    "createdAt": "2025-01-02T14:45:54.484Z",
     "featured": false,
-    "views": 367
+    "views": 20
+  },
+  {
+    "id": "under-armour",
+    "name": "Under Armour",
+    "slug": "under-armour",
+    "description": "Under Armour is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/under-armour.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://underarmour.com",
+    "createdAt": "2025-01-01T14:45:54.484Z",
+    "featured": false,
+    "views": 205
+  },
+  {
+    "id": "united-airlines",
+    "name": "United Airlines",
+    "slug": "united-airlines",
+    "description": "United Airlines is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "healthcare",
+    "tags": [
+      "brand",
+      "logo",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/united-airlines.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://unitedairlines.com",
+    "createdAt": "2024-12-31T14:45:54.484Z",
+    "featured": false,
+    "views": 990
+  },
+  {
+    "id": "united-healthcare",
+    "name": "United Healthcare",
+    "slug": "united-healthcare",
+    "description": "United Healthcare is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "healthcare",
+    "tags": [
+      "brand",
+      "logo",
+      "healthcare"
+    ],
+    "logoUrl": "/logos/united-healthcare.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://unitedhealthcare.com",
+    "createdAt": "2024-12-30T14:45:54.484Z",
+    "featured": false,
+    "views": 858
   },
   {
     "id": "united",
@@ -6800,9 +7712,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://united.com",
-    "createdAt": "2025-02-15T00:11:59.474Z",
+    "createdAt": "2024-12-29T14:45:54.484Z",
     "featured": false,
-    "views": 798
+    "views": 121
   },
   {
     "id": "unitedhealth",
@@ -6819,9 +7731,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://unitedhealth.com",
-    "createdAt": "2025-02-14T00:11:59.474Z",
+    "createdAt": "2024-12-28T14:45:54.484Z",
     "featured": false,
-    "views": 629
+    "views": 10
+  },
+  {
+    "id": "universal",
+    "name": "Universal",
+    "slug": "universal",
+    "description": "Universal is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "entertainment",
+    "tags": [
+      "brand",
+      "logo",
+      "entertainment"
+    ],
+    "logoUrl": "/logos/universal.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://universal.com",
+    "createdAt": "2024-12-27T14:45:54.484Z",
+    "featured": false,
+    "views": 967
   },
   {
     "id": "upcloud",
@@ -6838,9 +7769,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://upcloud.com",
-    "createdAt": "2025-02-13T00:11:59.474Z",
+    "createdAt": "2024-12-26T14:45:54.484Z",
     "featured": false,
-    "views": 470
+    "views": 624
   },
   {
     "id": "ups",
@@ -6857,9 +7788,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ups.com",
-    "createdAt": "2025-02-12T00:11:59.474Z",
+    "createdAt": "2024-12-25T14:45:54.484Z",
     "featured": false,
-    "views": 378
+    "views": 846
   },
   {
     "id": "user-testing",
@@ -6876,9 +7807,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://usertesting.com",
-    "createdAt": "2025-02-11T00:11:59.474Z",
+    "createdAt": "2024-12-24T14:45:54.484Z",
     "featured": false,
-    "views": 30
+    "views": 724
   },
   {
     "id": "vercel",
@@ -6895,9 +7826,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vercel.com",
-    "createdAt": "2025-02-10T00:11:59.474Z",
+    "createdAt": "2024-12-23T14:45:54.484Z",
     "featured": false,
-    "views": 2
+    "views": 93
   },
   {
     "id": "verdant",
@@ -6914,9 +7845,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://verdant.com",
-    "createdAt": "2025-02-09T00:11:59.474Z",
+    "createdAt": "2024-12-22T14:45:54.484Z",
     "featured": false,
-    "views": 423
+    "views": 204
   },
   {
     "id": "verizon",
@@ -6933,9 +7864,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://verizon.com",
-    "createdAt": "2025-02-08T00:11:59.474Z",
+    "createdAt": "2024-12-21T14:45:54.484Z",
     "featured": false,
-    "views": 932
+    "views": 225
   },
   {
     "id": "victorops",
@@ -6952,9 +7883,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://victorops.com",
-    "createdAt": "2025-02-07T00:11:59.474Z",
+    "createdAt": "2024-12-20T14:45:54.484Z",
     "featured": false,
-    "views": 96
+    "views": 627
   },
   {
     "id": "vite",
@@ -6971,9 +7902,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vite.com",
-    "createdAt": "2025-02-06T00:11:59.474Z",
+    "createdAt": "2024-12-19T14:45:54.484Z",
     "featured": false,
-    "views": 99
+    "views": 497
+  },
+  {
+    "id": "volkswagen",
+    "name": "Volkswagen",
+    "slug": "volkswagen",
+    "description": "Volkswagen is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "automotive",
+    "tags": [
+      "brand",
+      "logo",
+      "automotive"
+    ],
+    "logoUrl": "/logos/volkswagen.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://volkswagen.com",
+    "createdAt": "2024-12-18T14:45:54.484Z",
+    "featured": false,
+    "views": 867
   },
   {
     "id": "volusion",
@@ -6990,9 +7940,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://volusion.com",
-    "createdAt": "2025-02-05T00:11:59.474Z",
+    "createdAt": "2024-12-17T14:45:54.484Z",
     "featured": false,
-    "views": 166
+    "views": 81
+  },
+  {
+    "id": "volvo",
+    "name": "Volvo",
+    "slug": "volvo",
+    "description": "Volvo is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/volvo.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://volvo.com",
+    "createdAt": "2024-12-16T14:45:54.484Z",
+    "featured": false,
+    "views": 66
   },
   {
     "id": "vue",
@@ -7009,9 +7978,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vue.com",
-    "createdAt": "2025-02-04T00:11:59.474Z",
+    "createdAt": "2024-12-15T14:45:54.484Z",
     "featured": false,
-    "views": 321
+    "views": 779
   },
   {
     "id": "vultr",
@@ -7028,9 +7997,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vultr.com",
-    "createdAt": "2025-02-03T00:11:59.474Z",
+    "createdAt": "2024-12-14T14:45:54.484Z",
     "featured": false,
-    "views": 417
+    "views": 479
   },
   {
     "id": "walgreens-boots-alliance",
@@ -7047,9 +8016,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://walgreensbootsalliance.com",
-    "createdAt": "2025-02-02T00:11:59.474Z",
+    "createdAt": "2024-12-13T14:45:54.484Z",
     "featured": false,
-    "views": 735
+    "views": 585
   },
   {
     "id": "walgreens",
@@ -7066,9 +8035,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://walgreens.com",
-    "createdAt": "2025-02-01T00:11:59.474Z",
+    "createdAt": "2024-12-12T14:45:54.484Z",
     "featured": false,
-    "views": 371
+    "views": 621
   },
   {
     "id": "walmart",
@@ -7085,9 +8054,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://walmart.com",
-    "createdAt": "2025-01-31T00:11:59.474Z",
+    "createdAt": "2024-12-11T14:45:54.484Z",
     "featured": false,
-    "views": 556
+    "views": 420
+  },
+  {
+    "id": "warner-bros",
+    "name": "Warner Bros",
+    "slug": "warner-bros",
+    "description": "Warner Bros is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "entertainment",
+    "tags": [
+      "brand",
+      "logo",
+      "entertainment"
+    ],
+    "logoUrl": "/logos/warner-bros.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://warnerbros.com",
+    "createdAt": "2024-12-10T14:45:54.484Z",
+    "featured": false,
+    "views": 152
   },
   {
     "id": "weTransfer",
@@ -7104,9 +8092,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://weTransfer.com",
-    "createdAt": "2025-01-30T00:11:59.474Z",
+    "createdAt": "2024-12-09T14:45:54.484Z",
     "featured": false,
-    "views": 684
+    "views": 293
   },
   {
     "id": "webflow",
@@ -7123,9 +8111,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://webflow.com",
-    "createdAt": "2025-01-29T00:11:59.474Z",
+    "createdAt": "2024-12-08T14:45:54.484Z",
     "featured": false,
-    "views": 880
+    "views": 772
   },
   {
     "id": "webpack",
@@ -7142,9 +8130,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://webpack.com",
-    "createdAt": "2025-01-28T00:11:59.474Z",
+    "createdAt": "2024-12-07T14:45:54.484Z",
     "featured": false,
-    "views": 678
+    "views": 405
   },
   {
     "id": "weebly",
@@ -7161,9 +8149,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://weebly.com",
-    "createdAt": "2025-01-27T00:11:59.474Z",
+    "createdAt": "2024-12-06T14:45:54.484Z",
     "featured": false,
-    "views": 644
+    "views": 985
   },
   {
     "id": "wells-fargo",
@@ -7180,9 +8168,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wellsfargo.com",
-    "createdAt": "2025-01-26T00:11:59.474Z",
+    "createdAt": "2024-12-05T14:45:54.484Z",
     "featured": false,
-    "views": 693
+    "views": 716
   },
   {
     "id": "western-digital",
@@ -7199,9 +8187,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://westerndigital.com",
-    "createdAt": "2025-01-25T00:11:59.474Z",
+    "createdAt": "2024-12-04T14:45:54.484Z",
     "featured": false,
-    "views": 425
+    "views": 592
   },
   {
     "id": "wix",
@@ -7218,9 +8206,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wix.com",
-    "createdAt": "2025-01-24T00:11:59.474Z",
+    "createdAt": "2024-12-03T14:45:54.484Z",
     "featured": false,
-    "views": 343
+    "views": 938
   },
   {
     "id": "woocommerce",
@@ -7237,9 +8225,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://woocommerce.com",
-    "createdAt": "2025-01-23T00:11:59.474Z",
+    "createdAt": "2024-12-02T14:45:54.484Z",
     "featured": false,
-    "views": 132
+    "views": 11
   },
   {
     "id": "wordpress",
@@ -7256,9 +8244,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wordpress.com",
-    "createdAt": "2025-01-22T00:11:59.474Z",
+    "createdAt": "2024-12-01T14:45:54.484Z",
     "featured": false,
-    "views": 252
+    "views": 90
   },
   {
     "id": "wrike",
@@ -7275,9 +8263,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wrike.com",
-    "createdAt": "2025-01-21T00:11:59.474Z",
+    "createdAt": "2024-11-30T14:45:54.484Z",
     "featured": false,
-    "views": 71
+    "views": 463
   },
   {
     "id": "xmatters",
@@ -7294,9 +8282,28 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://xmatters.com",
-    "createdAt": "2025-01-20T00:11:59.474Z",
+    "createdAt": "2024-11-29T14:45:54.484Z",
     "featured": false,
-    "views": 822
+    "views": 344
+  },
+  {
+    "id": "youtube",
+    "name": "Youtube",
+    "slug": "youtube",
+    "description": "Youtube is a leading brand known for its distinctive visual identity and market presence.",
+    "categorySlug": "tech-saas",
+    "tags": [
+      "brand",
+      "logo",
+      "tech-saas"
+    ],
+    "logoUrl": "/logos/youtube.png",
+    "dominantColors": [],
+    "country": "US",
+    "website": "https://youtube.com",
+    "createdAt": "2024-11-28T14:45:54.484Z",
+    "featured": false,
+    "views": 276
   },
   {
     "id": "yum-brands",
@@ -7313,9 +8320,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://yumbrands.com",
-    "createdAt": "2025-01-19T00:11:59.474Z",
+    "createdAt": "2024-11-27T14:45:54.484Z",
     "featured": false,
-    "views": 929
+    "views": 809
   },
   {
     "id": "zapier",
@@ -7332,9 +8339,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zapier.com",
-    "createdAt": "2025-01-18T00:11:59.474Z",
+    "createdAt": "2024-11-26T14:45:54.484Z",
     "featured": false,
-    "views": 842
+    "views": 351
   },
   {
     "id": "zendesk",
@@ -7351,9 +8358,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zendesk.com",
-    "createdAt": "2025-01-17T00:11:59.474Z",
+    "createdAt": "2024-11-25T14:45:54.484Z",
     "featured": false,
-    "views": 791
+    "views": 612
   },
   {
     "id": "zeromq",
@@ -7370,9 +8377,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zeromq.com",
-    "createdAt": "2025-01-16T00:11:59.474Z",
+    "createdAt": "2024-11-24T14:45:54.484Z",
     "featured": false,
-    "views": 744
+    "views": 849
   },
   {
     "id": "zoom",
@@ -7389,9 +8396,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zoom.com",
-    "createdAt": "2025-01-15T00:11:59.474Z",
+    "createdAt": "2024-11-23T14:45:54.484Z",
     "featured": false,
-    "views": 142
+    "views": 196
   },
   {
     "id": "zoom",
@@ -7408,8 +8415,8 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zoom.com",
-    "createdAt": "2025-01-14T00:11:59.474Z",
+    "createdAt": "2024-11-22T14:45:54.484Z",
     "featured": false,
-    "views": 834
+    "views": 251
   }
 ];

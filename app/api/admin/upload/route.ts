@@ -10,11 +10,13 @@ const GITHUB_OWNER = process.env.GITHUB_OWNER || "baitjet";
 const GITHUB_REPO = process.env.GITHUB_REPO || "palette-planet";
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
 
-// Supabase configuration
+// Supabase configuration - lazy loaded
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
 
-const supabase = createClient(supabaseUrl, supabaseKey);
+function getSupabase() {
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
+  return createClient(supabaseUrl, supabaseKey);
+}
 
 export async function POST(request: Request) {
   try {
@@ -78,7 +80,7 @@ export async function POST(request: Request) {
       views: 0,
     };
 
-    const { error: dbError } = await supabase
+    const { error: dbError } = await getSupabase()
       .from("brands")
       .upsert(brandData, { onConflict: "id" });
 
