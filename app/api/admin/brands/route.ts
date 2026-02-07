@@ -9,13 +9,23 @@ const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUz
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
-export async function GET() {
+// Cache duration in seconds
+const CACHE_DURATION = 60; // 1 minute cache for admin
+
+export async function GET(request: Request) {
   try {
-    // Fetch from Supabase
-    const { data: brands, error } = await supabase
+    // Parse query params for pagination
+    const { searchParams } = new URL(request.url);
+    const page = parseInt(searchParams.get("page") || "1");
+    const limit = Math.min(parseInt(searchParams.get("limit") || "50"), 100); // Max 100
+    const offset = (page - 1) * limit;
+
+    // Fetch from Supabase with pagination
+    const { data: brands, error, count } = await supabase
       .from("brands")
-      .select("*")
-      .order("name");
+      .select("*", { count: "exact" })
+      .order("name")
+      .range(offset, offset + limit - 1);
 
     if (error) {
       console.error("Supabase error:", error);
@@ -43,7 +53,23 @@ export async function GET() {
       status: "working",
     }));
 
-    return NextResponse.json({ brands: formattedBrands });
+    // Return with cache headers to reduce load
+    return NextResponse.json(
+      {
+        brands: formattedBrands,
+        pagination: {
+          page,
+          limit,
+          total: count || 0,
+          totalPages: Math.ceil((count || 0) / limit),
+        },
+      },
+      {
+        headers: {
+          "Cache-Control": `private, max-age=${CACHE_DURATION}`,
+        },
+      }
+    );
   } catch (error) {
     console.error("Error fetching brands:", error);
     return NextResponse.json(
