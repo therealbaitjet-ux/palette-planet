@@ -6,6 +6,7 @@ import AdUnit from "@/components/AdUnit";
 import AffiliateCTA from "@/components/AffiliateCTA";
 import SponsorBanner from "@/components/SponsorBanner";
 import NewsletterSignup from "@/components/NewsletterSignup";
+import OrbitingLogosMini from "@/components/OrbitingLogosMini";
 import { categories, getTopBrands } from "@/lib/data";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -24,35 +25,43 @@ export default function HomePage() {
   
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-12">
-      {/* Hero Section */}
+      {/* Hero Section with Orbiting Animation */}
       <section className="glass rounded-3xl p-8 md:p-12">
-        <div className="flex flex-col gap-6">
-          <div className="max-w-2xl space-y-4">
-            <p className="text-xs uppercase tracking-[0.4em] text-indigo-400">
-              Curated Brand Identity Gallery
-            </p>
-            <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
-              Discover World-Class Brand Logos
-            </h1>
-            <p className="text-lg text-slate-300">
-              Explore 500+ carefully curated brand identities from the world's most innovative companies. 
-              Get inspired, study design patterns, and find resources to create your own.
-            </p>
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+          {/* Left: Text Content */}
+          <div className="flex flex-col gap-6">
+            <div className="max-w-2xl space-y-4">
+              <p className="text-xs uppercase tracking-[0.4em] text-indigo-400">
+                Curated Brand Identity Gallery
+              </p>
+              <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
+                Discover World-Class Brand Logos
+              </h1>
+              <p className="text-lg text-slate-300">
+                Explore 500+ carefully curated brand identities from the world's most innovative companies.
+                Get inspired, study design patterns, and find resources to create your own.
+              </p>
+            </div>
+
+            <GodLevelSearch placeholder="Search 500+ brand logos..." basePath="/gallery" />
+
+            <div className="flex flex-wrap items-center gap-3 text-sm text-slate-300">
+              <span>Popular:</span>
+              {categories.slice(0, 4).map((category) => (
+                <Link
+                  key={category.slug}
+                  href={`/category/${category.slug}`}
+                  className="rounded-full border border-white/10 bg-white/5 px-4 py-2 transition hover:border-indigo-500/50 hover:bg-indigo-500/10"
+                >
+                  {category.name}
+                </Link>
+              ))}
+            </div>
           </div>
-          
-          <GodLevelSearch placeholder="Search 500+ brand logos..." basePath="/gallery" />
-          
-          <div className="flex flex-wrap items-center gap-3 text-sm text-slate-300">
-            <span>Popular:</span>
-            {categories.slice(0, 4).map((category) => (
-              <Link
-                key={category.slug}
-                href={`/category/${category.slug}`}
-                className="rounded-full border border-white/10 bg-white/5 px-4 py-2 transition hover:border-indigo-500/50 hover:bg-indigo-500/10"
-              >
-                {category.name}
-              </Link>
-            ))}
+
+          {/* Right: Orbiting Animation */}
+          <div className="flex items-center justify-center">
+            <OrbitingLogosMini />
           </div>
         </div>
       </section>
