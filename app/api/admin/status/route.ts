@@ -14,7 +14,7 @@ export async function GET() {
   };
 
   // Test GitHub API connection
-  let githubTest = { success: false, error: null };
+  let githubTest: any = { success: false, error: null };
   if (process.env.GITHUB_TOKEN) {
     try {
       const testRes = await fetch(
