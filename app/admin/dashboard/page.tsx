@@ -47,14 +47,21 @@ export default function AdminDashboard() {
   };
 
   useEffect(() => {
-    // Check auth
-    const isAuth = document.cookie.includes("admin_auth=true");
-    if (!isAuth) {
-      router.push("/admin");
-      return;
-    }
-
-    loadBrands(page);
+    // Verify auth with server
+    const verifyAuth = async () => {
+      try {
+        const res = await fetch("/api/admin/verify", { method: "POST" });
+        if (!res.ok) {
+          router.push("/admin");
+          return;
+        }
+        loadBrands(page);
+      } catch {
+        router.push("/admin");
+      }
+    };
+    
+    verifyAuth();
   }, [router, page]);
 
   const handleLogout = () => {

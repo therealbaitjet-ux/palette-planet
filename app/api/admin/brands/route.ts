@@ -5,7 +5,11 @@ import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpxeWdtcmdhcmd3dmpvdmhyYmlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAzMzQ5NjEsImV4cCI6MjA4NTkxMDk2MX0.S2tpjzM-81jcQQCMsriaUIDAGy_o1easT7kJvJChnwU";
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+if (!supabaseKey) {
+  throw new Error("SUPABASE_SERVICE_ROLE_KEY not configured");
+}
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 

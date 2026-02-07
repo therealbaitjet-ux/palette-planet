@@ -15,12 +15,30 @@ const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
 
 function getSupabase() {
-  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!supabaseKey) {
+    throw new Error("SUPABASE_SERVICE_ROLE_KEY not configured");
+  }
   return createClient(supabaseUrl, supabaseKey);
 }
 
+// Simple rate limiter (in-memory, resets on cold start)
+const uploadAttempts = new Map<string, number>();
+const MAX_UPLOADS_PER_HOUR = 20;
+
 export async function POST(request: Request) {
   try {
+    // Rate limiting
+    const ip = request.headers.get("x-forwarded-for") || "unknown";
+    const attempts = uploadAttempts.get(ip) || 0;
+    if (attempts >= MAX_UPLOADS_PER_HOUR) {
+      return NextResponse.json(
+        { error: "Rate limit exceeded. Max 20 uploads per hour." },
+        { status: 429 }
+      );
+    }
+    uploadAttempts.set(ip, attempts + 1);
+
     const formData = await request.formData();
     const file = formData.get("file") as File;
     const name = formData.get("name") as string;
@@ -49,11 +67,12 @@ export async function POST(request: Request) {
       );
     }
 
-    // Generate slug and filename
+    // Generate slug and filename (sanitized)
     const slug = name
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
-      .replace(/(^-|-$)/g, "");
+      .replace(/(^-|-$)/g, "")
+      .substring(0, 50); // Max 50 chars
     
     const ext = file.type === "image/svg+xml" ? "svg" : "png";
     const filename = `${slug}.${ext}`;
