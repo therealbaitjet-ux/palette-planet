@@ -1,12 +1,24 @@
-// API: Update existing logo via GitHub
+// API: Update existing logo via GitHub + Supabase
 // Replace file or edit metadata
 
 import { NextResponse } from "next/server";
+import { createClient } from "@supabase/supabase-js";
+import fs from "fs";
+import path from "path";
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_OWNER = process.env.GITHUB_OWNER || "baitjet";
 const GITHUB_REPO = process.env.GITHUB_REPO || "palette-planet";
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
+
+const LOGOS_DIR = path.join(process.cwd(), "public", "logos");
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
+
+function getSupabase() {
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
+  return createClient(supabaseUrl, supabaseKey);
+}
 
 export async function POST(request: Request) {
   try {
@@ -30,7 +42,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // If new file provided, upload to GitHub
+    // If new file provided, save locally + GitHub
     if (file) {
       // Validate file type
       const validTypes = ["image/png", "image/svg+xml", "image/jpeg"];
@@ -52,58 +64,86 @@ export async function POST(request: Request) {
       const ext = file.type === "image/svg+xml" ? "svg" : "png";
       const filename = `${id}.${ext}`;
       const filepath = `public/logos/${filename}`;
+      const localPath = path.join(LOGOS_DIR, filename);
 
-      // Convert to base64
+      // Convert to buffer
       const bytes = await file.arrayBuffer();
       const buffer = Buffer.from(bytes);
-      const content = buffer.toString("base64");
 
-      // Get current file SHA (if exists)
-      let sha: string | undefined;
+      // 1. Save locally FIRST (so it works immediately)
       try {
-        const checkRes = await fetch(
-          `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}?ref=${GITHUB_BRANCH}`,
+        fs.writeFileSync(localPath, buffer);
+        console.log("Saved file locally:", localPath);
+      } catch (err) {
+        console.error("Failed to save locally:", err);
+        return NextResponse.json(
+          { error: "Failed to save file locally" },
+          { status: 500 }
+        );
+      }
+
+      // 2. Update Supabase (immediate site availability)
+      const logoUrl = `/logos/${filename}`;
+      const { error: dbError } = await getSupabase()
+        .from("brands")
+        .upsert({
+          id,
+          name,
+          slug: id,
+          category_slug: category,
+          logo_url: logoUrl,
+          updated_at: new Date().toISOString(),
+        }, { onConflict: "id" });
+
+      if (dbError) {
+        console.error("Supabase error:", dbError);
+        // Continue anyway - local file is saved
+      }
+
+      // 3. Commit to GitHub (for persistence)
+      if (GITHUB_TOKEN) {
+        let sha: string | undefined;
+        try {
+          const checkRes = await fetch(
+            `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}?ref=${GITHUB_BRANCH}`,
+            {
+              headers: {
+                Authorization: `Bearer ${GITHUB_TOKEN}`,
+                Accept: "application/vnd.github.v3+json",
+              },
+            }
+          );
+          if (checkRes.ok) {
+            const data = await checkRes.json();
+            sha = data.sha;
+          }
+        } catch {
+          // File doesn't exist yet
+        }
+
+        const content = buffer.toString("base64");
+        const commitRes = await fetch(
+          `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}`,
           {
+            method: "PUT",
             headers: {
               Authorization: `Bearer ${GITHUB_TOKEN}`,
               Accept: "application/vnd.github.v3+json",
+              "Content-Type": "application/json",
             },
+            body: JSON.stringify({
+              message: `Update logo: ${name}`,
+              content,
+              branch: GITHUB_BRANCH,
+              ...(sha && { sha }),
+            }),
           }
         );
-        if (checkRes.ok) {
-          const data = await checkRes.json();
-          sha = data.sha;
-        }
-      } catch {
-        // File doesn't exist yet
-      }
 
-      // Commit to GitHub
-      const commitRes = await fetch(
-        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}`,
-        {
-          method: "PUT",
-          headers: {
-            Authorization: `Bearer ${GITHUB_TOKEN}`,
-            Accept: "application/vnd.github.v3+json",
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            message: `Update logo: ${name}`,
-            content,
-            branch: GITHUB_BRANCH,
-            ...(sha && { sha }),
-          }),
+        if (!commitRes.ok) {
+          console.error("GitHub commit failed:", await commitRes.text());
+          // Continue - local file and Supabase are updated
         }
-      );
-
-      if (!commitRes.ok) {
-        const error = await commitRes.text();
-        console.error("GitHub commit failed:", error);
-        return NextResponse.json(
-          { error: "Failed to commit to GitHub", details: error },
-          { status: 500 }
-        );
       }
     }
 

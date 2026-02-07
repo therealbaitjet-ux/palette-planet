@@ -1,14 +1,18 @@
-// API: Upload with Git persistence + Supabase database
-// Saves file to GitHub AND brand data to Supabase for immediate availability
+// API: Upload with local save + Supabase + GitHub persistence
+// Saves file locally FIRST, then Supabase for immediate availability, then GitHub
 
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+import fs from "fs";
+import path from "path";
 
 // GitHub configuration
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_OWNER = process.env.GITHUB_OWNER || "baitjet";
 const GITHUB_REPO = process.env.GITHUB_REPO || "palette-planet";
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
+
+const LOGOS_DIR = path.join(process.cwd(), "public", "logos");
 
 // Supabase configuration - lazy loaded
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
@@ -58,13 +62,25 @@ export async function POST(request: Request) {
     const filename = `${slug}.${ext}`;
     const filepath = `public/logos/${filename}`;
     const logoUrl = `/logos/${filename}`;
+    const localPath = path.join(LOGOS_DIR, filename);
 
-    // Convert file to base64 for GitHub
+    // Convert file to buffer
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
-    const content = buffer.toString("base64");
 
-    // 1. Save brand data to Supabase (immediate availability)
+    // 1. Save file LOCALLY FIRST (critical for immediate availability)
+    try {
+      fs.writeFileSync(localPath, buffer);
+      console.log("✓ Saved locally:", localPath);
+    } catch (err) {
+      console.error("✗ Failed to save locally:", err);
+      return NextResponse.json(
+        { error: "Failed to save file locally" },
+        { status: 500 }
+      );
+    }
+
+    // 2. Save brand data to Supabase (for dynamic loading)
     const brandData = {
       id: slug,
       name: name,
@@ -80,22 +96,28 @@ export async function POST(request: Request) {
       views: 0,
     };
 
-    const { error: dbError } = await getSupabase()
-      .from("brands")
-      .upsert(brandData, { onConflict: "id" });
+    let supabaseSuccess = false;
+    try {
+      const { error: dbError } = await getSupabase()
+        .from("brands")
+        .upsert(brandData, { onConflict: "id" });
 
-    if (dbError) {
-      console.error("Supabase error:", dbError);
-      return NextResponse.json(
-        { error: "Failed to save brand data", details: dbError.message },
-        { status: 500 }
-      );
+      if (dbError) {
+        console.error("Supabase error:", dbError);
+      } else {
+        supabaseSuccess = true;
+        console.log("✓ Saved to Supabase:", slug);
+      }
+    } catch (err) {
+      console.error("Supabase exception:", err);
     }
 
-    // 2. Commit logo file to GitHub (for persistence)
+    // 3. Commit logo file to GitHub (for persistence across deploys)
     let githubSuccess = false;
     if (GITHUB_TOKEN) {
       try {
+        const content = buffer.toString("base64");
+        
         // Get current file SHA (if exists)
         let sha: string | undefined;
         const checkRes = await fetch(
@@ -133,11 +155,12 @@ export async function POST(request: Request) {
 
         if (commitRes.ok) {
           githubSuccess = true;
+          console.log("✓ Committed to GitHub:", filename);
         } else {
-          console.error("GitHub commit failed:", await commitRes.text());
+          console.error("✗ GitHub commit failed:", await commitRes.text());
         }
       } catch (err) {
-        console.error("GitHub error:", err);
+        console.error("✗ GitHub error:", err);
       }
     }
 
@@ -147,7 +170,8 @@ export async function POST(request: Request) {
       filename,
       slug,
       brandData,
-      supabase: true,
+      local: true,
+      supabase: supabaseSuccess,
       github: githubSuccess,
       note: "Logo is now live on the site!",
     });

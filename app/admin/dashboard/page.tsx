@@ -33,11 +33,17 @@ export default function AdminDashboard() {
       return;
     }
 
-    // Load brands
-    fetch("/api/admin/brands")
+    // Load all brands (request max limit)
+    fetch("/api/admin/brands?limit=100")
       .then((res) => res.json())
       .then((data) => {
-        setBrands(data.brands);
+        if (data.brands) {
+          setBrands(data.brands);
+        }
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to load brands:", err);
         setLoading(false);
       });
   }, [router]);
@@ -241,23 +247,45 @@ function UploadModal({
   const [category, setCategory] = useState("tech-saas");
   const [uploading, setUploading] = useState(false);
 
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!file || !name) return;
+    if (!file || !name) {
+      setError("Please select a file and enter a name");
+      return;
+    }
 
     setUploading(true);
+    setError("");
+    setSuccess("");
+
     const formData = new FormData();
     formData.append("file", file);
     formData.append("name", name);
     formData.append("category", category);
 
-    await fetch("/api/admin/upload", {
-      method: "POST",
-      body: formData,
-    });
+    try {
+      const res = await fetch("/api/admin/upload", {
+        method: "POST",
+        body: formData,
+      });
 
-    setUploading(false);
-    onSuccess();
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || "Upload failed");
+        setUploading(false);
+        return;
+      }
+
+      setSuccess("Logo uploaded successfully! Refreshing...");
+      setTimeout(() => onSuccess(), 1500);
+    } catch (err) {
+      setError("Network error. Please try again.");
+      setUploading(false);
+    }
   };
 
   return (
@@ -266,6 +294,16 @@ function UploadModal({
         <h2 className="mb-4 text-xl font-bold text-white">Upload New Logo</h2>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          {error && (
+            <div className="rounded-lg bg-red-500/20 p-3 text-sm text-red-300">
+              {error}
+            </div>
+          )}
+          {success && (
+            <div className="rounded-lg bg-emerald-500/20 p-3 text-sm text-emerald-300">
+              {success}
+            </div>
+          )}
           <div>
             <label className="block text-sm text-slate-300">Logo File</label>
             <input
@@ -341,9 +379,13 @@ function EditModal({
   const [category, setCategory] = useState(brand.categorySlug);
   const [file, setFile] = useState<File | null>(null);
   const [saving, setSaving] = useState(false);
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError("");
+    setSuccess("");
     setSaving(true);
 
     const formData = new FormData();
@@ -352,13 +394,26 @@ function EditModal({
     formData.append("category", category);
     if (file) formData.append("file", file);
 
-    await fetch("/api/admin/update", {
-      method: "POST",
-      body: formData,
-    });
+    try {
+      const res = await fetch("/api/admin/update", {
+        method: "POST",
+        body: formData,
+      });
 
-    setSaving(false);
-    onSuccess();
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || "Update failed");
+        setSaving(false);
+        return;
+      }
+
+      setSuccess("Logo updated successfully! Refreshing...");
+      setTimeout(() => onSuccess(), 1500);
+    } catch (err) {
+      setError("Network error. Please try again.");
+      setSaving(false);
+    }
   };
 
   return (
@@ -369,6 +424,16 @@ function EditModal({
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          {error && (
+            <div className="rounded-lg bg-red-500/20 p-3 text-sm text-red-300">
+              {error}
+            </div>
+          )}
+          {success && (
+            <div className="rounded-lg bg-emerald-500/20 p-3 text-sm text-emerald-300">
+              {success}
+            </div>
+          )}
           {brand.status === "broken" && (
             <div>
               <label className="block text-sm text-slate-300">New Logo File</label>
