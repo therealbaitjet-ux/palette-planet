@@ -17,9 +17,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://1password.com",
-    "createdAt": "2026-02-07T16:05:20.392Z",
+    "createdAt": "2026-02-07T16:22:11.623Z",
     "featured": false,
-    "views": 718
+    "views": 131
   },
   {
     "id": "3m",
@@ -36,9 +36,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://3m.com",
-    "createdAt": "2026-02-06T16:05:20.392Z",
+    "createdAt": "2026-02-06T16:22:11.624Z",
     "featured": false,
-    "views": 262
+    "views": 421
   },
   {
     "id": "abstract-mark",
@@ -55,9 +55,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://abstractmark.com",
-    "createdAt": "2026-02-05T16:05:20.392Z",
+    "createdAt": "2026-02-05T16:22:11.624Z",
     "featured": false,
-    "views": 111
+    "views": 847
   },
   {
     "id": "academy",
@@ -74,9 +74,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://academy.com",
-    "createdAt": "2026-02-04T16:05:20.392Z",
+    "createdAt": "2026-02-04T16:22:11.624Z",
     "featured": false,
-    "views": 472
+    "views": 747
   },
   {
     "id": "accenture",
@@ -93,9 +93,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://accenture.com",
-    "createdAt": "2026-02-03T16:05:20.392Z",
+    "createdAt": "2026-02-03T16:22:11.624Z",
     "featured": false,
-    "views": 278
+    "views": 422
   },
   {
     "id": "acer",
@@ -112,9 +112,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://acer.com",
-    "createdAt": "2026-02-02T16:05:20.392Z",
+    "createdAt": "2026-02-02T16:22:11.624Z",
     "featured": false,
-    "views": 602
+    "views": 791
   },
   {
     "id": "active-campaign",
@@ -131,9 +131,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://activecampaign.com",
-    "createdAt": "2026-02-01T16:05:20.392Z",
+    "createdAt": "2026-02-01T16:22:11.624Z",
     "featured": false,
-    "views": 306
+    "views": 724
   },
   {
     "id": "activemq",
@@ -150,9 +150,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://activemq.com",
-    "createdAt": "2026-01-31T16:05:20.392Z",
+    "createdAt": "2026-01-31T16:22:11.624Z",
     "featured": false,
-    "views": 634
+    "views": 543
   },
   {
     "id": "acura",
@@ -169,9 +169,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://acura.com",
-    "createdAt": "2026-01-30T16:05:20.392Z",
+    "createdAt": "2026-01-30T16:22:11.624Z",
     "featured": false,
-    "views": 534
+    "views": 219
   },
   {
     "id": "adidas",
@@ -188,9 +188,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://adidas.com",
-    "createdAt": "2026-01-29T16:05:20.392Z",
+    "createdAt": "2026-01-29T16:22:11.624Z",
     "featured": false,
-    "views": 388
+    "views": 693
   },
   {
     "id": "adobe-xd",
@@ -207,9 +207,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://adobexd.com",
-    "createdAt": "2026-01-28T16:05:20.392Z",
+    "createdAt": "2026-01-28T16:22:11.624Z",
     "featured": false,
-    "views": 379
+    "views": 516
   },
   {
     "id": "advance-auto",
@@ -226,9 +226,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://advanceauto.com",
-    "createdAt": "2026-01-27T16:05:20.392Z",
+    "createdAt": "2026-01-27T16:22:11.624Z",
     "featured": false,
-    "views": 950
+    "views": 323
   },
   {
     "id": "after-effects",
@@ -245,9 +245,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aftereffects.com",
-    "createdAt": "2026-01-26T16:05:20.392Z",
+    "createdAt": "2026-01-26T16:22:11.624Z",
     "featured": false,
-    "views": 337
+    "views": 855
   },
   {
     "id": "aftership",
@@ -264,9 +264,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aftership.com",
-    "createdAt": "2026-01-25T16:05:20.392Z",
+    "createdAt": "2026-01-25T16:22:11.624Z",
     "featured": false,
-    "views": 975
+    "views": 289
   },
   {
     "id": "airbnb",
@@ -283,9 +283,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://airbnb.com",
-    "createdAt": "2026-01-24T16:05:20.392Z",
+    "createdAt": "2026-01-24T16:22:11.624Z",
     "featured": false,
-    "views": 765
+    "views": 23
   },
   {
     "id": "airbrake",
@@ -302,9 +302,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://airbrake.com",
-    "createdAt": "2026-01-23T16:05:20.392Z",
+    "createdAt": "2026-01-23T16:22:11.624Z",
     "featured": false,
-    "views": 124
+    "views": 495
   },
   {
     "id": "airtable",
@@ -321,9 +321,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://airtable.com",
-    "createdAt": "2026-01-22T16:05:20.392Z",
+    "createdAt": "2026-01-22T16:22:11.624Z",
     "featured": false,
-    "views": 574
+    "views": 915
   },
   {
     "id": "akamai",
@@ -340,9 +340,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://akamai.com",
-    "createdAt": "2026-01-21T16:05:20.392Z",
+    "createdAt": "2026-01-21T16:22:11.624Z",
     "featured": false,
-    "views": 500
+    "views": 975
   },
   {
     "id": "ally",
@@ -359,9 +359,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ally.com",
-    "createdAt": "2026-01-20T16:05:20.392Z",
+    "createdAt": "2026-01-20T16:22:11.624Z",
     "featured": false,
-    "views": 5
+    "views": 210
   },
   {
     "id": "alphabet",
@@ -378,9 +378,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://alphabet.com",
-    "createdAt": "2026-01-19T16:05:20.392Z",
+    "createdAt": "2026-01-19T16:22:11.624Z",
     "featured": false,
-    "views": 193
+    "views": 58
   },
   {
     "id": "alpine",
@@ -397,9 +397,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://alpine.com",
-    "createdAt": "2026-01-18T16:05:20.392Z",
+    "createdAt": "2026-01-18T16:22:11.624Z",
     "featured": false,
-    "views": 939
+    "views": 314
   },
   {
     "id": "amazon",
@@ -416,9 +416,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amazon.com",
-    "createdAt": "2026-01-17T16:05:20.392Z",
+    "createdAt": "2026-01-17T16:22:11.624Z",
     "featured": false,
-    "views": 162
+    "views": 607
   },
   {
     "id": "amd",
@@ -435,9 +435,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amd.com",
-    "createdAt": "2026-01-16T16:05:20.392Z",
+    "createdAt": "2026-01-16T16:22:11.624Z",
     "featured": false,
-    "views": 835
+    "views": 924
   },
   {
     "id": "american-airlines",
@@ -454,9 +454,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://americanairlines.com",
-    "createdAt": "2026-01-15T16:05:20.392Z",
+    "createdAt": "2026-01-15T16:22:11.624Z",
     "featured": false,
-    "views": 530
+    "views": 354
   },
   {
     "id": "amplify",
@@ -473,9 +473,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amplify.com",
-    "createdAt": "2026-01-14T16:05:20.392Z",
+    "createdAt": "2026-01-14T16:22:11.624Z",
     "featured": false,
-    "views": 115
+    "views": 771
   },
   {
     "id": "amplitude",
@@ -492,9 +492,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://amplitude.com",
-    "createdAt": "2026-01-13T16:05:20.392Z",
+    "createdAt": "2026-01-13T16:22:11.624Z",
     "featured": false,
-    "views": 696
+    "views": 831
   },
   {
     "id": "angular",
@@ -511,9 +511,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://angular.com",
-    "createdAt": "2026-01-12T16:05:20.392Z",
+    "createdAt": "2026-01-12T16:22:11.624Z",
     "featured": false,
-    "views": 639
+    "views": 123
   },
   {
     "id": "ansible",
@@ -530,9 +530,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ansible.com",
-    "createdAt": "2026-01-11T16:05:20.392Z",
+    "createdAt": "2026-01-11T16:22:11.624Z",
     "featured": false,
-    "views": 275
+    "views": 222
   },
   {
     "id": "anthem",
@@ -549,9 +549,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://anthem.com",
-    "createdAt": "2026-01-10T16:05:20.392Z",
+    "createdAt": "2026-01-10T16:22:11.624Z",
     "featured": false,
-    "views": 746
+    "views": 477
   },
   {
     "id": "anthropologie",
@@ -568,9 +568,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://anthropologie.com",
-    "createdAt": "2026-01-09T16:05:20.392Z",
+    "createdAt": "2026-01-09T16:22:11.624Z",
     "featured": false,
-    "views": 90
+    "views": 811
   },
   {
     "id": "apple",
@@ -587,9 +587,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://apple.com",
-    "createdAt": "2026-01-08T16:05:20.392Z",
+    "createdAt": "2026-01-08T16:22:11.624Z",
     "featured": false,
-    "views": 698
+    "views": 801
   },
   {
     "id": "asana",
@@ -606,9 +606,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://asana.com",
-    "createdAt": "2026-01-07T16:05:20.392Z",
+    "createdAt": "2026-01-07T16:22:11.624Z",
     "featured": false,
-    "views": 763
+    "views": 130
   },
   {
     "id": "aston-martin",
@@ -625,9 +625,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://astonmartin.com",
-    "createdAt": "2026-01-06T16:05:20.392Z",
+    "createdAt": "2026-01-06T16:22:11.624Z",
     "featured": false,
-    "views": 321
+    "views": 233
   },
   {
     "id": "asus",
@@ -644,9 +644,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://asus.com",
-    "createdAt": "2026-01-05T16:05:20.392Z",
+    "createdAt": "2026-01-05T16:22:11.624Z",
     "featured": false,
-    "views": 396
+    "views": 937
   },
   {
     "id": "at-t",
@@ -663,9 +663,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://att.com",
-    "createdAt": "2026-01-04T16:05:20.392Z",
+    "createdAt": "2026-01-04T16:22:11.624Z",
     "featured": false,
-    "views": 840
+    "views": 863
   },
   {
     "id": "athena",
@@ -682,9 +682,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://athena.com",
-    "createdAt": "2026-01-03T16:05:20.392Z",
+    "createdAt": "2026-01-03T16:22:11.624Z",
     "featured": false,
-    "views": 204
+    "views": 428
   },
   {
     "id": "atria",
@@ -701,9 +701,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://atria.com",
-    "createdAt": "2026-01-02T16:05:20.392Z",
+    "createdAt": "2026-01-02T16:22:11.624Z",
     "featured": false,
-    "views": 917
+    "views": 794
   },
   {
     "id": "att",
@@ -720,9 +720,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://att.com",
-    "createdAt": "2026-01-01T16:05:20.392Z",
+    "createdAt": "2026-01-01T16:22:11.624Z",
     "featured": false,
-    "views": 780
+    "views": 405
   },
   {
     "id": "attentive",
@@ -739,9 +739,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://attentive.com",
-    "createdAt": "2025-12-31T16:05:20.392Z",
+    "createdAt": "2025-12-31T16:22:11.624Z",
     "featured": false,
-    "views": 16
+    "views": 209
   },
   {
     "id": "audi",
@@ -758,9 +758,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://audi.com",
-    "createdAt": "2025-12-30T16:05:20.392Z",
+    "createdAt": "2025-12-30T16:22:11.624Z",
     "featured": false,
-    "views": 617
+    "views": 312
   },
   {
     "id": "aurora",
@@ -777,9 +777,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aurora.com",
-    "createdAt": "2025-12-29T16:05:20.392Z",
+    "createdAt": "2025-12-29T16:22:11.624Z",
     "featured": false,
-    "views": 927
+    "views": 194
   },
   {
     "id": "auth0",
@@ -796,9 +796,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://auth0.com",
-    "createdAt": "2025-12-28T16:05:20.392Z",
+    "createdAt": "2025-12-28T16:22:11.624Z",
     "featured": false,
-    "views": 684
+    "views": 365
   },
   {
     "id": "autozone",
@@ -815,9 +815,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://autozone.com",
-    "createdAt": "2025-12-27T16:05:20.392Z",
+    "createdAt": "2025-12-27T16:22:11.624Z",
     "featured": false,
-    "views": 245
+    "views": 997
   },
   {
     "id": "aws",
@@ -834,9 +834,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://aws.com",
-    "createdAt": "2025-12-26T16:05:20.392Z",
+    "createdAt": "2025-12-26T16:22:11.624Z",
     "featured": false,
-    "views": 312
+    "views": 768
   },
   {
     "id": "bank-of-america",
@@ -853,9 +853,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bankofamerica.com",
-    "createdAt": "2025-12-25T16:05:20.392Z",
+    "createdAt": "2025-12-25T16:22:11.624Z",
     "featured": false,
-    "views": 953
+    "views": 295
   },
   {
     "id": "bass-pro",
@@ -872,9 +872,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://basspro.com",
-    "createdAt": "2025-12-24T16:05:20.392Z",
+    "createdAt": "2025-12-24T16:22:11.624Z",
     "featured": false,
-    "views": 807
+    "views": 467
   },
   {
     "id": "beehiiv",
@@ -891,9 +891,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://beehiiv.com",
-    "createdAt": "2025-12-23T16:05:20.392Z",
+    "createdAt": "2025-12-23T16:22:11.624Z",
     "featured": false,
-    "views": 185
+    "views": 283
   },
   {
     "id": "bentley",
@@ -910,9 +910,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bentley.com",
-    "createdAt": "2025-12-22T16:05:20.392Z",
+    "createdAt": "2025-12-22T16:22:11.624Z",
     "featured": false,
-    "views": 929
+    "views": 791
   },
   {
     "id": "berkshire-hathaway",
@@ -929,9 +929,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://berkshirehathaway.com",
-    "createdAt": "2025-12-21T16:05:20.392Z",
+    "createdAt": "2025-12-21T16:22:11.624Z",
     "featured": false,
-    "views": 60
+    "views": 139
   },
   {
     "id": "best-buy",
@@ -948,9 +948,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bestbuy.com",
-    "createdAt": "2025-12-20T16:05:20.392Z",
+    "createdAt": "2025-12-20T16:22:11.624Z",
     "featured": false,
-    "views": 786
+    "views": 630
   },
   {
     "id": "bigcommerce",
@@ -967,9 +967,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bigcommerce.com",
-    "createdAt": "2025-12-19T16:05:20.392Z",
+    "createdAt": "2025-12-19T16:22:11.624Z",
     "featured": false,
-    "views": 4
+    "views": 619
   },
   {
     "id": "bigquery",
@@ -986,9 +986,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bigquery.com",
-    "createdAt": "2025-12-18T16:05:20.392Z",
+    "createdAt": "2025-12-18T16:22:11.624Z",
     "featured": false,
-    "views": 833
+    "views": 175
   },
   {
     "id": "binance",
@@ -1005,9 +1005,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://binance.com",
-    "createdAt": "2025-12-17T16:05:20.392Z",
+    "createdAt": "2025-12-17T16:22:11.624Z",
     "featured": false,
-    "views": 949
+    "views": 956
   },
   {
     "id": "bitbucket",
@@ -1024,9 +1024,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bitbucket.com",
-    "createdAt": "2025-12-16T16:05:20.392Z",
+    "createdAt": "2025-12-16T16:22:11.624Z",
     "featured": false,
-    "views": 875
+    "views": 565
   },
   {
     "id": "bitwarden",
@@ -1043,9 +1043,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bitwarden.com",
-    "createdAt": "2025-12-15T16:05:20.392Z",
+    "createdAt": "2025-12-15T16:22:11.624Z",
     "featured": false,
-    "views": 210
+    "views": 132
   },
   {
     "id": "blackrock",
@@ -1062,9 +1062,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://blackrock.com",
-    "createdAt": "2025-12-14T16:05:20.392Z",
+    "createdAt": "2025-12-14T16:22:11.624Z",
     "featured": false,
-    "views": 644
+    "views": 13
   },
   {
     "id": "bloomberg",
@@ -1081,9 +1081,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bloomberg.com",
-    "createdAt": "2025-12-13T16:05:20.392Z",
+    "createdAt": "2025-12-13T16:22:11.624Z",
     "featured": false,
-    "views": 409
+    "views": 227
   },
   {
     "id": "bmw",
@@ -1100,9 +1100,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bmw.com",
-    "createdAt": "2025-12-12T16:05:20.392Z",
+    "createdAt": "2025-12-12T16:22:11.624Z",
     "featured": false,
-    "views": 592
+    "views": 128
   },
   {
     "id": "boeing",
@@ -1119,9 +1119,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://boeing.com",
-    "createdAt": "2025-12-11T16:05:20.392Z",
+    "createdAt": "2025-12-11T16:22:11.624Z",
     "featured": false,
-    "views": 191
+    "views": 336
   },
   {
     "id": "booking",
@@ -1138,9 +1138,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://booking.com",
-    "createdAt": "2025-12-10T16:05:20.392Z",
+    "createdAt": "2025-12-10T16:22:11.624Z",
     "featured": false,
-    "views": 155
+    "views": 249
   },
   {
     "id": "box",
@@ -1157,9 +1157,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://box.com",
-    "createdAt": "2025-12-09T16:05:20.392Z",
+    "createdAt": "2025-12-09T16:22:11.624Z",
     "featured": false,
-    "views": 64
+    "views": 187
   },
   {
     "id": "bp",
@@ -1176,9 +1176,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bp.com",
-    "createdAt": "2025-12-08T16:05:20.392Z",
+    "createdAt": "2025-12-08T16:22:11.624Z",
     "featured": false,
-    "views": 0
+    "views": 734
   },
   {
     "id": "braze",
@@ -1195,9 +1195,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://braze.com",
-    "createdAt": "2025-12-07T16:05:20.392Z",
+    "createdAt": "2025-12-07T16:22:11.624Z",
     "featured": false,
-    "views": 262
+    "views": 337
   },
   {
     "id": "broadcom",
@@ -1214,9 +1214,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://broadcom.com",
-    "createdAt": "2025-12-06T16:05:20.392Z",
+    "createdAt": "2025-12-06T16:22:11.624Z",
     "featured": false,
-    "views": 72
+    "views": 509
   },
   {
     "id": "bubble",
@@ -1233,9 +1233,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bubble.com",
-    "createdAt": "2025-12-05T16:05:20.392Z",
+    "createdAt": "2025-12-05T16:22:11.624Z",
     "featured": false,
-    "views": 793
+    "views": 934
   },
   {
     "id": "buffer",
@@ -1252,9 +1252,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://buffer.com",
-    "createdAt": "2025-12-04T16:05:20.392Z",
+    "createdAt": "2025-12-04T16:22:11.624Z",
     "featured": false,
-    "views": 944
+    "views": 390
   },
   {
     "id": "bugsnag",
@@ -1271,9 +1271,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bugsnag.com",
-    "createdAt": "2025-12-03T16:05:20.393Z",
+    "createdAt": "2025-12-03T16:22:11.624Z",
     "featured": false,
-    "views": 807
+    "views": 393
   },
   {
     "id": "buick",
@@ -1290,9 +1290,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://buick.com",
-    "createdAt": "2025-12-02T16:05:20.393Z",
+    "createdAt": "2025-12-02T16:22:11.624Z",
     "featured": false,
-    "views": 322
+    "views": 489
   },
   {
     "id": "bun",
@@ -1309,9 +1309,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://bun.com",
-    "createdAt": "2025-12-01T16:05:20.393Z",
+    "createdAt": "2025-12-01T16:22:11.624Z",
     "featured": false,
-    "views": 850
+    "views": 967
   },
   {
     "id": "burger-king",
@@ -1328,9 +1328,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://burgerking.com",
-    "createdAt": "2025-11-30T16:05:20.393Z",
+    "createdAt": "2025-11-30T16:22:11.624Z",
     "featured": false,
-    "views": 794
+    "views": 858
   },
   {
     "id": "cabelas",
@@ -1347,9 +1347,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cabelas.com",
-    "createdAt": "2025-11-29T16:05:20.393Z",
+    "createdAt": "2025-11-29T16:22:11.624Z",
     "featured": false,
-    "views": 20
+    "views": 449
   },
   {
     "id": "cadillac",
@@ -1366,9 +1366,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cadillac.com",
-    "createdAt": "2025-11-28T16:05:20.393Z",
+    "createdAt": "2025-11-28T16:22:11.624Z",
     "featured": false,
-    "views": 95
+    "views": 560
   },
   {
     "id": "canva",
@@ -1385,9 +1385,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://canva.com",
-    "createdAt": "2025-11-27T16:05:20.393Z",
+    "createdAt": "2025-11-27T16:22:11.624Z",
     "featured": false,
-    "views": 835
+    "views": 22
   },
   {
     "id": "canva",
@@ -1404,9 +1404,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://canva.com",
-    "createdAt": "2025-11-26T16:05:20.393Z",
+    "createdAt": "2025-11-26T16:22:11.624Z",
     "featured": false,
-    "views": 86
+    "views": 355
   },
   {
     "id": "capacitor",
@@ -1423,9 +1423,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://capacitor.com",
-    "createdAt": "2025-11-25T16:05:20.393Z",
+    "createdAt": "2025-11-25T16:22:11.624Z",
     "featured": false,
-    "views": 905
+    "views": 696
   },
   {
     "id": "capital-one",
@@ -1442,9 +1442,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://capitalone.com",
-    "createdAt": "2025-11-24T16:05:20.393Z",
+    "createdAt": "2025-11-24T16:22:11.624Z",
     "featured": false,
-    "views": 893
+    "views": 720
   },
   {
     "id": "cardinal-health",
@@ -1461,9 +1461,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cardinalhealth.com",
-    "createdAt": "2025-11-23T16:05:20.393Z",
+    "createdAt": "2025-11-23T16:22:11.624Z",
     "featured": false,
-    "views": 709
+    "views": 863
   },
   {
     "id": "cassandra",
@@ -1480,9 +1480,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cassandra.com",
-    "createdAt": "2025-11-22T16:05:20.393Z",
+    "createdAt": "2025-11-22T16:22:11.624Z",
     "featured": false,
-    "views": 30
+    "views": 367
   },
   {
     "id": "caterpillar",
@@ -1499,9 +1499,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://caterpillar.com",
-    "createdAt": "2025-11-21T16:05:20.393Z",
+    "createdAt": "2025-11-21T16:22:11.624Z",
     "featured": false,
-    "views": 381
+    "views": 872
   },
   {
     "id": "cencora",
@@ -1518,9 +1518,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cencora.com",
-    "createdAt": "2025-11-20T16:05:20.393Z",
+    "createdAt": "2025-11-20T16:22:11.624Z",
     "featured": false,
-    "views": 607
+    "views": 812
   },
   {
     "id": "charter",
@@ -1537,9 +1537,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://charter.com",
-    "createdAt": "2025-11-19T16:05:20.393Z",
+    "createdAt": "2025-11-19T16:22:11.624Z",
     "featured": false,
-    "views": 75
+    "views": 522
   },
   {
     "id": "chase",
@@ -1556,9 +1556,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chase.com",
-    "createdAt": "2025-11-18T16:05:20.393Z",
+    "createdAt": "2025-11-18T16:22:11.624Z",
     "featured": false,
-    "views": 633
+    "views": 934
   },
   {
     "id": "checkpoint",
@@ -1575,9 +1575,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://checkpoint.com",
-    "createdAt": "2025-11-17T16:05:20.393Z",
+    "createdAt": "2025-11-17T16:22:11.624Z",
     "featured": false,
-    "views": 737
+    "views": 490
   },
   {
     "id": "chef",
@@ -1594,9 +1594,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chef.com",
-    "createdAt": "2025-11-16T16:05:20.393Z",
+    "createdAt": "2025-11-16T16:22:11.624Z",
     "featured": false,
-    "views": 572
+    "views": 9
   },
   {
     "id": "chevrolet",
@@ -1613,9 +1613,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chevrolet.com",
-    "createdAt": "2025-11-15T16:05:20.393Z",
+    "createdAt": "2025-11-15T16:22:11.624Z",
     "featured": false,
-    "views": 887
+    "views": 86
   },
   {
     "id": "chevron",
@@ -1632,9 +1632,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chevron.com",
-    "createdAt": "2025-11-14T16:05:20.393Z",
+    "createdAt": "2025-11-14T16:22:11.624Z",
     "featured": false,
-    "views": 573
+    "views": 543
   },
   {
     "id": "chick-fil-a",
@@ -1651,9 +1651,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chickfila.com",
-    "createdAt": "2025-11-13T16:05:20.393Z",
+    "createdAt": "2025-11-13T16:22:11.624Z",
     "featured": false,
-    "views": 701
+    "views": 365
   },
   {
     "id": "chipotle",
@@ -1670,9 +1670,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chipotle.com",
-    "createdAt": "2025-11-12T16:05:20.393Z",
+    "createdAt": "2025-11-12T16:22:11.624Z",
     "featured": false,
-    "views": 725
+    "views": 833
   },
   {
     "id": "chrysler",
@@ -1689,9 +1689,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://chrysler.com",
-    "createdAt": "2025-11-11T16:05:20.393Z",
+    "createdAt": "2025-11-11T16:22:11.624Z",
     "featured": false,
-    "views": 643
+    "views": 38
   },
   {
     "id": "cigna",
@@ -1708,9 +1708,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cigna.com",
-    "createdAt": "2025-11-10T16:05:20.393Z",
+    "createdAt": "2025-11-10T16:22:11.624Z",
     "featured": false,
-    "views": 815
+    "views": 382
   },
   {
     "id": "cintas",
@@ -1727,9 +1727,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cintas.com",
-    "createdAt": "2025-11-09T16:05:20.393Z",
+    "createdAt": "2025-11-09T16:22:11.624Z",
     "featured": false,
-    "views": 755
+    "views": 65
   },
   {
     "id": "circleci",
@@ -1746,9 +1746,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://circleci.com",
-    "createdAt": "2025-11-08T16:05:20.393Z",
+    "createdAt": "2025-11-08T16:22:11.624Z",
     "featured": false,
-    "views": 899
+    "views": 932
   },
   {
     "id": "cisco",
@@ -1765,9 +1765,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cisco.com",
-    "createdAt": "2025-11-07T16:05:20.393Z",
+    "createdAt": "2025-11-07T16:22:11.624Z",
     "featured": false,
-    "views": 243
+    "views": 988
   },
   {
     "id": "citi",
@@ -1784,9 +1784,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://citi.com",
-    "createdAt": "2025-11-06T16:05:20.393Z",
+    "createdAt": "2025-11-06T16:22:11.624Z",
     "featured": false,
-    "views": 137
+    "views": 947
   },
   {
     "id": "citigroup",
@@ -1803,9 +1803,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://citigroup.com",
-    "createdAt": "2025-11-05T16:05:20.393Z",
+    "createdAt": "2025-11-05T16:22:11.624Z",
     "featured": false,
-    "views": 770
+    "views": 102
   },
   {
     "id": "clevertap",
@@ -1822,9 +1822,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://clevertap.com",
-    "createdAt": "2025-11-04T16:05:20.393Z",
+    "createdAt": "2025-11-04T16:22:11.624Z",
     "featured": false,
-    "views": 30
+    "views": 550
   },
   {
     "id": "clickup",
@@ -1841,9 +1841,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://clickup.com",
-    "createdAt": "2025-11-03T16:05:20.393Z",
+    "createdAt": "2025-11-03T16:22:11.624Z",
     "featured": false,
-    "views": 724
+    "views": 591
   },
   {
     "id": "cloudflare-registrar",
@@ -1860,9 +1860,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cloudflareregistrar.com",
-    "createdAt": "2025-11-02T16:05:20.393Z",
+    "createdAt": "2025-11-02T16:22:11.625Z",
     "featured": false,
-    "views": 644
+    "views": 361
   },
   {
     "id": "cloudflare",
@@ -1879,9 +1879,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cloudflare.com",
-    "createdAt": "2025-11-01T16:05:20.393Z",
+    "createdAt": "2025-11-01T16:22:11.625Z",
     "featured": false,
-    "views": 963
+    "views": 858
   },
   {
     "id": "cloudflare",
@@ -1898,9 +1898,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cloudflare.com",
-    "createdAt": "2025-10-31T16:05:20.393Z",
+    "createdAt": "2025-10-31T16:22:11.625Z",
     "featured": false,
-    "views": 88
+    "views": 826
   },
   {
     "id": "coca-cola",
@@ -1917,9 +1917,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cocacola.com",
-    "createdAt": "2025-10-30T16:05:20.393Z",
+    "createdAt": "2025-10-30T16:22:11.625Z",
     "featured": false,
-    "views": 242
+    "views": 562
   },
   {
     "id": "coinbase",
@@ -1936,9 +1936,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://coinbase.com",
-    "createdAt": "2025-10-29T16:05:20.393Z",
+    "createdAt": "2025-10-29T16:22:11.625Z",
     "featured": false,
-    "views": 142
+    "views": 70
   },
   {
     "id": "colgate",
@@ -1955,9 +1955,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://colgate.com",
-    "createdAt": "2025-10-28T16:05:20.393Z",
+    "createdAt": "2025-10-28T16:22:11.625Z",
     "featured": false,
-    "views": 332
+    "views": 218
   },
   {
     "id": "comcast",
@@ -1974,9 +1974,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://comcast.com",
-    "createdAt": "2025-10-27T16:05:20.393Z",
+    "createdAt": "2025-10-27T16:22:11.625Z",
     "featured": false,
-    "views": 120
+    "views": 940
   },
   {
     "id": "confluence",
@@ -1993,9 +1993,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://confluence.com",
-    "createdAt": "2025-10-26T16:05:20.393Z",
+    "createdAt": "2025-10-26T16:22:11.625Z",
     "featured": false,
-    "views": 977
+    "views": 50
   },
   {
     "id": "convertkit",
@@ -2012,9 +2012,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://convertkit.com",
-    "createdAt": "2025-10-25T16:05:20.393Z",
+    "createdAt": "2025-10-25T16:22:11.625Z",
     "featured": false,
-    "views": 898
+    "views": 143
   },
   {
     "id": "cosmos-db",
@@ -2031,9 +2031,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cosmosdb.com",
-    "createdAt": "2025-10-24T16:05:20.393Z",
+    "createdAt": "2025-10-24T16:22:11.625Z",
     "featured": false,
-    "views": 551
+    "views": 196
   },
   {
     "id": "costco",
@@ -2050,9 +2050,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://costco.com",
-    "createdAt": "2025-10-23T16:05:20.393Z",
+    "createdAt": "2025-10-23T16:22:11.625Z",
     "featured": false,
-    "views": 283
+    "views": 115
   },
   {
     "id": "couchbase",
@@ -2069,9 +2069,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://couchbase.com",
-    "createdAt": "2025-10-22T16:05:20.393Z",
+    "createdAt": "2025-10-22T16:22:11.625Z",
     "featured": false,
-    "views": 656
+    "views": 382
   },
   {
     "id": "crazy-egg",
@@ -2088,9 +2088,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://crazyegg.com",
-    "createdAt": "2025-10-21T16:05:20.393Z",
+    "createdAt": "2025-10-21T16:22:11.625Z",
     "featured": false,
-    "views": 881
+    "views": 988
   },
   {
     "id": "crowdstrike",
@@ -2107,9 +2107,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://crowdstrike.com",
-    "createdAt": "2025-10-20T16:05:20.393Z",
+    "createdAt": "2025-10-20T16:22:11.625Z",
     "featured": false,
-    "views": 675
+    "views": 925
   },
   {
     "id": "customer-io",
@@ -2126,9 +2126,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://customerio.com",
-    "createdAt": "2025-10-19T16:05:20.393Z",
+    "createdAt": "2025-10-19T16:22:11.625Z",
     "featured": false,
-    "views": 509
+    "views": 174
   },
   {
     "id": "cvs-health",
@@ -2145,9 +2145,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cvshealth.com",
-    "createdAt": "2025-10-18T16:05:20.393Z",
+    "createdAt": "2025-10-18T16:22:11.625Z",
     "featured": false,
-    "views": 834
+    "views": 612
   },
   {
     "id": "cvs",
@@ -2164,9 +2164,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://cvs.com",
-    "createdAt": "2025-10-17T16:05:20.393Z",
+    "createdAt": "2025-10-17T16:22:11.625Z",
     "featured": false,
-    "views": 746
+    "views": 2
   },
   {
     "id": "dashlane",
@@ -2183,9 +2183,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dashlane.com",
-    "createdAt": "2025-10-16T16:05:20.393Z",
+    "createdAt": "2025-10-16T16:22:11.625Z",
     "featured": false,
-    "views": 170
+    "views": 660
   },
   {
     "id": "databricks",
@@ -2202,9 +2202,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://databricks.com",
-    "createdAt": "2025-10-15T16:05:20.393Z",
+    "createdAt": "2025-10-15T16:22:11.625Z",
     "featured": false,
-    "views": 334
+    "views": 151
   },
   {
     "id": "datadog",
@@ -2221,9 +2221,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://datadog.com",
-    "createdAt": "2025-10-14T16:05:20.393Z",
+    "createdAt": "2025-10-14T16:22:11.625Z",
     "featured": false,
-    "views": 600
+    "views": 44
   },
   {
     "id": "datadog",
@@ -2240,9 +2240,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://datadog.com",
-    "createdAt": "2025-10-13T16:05:20.393Z",
+    "createdAt": "2025-10-13T16:22:11.625Z",
     "featured": false,
-    "views": 649
+    "views": 516
   },
   {
     "id": "dbt",
@@ -2259,9 +2259,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dbt.com",
-    "createdAt": "2025-10-12T16:05:20.393Z",
+    "createdAt": "2025-10-12T16:22:11.625Z",
     "featured": false,
-    "views": 641
+    "views": 527
   },
   {
     "id": "dell",
@@ -2278,9 +2278,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dell.com",
-    "createdAt": "2025-10-11T16:05:20.393Z",
+    "createdAt": "2025-10-11T16:22:11.625Z",
     "featured": false,
-    "views": 291
+    "views": 103
   },
   {
     "id": "delta",
@@ -2297,9 +2297,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://delta.com",
-    "createdAt": "2025-10-10T16:05:20.393Z",
+    "createdAt": "2025-10-10T16:22:11.625Z",
     "featured": false,
-    "views": 716
+    "views": 538
   },
   {
     "id": "deno",
@@ -2316,9 +2316,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://deno.com",
-    "createdAt": "2025-10-09T16:05:20.393Z",
+    "createdAt": "2025-10-09T16:22:11.625Z",
     "featured": false,
-    "views": 434
+    "views": 318
   },
   {
     "id": "dicks",
@@ -2335,9 +2335,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dicks.com",
-    "createdAt": "2025-10-08T16:05:20.393Z",
+    "createdAt": "2025-10-08T16:22:11.625Z",
     "featured": false,
-    "views": 706
+    "views": 976
   },
   {
     "id": "digital-ocean",
@@ -2354,9 +2354,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://digitalocean.com",
-    "createdAt": "2025-10-07T16:05:20.393Z",
+    "createdAt": "2025-10-07T16:22:11.625Z",
     "featured": false,
-    "views": 837
+    "views": 766
   },
   {
     "id": "discord",
@@ -2373,9 +2373,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://discord.com",
-    "createdAt": "2025-10-06T16:05:20.393Z",
+    "createdAt": "2025-10-06T16:22:11.625Z",
     "featured": false,
-    "views": 446
+    "views": 131
   },
   {
     "id": "discord",
@@ -2392,9 +2392,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://discord.com",
-    "createdAt": "2025-10-05T16:05:20.393Z",
+    "createdAt": "2025-10-05T16:22:11.625Z",
     "featured": false,
-    "views": 28
+    "views": 673
   },
   {
     "id": "discover",
@@ -2411,9 +2411,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://discover.com",
-    "createdAt": "2025-10-04T16:05:20.393Z",
+    "createdAt": "2025-10-04T16:22:11.625Z",
     "featured": false,
-    "views": 949
+    "views": 669
   },
   {
     "id": "disney",
@@ -2430,9 +2430,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://disney.com",
-    "createdAt": "2025-10-03T16:05:20.393Z",
+    "createdAt": "2025-10-03T16:22:11.625Z",
     "featured": false,
-    "views": 882
+    "views": 928
   },
   {
     "id": "docker",
@@ -2449,9 +2449,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://docker.com",
-    "createdAt": "2025-10-02T16:05:20.393Z",
+    "createdAt": "2025-10-02T16:22:11.625Z",
     "featured": false,
-    "views": 643
+    "views": 854
   },
   {
     "id": "dodge",
@@ -2468,9 +2468,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dodge.com",
-    "createdAt": "2025-10-01T16:05:20.393Z",
+    "createdAt": "2025-10-01T16:22:11.625Z",
     "featured": false,
-    "views": 867
+    "views": 94
   },
   {
     "id": "dollar-general",
@@ -2487,9 +2487,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dollargeneral.com",
-    "createdAt": "2025-09-30T16:05:20.393Z",
+    "createdAt": "2025-09-30T16:22:11.625Z",
     "featured": false,
-    "views": 914
+    "views": 535
   },
   {
     "id": "dollar-tree",
@@ -2506,9 +2506,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dollartree.com",
-    "createdAt": "2025-09-29T16:05:20.393Z",
+    "createdAt": "2025-09-29T16:22:11.625Z",
     "featured": false,
-    "views": 144
+    "views": 549
   },
   {
     "id": "dominos",
@@ -2525,9 +2525,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dominos.com",
-    "createdAt": "2025-09-28T16:05:20.393Z",
+    "createdAt": "2025-09-28T16:22:11.625Z",
     "featured": false,
-    "views": 546
+    "views": 493
   },
   {
     "id": "doordash",
@@ -2544,9 +2544,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://doordash.com",
-    "createdAt": "2025-09-27T16:05:20.393Z",
+    "createdAt": "2025-09-27T16:22:11.625Z",
     "featured": false,
-    "views": 477
+    "views": 239
   },
   {
     "id": "dropbox",
@@ -2563,9 +2563,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dropbox.com",
-    "createdAt": "2025-09-26T16:05:20.393Z",
+    "createdAt": "2025-09-26T16:22:11.625Z",
     "featured": false,
-    "views": 512
+    "views": 414
   },
   {
     "id": "dropbox",
@@ -2582,9 +2582,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dropbox.com",
-    "createdAt": "2025-09-25T16:05:20.393Z",
+    "createdAt": "2025-09-25T16:22:11.625Z",
     "featured": false,
-    "views": 400
+    "views": 855
   },
   {
     "id": "drupal",
@@ -2601,9 +2601,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://drupal.com",
-    "createdAt": "2025-09-24T16:05:20.393Z",
+    "createdAt": "2025-09-24T16:22:11.625Z",
     "featured": false,
-    "views": 517
+    "views": 119
   },
   {
     "id": "dunkin",
@@ -2620,9 +2620,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dunkin.com",
-    "createdAt": "2025-09-23T16:05:20.393Z",
+    "createdAt": "2025-09-23T16:22:11.625Z",
     "featured": false,
-    "views": 741
+    "views": 338
   },
   {
     "id": "duo",
@@ -2639,9 +2639,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://duo.com",
-    "createdAt": "2025-09-22T16:05:20.393Z",
+    "createdAt": "2025-09-22T16:22:11.625Z",
     "featured": false,
-    "views": 778
+    "views": 948
   },
   {
     "id": "duolingo",
@@ -2658,9 +2658,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://duolingo.com",
-    "createdAt": "2025-09-21T16:05:20.393Z",
+    "createdAt": "2025-09-21T16:22:11.625Z",
     "featured": false,
-    "views": 789
+    "views": 831
   },
   {
     "id": "dynamodb",
@@ -2677,9 +2677,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dynamodb.com",
-    "createdAt": "2025-09-20T16:05:20.393Z",
+    "createdAt": "2025-09-20T16:22:11.625Z",
     "featured": false,
-    "views": 530
+    "views": 419
   },
   {
     "id": "dynatrace",
@@ -2696,9 +2696,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://dynatrace.com",
-    "createdAt": "2025-09-19T16:05:20.393Z",
+    "createdAt": "2025-09-19T16:22:11.625Z",
     "featured": false,
-    "views": 734
+    "views": 59
   },
   {
     "id": "ea",
@@ -2715,9 +2715,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ea.com",
-    "createdAt": "2025-09-18T16:05:20.393Z",
+    "createdAt": "2025-09-18T16:22:11.625Z",
     "featured": false,
-    "views": 927
+    "views": 238
   },
   {
     "id": "easypost",
@@ -2734,9 +2734,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://easypost.com",
-    "createdAt": "2025-09-17T16:05:20.393Z",
+    "createdAt": "2025-09-17T16:22:11.625Z",
     "featured": false,
-    "views": 736
+    "views": 343
   },
   {
     "id": "ebay",
@@ -2753,9 +2753,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ebay.com",
-    "createdAt": "2025-09-16T16:05:20.393Z",
+    "createdAt": "2025-09-16T16:22:11.625Z",
     "featured": false,
-    "views": 720
+    "views": 752
   },
   {
     "id": "elastic",
@@ -2772,9 +2772,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://elastic.com",
-    "createdAt": "2025-09-15T16:05:20.393Z",
+    "createdAt": "2025-09-15T16:22:11.625Z",
     "featured": false,
-    "views": 338
+    "views": 524
   },
   {
     "id": "elasticsearch",
@@ -2791,9 +2791,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://elasticsearch.com",
-    "createdAt": "2025-09-14T16:05:20.393Z",
+    "createdAt": "2025-09-14T16:22:11.625Z",
     "featured": false,
-    "views": 30
+    "views": 543
   },
   {
     "id": "elevance-health",
@@ -2810,9 +2810,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://elevancehealth.com",
-    "createdAt": "2025-09-13T16:05:20.393Z",
+    "createdAt": "2025-09-13T16:22:11.625Z",
     "featured": false,
-    "views": 187
+    "views": 101
   },
   {
     "id": "elk",
@@ -2829,9 +2829,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://elk.com",
-    "createdAt": "2025-09-12T16:05:20.393Z",
+    "createdAt": "2025-09-12T16:22:11.625Z",
     "featured": false,
-    "views": 228
+    "views": 187
   },
   {
     "id": "esbuild",
@@ -2848,9 +2848,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://esbuild.com",
-    "createdAt": "2025-09-11T16:05:20.393Z",
+    "createdAt": "2025-09-11T16:22:11.625Z",
     "featured": false,
-    "views": 164
+    "views": 770
   },
   {
     "id": "eslint",
@@ -2867,9 +2867,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://eslint.com",
-    "createdAt": "2025-09-10T16:05:20.393Z",
+    "createdAt": "2025-09-10T16:22:11.625Z",
     "featured": false,
-    "views": 274
+    "views": 247
   },
   {
     "id": "estee-lauder",
@@ -2886,9 +2886,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://esteelauder.com",
-    "createdAt": "2025-09-09T16:05:20.393Z",
+    "createdAt": "2025-09-09T16:22:11.625Z",
     "featured": false,
-    "views": 243
+    "views": 186
   },
   {
     "id": "everwell",
@@ -2905,9 +2905,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://everwell.com",
-    "createdAt": "2025-09-08T16:05:20.393Z",
+    "createdAt": "2025-09-08T16:22:11.625Z",
     "featured": false,
-    "views": 784
+    "views": 671
   },
   {
     "id": "exxon-mobil",
@@ -2924,9 +2924,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://exxonmobil.com",
-    "createdAt": "2025-09-07T16:05:20.393Z",
+    "createdAt": "2025-09-07T16:22:11.625Z",
     "featured": false,
-    "views": 777
+    "views": 3
   },
   {
     "id": "exxon",
@@ -2943,9 +2943,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://exxon.com",
-    "createdAt": "2025-09-06T16:05:20.393Z",
+    "createdAt": "2025-09-06T16:22:11.625Z",
     "featured": false,
-    "views": 404
+    "views": 464
   },
   {
     "id": "fastly",
@@ -2962,9 +2962,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fastly.com",
-    "createdAt": "2025-09-05T16:05:20.393Z",
+    "createdAt": "2025-09-05T16:22:11.625Z",
     "featured": false,
-    "views": 207
+    "views": 484
   },
   {
     "id": "fathom",
@@ -2981,9 +2981,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fathom.com",
-    "createdAt": "2025-09-04T16:05:20.393Z",
+    "createdAt": "2025-09-04T16:22:11.625Z",
     "featured": false,
-    "views": 567
+    "views": 556
   },
   {
     "id": "fedex",
@@ -3000,9 +3000,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fedex.com",
-    "createdAt": "2025-09-03T16:05:20.393Z",
+    "createdAt": "2025-09-03T16:22:11.625Z",
     "featured": false,
-    "views": 862
+    "views": 562
   },
   {
     "id": "ferrari",
@@ -3019,9 +3019,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ferrari.com",
-    "createdAt": "2025-09-02T16:05:20.393Z",
+    "createdAt": "2025-09-02T16:22:11.625Z",
     "featured": false,
-    "views": 770
+    "views": 514
   },
   {
     "id": "fiat",
@@ -3038,9 +3038,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fiat.com",
-    "createdAt": "2025-09-01T16:05:20.393Z",
+    "createdAt": "2025-09-01T16:22:11.625Z",
     "featured": false,
-    "views": 723
+    "views": 335
   },
   {
     "id": "fidelity",
@@ -3057,9 +3057,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fidelity.com",
-    "createdAt": "2025-08-31T16:05:20.393Z",
+    "createdAt": "2025-08-31T16:22:11.625Z",
     "featured": false,
-    "views": 398
+    "views": 431
   },
   {
     "id": "figma",
@@ -3076,9 +3076,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://figma.com",
-    "createdAt": "2025-08-30T16:05:20.393Z",
+    "createdAt": "2025-08-30T16:22:11.625Z",
     "featured": false,
-    "views": 253
+    "views": 299
   },
   {
     "id": "figma",
@@ -3095,9 +3095,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://figma.com",
-    "createdAt": "2025-08-29T16:05:20.393Z",
+    "createdAt": "2025-08-29T16:22:11.625Z",
     "featured": false,
-    "views": 533
+    "views": 551
   },
   {
     "id": "firebase",
@@ -3114,9 +3114,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://firebase.com",
-    "createdAt": "2025-08-28T16:05:20.393Z",
+    "createdAt": "2025-08-28T16:22:11.625Z",
     "featured": false,
-    "views": 139
+    "views": 305
   },
   {
     "id": "flutter",
@@ -3133,9 +3133,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://flutter.com",
-    "createdAt": "2025-08-27T16:05:20.393Z",
+    "createdAt": "2025-08-27T16:22:11.625Z",
     "featured": false,
-    "views": 62
+    "views": 49
   },
   {
     "id": "foot-locker",
@@ -3152,9 +3152,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://footlocker.com",
-    "createdAt": "2025-08-26T16:05:20.393Z",
+    "createdAt": "2025-08-26T16:22:11.625Z",
     "featured": false,
-    "views": 686
+    "views": 243
   },
   {
     "id": "ford",
@@ -3171,9 +3171,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ford.com",
-    "createdAt": "2025-08-25T16:05:20.393Z",
+    "createdAt": "2025-08-25T16:22:11.625Z",
     "featured": false,
-    "views": 828
+    "views": 283
   },
   {
     "id": "fortinet",
@@ -3190,9 +3190,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fortinet.com",
-    "createdAt": "2025-08-24T16:05:20.393Z",
+    "createdAt": "2025-08-24T16:22:11.625Z",
     "featured": false,
-    "views": 288
+    "views": 225
   },
   {
     "id": "framer",
@@ -3209,9 +3209,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://framer.com",
-    "createdAt": "2025-08-23T16:05:20.393Z",
+    "createdAt": "2025-08-23T16:22:11.625Z",
     "featured": false,
-    "views": 933
+    "views": 234
   },
   {
     "id": "ftx",
@@ -3228,9 +3228,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ftx.com",
-    "createdAt": "2025-08-22T16:05:20.393Z",
+    "createdAt": "2025-08-22T16:22:11.625Z",
     "featured": false,
-    "views": 626
+    "views": 936
   },
   {
     "id": "fullstory",
@@ -3247,9 +3247,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://fullstory.com",
-    "createdAt": "2025-08-21T16:05:20.393Z",
+    "createdAt": "2025-08-21T16:22:11.625Z",
     "featured": false,
-    "views": 231
+    "views": 354
   },
   {
     "id": "gap",
@@ -3266,9 +3266,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gap.com",
-    "createdAt": "2025-08-20T16:05:20.393Z",
+    "createdAt": "2025-08-20T16:22:11.625Z",
     "featured": false,
-    "views": 912
+    "views": 430
   },
   {
     "id": "gatsby",
@@ -3285,9 +3285,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gatsby.com",
-    "createdAt": "2025-08-19T16:05:20.393Z",
+    "createdAt": "2025-08-19T16:22:11.625Z",
     "featured": false,
-    "views": 165
+    "views": 247
   },
   {
     "id": "gcp",
@@ -3304,9 +3304,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gcp.com",
-    "createdAt": "2025-08-18T16:05:20.393Z",
+    "createdAt": "2025-08-18T16:22:11.625Z",
     "featured": false,
-    "views": 758
+    "views": 834
   },
   {
     "id": "general-mills",
@@ -3323,9 +3323,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://generalmills.com",
-    "createdAt": "2025-08-17T16:05:20.393Z",
+    "createdAt": "2025-08-17T16:22:11.625Z",
     "featured": false,
-    "views": 256
+    "views": 929
   },
   {
     "id": "general-motors",
@@ -3342,9 +3342,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://generalmotors.com",
-    "createdAt": "2025-08-16T16:05:20.393Z",
+    "createdAt": "2025-08-16T16:22:11.625Z",
     "featured": false,
-    "views": 242
+    "views": 811
   },
   {
     "id": "genesis",
@@ -3361,9 +3361,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://genesis.com",
-    "createdAt": "2025-08-15T16:05:20.393Z",
+    "createdAt": "2025-08-15T16:22:11.625Z",
     "featured": false,
-    "views": 470
+    "views": 638
   },
   {
     "id": "ghost",
@@ -3380,9 +3380,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ghost.com",
-    "createdAt": "2025-08-14T16:05:20.393Z",
+    "createdAt": "2025-08-14T16:22:11.625Z",
     "featured": false,
-    "views": 973
+    "views": 719
   },
   {
     "id": "gigabyte",
@@ -3399,9 +3399,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gigabyte.com",
-    "createdAt": "2025-08-13T16:05:20.393Z",
+    "createdAt": "2025-08-13T16:22:11.625Z",
     "featured": false,
-    "views": 809
+    "views": 424
   },
   {
     "id": "gitbook",
@@ -3418,9 +3418,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gitbook.com",
-    "createdAt": "2025-08-12T16:05:20.393Z",
+    "createdAt": "2025-08-12T16:22:11.625Z",
     "featured": false,
-    "views": 940
+    "views": 627
   },
   {
     "id": "github",
@@ -3437,9 +3437,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://github.com",
-    "createdAt": "2025-08-11T16:05:20.393Z",
+    "createdAt": "2025-08-11T16:22:11.625Z",
     "featured": false,
-    "views": 696
+    "views": 884
   },
   {
     "id": "gitlab",
@@ -3456,9 +3456,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gitlab.com",
-    "createdAt": "2025-08-10T16:05:20.393Z",
+    "createdAt": "2025-08-10T16:22:11.625Z",
     "featured": false,
-    "views": 54
+    "views": 605
   },
   {
     "id": "gmc",
@@ -3475,9 +3475,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://gmc.com",
-    "createdAt": "2025-08-09T16:05:20.393Z",
+    "createdAt": "2025-08-09T16:22:11.625Z",
     "featured": false,
-    "views": 22
+    "views": 526
   },
   {
     "id": "go",
@@ -3494,9 +3494,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://go.com",
-    "createdAt": "2025-08-08T16:05:20.393Z",
+    "createdAt": "2025-08-08T16:22:11.625Z",
     "featured": false,
-    "views": 921
+    "views": 250
   },
   {
     "id": "godaddy",
@@ -3513,9 +3513,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://godaddy.com",
-    "createdAt": "2025-08-07T16:05:20.393Z",
+    "createdAt": "2025-08-07T16:22:11.625Z",
     "featured": false,
-    "views": 406
+    "views": 3
   },
   {
     "id": "goldman-sachs",
@@ -3532,9 +3532,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://goldmansachs.com",
-    "createdAt": "2025-08-06T16:05:20.393Z",
+    "createdAt": "2025-08-06T16:22:11.625Z",
     "featured": false,
-    "views": 862
+    "views": 992
   },
   {
     "id": "google-drive",
@@ -3551,9 +3551,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://googledrive.com",
-    "createdAt": "2025-08-05T16:05:20.393Z",
+    "createdAt": "2025-08-05T16:22:11.625Z",
     "featured": false,
-    "views": 194
+    "views": 727
   },
   {
     "id": "google",
@@ -3570,9 +3570,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://google.com",
-    "createdAt": "2025-08-04T16:05:20.393Z",
+    "createdAt": "2025-08-04T16:22:11.625Z",
     "featured": false,
-    "views": 857
+    "views": 526
   },
   {
     "id": "grafana",
@@ -3589,9 +3589,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://grafana.com",
-    "createdAt": "2025-08-03T16:05:20.393Z",
+    "createdAt": "2025-08-03T16:22:11.625Z",
     "featured": false,
-    "views": 856
+    "views": 109
   },
   {
     "id": "grammarly",
@@ -3608,9 +3608,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://grammarly.com",
-    "createdAt": "2025-08-02T16:05:20.393Z",
+    "createdAt": "2025-08-02T16:22:11.625Z",
     "featured": false,
-    "views": 42
+    "views": 934
   },
   {
     "id": "harborline",
@@ -3627,9 +3627,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://harborline.com",
-    "createdAt": "2025-08-01T16:05:20.393Z",
+    "createdAt": "2025-08-01T16:22:11.625Z",
     "featured": false,
-    "views": 912
+    "views": 294
   },
   {
     "id": "hasura",
@@ -3646,9 +3646,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hasura.com",
-    "createdAt": "2025-07-31T16:05:20.393Z",
+    "createdAt": "2025-07-31T16:22:11.625Z",
     "featured": false,
-    "views": 703
+    "views": 80
   },
   {
     "id": "hbo",
@@ -3665,9 +3665,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hbo.com",
-    "createdAt": "2025-07-30T16:05:20.393Z",
+    "createdAt": "2025-07-30T16:22:11.625Z",
     "featured": false,
-    "views": 868
+    "views": 328
   },
   {
     "id": "heap",
@@ -3684,9 +3684,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://heap.com",
-    "createdAt": "2025-07-29T16:05:20.393Z",
+    "createdAt": "2025-07-29T16:22:11.625Z",
     "featured": false,
-    "views": 764
+    "views": 595
   },
   {
     "id": "heroku",
@@ -3703,9 +3703,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://heroku.com",
-    "createdAt": "2025-07-28T16:05:20.393Z",
+    "createdAt": "2025-07-28T16:22:11.625Z",
     "featured": false,
-    "views": 393
+    "views": 310
   },
   {
     "id": "hershey",
@@ -3722,9 +3722,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hershey.com",
-    "createdAt": "2025-07-27T16:05:20.393Z",
+    "createdAt": "2025-07-27T16:22:11.625Z",
     "featured": false,
-    "views": 740
+    "views": 817
   },
   {
     "id": "hilton",
@@ -3741,9 +3741,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hilton.com",
-    "createdAt": "2025-07-26T16:05:20.393Z",
+    "createdAt": "2025-07-26T16:22:11.625Z",
     "featured": false,
-    "views": 571
+    "views": 892
   },
   {
     "id": "home-depot",
@@ -3760,9 +3760,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://homedepot.com",
-    "createdAt": "2025-07-25T16:05:20.393Z",
+    "createdAt": "2025-07-25T16:22:11.625Z",
     "featured": false,
-    "views": 572
+    "views": 261
   },
   {
     "id": "honda",
@@ -3779,9 +3779,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://honda.com",
-    "createdAt": "2025-07-24T16:05:20.393Z",
+    "createdAt": "2025-07-24T16:22:11.625Z",
     "featured": false,
-    "views": 744
+    "views": 508
   },
   {
     "id": "hootsuite",
@@ -3798,9 +3798,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hootsuite.com",
-    "createdAt": "2025-07-23T16:05:20.393Z",
+    "createdAt": "2025-07-23T16:22:11.625Z",
     "featured": false,
-    "views": 760
+    "views": 810
   },
   {
     "id": "hotjar",
@@ -3817,9 +3817,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hotjar.com",
-    "createdAt": "2025-07-22T16:05:20.393Z",
+    "createdAt": "2025-07-22T16:22:11.625Z",
     "featured": false,
-    "views": 941
+    "views": 883
   },
   {
     "id": "hover",
@@ -3836,9 +3836,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hover.com",
-    "createdAt": "2025-07-21T16:05:20.393Z",
+    "createdAt": "2025-07-21T16:22:11.625Z",
     "featured": false,
-    "views": 272
+    "views": 709
   },
   {
     "id": "hp",
@@ -3855,9 +3855,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hp.com",
-    "createdAt": "2025-07-20T16:05:20.393Z",
+    "createdAt": "2025-07-20T16:22:11.625Z",
     "featured": false,
-    "views": 591
+    "views": 461
   },
   {
     "id": "hpe",
@@ -3874,9 +3874,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hpe.com",
-    "createdAt": "2025-07-19T16:05:20.393Z",
+    "createdAt": "2025-07-19T16:22:11.625Z",
     "featured": false,
-    "views": 116
+    "views": 225
   },
   {
     "id": "hubspot",
@@ -3893,9 +3893,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hubspot.com",
-    "createdAt": "2025-07-18T16:05:20.393Z",
+    "createdAt": "2025-07-18T16:22:11.625Z",
     "featured": false,
-    "views": 474
+    "views": 268
   },
   {
     "id": "hulu",
@@ -3912,9 +3912,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hulu.com",
-    "createdAt": "2025-07-17T16:05:20.393Z",
+    "createdAt": "2025-07-17T16:22:11.625Z",
     "featured": false,
-    "views": 903
+    "views": 178
   },
   {
     "id": "humana",
@@ -3931,9 +3931,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://humana.com",
-    "createdAt": "2025-07-16T16:05:20.393Z",
+    "createdAt": "2025-07-16T16:22:11.625Z",
     "featured": false,
-    "views": 904
+    "views": 817
   },
   {
     "id": "husky",
@@ -3950,9 +3950,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://husky.com",
-    "createdAt": "2025-07-15T16:05:20.393Z",
+    "createdAt": "2025-07-15T16:22:11.625Z",
     "featured": false,
-    "views": 355
+    "views": 713
   },
   {
     "id": "hyatt",
@@ -3969,9 +3969,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hyatt.com",
-    "createdAt": "2025-07-14T16:05:20.393Z",
+    "createdAt": "2025-07-14T16:22:11.625Z",
     "featured": false,
-    "views": 498
+    "views": 167
   },
   {
     "id": "hyundai",
@@ -3988,9 +3988,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://hyundai.com",
-    "createdAt": "2025-07-13T16:05:20.393Z",
+    "createdAt": "2025-07-13T16:22:11.625Z",
     "featured": false,
-    "views": 126
+    "views": 42
   },
   {
     "id": "ibm",
@@ -4007,9 +4007,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ibm.com",
-    "createdAt": "2025-07-12T16:05:20.393Z",
+    "createdAt": "2025-07-12T16:22:11.625Z",
     "featured": false,
-    "views": 257
+    "views": 887
   },
   {
     "id": "icloud",
@@ -4026,9 +4026,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://icloud.com",
-    "createdAt": "2025-07-11T16:05:20.393Z",
+    "createdAt": "2025-07-11T16:22:11.625Z",
     "featured": false,
-    "views": 963
+    "views": 174
   },
   {
     "id": "ihg",
@@ -4045,9 +4045,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ihg.com",
-    "createdAt": "2025-07-10T16:05:20.393Z",
+    "createdAt": "2025-07-10T16:22:11.625Z",
     "featured": false,
-    "views": 256
+    "views": 100
   },
   {
     "id": "illustrator",
@@ -4064,9 +4064,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://illustrator.com",
-    "createdAt": "2025-07-09T16:05:20.393Z",
+    "createdAt": "2025-07-09T16:22:11.625Z",
     "featured": false,
-    "views": 934
+    "views": 609
   },
   {
     "id": "in-n-out",
@@ -4083,9 +4083,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://innout.com",
-    "createdAt": "2025-07-08T16:05:20.393Z",
+    "createdAt": "2025-07-08T16:22:11.625Z",
     "featured": false,
-    "views": 823
+    "views": 580
   },
   {
     "id": "infiniti",
@@ -4102,9 +4102,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://infiniti.com",
-    "createdAt": "2025-07-07T16:05:20.393Z",
+    "createdAt": "2025-07-07T16:22:11.625Z",
     "featured": false,
-    "views": 715
+    "views": 158
   },
   {
     "id": "insomnia",
@@ -4121,9 +4121,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://insomnia.com",
-    "createdAt": "2025-07-06T16:05:20.393Z",
+    "createdAt": "2025-07-06T16:22:11.625Z",
     "featured": false,
-    "views": 275
+    "views": 796
   },
   {
     "id": "instacart",
@@ -4140,9 +4140,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://instacart.com",
-    "createdAt": "2025-07-05T16:05:20.393Z",
+    "createdAt": "2025-07-05T16:22:11.625Z",
     "featured": false,
-    "views": 954
+    "views": 858
   },
   {
     "id": "intel",
@@ -4159,9 +4159,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://intel.com",
-    "createdAt": "2025-07-04T16:05:20.393Z",
+    "createdAt": "2025-07-04T16:22:11.625Z",
     "featured": false,
-    "views": 34
+    "views": 999
   },
   {
     "id": "intercom",
@@ -4178,9 +4178,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://intercom.com",
-    "createdAt": "2025-07-03T16:05:20.393Z",
+    "createdAt": "2025-07-03T16:22:11.625Z",
     "featured": false,
-    "views": 913
+    "views": 260
   },
   {
     "id": "invision",
@@ -4197,9 +4197,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://invision.com",
-    "createdAt": "2025-07-02T16:05:20.393Z",
+    "createdAt": "2025-07-02T16:22:11.625Z",
     "featured": false,
-    "views": 475
+    "views": 459
   },
   {
     "id": "ionic",
@@ -4216,9 +4216,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ionic.com",
-    "createdAt": "2025-07-01T16:05:20.393Z",
+    "createdAt": "2025-07-01T16:22:11.625Z",
     "featured": false,
-    "views": 841
+    "views": 108
   },
   {
     "id": "iterable",
@@ -4235,9 +4235,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://iterable.com",
-    "createdAt": "2025-06-30T16:05:20.393Z",
+    "createdAt": "2025-06-30T16:22:11.625Z",
     "featured": false,
-    "views": 31
+    "views": 175
   },
   {
     "id": "jaguar",
@@ -4254,9 +4254,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jaguar.com",
-    "createdAt": "2025-06-29T16:05:20.393Z",
+    "createdAt": "2025-06-29T16:22:11.625Z",
     "featured": false,
-    "views": 11
+    "views": 382
   },
   {
     "id": "jeep",
@@ -4273,9 +4273,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jeep.com",
-    "createdAt": "2025-06-28T16:05:20.393Z",
+    "createdAt": "2025-06-28T16:22:11.625Z",
     "featured": false,
-    "views": 101
+    "views": 168
   },
   {
     "id": "jenkins",
@@ -4292,9 +4292,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jenkins.com",
-    "createdAt": "2025-06-27T16:05:20.393Z",
+    "createdAt": "2025-06-27T16:22:11.625Z",
     "featured": false,
-    "views": 405
+    "views": 289
   },
   {
     "id": "jetblue",
@@ -4311,9 +4311,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jetblue.com",
-    "createdAt": "2025-06-26T16:05:20.393Z",
+    "createdAt": "2025-06-26T16:22:11.625Z",
     "featured": false,
-    "views": 510
+    "views": 495
   },
   {
     "id": "jira",
@@ -4330,9 +4330,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jira.com",
-    "createdAt": "2025-06-25T16:05:20.393Z",
+    "createdAt": "2025-06-25T16:22:11.625Z",
     "featured": false,
-    "views": 764
+    "views": 598
   },
   {
     "id": "johnson-johnson",
@@ -4349,9 +4349,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://johnsonjohnson.com",
-    "createdAt": "2025-06-24T16:05:20.393Z",
+    "createdAt": "2025-06-24T16:22:11.625Z",
     "featured": false,
-    "views": 839
+    "views": 662
   },
   {
     "id": "joomla",
@@ -4368,9 +4368,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://joomla.com",
-    "createdAt": "2025-06-23T16:05:20.393Z",
+    "createdAt": "2025-06-23T16:22:11.625Z",
     "featured": false,
-    "views": 622
+    "views": 114
   },
   {
     "id": "jpmorgan-chase",
@@ -4387,9 +4387,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://jpmorganchase.com",
-    "createdAt": "2025-06-22T16:05:20.393Z",
+    "createdAt": "2025-06-22T16:22:11.625Z",
     "featured": false,
-    "views": 401
+    "views": 899
   },
   {
     "id": "juniper",
@@ -4406,9 +4406,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://juniper.com",
-    "createdAt": "2025-06-21T16:05:20.393Z",
+    "createdAt": "2025-06-21T16:22:11.625Z",
     "featured": false,
-    "views": 312
+    "views": 211
   },
   {
     "id": "justuno",
@@ -4425,9 +4425,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://justuno.com",
-    "createdAt": "2025-06-20T16:05:20.393Z",
+    "createdAt": "2025-06-20T16:22:11.625Z",
     "featured": false,
-    "views": 511
+    "views": 194
   },
   {
     "id": "kafka",
@@ -4444,9 +4444,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kafka.com",
-    "createdAt": "2025-06-19T16:05:20.393Z",
+    "createdAt": "2025-06-19T16:22:11.625Z",
     "featured": false,
-    "views": 795
+    "views": 451
   },
   {
     "id": "keeper",
@@ -4463,9 +4463,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://keeper.com",
-    "createdAt": "2025-06-18T16:05:20.393Z",
+    "createdAt": "2025-06-18T16:22:11.625Z",
     "featured": false,
-    "views": 2
+    "views": 538
   },
   {
     "id": "kfc",
@@ -4482,9 +4482,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kfc.com",
-    "createdAt": "2025-06-17T16:05:20.393Z",
+    "createdAt": "2025-06-17T16:22:11.625Z",
     "featured": false,
-    "views": 388
+    "views": 24
   },
   {
     "id": "kia",
@@ -4501,9 +4501,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kia.com",
-    "createdAt": "2025-06-16T16:05:20.393Z",
+    "createdAt": "2025-06-16T16:22:11.625Z",
     "featured": false,
-    "views": 549
+    "views": 372
   },
   {
     "id": "kimberly-clark",
@@ -4520,9 +4520,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kimberlyclark.com",
-    "createdAt": "2025-06-15T16:05:20.393Z",
+    "createdAt": "2025-06-15T16:22:11.625Z",
     "featured": false,
-    "views": 131
+    "views": 459
   },
   {
     "id": "kinetic",
@@ -4539,9 +4539,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kinetic.com",
-    "createdAt": "2025-06-14T16:05:20.393Z",
+    "createdAt": "2025-06-14T16:22:11.625Z",
     "featured": false,
-    "views": 619
+    "views": 692
   },
   {
     "id": "klaviyo",
@@ -4558,9 +4558,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://klaviyo.com",
-    "createdAt": "2025-06-13T16:05:20.393Z",
+    "createdAt": "2025-06-13T16:22:11.625Z",
     "featured": false,
-    "views": 589
+    "views": 200
   },
   {
     "id": "kohls",
@@ -4577,9 +4577,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kohls.com",
-    "createdAt": "2025-06-12T16:05:20.393Z",
+    "createdAt": "2025-06-12T16:22:11.625Z",
     "featured": false,
-    "views": 818
+    "views": 9
   },
   {
     "id": "kotlin",
@@ -4596,9 +4596,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kotlin.com",
-    "createdAt": "2025-06-11T16:05:20.393Z",
+    "createdAt": "2025-06-11T16:22:11.625Z",
     "featured": false,
-    "views": 626
+    "views": 736
   },
   {
     "id": "kraft-heinz",
@@ -4615,9 +4615,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kraftheinz.com",
-    "createdAt": "2025-06-10T16:05:20.393Z",
+    "createdAt": "2025-06-10T16:22:11.625Z",
     "featured": false,
-    "views": 172
+    "views": 415
   },
   {
     "id": "kraken",
@@ -4634,9 +4634,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kraken.com",
-    "createdAt": "2025-06-09T16:05:20.393Z",
+    "createdAt": "2025-06-09T16:22:11.625Z",
     "featured": false,
-    "views": 591
+    "views": 785
   },
   {
     "id": "krispy-kreme",
@@ -4653,9 +4653,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://krispykreme.com",
-    "createdAt": "2025-06-08T16:05:20.393Z",
+    "createdAt": "2025-06-08T16:22:11.625Z",
     "featured": false,
-    "views": 503
+    "views": 310
   },
   {
     "id": "kroger",
@@ -4672,9 +4672,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kroger.com",
-    "createdAt": "2025-06-07T16:05:20.393Z",
+    "createdAt": "2025-06-07T16:22:11.625Z",
     "featured": false,
-    "views": 81
+    "views": 51
   },
   {
     "id": "kubernetes",
@@ -4691,9 +4691,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://kubernetes.com",
-    "createdAt": "2025-06-06T16:05:20.393Z",
+    "createdAt": "2025-06-06T16:22:11.625Z",
     "featured": false,
-    "views": 367
+    "views": 823
   },
   {
     "id": "lamborghini",
@@ -4710,9 +4710,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lamborghini.com",
-    "createdAt": "2025-06-05T16:05:20.393Z",
+    "createdAt": "2025-06-05T16:22:11.625Z",
     "featured": false,
-    "views": 826
+    "views": 850
   },
   {
     "id": "lastpass",
@@ -4729,9 +4729,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lastpass.com",
-    "createdAt": "2025-06-04T16:05:20.393Z",
+    "createdAt": "2025-06-04T16:22:11.625Z",
     "featured": false,
-    "views": 455
+    "views": 378
   },
   {
     "id": "lenovo",
@@ -4748,9 +4748,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lenovo.com",
-    "createdAt": "2025-06-03T16:05:20.393Z",
+    "createdAt": "2025-06-03T16:22:11.625Z",
     "featured": false,
-    "views": 248
+    "views": 822
   },
   {
     "id": "lexus",
@@ -4767,9 +4767,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lexus.com",
-    "createdAt": "2025-06-02T16:05:20.393Z",
+    "createdAt": "2025-06-02T16:22:11.625Z",
     "featured": false,
-    "views": 894
+    "views": 189
   },
   {
     "id": "lightroom",
@@ -4786,9 +4786,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lightroom.com",
-    "createdAt": "2025-06-01T16:05:20.393Z",
+    "createdAt": "2025-06-01T16:22:11.625Z",
     "featured": false,
-    "views": 523
+    "views": 739
   },
   {
     "id": "lincoln",
@@ -4805,9 +4805,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lincoln.com",
-    "createdAt": "2025-05-31T16:05:20.393Z",
+    "createdAt": "2025-05-31T16:22:11.625Z",
     "featured": false,
-    "views": 370
+    "views": 939
   },
   {
     "id": "linear",
@@ -4824,9 +4824,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://linear.com",
-    "createdAt": "2025-05-30T16:05:20.393Z",
+    "createdAt": "2025-05-30T16:22:11.625Z",
     "featured": false,
-    "views": 951
+    "views": 969
   },
   {
     "id": "linode",
@@ -4843,9 +4843,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://linode.com",
-    "createdAt": "2025-05-29T16:05:20.393Z",
+    "createdAt": "2025-05-29T16:22:11.625Z",
     "featured": false,
-    "views": 607
+    "views": 20
   },
   {
     "id": "lit",
@@ -4862,9 +4862,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lit.com",
-    "createdAt": "2025-05-28T16:05:20.393Z",
+    "createdAt": "2025-05-28T16:22:11.625Z",
     "featured": false,
-    "views": 676
+    "views": 842
   },
   {
     "id": "lockheed-martin",
@@ -4881,9 +4881,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lockheedmartin.com",
-    "createdAt": "2025-05-27T16:05:20.393Z",
+    "createdAt": "2025-05-27T16:22:11.625Z",
     "featured": false,
-    "views": 997
+    "views": 377
   },
   {
     "id": "logitech",
@@ -4900,9 +4900,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://logitech.com",
-    "createdAt": "2025-05-26T16:05:20.393Z",
+    "createdAt": "2025-05-26T16:22:11.625Z",
     "featured": false,
-    "views": 53
+    "views": 408
   },
   {
     "id": "logrocket",
@@ -4919,9 +4919,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://logrocket.com",
-    "createdAt": "2025-05-25T16:05:20.393Z",
+    "createdAt": "2025-05-25T16:22:11.625Z",
     "featured": false,
-    "views": 752
+    "views": 355
   },
   {
     "id": "lookback",
@@ -4938,9 +4938,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lookback.com",
-    "createdAt": "2025-05-24T16:05:20.393Z",
+    "createdAt": "2025-05-24T16:22:11.625Z",
     "featured": false,
-    "views": 458
+    "views": 123
   },
   {
     "id": "looker",
@@ -4957,9 +4957,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://looker.com",
-    "createdAt": "2025-05-23T16:05:20.393Z",
+    "createdAt": "2025-05-23T16:22:11.625Z",
     "featured": false,
-    "views": 466
+    "views": 693
   },
   {
     "id": "lowes",
@@ -4976,9 +4976,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lowes.com",
-    "createdAt": "2025-05-22T16:05:20.393Z",
+    "createdAt": "2025-05-22T16:22:11.625Z",
     "featured": false,
-    "views": 951
+    "views": 813
   },
   {
     "id": "lululemon",
@@ -4995,9 +4995,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lululemon.com",
-    "createdAt": "2025-05-21T16:05:20.393Z",
+    "createdAt": "2025-05-21T16:22:11.625Z",
     "featured": false,
-    "views": 137
+    "views": 700
   },
   {
     "id": "lumen",
@@ -5014,9 +5014,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lumen.com",
-    "createdAt": "2025-05-20T16:05:20.393Z",
+    "createdAt": "2025-05-20T16:22:11.625Z",
     "featured": false,
-    "views": 669
+    "views": 50
   },
   {
     "id": "lyft",
@@ -5033,9 +5033,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lyft.com",
-    "createdAt": "2025-05-19T16:05:20.393Z",
+    "createdAt": "2025-05-19T16:22:11.625Z",
     "featured": false,
-    "views": 187
+    "views": 383
   },
   {
     "id": "lyft",
@@ -5052,9 +5052,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://lyft.com",
-    "createdAt": "2025-05-18T16:05:20.393Z",
+    "createdAt": "2025-05-18T16:22:11.625Z",
     "featured": false,
-    "views": 393
+    "views": 833
   },
   {
     "id": "macys",
@@ -5071,9 +5071,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://macys.com",
-    "createdAt": "2025-05-17T16:05:20.393Z",
+    "createdAt": "2025-05-17T16:22:11.625Z",
     "featured": false,
-    "views": 336
+    "views": 757
   },
   {
     "id": "magento",
@@ -5090,9 +5090,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://magento.com",
-    "createdAt": "2025-05-16T16:05:20.393Z",
+    "createdAt": "2025-05-16T16:22:11.625Z",
     "featured": false,
-    "views": 347
+    "views": 106
   },
   {
     "id": "mailchimp",
@@ -5109,9 +5109,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mailchimp.com",
-    "createdAt": "2025-05-15T16:05:20.393Z",
+    "createdAt": "2025-05-15T16:22:11.625Z",
     "featured": false,
-    "views": 940
+    "views": 111
   },
   {
     "id": "mailerlite",
@@ -5128,9 +5128,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mailerlite.com",
-    "createdAt": "2025-05-14T16:05:20.393Z",
+    "createdAt": "2025-05-14T16:22:11.625Z",
     "featured": false,
-    "views": 436
+    "views": 967
   },
   {
     "id": "mailgun",
@@ -5147,9 +5147,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mailgun.com",
-    "createdAt": "2025-05-13T16:05:20.393Z",
+    "createdAt": "2025-05-13T16:22:11.625Z",
     "featured": false,
-    "views": 690
+    "views": 904
   },
   {
     "id": "marriott",
@@ -5166,9 +5166,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://marriott.com",
-    "createdAt": "2025-05-12T16:05:20.393Z",
+    "createdAt": "2025-05-12T16:22:11.625Z",
     "featured": false,
-    "views": 564
+    "views": 643
   },
   {
     "id": "marvel",
@@ -5185,9 +5185,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://marvel.com",
-    "createdAt": "2025-05-11T16:05:20.393Z",
+    "createdAt": "2025-05-11T16:22:11.625Z",
     "featured": false,
-    "views": 354
+    "views": 217
   },
   {
     "id": "mazda",
@@ -5204,9 +5204,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mazda.com",
-    "createdAt": "2025-05-10T16:05:20.393Z",
+    "createdAt": "2025-05-10T16:22:11.625Z",
     "featured": false,
-    "views": 985
+    "views": 899
   },
   {
     "id": "mcdonalds",
@@ -5223,9 +5223,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mcdonalds.com",
-    "createdAt": "2025-05-09T16:05:20.393Z",
+    "createdAt": "2025-05-09T16:22:11.625Z",
     "featured": false,
-    "views": 445
+    "views": 515
   },
   {
     "id": "mckesson",
@@ -5242,9 +5242,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mckesson.com",
-    "createdAt": "2025-05-08T16:05:20.393Z",
+    "createdAt": "2025-05-08T16:22:11.625Z",
     "featured": false,
-    "views": 847
+    "views": 628
   },
   {
     "id": "medium",
@@ -5261,9 +5261,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://medium.com",
-    "createdAt": "2025-05-07T16:05:20.393Z",
+    "createdAt": "2025-05-07T16:22:11.625Z",
     "featured": false,
-    "views": 23
+    "views": 796
   },
   {
     "id": "mercedes",
@@ -5280,9 +5280,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mercedes.com",
-    "createdAt": "2025-05-06T16:05:20.393Z",
+    "createdAt": "2025-05-06T16:22:11.625Z",
     "featured": false,
-    "views": 946
+    "views": 849
   },
   {
     "id": "merck",
@@ -5299,9 +5299,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://merck.com",
-    "createdAt": "2025-05-05T16:05:20.393Z",
+    "createdAt": "2025-05-05T16:22:11.625Z",
     "featured": false,
-    "views": 748
+    "views": 51
   },
   {
     "id": "meta-platforms",
@@ -5318,9 +5318,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://metaplatforms.com",
-    "createdAt": "2025-05-04T16:05:20.393Z",
+    "createdAt": "2025-05-04T16:22:11.625Z",
     "featured": false,
-    "views": 426
+    "views": 328
   },
   {
     "id": "meta",
@@ -5337,9 +5337,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://meta.com",
-    "createdAt": "2025-05-03T16:05:20.393Z",
+    "createdAt": "2025-05-03T16:22:11.625Z",
     "featured": false,
-    "views": 881
+    "views": 748
   },
   {
     "id": "micron",
@@ -5356,9 +5356,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://micron.com",
-    "createdAt": "2025-05-02T16:05:20.393Z",
+    "createdAt": "2025-05-02T16:22:11.625Z",
     "featured": false,
-    "views": 885
+    "views": 175
   },
   {
     "id": "microsoft",
@@ -5375,9 +5375,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://microsoft.com",
-    "createdAt": "2025-05-01T16:05:20.393Z",
+    "createdAt": "2025-05-01T16:22:11.625Z",
     "featured": false,
-    "views": 542
+    "views": 453
   },
   {
     "id": "mitsubishi",
@@ -5394,9 +5394,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mitsubishi.com",
-    "createdAt": "2025-04-30T16:05:20.393Z",
+    "createdAt": "2025-04-30T16:22:11.625Z",
     "featured": false,
-    "views": 44
+    "views": 110
   },
   {
     "id": "mixpanel",
@@ -5413,9 +5413,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mixpanel.com",
-    "createdAt": "2025-04-29T16:05:20.393Z",
+    "createdAt": "2025-04-29T16:22:11.625Z",
     "featured": false,
-    "views": 923
+    "views": 663
   },
   {
     "id": "moderna",
@@ -5432,9 +5432,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://moderna.com",
-    "createdAt": "2025-04-28T16:05:20.394Z",
+    "createdAt": "2025-04-28T16:22:11.625Z",
     "featured": false,
-    "views": 391
+    "views": 667
   },
   {
     "id": "moengage",
@@ -5451,9 +5451,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://moengage.com",
-    "createdAt": "2025-04-27T16:05:20.394Z",
+    "createdAt": "2025-04-27T16:22:11.625Z",
     "featured": false,
-    "views": 243
+    "views": 125
   },
   {
     "id": "monday",
@@ -5470,9 +5470,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://monday.com",
-    "createdAt": "2025-04-26T16:05:20.394Z",
+    "createdAt": "2025-04-26T16:22:11.625Z",
     "featured": false,
-    "views": 440
+    "views": 612
   },
   {
     "id": "mondelez",
@@ -5489,9 +5489,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mondelez.com",
-    "createdAt": "2025-04-25T16:05:20.394Z",
+    "createdAt": "2025-04-25T16:22:11.625Z",
     "featured": false,
-    "views": 120
+    "views": 436
   },
   {
     "id": "mongodb",
@@ -5508,9 +5508,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mongodb.com",
-    "createdAt": "2025-04-24T16:05:20.394Z",
+    "createdAt": "2025-04-24T16:22:11.625Z",
     "featured": false,
-    "views": 901
+    "views": 870
   },
   {
     "id": "morgan-stanley",
@@ -5527,9 +5527,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://morganstanley.com",
-    "createdAt": "2025-04-23T16:05:20.394Z",
+    "createdAt": "2025-04-23T16:22:11.625Z",
     "featured": false,
-    "views": 874
+    "views": 518
   },
   {
     "id": "morningstar",
@@ -5546,9 +5546,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://morningstar.com",
-    "createdAt": "2025-04-22T16:05:20.394Z",
+    "createdAt": "2025-04-22T16:22:11.625Z",
     "featured": false,
-    "views": 456
+    "views": 666
   },
   {
     "id": "motorola",
@@ -5565,9 +5565,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://motorola.com",
-    "createdAt": "2025-04-21T16:05:20.394Z",
+    "createdAt": "2025-04-21T16:22:11.625Z",
     "featured": false,
-    "views": 99
+    "views": 892
   },
   {
     "id": "ms",
@@ -5584,9 +5584,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ms.com",
-    "createdAt": "2025-04-20T16:05:20.394Z",
+    "createdAt": "2025-04-20T16:22:11.625Z",
     "featured": false,
-    "views": 141
+    "views": 295
   },
   {
     "id": "msi",
@@ -5603,9 +5603,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://msi.com",
-    "createdAt": "2025-04-19T16:05:20.394Z",
+    "createdAt": "2025-04-19T16:22:11.625Z",
     "featured": false,
-    "views": 39
+    "views": 770
   },
   {
     "id": "mysql",
@@ -5622,9 +5622,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://mysql.com",
-    "createdAt": "2025-04-18T16:05:20.394Z",
+    "createdAt": "2025-04-18T16:22:11.625Z",
     "featured": false,
-    "views": 884
+    "views": 268
   },
   {
     "id": "n8n",
@@ -5641,9 +5641,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://n8n.com",
-    "createdAt": "2025-04-17T16:05:20.394Z",
+    "createdAt": "2025-04-17T16:22:11.625Z",
     "featured": false,
-    "views": 219
+    "views": 917
   },
   {
     "id": "namecheap",
@@ -5660,9 +5660,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://namecheap.com",
-    "createdAt": "2025-04-16T16:05:20.394Z",
+    "createdAt": "2025-04-16T16:22:11.625Z",
     "featured": false,
-    "views": 641
+    "views": 910
   },
   {
     "id": "narvar",
@@ -5679,9 +5679,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://narvar.com",
-    "createdAt": "2025-04-15T16:05:20.394Z",
+    "createdAt": "2025-04-15T16:22:11.625Z",
     "featured": false,
-    "views": 14
+    "views": 405
   },
   {
     "id": "nats",
@@ -5698,9 +5698,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nats.com",
-    "createdAt": "2025-04-14T16:05:20.394Z",
+    "createdAt": "2025-04-14T16:22:11.625Z",
     "featured": false,
-    "views": 802
+    "views": 806
   },
   {
     "id": "neo4j",
@@ -5717,9 +5717,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://neo4j.com",
-    "createdAt": "2025-04-13T16:05:20.394Z",
+    "createdAt": "2025-04-13T16:22:11.625Z",
     "featured": false,
-    "views": 966
+    "views": 957
   },
   {
     "id": "netflix",
@@ -5736,9 +5736,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://netflix.com",
-    "createdAt": "2025-04-12T16:05:20.394Z",
+    "createdAt": "2025-04-12T16:22:11.625Z",
     "featured": false,
-    "views": 545
+    "views": 53
   },
   {
     "id": "netlify",
@@ -5755,9 +5755,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://netlify.com",
-    "createdAt": "2025-04-11T16:05:20.394Z",
+    "createdAt": "2025-04-11T16:22:11.625Z",
     "featured": false,
-    "views": 534
+    "views": 754
   },
   {
     "id": "new-relic",
@@ -5774,9 +5774,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://newrelic.com",
-    "createdAt": "2025-04-10T16:05:20.394Z",
+    "createdAt": "2025-04-10T16:22:11.625Z",
     "featured": false,
-    "views": 904
+    "views": 965
   },
   {
     "id": "nike",
@@ -5793,9 +5793,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nike.com",
-    "createdAt": "2025-04-09T16:05:20.394Z",
+    "createdAt": "2025-04-09T16:22:11.625Z",
     "featured": false,
-    "views": 912
+    "views": 819
   },
   {
     "id": "nodejs",
@@ -5812,9 +5812,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nodejs.com",
-    "createdAt": "2025-04-08T16:05:20.394Z",
+    "createdAt": "2025-04-08T16:22:11.625Z",
     "featured": false,
-    "views": 455
+    "views": 298
   },
   {
     "id": "nordpass",
@@ -5831,9 +5831,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nordpass.com",
-    "createdAt": "2025-04-07T16:05:20.394Z",
+    "createdAt": "2025-04-07T16:22:11.625Z",
     "featured": false,
-    "views": 714
+    "views": 769
   },
   {
     "id": "nordstrom",
@@ -5850,9 +5850,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nordstrom.com",
-    "createdAt": "2025-04-06T16:05:20.394Z",
+    "createdAt": "2025-04-06T16:22:11.625Z",
     "featured": false,
-    "views": 349
+    "views": 215
   },
   {
     "id": "notion",
@@ -5869,9 +5869,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://notion.com",
-    "createdAt": "2025-04-05T16:05:20.394Z",
+    "createdAt": "2025-04-05T16:22:11.625Z",
     "featured": false,
-    "views": 241
+    "views": 325
   },
   {
     "id": "notion",
@@ -5888,9 +5888,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://notion.com",
-    "createdAt": "2025-04-04T16:05:20.394Z",
+    "createdAt": "2025-04-04T16:22:11.625Z",
     "featured": false,
-    "views": 23
+    "views": 609
   },
   {
     "id": "nova",
@@ -5907,9 +5907,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nova.com",
-    "createdAt": "2025-04-03T16:05:20.394Z",
+    "createdAt": "2025-04-03T16:22:11.625Z",
     "featured": false,
-    "views": 431
+    "views": 927
   },
   {
     "id": "novartis",
@@ -5926,9 +5926,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://novartis.com",
-    "createdAt": "2025-04-02T16:05:20.394Z",
+    "createdAt": "2025-04-02T16:22:11.625Z",
     "featured": false,
-    "views": 799
+    "views": 741
   },
   {
     "id": "nuxt",
@@ -5945,9 +5945,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nuxt.com",
-    "createdAt": "2025-04-01T16:05:20.394Z",
+    "createdAt": "2025-04-01T16:22:11.625Z",
     "featured": false,
-    "views": 591
+    "views": 160
   },
   {
     "id": "nvidia",
@@ -5964,9 +5964,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://nvidia.com",
-    "createdAt": "2025-03-31T16:05:20.394Z",
+    "createdAt": "2025-03-31T16:22:11.625Z",
     "featured": false,
-    "views": 210
+    "views": 777
   },
   {
     "id": "okta",
@@ -5983,9 +5983,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://okta.com",
-    "createdAt": "2025-03-30T16:05:20.394Z",
+    "createdAt": "2025-03-30T16:22:11.625Z",
     "featured": false,
-    "views": 462
+    "views": 709
   },
   {
     "id": "okta",
@@ -6002,9 +6002,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://okta.com",
-    "createdAt": "2025-03-29T16:05:20.394Z",
+    "createdAt": "2025-03-29T16:22:11.625Z",
     "featured": false,
-    "views": 389
+    "views": 294
   },
   {
     "id": "onelogin",
@@ -6021,9 +6021,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://onelogin.com",
-    "createdAt": "2025-03-28T16:05:20.394Z",
+    "createdAt": "2025-03-28T16:22:11.625Z",
     "featured": false,
-    "views": 585
+    "views": 456
   },
   {
     "id": "opencart",
@@ -6040,9 +6040,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://opencart.com",
-    "createdAt": "2025-03-27T16:05:20.394Z",
+    "createdAt": "2025-03-27T16:22:11.625Z",
     "featured": false,
-    "views": 75
+    "views": 957
   },
   {
     "id": "opsgenie",
@@ -6059,9 +6059,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://opsgenie.com",
-    "createdAt": "2025-03-26T16:05:20.394Z",
+    "createdAt": "2025-03-26T16:22:11.625Z",
     "featured": false,
-    "views": 671
+    "views": 382
   },
   {
     "id": "optimizely",
@@ -6078,9 +6078,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://optimizely.com",
-    "createdAt": "2025-03-25T16:05:20.394Z",
+    "createdAt": "2025-03-25T16:22:11.625Z",
     "featured": false,
-    "views": 254
+    "views": 434
   },
   {
     "id": "optimonk",
@@ -6097,9 +6097,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://optimonk.com",
-    "createdAt": "2025-03-24T16:05:20.394Z",
+    "createdAt": "2025-03-24T16:22:11.625Z",
     "featured": false,
-    "views": 911
+    "views": 811
   },
   {
     "id": "oracle",
@@ -6116,9 +6116,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://oracle.com",
-    "createdAt": "2025-03-23T16:05:20.394Z",
+    "createdAt": "2025-03-23T16:22:11.625Z",
     "featured": false,
-    "views": 346
+    "views": 258
   },
   {
     "id": "ordoro",
@@ -6135,9 +6135,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ordoro.com",
-    "createdAt": "2025-03-22T16:05:20.394Z",
+    "createdAt": "2025-03-22T16:22:11.625Z",
     "featured": false,
-    "views": 547
+    "views": 836
   },
   {
     "id": "oreilly",
@@ -6154,9 +6154,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://oreilly.com",
-    "createdAt": "2025-03-21T16:05:20.394Z",
+    "createdAt": "2025-03-21T16:22:11.626Z",
     "featured": false,
-    "views": 938
+    "views": 25
   },
   {
     "id": "overflow",
@@ -6173,9 +6173,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://overflow.com",
-    "createdAt": "2025-03-20T16:05:20.394Z",
+    "createdAt": "2025-03-20T16:22:11.626Z",
     "featured": false,
-    "views": 698
+    "views": 506
   },
   {
     "id": "paccar",
@@ -6192,9 +6192,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paccar.com",
-    "createdAt": "2025-03-19T16:05:20.394Z",
+    "createdAt": "2025-03-19T16:22:11.626Z",
     "featured": false,
-    "views": 765
+    "views": 709
   },
   {
     "id": "pagerduty",
@@ -6211,9 +6211,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pagerduty.com",
-    "createdAt": "2025-03-18T16:05:20.394Z",
+    "createdAt": "2025-03-18T16:22:11.626Z",
     "featured": false,
-    "views": 4
+    "views": 244
   },
   {
     "id": "palantir",
@@ -6230,9 +6230,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://palantir.com",
-    "createdAt": "2025-03-17T16:05:20.394Z",
+    "createdAt": "2025-03-17T16:22:11.626Z",
     "featured": false,
-    "views": 792
+    "views": 784
   },
   {
     "id": "palette-planet-icon",
@@ -6249,9 +6249,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paletteplaneticon.com",
-    "createdAt": "2025-03-16T16:05:20.394Z",
+    "createdAt": "2025-03-16T16:22:11.626Z",
     "featured": false,
-    "views": 268
+    "views": 968
   },
   {
     "id": "palette-planet-logo-light",
@@ -6268,9 +6268,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paletteplanetlogolight.com",
-    "createdAt": "2025-03-15T16:05:20.394Z",
+    "createdAt": "2025-03-15T16:22:11.626Z",
     "featured": false,
-    "views": 183
+    "views": 38
   },
   {
     "id": "palette-planet-logo",
@@ -6287,9 +6287,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paletteplanetlogo.com",
-    "createdAt": "2025-03-14T16:05:20.394Z",
+    "createdAt": "2025-03-14T16:22:11.626Z",
     "featured": false,
-    "views": 845
+    "views": 337
   },
   {
     "id": "palo-alto",
@@ -6306,9 +6306,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paloalto.com",
-    "createdAt": "2025-03-13T16:05:20.394Z",
+    "createdAt": "2025-03-13T16:22:11.626Z",
     "featured": false,
-    "views": 57
+    "views": 898
   },
   {
     "id": "papa-johns",
@@ -6325,9 +6325,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://papajohns.com",
-    "createdAt": "2025-03-12T16:05:20.394Z",
+    "createdAt": "2025-03-12T16:22:11.626Z",
     "featured": false,
-    "views": 161
+    "views": 149
   },
   {
     "id": "paramount",
@@ -6344,9 +6344,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paramount.com",
-    "createdAt": "2025-03-11T16:05:20.394Z",
+    "createdAt": "2025-03-11T16:22:11.626Z",
     "featured": false,
-    "views": 871
+    "views": 529
   },
   {
     "id": "paypal",
@@ -6363,9 +6363,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://paypal.com",
-    "createdAt": "2025-03-10T16:05:20.394Z",
+    "createdAt": "2025-03-10T16:22:11.626Z",
     "featured": false,
-    "views": 36
+    "views": 861
   },
   {
     "id": "peacock",
@@ -6382,9 +6382,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://peacock.com",
-    "createdAt": "2025-03-09T16:05:20.394Z",
+    "createdAt": "2025-03-09T16:22:11.626Z",
     "featured": false,
-    "views": 874
+    "views": 680
   },
   {
     "id": "pepsi",
@@ -6401,9 +6401,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pepsi.com",
-    "createdAt": "2025-03-08T16:05:20.394Z",
+    "createdAt": "2025-03-08T16:22:11.626Z",
     "featured": false,
-    "views": 286
+    "views": 98
   },
   {
     "id": "pepsico",
@@ -6420,9 +6420,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pepsico.com",
-    "createdAt": "2025-03-07T16:05:20.394Z",
+    "createdAt": "2025-03-07T16:22:11.626Z",
     "featured": false,
-    "views": 558
+    "views": 781
   },
   {
     "id": "pfizer",
@@ -6439,9 +6439,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pfizer.com",
-    "createdAt": "2025-03-06T16:05:20.394Z",
+    "createdAt": "2025-03-06T16:22:11.626Z",
     "featured": false,
-    "views": 501
+    "views": 708
   },
   {
     "id": "photoshop",
@@ -6458,9 +6458,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://photoshop.com",
-    "createdAt": "2025-03-05T16:05:20.394Z",
+    "createdAt": "2025-03-05T16:22:11.626Z",
     "featured": false,
-    "views": 13
+    "views": 974
   },
   {
     "id": "pinterest",
@@ -6477,9 +6477,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pinterest.com",
-    "createdAt": "2025-03-04T16:05:20.394Z",
+    "createdAt": "2025-03-04T16:22:11.626Z",
     "featured": false,
-    "views": 306
+    "views": 351
   },
   {
     "id": "pizza-hut",
@@ -6496,9 +6496,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pizzahut.com",
-    "createdAt": "2025-03-03T16:05:20.394Z",
+    "createdAt": "2025-03-03T16:22:11.626Z",
     "featured": false,
-    "views": 374
+    "views": 452
   },
   {
     "id": "plaid",
@@ -6515,9 +6515,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://plaid.com",
-    "createdAt": "2025-03-02T16:05:20.394Z",
+    "createdAt": "2025-03-02T16:22:11.626Z",
     "featured": false,
-    "views": 551
+    "views": 737
   },
   {
     "id": "plausible",
@@ -6534,9 +6534,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://plausible.com",
-    "createdAt": "2025-03-01T16:05:20.394Z",
+    "createdAt": "2025-03-01T16:22:11.626Z",
     "featured": false,
-    "views": 554
+    "views": 323
   },
   {
     "id": "porsche",
@@ -6553,9 +6553,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://porsche.com",
-    "createdAt": "2025-02-28T16:05:20.394Z",
+    "createdAt": "2025-02-28T16:22:11.626Z",
     "featured": false,
-    "views": 394
+    "views": 985
   },
   {
     "id": "postgres",
@@ -6572,9 +6572,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://postgres.com",
-    "createdAt": "2025-02-27T16:05:20.394Z",
+    "createdAt": "2025-02-27T16:22:11.626Z",
     "featured": false,
-    "views": 809
+    "views": 645
   },
   {
     "id": "posthog",
@@ -6591,9 +6591,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://posthog.com",
-    "createdAt": "2025-02-26T16:05:20.394Z",
+    "createdAt": "2025-02-26T16:22:11.626Z",
     "featured": false,
-    "views": 502
+    "views": 777
   },
   {
     "id": "postman",
@@ -6610,9 +6610,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://postman.com",
-    "createdAt": "2025-02-25T16:05:20.394Z",
+    "createdAt": "2025-02-25T16:22:11.626Z",
     "featured": false,
-    "views": 676
+    "views": 714
   },
   {
     "id": "postscript",
@@ -6629,9 +6629,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://postscript.com",
-    "createdAt": "2025-02-24T16:05:20.394Z",
+    "createdAt": "2025-02-24T16:22:11.626Z",
     "featured": false,
-    "views": 155
+    "views": 875
   },
   {
     "id": "powerbi",
@@ -6648,9 +6648,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://powerbi.com",
-    "createdAt": "2025-02-23T16:05:20.394Z",
+    "createdAt": "2025-02-23T16:22:11.626Z",
     "featured": false,
-    "views": 82
+    "views": 740
   },
   {
     "id": "preact",
@@ -6667,9 +6667,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://preact.com",
-    "createdAt": "2025-02-22T16:05:20.394Z",
+    "createdAt": "2025-02-22T16:22:11.626Z",
     "featured": false,
-    "views": 229
+    "views": 384
   },
   {
     "id": "premiere",
@@ -6686,9 +6686,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://premiere.com",
-    "createdAt": "2025-02-21T16:05:20.394Z",
+    "createdAt": "2025-02-21T16:22:11.626Z",
     "featured": false,
-    "views": 243
+    "views": 716
   },
   {
     "id": "prestashop",
@@ -6705,9 +6705,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://prestashop.com",
-    "createdAt": "2025-02-20T16:05:20.394Z",
+    "createdAt": "2025-02-20T16:22:11.626Z",
     "featured": false,
-    "views": 913
+    "views": 986
   },
   {
     "id": "presto",
@@ -6724,9 +6724,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://presto.com",
-    "createdAt": "2025-02-19T16:05:20.394Z",
+    "createdAt": "2025-02-19T16:22:11.626Z",
     "featured": false,
-    "views": 459
+    "views": 951
   },
   {
     "id": "prettier",
@@ -6743,9 +6743,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://prettier.com",
-    "createdAt": "2025-02-18T16:05:20.394Z",
+    "createdAt": "2025-02-18T16:22:11.626Z",
     "featured": false,
-    "views": 763
+    "views": 213
   },
   {
     "id": "privy",
@@ -6762,9 +6762,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://privy.com",
-    "createdAt": "2025-02-17T16:05:20.394Z",
+    "createdAt": "2025-02-17T16:22:11.626Z",
     "featured": false,
-    "views": 850
+    "views": 548
   },
   {
     "id": "procter-gamble",
@@ -6781,9 +6781,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://proctergamble.com",
-    "createdAt": "2025-02-16T16:05:20.394Z",
+    "createdAt": "2025-02-16T16:22:11.626Z",
     "featured": false,
-    "views": 11
+    "views": 267
   },
   {
     "id": "prometheus",
@@ -6800,9 +6800,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://prometheus.com",
-    "createdAt": "2025-02-15T16:05:20.394Z",
+    "createdAt": "2025-02-15T16:22:11.626Z",
     "featured": false,
-    "views": 574
+    "views": 266
   },
   {
     "id": "protopie",
@@ -6819,9 +6819,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://protopie.com",
-    "createdAt": "2025-02-14T16:05:20.394Z",
+    "createdAt": "2025-02-14T16:22:11.626Z",
     "featured": false,
-    "views": 257
+    "views": 123
   },
   {
     "id": "pulse",
@@ -6838,9 +6838,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://pulse.com",
-    "createdAt": "2025-02-13T16:05:20.394Z",
+    "createdAt": "2025-02-13T16:22:11.626Z",
     "featured": false,
-    "views": 244
+    "views": 734
   },
   {
     "id": "puma",
@@ -6857,9 +6857,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://puma.com",
-    "createdAt": "2025-02-12T16:05:20.394Z",
+    "createdAt": "2025-02-12T16:22:11.626Z",
     "featured": false,
-    "views": 351
+    "views": 461
   },
   {
     "id": "puppet",
@@ -6876,9 +6876,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://puppet.com",
-    "createdAt": "2025-02-11T16:05:20.394Z",
+    "createdAt": "2025-02-11T16:22:11.626Z",
     "featured": false,
-    "views": 886
+    "views": 31
   },
   {
     "id": "python",
@@ -6895,9 +6895,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://python.com",
-    "createdAt": "2025-02-10T16:05:20.394Z",
+    "createdAt": "2025-02-10T16:22:11.626Z",
     "featured": false,
-    "views": 376
+    "views": 957
   },
   {
     "id": "qlik",
@@ -6914,9 +6914,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://qlik.com",
-    "createdAt": "2025-02-09T16:05:20.394Z",
+    "createdAt": "2025-02-09T16:22:11.626Z",
     "featured": false,
-    "views": 961
+    "views": 505
   },
   {
     "id": "qualcomm",
@@ -6933,9 +6933,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://qualcomm.com",
-    "createdAt": "2025-02-08T16:05:20.394Z",
+    "createdAt": "2025-02-08T16:22:11.626Z",
     "featured": false,
-    "views": 496
+    "views": 270
   },
   {
     "id": "railway",
@@ -6952,9 +6952,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://railway.com",
-    "createdAt": "2025-02-07T16:05:20.394Z",
+    "createdAt": "2025-02-07T16:22:11.626Z",
     "featured": false,
-    "views": 84
+    "views": 293
   },
   {
     "id": "ram",
@@ -6971,9 +6971,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ram.com",
-    "createdAt": "2025-02-06T16:05:20.394Z",
+    "createdAt": "2025-02-06T16:22:11.626Z",
     "featured": false,
-    "views": 171
+    "views": 292
   },
   {
     "id": "razer",
@@ -6990,9 +6990,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://razer.com",
-    "createdAt": "2025-02-05T16:05:20.394Z",
+    "createdAt": "2025-02-05T16:22:11.626Z",
     "featured": false,
-    "views": 650
+    "views": 569
   },
   {
     "id": "react",
@@ -7009,9 +7009,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://react.com",
-    "createdAt": "2025-02-04T16:05:20.394Z",
+    "createdAt": "2025-02-04T16:22:11.626Z",
     "featured": false,
-    "views": 38
+    "views": 470
   },
   {
     "id": "recart",
@@ -7028,9 +7028,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://recart.com",
-    "createdAt": "2025-02-03T16:05:20.394Z",
+    "createdAt": "2025-02-03T16:22:11.626Z",
     "featured": false,
-    "views": 57
+    "views": 336
   },
   {
     "id": "reddit",
@@ -7047,9 +7047,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://reddit.com",
-    "createdAt": "2025-02-02T16:05:20.394Z",
+    "createdAt": "2025-02-02T16:22:11.626Z",
     "featured": false,
-    "views": 207
+    "views": 549
   },
   {
     "id": "redis",
@@ -7066,9 +7066,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://redis.com",
-    "createdAt": "2025-02-01T16:05:20.394Z",
+    "createdAt": "2025-02-01T16:22:11.626Z",
     "featured": false,
-    "views": 119
+    "views": 543
   },
   {
     "id": "redshift",
@@ -7085,9 +7085,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://redshift.com",
-    "createdAt": "2025-01-31T16:05:20.394Z",
+    "createdAt": "2025-01-31T16:22:11.626Z",
     "featured": false,
-    "views": 916
+    "views": 635
   },
   {
     "id": "rei",
@@ -7104,9 +7104,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rei.com",
-    "createdAt": "2025-01-30T16:05:20.394Z",
+    "createdAt": "2025-01-30T16:22:11.626Z",
     "featured": false,
-    "views": 878
+    "views": 869
   },
   {
     "id": "render",
@@ -7123,9 +7123,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://render.com",
-    "createdAt": "2025-01-29T16:05:20.394Z",
+    "createdAt": "2025-01-29T16:22:11.626Z",
     "featured": false,
-    "views": 40
+    "views": 301
   },
   {
     "id": "retool",
@@ -7142,9 +7142,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://retool.com",
-    "createdAt": "2025-01-28T16:05:20.394Z",
+    "createdAt": "2025-01-28T16:22:11.626Z",
     "featured": false,
-    "views": 448
+    "views": 482
   },
   {
     "id": "reuters",
@@ -7161,9 +7161,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://reuters.com",
-    "createdAt": "2025-01-27T16:05:20.394Z",
+    "createdAt": "2025-01-27T16:22:11.626Z",
     "featured": false,
-    "views": 392
+    "views": 110
   },
   {
     "id": "robinhood",
@@ -7180,9 +7180,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://robinhood.com",
-    "createdAt": "2025-01-26T16:05:20.394Z",
+    "createdAt": "2025-01-26T16:22:11.626Z",
     "featured": false,
-    "views": 37
+    "views": 72
   },
   {
     "id": "roche",
@@ -7199,9 +7199,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://roche.com",
-    "createdAt": "2025-01-25T16:05:20.394Z",
+    "createdAt": "2025-01-25T16:22:11.626Z",
     "featured": false,
-    "views": 500
+    "views": 139
   },
   {
     "id": "rockset",
@@ -7218,9 +7218,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rockset.com",
-    "createdAt": "2025-01-24T16:05:20.394Z",
+    "createdAt": "2025-01-24T16:22:11.626Z",
     "featured": false,
-    "views": 876
+    "views": 54
   },
   {
     "id": "roku",
@@ -7237,9 +7237,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://roku.com",
-    "createdAt": "2025-01-23T16:05:20.394Z",
+    "createdAt": "2025-01-23T16:22:11.626Z",
     "featured": false,
-    "views": 716
+    "views": 506
   },
   {
     "id": "rollbar",
@@ -7256,9 +7256,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rollbar.com",
-    "createdAt": "2025-01-22T16:05:20.394Z",
+    "createdAt": "2025-01-22T16:22:11.626Z",
     "featured": false,
-    "views": 870
+    "views": 842
   },
   {
     "id": "rolls-royce",
@@ -7275,9 +7275,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rollsroyce.com",
-    "createdAt": "2025-01-21T16:05:20.394Z",
+    "createdAt": "2025-01-21T16:22:11.626Z",
     "featured": false,
-    "views": 205
+    "views": 59
   },
   {
     "id": "ross",
@@ -7294,9 +7294,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ross.com",
-    "createdAt": "2025-01-20T16:05:20.394Z",
+    "createdAt": "2025-01-20T16:22:11.626Z",
     "featured": false,
-    "views": 132
+    "views": 516
   },
   {
     "id": "rust",
@@ -7313,9 +7313,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://rust.com",
-    "createdAt": "2025-01-19T16:05:20.394Z",
+    "createdAt": "2025-01-19T16:22:11.626Z",
     "featured": false,
-    "views": 46
+    "views": 724
   },
   {
     "id": "sable",
@@ -7332,9 +7332,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sable.com",
-    "createdAt": "2025-01-18T16:05:20.394Z",
+    "createdAt": "2025-01-18T16:22:11.626Z",
     "featured": false,
-    "views": 314
+    "views": 678
   },
   {
     "id": "salesforce",
@@ -7351,9 +7351,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://salesforce.com",
-    "createdAt": "2025-01-17T16:05:20.394Z",
+    "createdAt": "2025-01-17T16:22:11.626Z",
     "featured": false,
-    "views": 912
+    "views": 189
   },
   {
     "id": "saltstack",
@@ -7370,9 +7370,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://saltstack.com",
-    "createdAt": "2025-01-16T16:05:20.394Z",
+    "createdAt": "2025-01-16T16:22:11.626Z",
     "featured": false,
-    "views": 841
+    "views": 372
   },
   {
     "id": "sap",
@@ -7389,9 +7389,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sap.com",
-    "createdAt": "2025-01-15T16:05:20.394Z",
+    "createdAt": "2025-01-15T16:22:11.626Z",
     "featured": false,
-    "views": 600
+    "views": 295
   },
   {
     "id": "scaleway",
@@ -7408,9 +7408,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://scaleway.com",
-    "createdAt": "2025-01-14T16:05:20.394Z",
+    "createdAt": "2025-01-14T16:22:11.626Z",
     "featured": false,
-    "views": 227
+    "views": 207
   },
   {
     "id": "schwab",
@@ -7427,9 +7427,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://schwab.com",
-    "createdAt": "2025-01-13T16:05:20.394Z",
+    "createdAt": "2025-01-13T16:22:11.626Z",
     "featured": false,
-    "views": 531
+    "views": 509
   },
   {
     "id": "seagate",
@@ -7446,9 +7446,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://seagate.com",
-    "createdAt": "2025-01-12T16:05:20.394Z",
+    "createdAt": "2025-01-12T16:22:11.626Z",
     "featured": false,
-    "views": 990
+    "views": 930
   },
   {
     "id": "segment",
@@ -7465,9 +7465,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://segment.com",
-    "createdAt": "2025-01-11T16:05:20.394Z",
+    "createdAt": "2025-01-11T16:22:11.626Z",
     "featured": false,
-    "views": 239
+    "views": 180
   },
   {
     "id": "sendcloud",
@@ -7484,9 +7484,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sendcloud.com",
-    "createdAt": "2025-01-10T16:05:20.394Z",
+    "createdAt": "2025-01-10T16:22:11.626Z",
     "featured": false,
-    "views": 716
+    "views": 316
   },
   {
     "id": "sendgrid",
@@ -7503,9 +7503,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sendgrid.com",
-    "createdAt": "2025-01-09T16:05:20.394Z",
+    "createdAt": "2025-01-09T16:22:11.626Z",
     "featured": false,
-    "views": 91
+    "views": 951
   },
   {
     "id": "sentry",
@@ -7522,9 +7522,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sentry.com",
-    "createdAt": "2025-01-08T16:05:20.394Z",
+    "createdAt": "2025-01-08T16:22:11.626Z",
     "featured": false,
-    "views": 731
+    "views": 469
   },
   {
     "id": "servicenow",
@@ -7541,9 +7541,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://servicenow.com",
-    "createdAt": "2025-01-07T16:05:20.394Z",
+    "createdAt": "2025-01-07T16:22:11.626Z",
     "featured": false,
-    "views": 960
+    "views": 244
   },
   {
     "id": "shake-shack",
@@ -7560,9 +7560,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shakeshack.com",
-    "createdAt": "2025-01-06T16:05:20.394Z",
+    "createdAt": "2025-01-06T16:22:11.626Z",
     "featured": false,
-    "views": 267
+    "views": 278
   },
   {
     "id": "shell",
@@ -7579,9 +7579,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shell.com",
-    "createdAt": "2025-01-05T16:05:20.394Z",
+    "createdAt": "2025-01-05T16:22:11.626Z",
     "featured": false,
-    "views": 69
+    "views": 962
   },
   {
     "id": "sherwin-williams",
@@ -7598,9 +7598,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sherwinwilliams.com",
-    "createdAt": "2025-01-04T16:05:20.394Z",
+    "createdAt": "2025-01-04T16:22:11.626Z",
     "featured": false,
-    "views": 860
+    "views": 287
   },
   {
     "id": "shippo",
@@ -7617,9 +7617,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shippo.com",
-    "createdAt": "2025-01-03T16:05:20.394Z",
+    "createdAt": "2025-01-03T16:22:11.626Z",
     "featured": false,
-    "views": 455
+    "views": 449
   },
   {
     "id": "shipstation",
@@ -7636,9 +7636,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shipstation.com",
-    "createdAt": "2025-01-02T16:05:20.394Z",
+    "createdAt": "2025-01-02T16:22:11.626Z",
     "featured": false,
-    "views": 142
+    "views": 929
   },
   {
     "id": "shopify",
@@ -7655,9 +7655,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shopify.com",
-    "createdAt": "2025-01-01T16:05:20.394Z",
+    "createdAt": "2025-01-01T16:22:11.626Z",
     "featured": false,
-    "views": 569
+    "views": 883
   },
   {
     "id": "shopify",
@@ -7674,9 +7674,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://shopify.com",
-    "createdAt": "2024-12-31T16:05:20.394Z",
+    "createdAt": "2024-12-31T16:22:11.626Z",
     "featured": false,
-    "views": 39
+    "views": 919
   },
   {
     "id": "simple-analytics",
@@ -7693,9 +7693,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://simpleanalytics.com",
-    "createdAt": "2024-12-30T16:05:20.394Z",
+    "createdAt": "2024-12-30T16:22:11.626Z",
     "featured": false,
-    "views": 909
+    "views": 302
   },
   {
     "id": "sisense",
@@ -7712,9 +7712,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sisense.com",
-    "createdAt": "2024-12-29T16:05:20.394Z",
+    "createdAt": "2024-12-29T16:22:11.626Z",
     "featured": false,
-    "views": 910
+    "views": 51
   },
   {
     "id": "sketch",
@@ -7731,9 +7731,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sketch.com",
-    "createdAt": "2024-12-28T16:05:20.394Z",
+    "createdAt": "2024-12-28T16:22:11.626Z",
     "featured": false,
-    "views": 939
+    "views": 268
   },
   {
     "id": "skylane",
@@ -7750,9 +7750,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://skylane.com",
-    "createdAt": "2024-12-27T16:05:20.394Z",
+    "createdAt": "2024-12-27T16:22:11.626Z",
     "featured": false,
-    "views": 569
+    "views": 270
   },
   {
     "id": "slack",
@@ -7769,9 +7769,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://slack.com",
-    "createdAt": "2024-12-26T16:05:20.394Z",
+    "createdAt": "2024-12-26T16:22:11.626Z",
     "featured": false,
-    "views": 413
+    "views": 936
   },
   {
     "id": "slack",
@@ -7788,9 +7788,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://slack.com",
-    "createdAt": "2024-12-25T16:05:20.394Z",
+    "createdAt": "2024-12-25T16:22:11.626Z",
     "featured": false,
-    "views": 768
+    "views": 426
   },
   {
     "id": "smsbump",
@@ -7807,9 +7807,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://smsbump.com",
-    "createdAt": "2024-12-24T16:05:20.394Z",
+    "createdAt": "2024-12-24T16:22:11.626Z",
     "featured": false,
-    "views": 57
+    "views": 180
   },
   {
     "id": "snap",
@@ -7826,9 +7826,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://snap.com",
-    "createdAt": "2024-12-23T16:05:20.394Z",
+    "createdAt": "2024-12-23T16:22:11.626Z",
     "featured": false,
-    "views": 597
+    "views": 276
   },
   {
     "id": "snapchat",
@@ -7845,9 +7845,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://snapchat.com",
-    "createdAt": "2024-12-22T16:05:20.394Z",
+    "createdAt": "2024-12-22T16:22:11.626Z",
     "featured": false,
-    "views": 715
+    "views": 250
   },
   {
     "id": "snowflake",
@@ -7864,9 +7864,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://snowflake.com",
-    "createdAt": "2024-12-21T16:05:20.394Z",
+    "createdAt": "2024-12-21T16:22:11.626Z",
     "featured": false,
-    "views": 286
+    "views": 141
   },
   {
     "id": "snowflake",
@@ -7883,9 +7883,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://snowflake.com",
-    "createdAt": "2024-12-20T16:05:20.394Z",
+    "createdAt": "2024-12-20T16:22:11.626Z",
     "featured": false,
-    "views": 433
+    "views": 667
   },
   {
     "id": "sofi",
@@ -7902,9 +7902,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sofi.com",
-    "createdAt": "2024-12-19T16:05:20.394Z",
+    "createdAt": "2024-12-19T16:22:11.626Z",
     "featured": false,
-    "views": 61
+    "views": 314
   },
   {
     "id": "solid",
@@ -7921,9 +7921,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://solid.com",
-    "createdAt": "2024-12-18T16:05:20.394Z",
+    "createdAt": "2024-12-18T16:22:11.626Z",
     "featured": false,
-    "views": 131
+    "views": 718
   },
   {
     "id": "sonos",
@@ -7940,9 +7940,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sonos.com",
-    "createdAt": "2024-12-17T16:05:20.394Z",
+    "createdAt": "2024-12-17T16:22:11.626Z",
     "featured": false,
-    "views": 871
+    "views": 503
   },
   {
     "id": "sony",
@@ -7959,9 +7959,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sony.com",
-    "createdAt": "2024-12-16T16:05:20.394Z",
+    "createdAt": "2024-12-16T16:22:11.626Z",
     "featured": false,
-    "views": 88
+    "views": 497
   },
   {
     "id": "southwest",
@@ -7978,9 +7978,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://southwest.com",
-    "createdAt": "2024-12-15T16:05:20.394Z",
+    "createdAt": "2024-12-15T16:22:11.626Z",
     "featured": false,
-    "views": 552
+    "views": 605
   },
   {
     "id": "splunk",
@@ -7997,9 +7997,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://splunk.com",
-    "createdAt": "2024-12-14T16:05:20.394Z",
+    "createdAt": "2024-12-14T16:22:11.626Z",
     "featured": false,
-    "views": 750
+    "views": 962
   },
   {
     "id": "spotify",
@@ -8016,9 +8016,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://spotify.com",
-    "createdAt": "2024-12-13T16:05:20.394Z",
+    "createdAt": "2024-12-13T16:22:11.626Z",
     "featured": false,
-    "views": 449
+    "views": 678
   },
   {
     "id": "spotify",
@@ -8035,9 +8035,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://spotify.com",
-    "createdAt": "2024-12-12T16:05:20.394Z",
+    "createdAt": "2024-12-12T16:22:11.626Z",
     "featured": false,
-    "views": 287
+    "views": 164
   },
   {
     "id": "sprout-social",
@@ -8054,9 +8054,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sproutsocial.com",
-    "createdAt": "2024-12-11T16:05:20.394Z",
+    "createdAt": "2024-12-11T16:22:11.626Z",
     "featured": false,
-    "views": 969
+    "views": 477
   },
   {
     "id": "square",
@@ -8073,9 +8073,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://square.com",
-    "createdAt": "2024-12-10T16:05:20.394Z",
+    "createdAt": "2024-12-10T16:22:11.626Z",
     "featured": false,
-    "views": 409
+    "views": 780
   },
   {
     "id": "square",
@@ -8092,9 +8092,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://square.com",
-    "createdAt": "2024-12-09T16:05:20.394Z",
+    "createdAt": "2024-12-09T16:22:11.626Z",
     "featured": false,
-    "views": 433
+    "views": 393
   },
   {
     "id": "starbucks",
@@ -8111,9 +8111,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://starbucks.com",
-    "createdAt": "2024-12-08T16:05:20.394Z",
+    "createdAt": "2024-12-08T16:22:11.626Z",
     "featured": false,
-    "views": 638
+    "views": 948
   },
   {
     "id": "starburst",
@@ -8130,9 +8130,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://starburst.com",
-    "createdAt": "2024-12-07T16:05:20.394Z",
+    "createdAt": "2024-12-07T16:22:11.626Z",
     "featured": false,
-    "views": 646
+    "views": 345
   },
   {
     "id": "stripe",
@@ -8149,9 +8149,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://stripe.com",
-    "createdAt": "2024-12-06T16:05:20.394Z",
+    "createdAt": "2024-12-06T16:22:11.626Z",
     "featured": false,
-    "views": 710
+    "views": 827
   },
   {
     "id": "stripe",
@@ -8168,9 +8168,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://stripe.com",
-    "createdAt": "2024-12-05T16:05:20.394Z",
+    "createdAt": "2024-12-05T16:22:11.626Z",
     "featured": false,
-    "views": 596
+    "views": 8
   },
   {
     "id": "subaru",
@@ -8187,9 +8187,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://subaru.com",
-    "createdAt": "2024-12-04T16:05:20.394Z",
+    "createdAt": "2024-12-04T16:22:11.626Z",
     "featured": false,
-    "views": 962
+    "views": 860
   },
   {
     "id": "substack",
@@ -8206,9 +8206,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://substack.com",
-    "createdAt": "2024-12-03T16:05:20.394Z",
+    "createdAt": "2024-12-03T16:22:11.626Z",
     "featured": false,
-    "views": 578
+    "views": 448
   },
   {
     "id": "subway",
@@ -8225,9 +8225,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://subway.com",
-    "createdAt": "2024-12-02T16:05:20.394Z",
+    "createdAt": "2024-12-02T16:22:11.626Z",
     "featured": false,
-    "views": 177
+    "views": 422
   },
   {
     "id": "sumo-logic",
@@ -8244,9 +8244,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sumologic.com",
-    "createdAt": "2024-12-01T16:05:20.394Z",
+    "createdAt": "2024-12-01T16:22:11.626Z",
     "featured": false,
-    "views": 42
+    "views": 959
   },
   {
     "id": "supabase",
@@ -8263,9 +8263,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://supabase.com",
-    "createdAt": "2024-11-30T16:05:20.394Z",
+    "createdAt": "2024-11-30T16:22:11.626Z",
     "featured": false,
-    "views": 268
+    "views": 9
   },
   {
     "id": "svelte",
@@ -8282,9 +8282,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://svelte.com",
-    "createdAt": "2024-11-29T16:05:20.394Z",
+    "createdAt": "2024-11-29T16:22:11.626Z",
     "featured": false,
-    "views": 251
+    "views": 658
   },
   {
     "id": "swagger",
@@ -8301,9 +8301,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://swagger.com",
-    "createdAt": "2024-11-28T16:05:20.394Z",
+    "createdAt": "2024-11-28T16:22:11.626Z",
     "featured": false,
-    "views": 371
+    "views": 616
   },
   {
     "id": "swift",
@@ -8320,9 +8320,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://swift.com",
-    "createdAt": "2024-11-27T16:05:20.394Z",
+    "createdAt": "2024-11-27T16:22:11.626Z",
     "featured": false,
-    "views": 805
+    "views": 108
   },
   {
     "id": "synapse",
@@ -8339,9 +8339,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://synapse.com",
-    "createdAt": "2024-11-26T16:05:20.394Z",
+    "createdAt": "2024-11-26T16:22:11.626Z",
     "featured": false,
-    "views": 342
+    "views": 32
   },
   {
     "id": "sysco",
@@ -8358,9 +8358,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://sysco.com",
-    "createdAt": "2024-11-25T16:05:20.394Z",
+    "createdAt": "2024-11-25T16:22:11.626Z",
     "featured": false,
-    "views": 711
+    "views": 143
   },
   {
     "id": "t-mobile",
@@ -8377,9 +8377,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tmobile.com",
-    "createdAt": "2024-11-24T16:05:20.394Z",
+    "createdAt": "2024-11-24T16:22:11.626Z",
     "featured": false,
-    "views": 584
+    "views": 754
   },
   {
     "id": "tableau",
@@ -8396,9 +8396,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tableau.com",
-    "createdAt": "2024-11-23T16:05:20.394Z",
+    "createdAt": "2024-11-23T16:22:11.626Z",
     "featured": false,
-    "views": 825
+    "views": 164
   },
   {
     "id": "target",
@@ -8415,9 +8415,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://target.com",
-    "createdAt": "2024-11-22T16:05:20.394Z",
+    "createdAt": "2024-11-22T16:22:11.626Z",
     "featured": false,
-    "views": 548
+    "views": 154
   },
   {
     "id": "terraform",
@@ -8434,9 +8434,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://terraform.com",
-    "createdAt": "2024-11-21T16:05:20.394Z",
+    "createdAt": "2024-11-21T16:22:11.626Z",
     "featured": false,
-    "views": 66
+    "views": 939
   },
   {
     "id": "tesla",
@@ -8453,9 +8453,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tesla.com",
-    "createdAt": "2024-11-20T16:05:20.394Z",
+    "createdAt": "2024-11-20T16:22:11.626Z",
     "featured": false,
-    "views": 693
+    "views": 540
   },
   {
     "id": "texas-instruments",
@@ -8472,9 +8472,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://texasinstruments.com",
-    "createdAt": "2024-11-19T16:05:20.394Z",
+    "createdAt": "2024-11-19T16:22:11.626Z",
     "featured": false,
-    "views": 234
+    "views": 177
   },
   {
     "id": "thread",
@@ -8491,9 +8491,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://thread.com",
-    "createdAt": "2024-11-18T16:05:20.394Z",
+    "createdAt": "2024-11-18T16:22:11.626Z",
     "featured": false,
-    "views": 856
+    "views": 65
   },
   {
     "id": "tiktok",
@@ -8510,9 +8510,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tiktok.com",
-    "createdAt": "2024-11-17T16:05:20.394Z",
+    "createdAt": "2024-11-17T16:22:11.626Z",
     "featured": false,
-    "views": 249
+    "views": 967
   },
   {
     "id": "tjx",
@@ -8529,9 +8529,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tjx.com",
-    "createdAt": "2024-11-16T16:05:20.394Z",
+    "createdAt": "2024-11-16T16:22:11.626Z",
     "featured": false,
-    "views": 5
+    "views": 179
   },
   {
     "id": "total",
@@ -8548,9 +8548,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://total.com",
-    "createdAt": "2024-11-15T16:05:20.394Z",
+    "createdAt": "2024-11-15T16:22:11.626Z",
     "featured": false,
-    "views": 25
+    "views": 143
   },
   {
     "id": "toyota",
@@ -8567,9 +8567,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://toyota.com",
-    "createdAt": "2024-11-14T16:05:20.394Z",
+    "createdAt": "2024-11-14T16:22:11.626Z",
     "featured": false,
-    "views": 18
+    "views": 449
   },
   {
     "id": "travis-ci",
@@ -8586,9 +8586,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://travisci.com",
-    "createdAt": "2024-11-13T16:05:20.394Z",
+    "createdAt": "2024-11-13T16:22:11.626Z",
     "featured": false,
-    "views": 309
+    "views": 215
   },
   {
     "id": "trello",
@@ -8605,9 +8605,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://trello.com",
-    "createdAt": "2024-11-12T16:05:20.394Z",
+    "createdAt": "2024-11-12T16:22:11.626Z",
     "featured": false,
-    "views": 951
+    "views": 501
   },
   {
     "id": "twilio",
@@ -8624,9 +8624,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twilio.com",
-    "createdAt": "2024-11-11T16:05:20.394Z",
+    "createdAt": "2024-11-11T16:22:11.626Z",
     "featured": false,
-    "views": 424
+    "views": 59
   },
   {
     "id": "twilio",
@@ -8643,9 +8643,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twilio.com",
-    "createdAt": "2024-11-10T16:05:20.394Z",
+    "createdAt": "2024-11-10T16:22:11.626Z",
     "featured": false,
-    "views": 31
+    "views": 995
   },
   {
     "id": "twitch",
@@ -8662,9 +8662,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twitch.com",
-    "createdAt": "2024-11-09T16:05:20.394Z",
+    "createdAt": "2024-11-09T16:22:11.626Z",
     "featured": false,
-    "views": 725
+    "views": 851
   },
   {
     "id": "twitter",
@@ -8681,9 +8681,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://twitter.com",
-    "createdAt": "2024-11-08T16:05:20.394Z",
+    "createdAt": "2024-11-08T16:22:11.626Z",
     "featured": false,
-    "views": 563
+    "views": 317
   },
   {
     "id": "tyson",
@@ -8700,9 +8700,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://tyson.com",
-    "createdAt": "2024-11-07T16:05:20.394Z",
+    "createdAt": "2024-11-07T16:22:11.626Z",
     "featured": false,
-    "views": 262
+    "views": 149
   },
   {
     "id": "uber",
@@ -8719,9 +8719,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://uber.com",
-    "createdAt": "2024-11-06T16:05:20.394Z",
+    "createdAt": "2024-11-06T16:22:11.626Z",
     "featured": false,
-    "views": 617
+    "views": 218
   },
   {
     "id": "under-armour",
@@ -8738,9 +8738,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://underarmour.com",
-    "createdAt": "2024-11-05T16:05:20.394Z",
+    "createdAt": "2024-11-05T16:22:11.626Z",
     "featured": false,
-    "views": 811
+    "views": 572
   },
   {
     "id": "uniqlo",
@@ -8757,9 +8757,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://uniqlo.com",
-    "createdAt": "2024-11-04T16:05:20.394Z",
+    "createdAt": "2024-11-04T16:22:11.626Z",
     "featured": false,
-    "views": 694
+    "views": 632
   },
   {
     "id": "united-airlines",
@@ -8776,9 +8776,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://unitedairlines.com",
-    "createdAt": "2024-11-03T16:05:20.394Z",
+    "createdAt": "2024-11-03T16:22:11.626Z",
     "featured": false,
-    "views": 753
+    "views": 220
   },
   {
     "id": "united-healthcare",
@@ -8795,9 +8795,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://unitedhealthcare.com",
-    "createdAt": "2024-11-02T16:05:20.394Z",
+    "createdAt": "2024-11-02T16:22:11.626Z",
     "featured": false,
-    "views": 731
+    "views": 939
   },
   {
     "id": "united",
@@ -8814,9 +8814,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://united.com",
-    "createdAt": "2024-11-01T16:05:20.394Z",
+    "createdAt": "2024-11-01T16:22:11.626Z",
     "featured": false,
-    "views": 265
+    "views": 848
   },
   {
     "id": "unitedhealth",
@@ -8833,9 +8833,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://unitedhealth.com",
-    "createdAt": "2024-10-31T16:05:20.394Z",
+    "createdAt": "2024-10-31T16:22:11.626Z",
     "featured": false,
-    "views": 797
+    "views": 252
   },
   {
     "id": "universal",
@@ -8852,9 +8852,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://universal.com",
-    "createdAt": "2024-10-30T16:05:20.394Z",
+    "createdAt": "2024-10-30T16:22:11.626Z",
     "featured": false,
-    "views": 202
+    "views": 607
   },
   {
     "id": "upcloud",
@@ -8871,9 +8871,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://upcloud.com",
-    "createdAt": "2024-10-29T16:05:20.394Z",
+    "createdAt": "2024-10-29T16:22:11.626Z",
     "featured": false,
-    "views": 102
+    "views": 444
   },
   {
     "id": "ups",
@@ -8890,9 +8890,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://ups.com",
-    "createdAt": "2024-10-28T16:05:20.394Z",
+    "createdAt": "2024-10-28T16:22:11.626Z",
     "featured": false,
-    "views": 779
+    "views": 568
   },
   {
     "id": "urban-outfitters",
@@ -8909,9 +8909,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://urbanoutfitters.com",
-    "createdAt": "2024-10-27T16:05:20.394Z",
+    "createdAt": "2024-10-27T16:22:11.626Z",
     "featured": false,
-    "views": 152
+    "views": 224
   },
   {
     "id": "user-testing",
@@ -8928,9 +8928,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://usertesting.com",
-    "createdAt": "2024-10-26T16:05:20.394Z",
+    "createdAt": "2024-10-26T16:22:11.626Z",
     "featured": false,
-    "views": 228
+    "views": 787
   },
   {
     "id": "vanguard",
@@ -8947,9 +8947,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vanguard.com",
-    "createdAt": "2024-10-25T16:05:20.394Z",
+    "createdAt": "2024-10-25T16:22:11.626Z",
     "featured": false,
-    "views": 453
+    "views": 84
   },
   {
     "id": "vercel",
@@ -8966,9 +8966,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vercel.com",
-    "createdAt": "2024-10-24T16:05:20.394Z",
+    "createdAt": "2024-10-24T16:22:11.626Z",
     "featured": false,
-    "views": 414
+    "views": 865
   },
   {
     "id": "verdant",
@@ -8985,9 +8985,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://verdant.com",
-    "createdAt": "2024-10-23T16:05:20.394Z",
+    "createdAt": "2024-10-23T16:22:11.626Z",
     "featured": false,
-    "views": 592
+    "views": 941
   },
   {
     "id": "verizon",
@@ -9004,9 +9004,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://verizon.com",
-    "createdAt": "2024-10-22T16:05:20.394Z",
+    "createdAt": "2024-10-22T16:22:11.626Z",
     "featured": false,
-    "views": 453
+    "views": 774
   },
   {
     "id": "victorops",
@@ -9023,9 +9023,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://victorops.com",
-    "createdAt": "2024-10-21T16:05:20.394Z",
+    "createdAt": "2024-10-21T16:22:11.626Z",
     "featured": false,
-    "views": 93
+    "views": 747
   },
   {
     "id": "vite",
@@ -9042,9 +9042,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vite.com",
-    "createdAt": "2024-10-20T16:05:20.394Z",
+    "createdAt": "2024-10-20T16:22:11.626Z",
     "featured": false,
-    "views": 57
+    "views": 123
   },
   {
     "id": "volkswagen",
@@ -9061,9 +9061,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://volkswagen.com",
-    "createdAt": "2024-10-19T16:05:20.394Z",
+    "createdAt": "2024-10-19T16:22:11.626Z",
     "featured": false,
-    "views": 490
+    "views": 463
   },
   {
     "id": "volusion",
@@ -9080,9 +9080,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://volusion.com",
-    "createdAt": "2024-10-18T16:05:20.394Z",
+    "createdAt": "2024-10-18T16:22:11.626Z",
     "featured": false,
-    "views": 178
+    "views": 428
   },
   {
     "id": "volvo",
@@ -9099,9 +9099,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://volvo.com",
-    "createdAt": "2024-10-17T16:05:20.394Z",
+    "createdAt": "2024-10-17T16:22:11.626Z",
     "featured": false,
-    "views": 160
+    "views": 27
   },
   {
     "id": "vue",
@@ -9118,9 +9118,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vue.com",
-    "createdAt": "2024-10-16T16:05:20.394Z",
+    "createdAt": "2024-10-16T16:22:11.626Z",
     "featured": false,
-    "views": 246
+    "views": 918
   },
   {
     "id": "vultr",
@@ -9137,9 +9137,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://vultr.com",
-    "createdAt": "2024-10-15T16:05:20.394Z",
+    "createdAt": "2024-10-15T16:22:11.626Z",
     "featured": false,
-    "views": 234
+    "views": 271
   },
   {
     "id": "walgreens-boots-alliance",
@@ -9156,9 +9156,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://walgreensbootsalliance.com",
-    "createdAt": "2024-10-14T16:05:20.394Z",
+    "createdAt": "2024-10-14T16:22:11.626Z",
     "featured": false,
-    "views": 720
+    "views": 592
   },
   {
     "id": "walgreens",
@@ -9175,9 +9175,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://walgreens.com",
-    "createdAt": "2024-10-13T16:05:20.394Z",
+    "createdAt": "2024-10-13T16:22:11.626Z",
     "featured": false,
-    "views": 457
+    "views": 274
   },
   {
     "id": "walmart",
@@ -9194,9 +9194,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://walmart.com",
-    "createdAt": "2024-10-12T16:05:20.394Z",
+    "createdAt": "2024-10-12T16:22:11.626Z",
     "featured": false,
-    "views": 145
+    "views": 388
   },
   {
     "id": "warner-bros",
@@ -9213,9 +9213,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://warnerbros.com",
-    "createdAt": "2024-10-11T16:05:20.394Z",
+    "createdAt": "2024-10-11T16:22:11.626Z",
     "featured": false,
-    "views": 791
+    "views": 490
   },
   {
     "id": "weTransfer",
@@ -9232,9 +9232,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://weTransfer.com",
-    "createdAt": "2024-10-10T16:05:20.394Z",
+    "createdAt": "2024-10-10T16:22:11.626Z",
     "featured": false,
-    "views": 406
+    "views": 660
   },
   {
     "id": "wealthfront",
@@ -9251,9 +9251,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wealthfront.com",
-    "createdAt": "2024-10-09T16:05:20.394Z",
+    "createdAt": "2024-10-09T16:22:11.626Z",
     "featured": false,
-    "views": 58
+    "views": 369
   },
   {
     "id": "webflow",
@@ -9270,9 +9270,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://webflow.com",
-    "createdAt": "2024-10-08T16:05:20.394Z",
+    "createdAt": "2024-10-08T16:22:11.626Z",
     "featured": false,
-    "views": 808
+    "views": 727
   },
   {
     "id": "webpack",
@@ -9289,9 +9289,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://webpack.com",
-    "createdAt": "2024-10-07T16:05:20.394Z",
+    "createdAt": "2024-10-07T16:22:11.626Z",
     "featured": false,
-    "views": 658
+    "views": 966
   },
   {
     "id": "webull",
@@ -9308,9 +9308,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://webull.com",
-    "createdAt": "2024-10-06T16:05:20.394Z",
+    "createdAt": "2024-10-06T16:22:11.626Z",
     "featured": false,
-    "views": 262
+    "views": 743
   },
   {
     "id": "weebly",
@@ -9327,9 +9327,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://weebly.com",
-    "createdAt": "2024-10-05T16:05:20.394Z",
+    "createdAt": "2024-10-05T16:22:11.626Z",
     "featured": false,
-    "views": 568
+    "views": 459
   },
   {
     "id": "wells-fargo",
@@ -9346,9 +9346,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wellsfargo.com",
-    "createdAt": "2024-10-04T16:05:20.394Z",
+    "createdAt": "2024-10-04T16:22:11.626Z",
     "featured": false,
-    "views": 400
+    "views": 154
   },
   {
     "id": "wendys",
@@ -9365,9 +9365,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wendys.com",
-    "createdAt": "2024-10-03T16:05:20.394Z",
+    "createdAt": "2024-10-03T16:22:11.626Z",
     "featured": false,
-    "views": 76
+    "views": 645
   },
   {
     "id": "western-digital",
@@ -9384,9 +9384,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://westerndigital.com",
-    "createdAt": "2024-10-02T16:05:20.394Z",
+    "createdAt": "2024-10-02T16:22:11.626Z",
     "featured": false,
-    "views": 901
+    "views": 676
   },
   {
     "id": "whataburger",
@@ -9403,9 +9403,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://whataburger.com",
-    "createdAt": "2024-10-01T16:05:20.394Z",
+    "createdAt": "2024-10-01T16:22:11.626Z",
     "featured": false,
-    "views": 502
+    "views": 232
   },
   {
     "id": "wix",
@@ -9422,9 +9422,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wix.com",
-    "createdAt": "2024-09-30T16:05:20.394Z",
+    "createdAt": "2024-09-30T16:22:11.626Z",
     "featured": false,
-    "views": 383
+    "views": 467
   },
   {
     "id": "woocommerce",
@@ -9441,9 +9441,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://woocommerce.com",
-    "createdAt": "2024-09-29T16:05:20.394Z",
+    "createdAt": "2024-09-29T16:22:11.626Z",
     "featured": false,
-    "views": 307
+    "views": 825
   },
   {
     "id": "wordpress",
@@ -9460,9 +9460,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wordpress.com",
-    "createdAt": "2024-09-28T16:05:20.394Z",
+    "createdAt": "2024-09-28T16:22:11.626Z",
     "featured": false,
-    "views": 302
+    "views": 349
   },
   {
     "id": "workday",
@@ -9479,9 +9479,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://workday.com",
-    "createdAt": "2024-09-27T16:05:20.394Z",
+    "createdAt": "2024-09-27T16:22:11.626Z",
     "featured": false,
-    "views": 407
+    "views": 441
   },
   {
     "id": "wrike",
@@ -9498,9 +9498,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://wrike.com",
-    "createdAt": "2024-09-26T16:05:20.394Z",
+    "createdAt": "2024-09-26T16:22:11.626Z",
     "featured": false,
-    "views": 235
+    "views": 605
   },
   {
     "id": "xmatters",
@@ -9517,9 +9517,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://xmatters.com",
-    "createdAt": "2024-09-25T16:05:20.394Z",
+    "createdAt": "2024-09-25T16:22:11.626Z",
     "featured": false,
-    "views": 468
+    "views": 610
   },
   {
     "id": "youtube",
@@ -9536,9 +9536,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://youtube.com",
-    "createdAt": "2024-09-24T16:05:20.394Z",
+    "createdAt": "2024-09-24T16:22:11.626Z",
     "featured": false,
-    "views": 515
+    "views": 372
   },
   {
     "id": "yum-brands",
@@ -9555,9 +9555,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://yumbrands.com",
-    "createdAt": "2024-09-23T16:05:20.394Z",
+    "createdAt": "2024-09-23T16:22:11.626Z",
     "featured": false,
-    "views": 285
+    "views": 182
   },
   {
     "id": "zapier",
@@ -9574,9 +9574,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zapier.com",
-    "createdAt": "2024-09-22T16:05:20.394Z",
+    "createdAt": "2024-09-22T16:22:11.626Z",
     "featured": false,
-    "views": 787
+    "views": 959
   },
   {
     "id": "zara",
@@ -9593,9 +9593,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zara.com",
-    "createdAt": "2024-09-21T16:05:20.394Z",
+    "createdAt": "2024-09-21T16:22:11.626Z",
     "featured": false,
-    "views": 826
+    "views": 553
   },
   {
     "id": "zendesk",
@@ -9612,9 +9612,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zendesk.com",
-    "createdAt": "2024-09-20T16:05:20.394Z",
+    "createdAt": "2024-09-20T16:22:11.626Z",
     "featured": false,
-    "views": 43
+    "views": 91
   },
   {
     "id": "zeromq",
@@ -9631,9 +9631,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zeromq.com",
-    "createdAt": "2024-09-19T16:05:20.394Z",
+    "createdAt": "2024-09-19T16:22:11.626Z",
     "featured": false,
-    "views": 186
+    "views": 949
   },
   {
     "id": "zoom",
@@ -9650,9 +9650,9 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zoom.com",
-    "createdAt": "2024-09-18T16:05:20.394Z",
+    "createdAt": "2024-09-18T16:22:11.626Z",
     "featured": false,
-    "views": 377
+    "views": 752
   },
   {
     "id": "zoom",
@@ -9669,8 +9669,8 @@ export const generatedBrands: Brand[] = [
     "dominantColors": [],
     "country": "US",
     "website": "https://zoom.com",
-    "createdAt": "2024-09-17T16:05:20.394Z",
+    "createdAt": "2024-09-17T16:22:11.626Z",
     "featured": false,
-    "views": 542
+    "views": 945
   }
 ];
