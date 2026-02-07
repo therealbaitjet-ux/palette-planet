@@ -23,7 +23,28 @@ export default function AdminDashboard() {
   const [search, setSearch] = useState("");
   const [selectedBrand, setSelectedBrand] = useState<Brand | null>(null);
   const [showUploadModal, setShowUploadModal] = useState(false);
+  const [page, setPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [totalCount, setTotalCount] = useState(0);
   const router = useRouter();
+  const ITEMS_PER_PAGE = 24;
+
+  const loadBrands = async (pageNum: number) => {
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/admin/brands?page=${pageNum}&limit=${ITEMS_PER_PAGE}`);
+      const data = await res.json();
+      if (data.brands) {
+        setBrands(data.brands);
+        setTotalPages(data.pagination?.totalPages || 1);
+        setTotalCount(data.pagination?.total || 0);
+      }
+    } catch (err) {
+      console.error("Failed to load brands:", err);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
     // Check auth
@@ -33,20 +54,8 @@ export default function AdminDashboard() {
       return;
     }
 
-    // Load all brands (request max limit)
-    fetch("/api/admin/brands?limit=100")
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.brands) {
-          setBrands(data.brands);
-        }
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load brands:", err);
-        setLoading(false);
-      });
-  }, [router]);
+    loadBrands(page);
+  }, [router, page]);
 
   const handleLogout = () => {
     document.cookie = "admin_auth=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT";
@@ -63,7 +72,7 @@ export default function AdminDashboard() {
   });
 
   const stats = {
-    total: brands.length,
+    total: totalCount,
     working: brands.filter((b) => b.status === "working").length,
     broken: brands.filter((b) => b.status === "broken").length,
     new: brands.filter((b) => b.status === "new").length,
@@ -212,13 +221,42 @@ export default function AdminDashboard() {
             </div>
           ))}
         </div>
+
+        {/* Pagination */}
+        <div className="mt-8 flex items-center justify-between border-t border-white/10 pt-6">
+          <span className="text-sm text-slate-400">
+            Showing {brands.length} of {totalCount} brands
+          </span>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setPage(p => Math.max(1, p - 1))}
+              disabled={page === 1 || loading}
+              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              ← Previous
+            </button>
+            <span className="text-sm text-slate-300">
+              Page {page} of {totalPages}
+            </span>
+            <button
+              onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+              disabled={page === totalPages || loading}
+              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Next →
+            </button>
+          </div>
+        </div>
       </main>
 
       {/* Upload Modal */}
       {showUploadModal && (
         <UploadModal
           onClose={() => setShowUploadModal(false)}
-          onSuccess={() => window.location.reload()}
+          onSuccess={() => {
+            setShowUploadModal(false);
+            loadBrands(page);
+          }}
         />
       )}
 
@@ -227,7 +265,10 @@ export default function AdminDashboard() {
         <EditModal
           brand={selectedBrand}
           onClose={() => setSelectedBrand(null)}
-          onSuccess={() => window.location.reload()}
+          onSuccess={() => {
+            setSelectedBrand(null);
+            loadBrands(page);
+          }}
         />
       )}
     </div>
