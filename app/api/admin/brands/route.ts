@@ -12,6 +12,8 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 // Cache duration in seconds
 const CACHE_DURATION = 60; // 1 minute cache for admin
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: Request) {
   try {
     // Parse query params for pagination
