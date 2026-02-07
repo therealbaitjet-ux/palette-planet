@@ -5,6 +5,7 @@ import Link from "next/link";
 import "./globals.css";
 import { DEFAULT_DESCRIPTION, DEFAULT_TITLE, SITE_URL, absoluteUrl } from "@/lib/seo";
 import AdSenseScript from "@/components/AdSenseScript";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -52,6 +53,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <head>
         <AdSenseScript />
+        <GoogleAnalytics />
       </head>
       <body className="min-h-screen bg-midnight font-sans">
         <div className="relative overflow-hidden">
@@ -96,9 +98,6 @@ export default function RootLayout({
                 </Link>
                 <Link href="/category" className="hover:text-white focus-ring">
                   Explore categories
-                </Link>
-                <Link href="/admin/signin" className="hover:text-white focus-ring">
-                  Admin sign in
                 </Link>
               </div>
             </div>

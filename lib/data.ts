@@ -56,27 +56,9 @@ export const categories: Category[] = [
   },
 ];
 
-const baseBrands: Brand[] = [];
+import { brands as importedBrands } from "./brands-data";
 
-const readAdminBrands = (): Brand[] => {
-  if (typeof process === "undefined") {
-    return [];
-  }
-
-  try {
-    const fs = require("fs") as typeof import("fs");
-    const path = require("path") as typeof import("path");
-    const filePath = path.join(process.cwd(), "data", "admin-brands.json");
-    if (!fs.existsSync(filePath)) {
-      return [];
-    }
-    const raw = fs.readFileSync(filePath, "utf8");
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? (parsed as Brand[]) : [];
-  } catch {
-    return [];
-  }
-};
+const baseBrands: Brand[] = importedBrands;
 
 // Logo quality tiers for sorting
 // Tier 1: PNG logos (Logo.dev - best quality)
@@ -104,7 +86,7 @@ const getLogoTier = (brand: Brand): number => {
 };
 
 export const getBrands = () => {
-  const allBrands = [...baseBrands, ...readAdminBrands()];
+  const allBrands = [...baseBrands];
   // Sort: featured first, then by logo tier (PNG > SVG > generated), then by views
   return allBrands.sort((a, b) => {
     // Featured brands always come first

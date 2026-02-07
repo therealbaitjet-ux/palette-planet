@@ -7,7 +7,7 @@ import SeoJsonLd from "@/components/SeoJsonLd";
 import { Brand, getBrands, categories } from "@/lib/data";
 import { DEFAULT_DESCRIPTION, absoluteUrl, truncate } from "@/lib/seo";
 
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 24;
 
 const sortOptions = [
   { value: "popular", label: "Popular" },
@@ -133,7 +133,7 @@ export default function GalleryPage({
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-        <GodLevelSearch placeholder="Search 196+ brand logos..." />
+        <GodLevelSearch placeholder={`Search ${brands.length}+ brand logos...`} />
         <div className="glass flex flex-col gap-4 rounded-2xl p-4">
           <div>
             <label className="text-xs uppercase tracking-[0.3em] text-slate-400">Category</label>
@@ -214,6 +214,7 @@ export default function GalleryPage({
         </div>
       )}
 
+      {/* Pagination Controls */}
       <div className="flex items-center justify-between text-sm text-slate-300">
         <span>
           Showing {paginated.length} of {filtered.length} brands
