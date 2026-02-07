@@ -1,7 +1,14 @@
-// lib/brands-data.ts - Brand data types and helpers
-// Data is auto-generated from logo files at build time
+// lib/brands-data.ts - Hybrid: Static fallback + Supabase for admin uploads
+import { createClient } from "@supabase/supabase-js";
 
-import { generatedBrands } from './brands-data-generated';
+// Supabase client for dynamic data
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpxeWdtcmdhcmd3dmpvdmhyYmlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAzMzQ5NjEsImV4cCI6MjA4NTkxMDk2MX0.S2tpjzM-81jcQQCMsriaUIDAGy_o1easT7kJvJChnwU";
+
+export const supabase = createClient(supabaseUrl, supabaseKey);
+
+// Import static brands as fallback
+import { generatedBrands } from "./brands-data-generated";
 
 export interface Brand {
   id: string;
@@ -38,10 +45,55 @@ export const categories: Category[] = [
   { slug: "telecom", name: "Telecommunications", description: "Phone and internet providers" },
 ];
 
-// Export generated brands
+// Static brands (fallback)
 export const brands: Brand[] = generatedBrands;
 
-// Helper functions
+// Async function to get all brands (combines static + Supabase)
+export async function getBrands(): Promise<Brand[]> {
+  try {
+    // Try to fetch from Supabase first
+    const { data: supabaseBrands, error } = await supabase
+      .from("brands")
+      .select("*")
+      .order("name");
+
+    if (error || !supabaseBrands || supabaseBrands.length === 0) {
+      // Fallback to static data
+      return generatedBrands;
+    }
+
+    // Combine Supabase brands with static, preferring Supabase
+    const brandMap = new Map<string, Brand>();
+    
+    // Add static brands first
+    generatedBrands.forEach(brand => brandMap.set(brand.id, brand));
+    
+    // Override with Supabase brands
+    supabaseBrands.forEach((b: any) => {
+      brandMap.set(b.id, {
+        id: b.id,
+        name: b.name,
+        slug: b.slug,
+        description: b.description,
+        categorySlug: b.category_slug,
+        tags: b.tags || [],
+        logoUrl: b.logo_url,
+        dominantColors: b.dominant_colors || [],
+        country: b.country || "US",
+        website: b.website,
+        featured: b.featured || false,
+        views: b.views || 0,
+        createdAt: b.created_at,
+      });
+    });
+
+    return Array.from(brandMap.values());
+  } catch (err) {
+    console.error("Error fetching brands from Supabase:", err);
+    return generatedBrands;
+  }
+}
+
 export function getBrandBySlug(slug: string): Brand | undefined {
   return brands.find(b => b.slug === slug);
 }

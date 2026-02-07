@@ -1,13 +1,20 @@
-// API: Upload with Git persistence via GitHub API
-// Saves file, commits to GitHub, Vercel auto-redeploys
+// API: Upload with Git persistence + Supabase database
+// Saves file to GitHub AND brand data to Supabase for immediate availability
 
 import { NextResponse } from "next/server";
+import { createClient } from "@supabase/supabase-js";
 
 // GitHub configuration
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_OWNER = process.env.GITHUB_OWNER || "baitjet";
 const GITHUB_REPO = process.env.GITHUB_REPO || "palette-planet";
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
+
+// Supabase configuration
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
+
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 export async function POST(request: Request) {
   try {
@@ -48,100 +55,99 @@ export async function POST(request: Request) {
     const ext = file.type === "image/svg+xml" ? "svg" : "png";
     const filename = `${slug}.${ext}`;
     const filepath = `public/logos/${filename}`;
+    const logoUrl = `/logos/${filename}`;
 
-    // Convert file to base64
+    // Convert file to base64 for GitHub
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
     const content = buffer.toString("base64");
 
-    // Check if GitHub token is configured
-    if (!GITHUB_TOKEN) {
-      // Fallback: Save locally and return message
-      return NextResponse.json({
-        success: false,
-        error: "GitHub not configured",
-        message: "Contact Baitjet to configure GitHub integration",
-        filename,
-        slug,
-      });
-    }
-
-    // Get current file SHA (if exists)
-    let sha: string | undefined;
-    try {
-      const checkRes = await fetch(
-        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}?ref=${GITHUB_BRANCH}`,
-        {
-          headers: {
-            Authorization: `Bearer ${GITHUB_TOKEN}`,
-            Accept: "application/vnd.github.v3+json",
-          },
-        }
-      );
-      if (checkRes.ok) {
-        const data = await checkRes.json();
-        sha = data.sha;
-      }
-    } catch {
-      // File doesn't exist yet
-    }
-
-    // Commit to GitHub
-    const commitRes = await fetch(
-      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}`,
-      {
-        method: "PUT",
-        headers: {
-          Authorization: `Bearer ${GITHUB_TOKEN}`,
-          Accept: "application/vnd.github.v3+json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          message: `Add logo: ${name}`,
-          content,
-          branch: GITHUB_BRANCH,
-          ...(sha && { sha }),
-        }),
-      }
-    );
-
-    if (!commitRes.ok) {
-      const error = await commitRes.text();
-      console.error("GitHub commit failed:", error);
-      return NextResponse.json(
-        { error: "Failed to commit to GitHub", details: error },
-        { status: 500 }
-      );
-    }
-
-    // Create brand data
+    // 1. Save brand data to Supabase (immediate availability)
     const brandData = {
       id: slug,
-      name,
-      slug,
+      name: name,
+      slug: slug,
       description: `${name} is a leading brand known for its distinctive visual identity.`,
-      categorySlug: category,
+      category_slug: category,
       tags: ["brand", "logo", category],
-      logoUrl: `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${filepath}`,
-      dominantColors: [],
+      logo_url: logoUrl,
+      dominant_colors: [],
       country: "US",
       website: `https://${slug.replace(/-/g, "")}.com`,
-      createdAt: new Date().toISOString(),
       featured: false,
       views: 0,
     };
 
-    // Also commit the brand data update
-    // (In production, you'd update a JSON file or database)
+    const { error: dbError } = await supabase
+      .from("brands")
+      .upsert(brandData, { onConflict: "id" });
+
+    if (dbError) {
+      console.error("Supabase error:", dbError);
+      return NextResponse.json(
+        { error: "Failed to save brand data", details: dbError.message },
+        { status: 500 }
+      );
+    }
+
+    // 2. Commit logo file to GitHub (for persistence)
+    let githubSuccess = false;
+    if (GITHUB_TOKEN) {
+      try {
+        // Get current file SHA (if exists)
+        let sha: string | undefined;
+        const checkRes = await fetch(
+          `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}?ref=${GITHUB_BRANCH}`,
+          {
+            headers: {
+              Authorization: `Bearer ${GITHUB_TOKEN}`,
+              Accept: "application/vnd.github.v3+json",
+            },
+          }
+        );
+        if (checkRes.ok) {
+          const data = await checkRes.json();
+          sha = data.sha;
+        }
+
+        // Commit to GitHub
+        const commitRes = await fetch(
+          `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filepath}`,
+          {
+            method: "PUT",
+            headers: {
+              Authorization: `Bearer ${GITHUB_TOKEN}`,
+              Accept: "application/vnd.github.v3+json",
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              message: `Add logo: ${name}`,
+              content,
+              branch: GITHUB_BRANCH,
+              ...(sha && { sha }),
+            }),
+          }
+        );
+
+        if (commitRes.ok) {
+          githubSuccess = true;
+        } else {
+          console.error("GitHub commit failed:", await commitRes.text());
+        }
+      } catch (err) {
+        console.error("GitHub error:", err);
+      }
+    }
 
     return NextResponse.json({
       success: true,
-      message: "Logo uploaded and committed to GitHub!",
+      message: "Logo uploaded successfully!",
       filename,
       slug,
       brandData,
-      deployed: true,
-      note: "Vercel will redeploy automatically in 1-2 minutes",
+      supabase: true,
+      github: githubSuccess,
+      note: "Logo is now live on the site!",
     });
   } catch (error) {
     console.error("Upload error:", error);
