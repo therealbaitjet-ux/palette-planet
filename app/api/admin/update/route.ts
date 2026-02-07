@@ -1,17 +1,14 @@
 // API: Update existing logo via GitHub + Supabase
 // Replace file or edit metadata
+// Note: Vercel serverless is read-only, so we skip local file save
 
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
-import fs from "fs";
-import path from "path";
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_OWNER = process.env.GITHUB_OWNER || "baitjet";
 const GITHUB_REPO = process.env.GITHUB_REPO || "palette-planet";
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
-
-const LOGOS_DIR = path.join(process.cwd(), "public", "logos");
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
 
@@ -64,25 +61,12 @@ export async function POST(request: Request) {
       const ext = file.type === "image/svg+xml" ? "svg" : "png";
       const filename = `${id}.${ext}`;
       const filepath = `public/logos/${filename}`;
-      const localPath = path.join(LOGOS_DIR, filename);
 
       // Convert to buffer
       const bytes = await file.arrayBuffer();
       const buffer = Buffer.from(bytes);
 
-      // 1. Save locally FIRST (so it works immediately)
-      try {
-        fs.writeFileSync(localPath, buffer);
-        console.log("Saved file locally:", localPath);
-      } catch (err) {
-        console.error("Failed to save locally:", err);
-        return NextResponse.json(
-          { error: "Failed to save file locally" },
-          { status: 500 }
-        );
-      }
-
-      // 2. Update Supabase (immediate site availability)
+      // 1. Update Supabase FIRST (immediate site availability)
       const logoUrl = `/logos/${filename}`;
       const { error: dbError } = await getSupabase()
         .from("brands")

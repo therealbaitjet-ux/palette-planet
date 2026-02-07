@@ -1,18 +1,15 @@
-// API: Upload with local save + Supabase + GitHub persistence
-// Saves file locally FIRST, then Supabase for immediate availability, then GitHub
+// API: Upload with Supabase + GitHub persistence
+// Saves to Supabase for immediate availability, then GitHub for persistence
+// Note: Local filesystem is read-only on Vercel, so we skip local save
 
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
-import fs from "fs";
-import path from "path";
 
 // GitHub configuration
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_OWNER = process.env.GITHUB_OWNER || "baitjet";
 const GITHUB_REPO = process.env.GITHUB_REPO || "palette-planet";
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
-
-const LOGOS_DIR = path.join(process.cwd(), "public", "logos");
 
 // Supabase configuration - lazy loaded
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
@@ -62,25 +59,11 @@ export async function POST(request: Request) {
     const filename = `${slug}.${ext}`;
     const filepath = `public/logos/${filename}`;
     const logoUrl = `/logos/${filename}`;
-    const localPath = path.join(LOGOS_DIR, filename);
-
     // Convert file to buffer
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    // 1. Save file LOCALLY FIRST (critical for immediate availability)
-    try {
-      fs.writeFileSync(localPath, buffer);
-      console.log("✓ Saved locally:", localPath);
-    } catch (err) {
-      console.error("✗ Failed to save locally:", err);
-      return NextResponse.json(
-        { error: "Failed to save file locally" },
-        { status: 500 }
-      );
-    }
-
-    // 2. Save brand data to Supabase (for dynamic loading)
+    // 1. Save brand data to Supabase FIRST (for immediate site availability)
     const brandData = {
       id: slug,
       name: name,
