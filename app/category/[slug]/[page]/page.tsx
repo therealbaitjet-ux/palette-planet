@@ -85,37 +85,80 @@ export default async function CategoryPage({
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="mt-10 flex items-center justify-center gap-2">
-          {currentPage > 1 && (
+        <div className="flex items-center justify-center gap-1.5 pt-8 border-t border-white/10 mt-10">
+          {/* Previous */}
+          {currentPage > 1 ? (
             <Link
               href={`/category/${slug}/${currentPage - 1}`}
-              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
+              className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition hover:bg-white/10 hover:text-white"
             >
-              ← Prev
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+              Prev
             </Link>
+          ) : (
+            <span className="flex items-center gap-1 rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-600 cursor-not-allowed">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+              Prev
+            </span>
           )}
 
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+          {/* First + Ellipsis */}
+          {currentPage > 3 && (
+            <>
+              <Link
+                href={`/category/${slug}/1`}
+                className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition hover:bg-white/10 hover:text-white min-w-[40px] text-center"
+              >
+                1
+              </Link>
+              {currentPage > 4 && <span className="px-1 text-slate-500">...</span>}
+            </>
+          )}
+
+          {/* Page Numbers - show 5 around current */}
+          {Array.from({ length: totalPages }, (_, i) => i + 1)
+            .filter(p => p >= Math.max(1, currentPage - 2) && p <= Math.min(totalPages, currentPage + 2))
+            .map((p) => (
             <Link
               key={p}
               href={`/category/${slug}/${p}`}
-              className={`rounded-lg px-4 py-2 text-sm min-w-[40px] text-center ${
+              className={`rounded-lg px-3 py-2 text-sm min-w-[40px] text-center transition ${
                 p === currentPage
-                  ? "bg-indigo-600 text-white font-semibold"
-                  : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+                  ? "bg-indigo-600 text-white font-semibold shadow-lg shadow-indigo-500/25"
+                  : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white"
               }`}
             >
               {p}
             </Link>
           ))}
 
-          {currentPage < totalPages && (
+          {/* Ellipsis + Last */}
+          {currentPage < totalPages - 2 && (
+            <>
+              {currentPage < totalPages - 3 && <span className="px-1 text-slate-500">...</span>}
+              <Link
+                href={`/category/${slug}/${totalPages}`}
+                className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition hover:bg-white/10 hover:text-white min-w-[40px] text-center"
+              >
+                {totalPages}
+              </Link>
+            </>
+          )}
+
+          {/* Next */}
+          {currentPage < totalPages ? (
             <Link
               href={`/category/${slug}/${currentPage + 1}`}
-              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
+              className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition hover:bg-white/10 hover:text-white"
             >
-              Next →
+              Next
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             </Link>
+          ) : (
+            <span className="flex items-center gap-1 rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-600 cursor-not-allowed">
+              Next
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </span>
           )}
         </div>
       )}
