@@ -72,31 +72,57 @@ export default async function Page({
 
       <BrandGrid brands={brands} />
 
-      {/* NAV */}
-      <div className="mt-10 flex items-center justify-center gap-2 flex-wrap">
-        {pageNum > 1 && (
-          <Link href={`/category/p/${slug}/${pageNum - 1}`} 
-            className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10">
-            ← Prev
-          </Link>
-        )}
-        
-        {Array.from({ length: total }, (_, i) => i + 1).map(p => (
-          <Link key={p} href={`/category/p/${slug}/${p}`}
-            className={`rounded-lg px-4 py-2 text-sm min-w-[40px] text-center ${
-              p === pageNum ? "bg-indigo-600 text-white" : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
-            }`}>
-            {p}
-          </Link>
-        ))}
-        
-        {pageNum < total && (
-          <Link href={`/category/p/${slug}/${pageNum + 1}`} 
-            className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10">
-            Next →
-          </Link>
-        )}
-      </div>
+      {/* NAV with smart ellipses */}
+      {total > 1 && (
+        <nav className="mt-10 flex items-center justify-center gap-1 flex-wrap">
+          {/* Prev */}
+          {pageNum > 1 ? (
+            <Link href={`/category/p/${slug}/${pageNum - 1}`} 
+              className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 hover:bg-white/10">
+              ← Prev
+            </Link>
+          ) : (
+            <span className="rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-500">← Prev</span>
+          )}
+
+          {/* Smart page numbers with ellipses */}
+          {(() => {
+            const pages: (number | string)[] = [];
+            const delta = 2;
+            for (let i = 1; i <= total; i++) {
+              if (i === 1 || i === total || (i >= pageNum - delta && i <= pageNum + delta)) {
+                pages.push(i);
+              } else if (pages[pages.length - 1] !== "...") {
+                pages.push("...");
+              }
+            }
+            return pages.map((p, idx) => (
+              <span key={idx}>
+                {p === "..." ? (
+                  <span className="px-1 text-slate-500">...</span>
+                ) : (
+                  <Link href={`/category/p/${slug}/${p}`}
+                    className={`rounded-lg px-3 py-2 text-sm min-w-[40px] text-center transition ${
+                      p === pageNum ? "bg-indigo-600 text-white font-semibold" : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+                    }`}>
+                    {p}
+                  </Link>
+                )}
+              </span>
+            ));
+          })()}
+          
+          {/* Next */}
+          {pageNum < total ? (
+            <Link href={`/category/p/${slug}/${pageNum + 1}`} 
+              className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 hover:bg-white/10">
+              Next →
+            </Link>
+          ) : (
+            <span className="rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-500">Next →</span>
+          )}
+        </nav>
+      )}
 
       <div className="mt-8 flex gap-4 text-sm text-slate-400">
         <Link href="/gallery" className="hover:text-white">All brands</Link>
