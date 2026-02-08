@@ -12,7 +12,7 @@ interface PaginationProps {
 export default function Pagination({ currentPage, totalPages, basePath, slug }: PaginationProps) {
   if (totalPages <= 1) return null;
 
-  // Always show all page numbers - every page must be accessible
+  // Show all page numbers - every page accessible
   const pages: number[] = [];
   for (let i = 1; i <= totalPages; i++) {
     pages.push(i);
@@ -30,7 +30,7 @@ export default function Pagination({ currentPage, totalPages, basePath, slug }: 
         {/* Previous Button */}
         {currentPage > 1 ? (
           <Link
-            href={`${basePath}/${slug}?page=${currentPage - 1}`}
+            href={`${basePath}/${slug}/${currentPage - 1}`}
             className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition hover:bg-white/10"
           >
             ← Prev
@@ -41,11 +41,11 @@ export default function Pagination({ currentPage, totalPages, basePath, slug }: 
           </span>
         )}
 
-        {/* All Page Numbers - No gaps, every page clickable */}
+        {/* All Page Numbers */}
         {pages.map((page) => (
           <Link
             key={page}
-            href={`${basePath}/${slug}?page=${page}`}
+            href={`${basePath}/${slug}/${page}`}
             className={`rounded-lg px-3 py-2 text-sm transition min-w-[40px] text-center ${
               page === currentPage
                 ? "bg-indigo-600 text-white font-semibold"
@@ -59,7 +59,7 @@ export default function Pagination({ currentPage, totalPages, basePath, slug }: 
         {/* Next Button */}
         {currentPage < totalPages ? (
           <Link
-            href={`${basePath}/${slug}?page=${currentPage + 1}`}
+            href={`${basePath}/${slug}/${currentPage + 1}`}
             className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition hover:bg-white/10"
           >
             Next →
