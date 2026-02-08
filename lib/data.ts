@@ -21,6 +21,7 @@ export type Brand = {
   views: number;
 };
 
+// Categories that match the actual brand data
 export const categories: Category[] = [
   {
     name: "Tech & SaaS",
@@ -31,28 +32,76 @@ export const categories: Category[] = [
       "Explore a curated mix of SaaS and technology brands that prioritize clarity, trust, and modern digital-first identity design. These logos balance functionality with personality, making them ideal reference points for scalable tech companies.",
   },
   {
-    name: "Lifestyle & Retail",
-    slug: "lifestyle-retail",
+    name: "Finance",
+    slug: "finance",
     description:
-      "Consumer goods, lifestyle brands, and modern retail experiences with bold visual systems.",
+      "Banks, investment firms, fintech startups, and financial services with trustworthy visual identities.",
     seoIntro:
-      "Discover lifestyle and retail brands that blend tactile storytelling with elevated typography and color. This collection highlights logos built to feel premium, contemporary, and memorable across physical and digital touchpoints.",
+      "Discover finance and fintech brands that build trust through sophisticated typography, stable color palettes, and marks that signal security and innovation in the financial sector.",
   },
   {
-    name: "Hospitality & Travel",
-    slug: "hospitality-travel",
+    name: "Retail",
+    slug: "retail",
     description:
-      "Boutique hotels, travel services, and experiential destinations focused on premium service.",
+      "Consumer brands, retail chains, and e-commerce platforms with memorable visual systems.",
     seoIntro:
-      "Browse hospitality and travel identity systems that signal comfort, adventure, and high-end service. These brands emphasize calming palettes, confident marks, and versatile logo systems for global audiences.",
+      "Browse retail brands that capture attention and drive sales through bold colors, distinctive marks, and identities designed for high-visibility commercial environments.",
   },
   {
-    name: "Wellness & Health",
-    slug: "wellness-health",
+    name: "Automotive",
+    slug: "automotive",
     description:
-      "Wellness studios, health platforms, and holistic services with calming brand direction.",
+      "Car manufacturers, auto parts, and mobility brands with powerful, iconic identities.",
     seoIntro:
-      "Review wellness and health brands that elevate care and trust through minimal marks and soothing color palettes. These logos are crafted to feel restorative, approachable, and credible for modern audiences.",
+      "Explore automotive brands that convey speed, luxury, reliability, and innovation through timeless marks and precision-crafted visual systems.",
+  },
+  {
+    name: "Healthcare",
+    slug: "healthcare",
+    description:
+      "Medical institutions, pharmaceutical companies, and health tech with caring, professional identities.",
+    seoIntro:
+      "Review healthcare brands that balance clinical credibility with human warmth through calming palettes, clean typography, and trustworthy visual systems.",
+  },
+  {
+    name: "Entertainment",
+    slug: "entertainment",
+    description:
+      "Media companies, streaming platforms, and entertainment brands with captivating visual identities.",
+    seoIntro:
+      "Discover entertainment brands that capture attention and spark emotion through dynamic marks, bold typography, and visually striking identity systems.",
+  },
+  {
+    name: "Food & Beverage",
+    slug: "food-beverage",
+    description:
+      "Restaurants, food brands, and beverage companies with appetizing, memorable identities.",
+    seoIntro:
+      "Browse food and beverage brands that stimulate appetite and create craving through color psychology, approachable typography, and mouth-watering visual design.",
+  },
+  {
+    name: "Energy",
+    slug: "energy",
+    description:
+      "Oil & gas, utilities, and renewable energy companies with powerful, industrial identities.",
+    seoIntro:
+      "Explore energy brands that convey power, sustainability, and industrial strength through bold marks, earth-tone palettes, and robust visual systems.",
+  },
+  {
+    name: "Travel & Hospitality",
+    slug: "travel",
+    description:
+      "Airlines, hotels, travel services, and hospitality brands with welcoming, adventurous identities.",
+    seoIntro:
+      "Review travel and hospitality brands that inspire wanderlust and comfort through calming palettes, elegant typography, and globally-appealing visual systems.",
+  },
+  {
+    name: "Telecommunications",
+    slug: "telecom",
+    description:
+      "Phone carriers, internet providers, and communication brands with connected, modern identities.",
+    seoIntro:
+      "Discover telecommunications brands that signal connectivity, speed, and reliability through forward-thinking marks and digitally-native visual systems.",
   },
 ];
 

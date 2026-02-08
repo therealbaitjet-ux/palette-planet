@@ -4,7 +4,7 @@ import { absoluteUrl } from "@/lib/seo";
 
 export const metadata = {
   title: "Categories",
-  description: "Browse logo categories across technology, lifestyle, wellness, and hospitality.",
+  description: "Browse 10 logo categories: Tech, Finance, Retail, Automotive, Healthcare, Entertainment, Food & Beverage, Energy, Travel, and Telecom.",
   alternates: {
     canonical: absoluteUrl("/category"),
   },
@@ -19,19 +19,20 @@ export default function CategoriesPage() {
           Explore logo categories
         </h1>
         <p className="max-w-2xl text-sm text-slate-300">
-          Each category highlights brands with distinct visual systems, from modern SaaS identity to
-          hospitality experiences and lifestyle retail.
+          Browse 10 curated categories spanning Tech, Finance, Retail, Automotive, Healthcare,
+          Entertainment, Food & Beverage, Energy, Travel, and Telecom. Each collection showcases
+          brands with distinct visual identities tailored to their industries.
         </p>
       </div>
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         {categories.map((category) => (
           <Link
             key={category.slug}
             href={`/category/${category.slug}`}
-            className="rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:border-white/30 focus-ring"
+            className="rounded-3xl border border-white/10 bg-white/5 p-6 transition hover:border-indigo-500/30 hover:bg-white/10 focus-ring"
           >
-            <h2 className="text-xl font-semibold text-white">{category.name}</h2>
-            <p className="mt-3 text-sm text-slate-300">{category.description}</p>
+            <h2 className="text-lg font-semibold text-white">{category.name}</h2>
+            <p className="mt-2 text-sm text-slate-400 line-clamp-3">{category.description}</p>
           </Link>
         ))}
       </div>

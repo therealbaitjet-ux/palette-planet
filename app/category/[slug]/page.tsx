@@ -8,7 +8,7 @@ import { getBrands, categories, getCategoryBySlug } from "@/lib/data";
 import { absoluteUrl, truncate } from "@/lib/seo";
 
 export const dynamic = "force-static";
-export const dynamicParams = true;
+export const dynamicParams = false; // Only allow pre-defined categories
 
 const ITEMS_PER_PAGE = 24;
 
