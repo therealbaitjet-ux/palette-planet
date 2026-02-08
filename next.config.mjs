@@ -38,6 +38,26 @@ const nextConfig = {
         },
       ],
     },
+    {
+      // Cache API responses (free tier optimization)
+      source: "/api/brands",
+      headers: [
+        {
+          key: "Cache-Control",
+          value: "public, max-age=3600, stale-while-revalidate=86400",
+        },
+      ],
+    },
+    {
+      // Cache category pages
+      source: "/category/:path*",
+      headers: [
+        {
+          key: "Cache-Control",
+          value: "public, max-age=7200, stale-while-revalidate=86400",
+        },
+      ],
+    },
   ],
   // Enable compression
   compress: true,
