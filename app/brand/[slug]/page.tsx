@@ -20,16 +20,17 @@ export async function generateStaticParams() {
 export const generateMetadata = async ({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> => {
-  const brand = getBrandBySlug(params.slug);
+  const { slug } = await params;
+  const brand = getBrandBySlug(slug);
   if (!brand) {
     return {};
   }
 
-  const title = `${brand.name} Logo - ${brand.categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())} Brand Identity | Palette Planet`;
+  const title = `${brand.name} Logo - ${brand.categorySlug.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())} Brand Identity | Palette Planet`;
   const description = truncate(`${brand.name} logo and brand identity analysis. ${brand.description} Explore design elements, color palette, and typography. Part of our curated gallery of ${brand.tags.slice(0, 3).join(', ')} brand designs.`, 155);
-  const url = absoluteUrl(`/brand/${brand.slug}`);
+  const url = absoluteUrl(`/brand/${slug}`);
 
   return {
     title,
@@ -59,8 +60,9 @@ export const generateMetadata = async ({
   };
 };
 
-export default function BrandPage({ params }: { params: { slug: string } }) {
-  const brand = getBrandBySlug(params.slug);
+export default async function BrandPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const brand = getBrandBySlug(slug);
   if (!brand) {
     notFound();
   }
