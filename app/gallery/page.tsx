@@ -4,7 +4,6 @@ import BrandGrid from "@/components/BrandGrid";
 import GodLevelSearch from "@/components/GodLevelSearch";
 import TagsFilter from "@/components/TagsFilter";
 import SeoJsonLd from "@/components/SeoJsonLd";
-import GalleryPagination from "@/components/GalleryPagination";
 import { Brand, getBrands, categories } from "@/lib/data";
 import { DEFAULT_DESCRIPTION, absoluteUrl, truncate } from "@/lib/seo";
 
@@ -215,17 +214,53 @@ export default function GalleryPage({
         </div>
       )}
 
-      {/* Pagination with Page Numbers */}
-      <GalleryPagination
-        currentPage={currentPage}
-        totalPages={totalPages}
-        query={query}
-        category={category}
-        tag={tag}
-        sort={sort}
-        totalResults={filtered.length}
-        showingResults={paginated.length}
-      />
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 border-t border-white/10 pt-6 flex-wrap">
+          {/* Prev */}
+          {currentPage > 1 ? (
+            <Link
+              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(currentPage - 1) })}`}
+              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
+            >
+              ← Previous
+            </Link>
+          ) : (
+            <span className="rounded-lg border border-white/5 bg-white/5 px-4 py-2 text-sm text-slate-500">
+              ← Previous
+            </span>
+          )}
+
+          {/* Page Numbers */}
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+            <Link
+              key={p}
+              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: p === 1 ? undefined : String(p) })}`}
+              className={`rounded-lg px-4 py-2 text-sm transition min-w-[44px] text-center ${
+                p === currentPage
+                  ? "bg-indigo-600 text-white font-semibold"
+                  : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+              }`}
+            >
+              {p}
+            </Link>
+          ))}
+
+          {/* Next */}
+          {currentPage < totalPages ? (
+            <Link
+              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(currentPage + 1) })}`}
+              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
+            >
+              Next →
+            </Link>
+          ) : (
+            <span className="rounded-lg border border-white/5 bg-white/5 px-4 py-2 text-sm text-slate-500">
+              Next →
+            </span>
+          )}
+        </div>
+      )}
     </div>
   );
 }
