@@ -8,6 +8,7 @@ import { getBrands, categories, getBrandBySlug, getCategoryBySlug } from "@/lib/
 import { absoluteUrl, truncate } from "@/lib/seo";
 
 export const dynamic = "force-static";
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   const brands = getBrands();
