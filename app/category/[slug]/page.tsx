@@ -18,9 +18,10 @@ export async function generateStaticParams() {
 export const generateMetadata = async ({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> => {
-  const category = getCategoryBySlug(params.slug);
+  const { slug } = await params;
+  const category = getCategoryBySlug(slug);
   if (!category) {
     return {};
   }
@@ -37,7 +38,7 @@ export const generateMetadata = async ({
     openGraph: {
       title,
       description,
-      url: absoluteUrl(`/category/${category.slug}`),
+      url: absoluteUrl(`/category/${slug}`),
     },
     twitter: {
       card: "summary_large_image",
@@ -47,8 +48,9 @@ export const generateMetadata = async ({
   };
 };
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
-  const category = getCategoryBySlug(params.slug);
+export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const category = getCategoryBySlug(slug);
   if (!category) {
     notFound();
   }

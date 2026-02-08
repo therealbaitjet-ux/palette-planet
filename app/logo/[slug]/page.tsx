@@ -19,9 +19,10 @@ export async function generateStaticParams() {
 export const generateMetadata = async ({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> => {
-  const brand = getBrandBySlug(params.slug);
+  const { slug } = await params;
+  const brand = getBrandBySlug(slug);
   if (!brand) {
     return {};
   }
@@ -58,8 +59,9 @@ export const generateMetadata = async ({
   };
 };
 
-export default function LogoPage({ params }: { params: { slug: string } }) {
-  const brand = getBrandBySlug(params.slug);
+export default async function LogoPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const brand = getBrandBySlug(slug);
   if (!brand) {
     notFound();
   }
