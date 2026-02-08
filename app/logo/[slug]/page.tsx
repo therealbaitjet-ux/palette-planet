@@ -6,7 +6,14 @@ import SeoJsonLd from "@/components/SeoJsonLd";
 import { getBrandBySlug, getCategoryBySlug } from "@/lib/data";
 import { absoluteUrl, truncate } from "@/lib/seo";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-static";
+
+export async function generateStaticParams() {
+  const brands = getBrands();
+  return brands.map((brand) => ({
+    slug: brand.slug,
+  }));
+}
 
 export const generateMetadata = async ({
   params,
