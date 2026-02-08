@@ -71,6 +71,8 @@ export const metadata: Metadata = {
   alternates: { canonical: absoluteUrl("/gallery") },
 };
 
+const ITEMS_PER_PAGE = 24;
+
 export const dynamic = "force-dynamic";
 
 export default function GalleryPage({
@@ -83,8 +85,14 @@ export default function GalleryPage({
   const category = typeof searchParams.category === "string" ? searchParams.category : undefined;
   const tag = typeof searchParams.tag === "string" ? searchParams.tag : undefined;
   const sort = typeof searchParams.sort === "string" ? searchParams.sort : "popular";
+  const page = typeof searchParams.page === "string" ? parseInt(searchParams.page, 10) || 1 : 1;
 
   const filtered = filterBrands({ brands, query, category, tag, sort });
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+  const currentPage = Math.min(Math.max(page, 1), totalPages || 1);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedBrands = filtered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  
   const tagOptions = Array.from(new Set(brands.flatMap((brand) => brand.tags)));
 
   return (
@@ -92,9 +100,9 @@ export default function GalleryPage({
       <SeoJsonLd data={{
         "@context": "https://schema.org",
         "@type": "ItemList",
-        itemListElement: filtered.map((brand, index) => ({
+        itemListElement: paginatedBrands.map((brand, index) => ({
           "@type": "ListItem",
-          position: index + 1,
+          position: startIndex + index + 1,
           url: absoluteUrl(`/brand/${brand.slug}`),
           name: brand.name,
         })),
@@ -106,7 +114,9 @@ export default function GalleryPage({
         <p className="max-w-2xl text-sm text-slate-300">
           Filter by category, tag, and popularity to discover premium logo systems.
         </p>
-        <p className="text-sm text-slate-400">{filtered.length} brands</p>
+        <p className="text-sm text-slate-400">
+          {filtered.length} brands {totalPages > 1 && `• Page ${currentPage} of ${totalPages}`}
+        </p>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
@@ -164,14 +174,51 @@ export default function GalleryPage({
         </div>
       </div>
 
-      {filtered.length > 0 ? (
-        <BrandGrid brands={filtered} />
+      {paginatedBrands.length > 0 ? (
+        <BrandGrid brands={paginatedBrands} />
       ) : (
         <div className="glass rounded-3xl p-10 text-center">
           <h2 className="text-xl font-semibold text-white">No results found</h2>
           <Link href="/gallery" className="mt-4 inline-block rounded-full border border-white/20 px-5 py-2 text-sm text-slate-200 hover:border-white/40">
             Reset filters
           </Link>
+        </div>
+      )}
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 pt-6">
+          {currentPage > 1 && (
+            <Link
+              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(currentPage - 1) })}`}
+              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
+            >
+              ← Prev
+            </Link>
+          )}
+          
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+            <Link
+              key={p}
+              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: p === 1 ? undefined : String(p) })}`}
+              className={`rounded-lg px-4 py-2 text-sm min-w-[40px] text-center ${
+                p === currentPage
+                  ? "bg-indigo-600 text-white font-semibold"
+                  : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+              }`}
+            >
+              {p}
+            </Link>
+          ))}
+          
+          {currentPage < totalPages && (
+            <Link
+              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(currentPage + 1) })}`}
+              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
+            >
+              Next →
+            </Link>
+          )}
         </div>
       )}
     </div>
