@@ -9,6 +9,8 @@ import { absoluteUrl, truncate } from "@/lib/seo";
 export const dynamic = "force-static";
 export const dynamicParams = true;
 
+const ITEMS_PER_PAGE = 24;
+
 export async function generateStaticParams() {
   return categories.map((category) => ({
     slug: category.slug,
@@ -48,21 +50,34 @@ export const generateMetadata = async ({
   };
 };
 
-export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function CategoryPage({ 
+  params,
+  searchParams 
+}: { 
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string }>;
+}) {
   const { slug } = await params;
+  const { page: pageParam } = await searchParams;
   const category = getCategoryBySlug(slug);
   if (!category) {
     notFound();
   }
 
-  const filtered = getBrands().filter((brand) => brand.categorySlug === category.slug);
+  const allBrands = getBrands().filter((brand) => brand.categorySlug === category.slug);
+  
+  // Pagination
+  const currentPage = Math.max(1, parseInt(pageParam || "1", 10));
+  const totalPages = Math.ceil(allBrands.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedBrands = allBrands.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   const itemList = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    itemListElement: filtered.map((brand, index) => ({
+    itemListElement: paginatedBrands.map((brand, index) => ({
       "@type": "ListItem",
-      position: index + 1,
+      position: startIndex + index + 1,
       url: absoluteUrl(`/brand/${brand.slug}`),
       name: brand.name,
     })),
@@ -75,6 +90,9 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Category</p>
         <h1 className="text-3xl font-semibold text-white md:text-4xl">{category.name}</h1>
         <p className="max-w-3xl text-sm text-slate-300">{category.description}</p>
+        <p className="text-sm text-slate-400">
+          Showing {paginatedBrands.length} of {allBrands.length} brands
+        </p>
       </div>
 
       <div className="glass rounded-3xl p-8">
@@ -82,7 +100,34 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <p className="mt-3 text-sm text-slate-300">{category.seoIntro}</p>
       </div>
 
-      <BrandGrid brands={filtered} />
+      <BrandGrid brands={paginatedBrands} />
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-between border-t border-white/10 pt-6">
+          <span className="text-sm text-slate-400">
+            Page {currentPage} of {totalPages}
+          </span>
+          <div className="flex items-center gap-3">
+            {currentPage > 1 && (
+              <Link
+                href={`/category/${slug}?page=${currentPage - 1}`}
+                className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/10"
+              >
+                ← Previous
+              </Link>
+            )}
+            {currentPage < totalPages && (
+              <Link
+                href={`/category/${slug}?page=${currentPage + 1}`}
+                className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/10"
+              >
+                Next →
+              </Link>
+            )}
+          </div>
+        </div>
+      )}
 
       <div className="flex flex-wrap gap-4 text-sm text-slate-300">
         <Link href="/gallery" className="hover:text-white focus-ring">
