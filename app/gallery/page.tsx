@@ -18,9 +18,7 @@ const sortOptions = [
 const buildQueryString = (params: Record<string, string | undefined>) => {
   const searchParams = new URLSearchParams();
   Object.entries(params).forEach(([key, value]) => {
-    if (value) {
-      searchParams.set(key, value);
-    }
+    if (value) searchParams.set(key, value);
   });
   const query = searchParams.toString();
   return query ? `?${query}` : "";
@@ -56,9 +54,7 @@ const filterBrands = ({
 
   switch (sort) {
     case "newest":
-      result = result.sort(
-        (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-      );
+      result = result.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
       break;
     case "az":
       result = result.sort((a, b) => a.name.localeCompare(b.name));
@@ -74,19 +70,7 @@ const filterBrands = ({
 export const metadata: Metadata = {
   title: "Logo Gallery",
   description: truncate(DEFAULT_DESCRIPTION),
-  alternates: {
-    canonical: absoluteUrl("/gallery"),
-  },
-  openGraph: {
-    title: "Logo Gallery",
-    description: DEFAULT_DESCRIPTION,
-    url: absoluteUrl("/gallery"),
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Logo Gallery",
-    description: DEFAULT_DESCRIPTION,
-  },
+  alternates: { canonical: absoluteUrl("/gallery") },
 };
 
 export const dynamic = "force-dynamic";
@@ -101,34 +85,66 @@ export default function GalleryPage({
   const category = typeof searchParams.category === "string" ? searchParams.category : undefined;
   const tag = typeof searchParams.tag === "string" ? searchParams.tag : undefined;
   const sort = typeof searchParams.sort === "string" ? searchParams.sort : "popular";
-  const page = typeof searchParams.page === "string" ? Number(searchParams.page) : 1;
+  
+  // FIX #1: Properly parse page from URL
+  const pageParam = typeof searchParams.page === "string" ? searchParams.page : "1";
+  const currentPage = Math.max(1, parseInt(pageParam, 10) || 1);
 
+  // Get filtered results
   const filtered = filterBrands({ brands, query, category, tag, sort });
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-  const currentPage = Math.min(Math.max(page, 1), totalPages);
-  const paginated = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+  
+  // FIX #1: Calculate pagination with REAL offset
+  const totalResults = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(totalResults / PAGE_SIZE));
+  
+  // Ensure current page is valid
+  const validPage = Math.min(currentPage, totalPages);
+  
+  // FIX #1: Apply REAL offset/skip
+  const startIndex = (validPage - 1) * PAGE_SIZE;
+  const paginated = filtered.slice(startIndex, startIndex + PAGE_SIZE);
 
   const tagOptions = Array.from(new Set(brands.flatMap((brand) => brand.tags)));
 
-  const itemList = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    itemListElement: paginated.map((brand, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      url: absoluteUrl(`/brand/${brand.slug}`),
-      name: brand.name,
-    })),
+  // FIX #4: Generate smart pagination range with ellipses
+  const getPaginationRange = () => {
+    const pages: (number | string)[] = [];
+    const delta = 2; // Pages to show around current
+    
+    for (let i = 1; i <= totalPages; i++) {
+      if (
+        i === 1 || // First page
+        i === totalPages || // Last page
+        (i >= validPage - delta && i <= validPage + delta) // Around current
+      ) {
+        pages.push(i);
+      } else if (pages[pages.length - 1] !== "...") {
+        pages.push("...");
+      }
+    }
+    return pages;
   };
+
+  const pageRange = getPaginationRange();
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-16">
-      <SeoJsonLd data={itemList} id="gallery-itemlist" />
+      <SeoJsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        itemListElement: paginated.map((brand, index) => ({
+          "@type": "ListItem",
+          position: startIndex + index + 1,
+          url: absoluteUrl(`/brand/${brand.slug}`),
+          name: brand.name,
+        })),
+      }} id="gallery-itemlist" />
+      
       <div className="space-y-4">
         <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Gallery</p>
         <h1 className="text-3xl font-semibold text-white md:text-4xl">Browse brand logos</h1>
         <p className="max-w-2xl text-sm text-slate-300">
-          Filter by category, tag, and popularity to discover premium logo systems built for modern brands.
+          Filter by category, tag, and popularity to discover premium logo systems.
         </p>
       </div>
 
@@ -147,7 +163,7 @@ export default function GalleryPage({
                     tag,
                     sort,
                   })}`}
-                  className={`rounded-full border px-4 py-2 text-xs transition focus-ring ${
+                  className={`rounded-full border px-4 py-2 text-xs transition ${
                     category === cat.slug
                       ? "border-indigo-400 bg-indigo-500/20 text-indigo-100"
                       : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30"
@@ -158,9 +174,9 @@ export default function GalleryPage({
               ))}
               <Link
                 href={`/gallery${buildQueryString({ q: query || undefined, tag, sort })}`}
-                className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-slate-300 transition hover:border-white/30 focus-ring"
+                className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-slate-300 transition hover:border-white/30"
               >
-                All categories
+                All
               </Link>
             </div>
           </div>
@@ -176,7 +192,7 @@ export default function GalleryPage({
                     tag,
                     sort: option.value,
                   })}`}
-                  className={`rounded-full border px-4 py-2 text-xs transition focus-ring ${
+                  className={`rounded-full border px-4 py-2 text-xs transition ${
                     sort === option.value
                       ? "border-indigo-400 bg-indigo-500/20 text-indigo-100"
                       : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30"
@@ -202,63 +218,95 @@ export default function GalleryPage({
       ) : (
         <div className="glass rounded-3xl p-10 text-center">
           <h2 className="text-xl font-semibold text-white">No results found</h2>
-          <p className="mt-2 text-sm text-slate-300">
-            Try clearing filters or searching by a broader keyword.
-          </p>
-          <Link
-            href="/gallery"
-            className="mt-4 inline-flex items-center justify-center rounded-full border border-white/20 px-5 py-2 text-sm text-slate-200 hover:border-white/40 focus-ring"
-          >
+          <Link href="/gallery" className="mt-4 inline-block rounded-full border border-white/20 px-5 py-2 text-sm text-slate-200 hover:border-white/40">
             Reset filters
           </Link>
         </div>
       )}
 
-      {/* Pagination */}
+      {/* PAGINATION - FIXED */}
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 border-t border-white/10 pt-6 flex-wrap">
-          {/* Prev */}
-          {currentPage > 1 ? (
-            <Link
-              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(currentPage - 1) })}`}
-              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
-            >
-              ← Previous
-            </Link>
-          ) : (
-            <span className="rounded-lg border border-white/5 bg-white/5 px-4 py-2 text-sm text-slate-500">
-              ← Previous
-            </span>
-          )}
+        <div className="border-t border-white/10 pt-6">
+          <div className="text-center text-sm text-slate-400 mb-4">
+            Showing {paginated.length} of {totalResults} brands • Page {validPage} of {totalPages}
+          </div>
+          
+          <nav className="flex items-center justify-center gap-1 flex-wrap">
+            {/* First */}
+            {validPage > 2 && (
+              <Link
+                href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: "1" })}`}
+                className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 hover:bg-white/10"
+              >
+                First
+              </Link>
+            )}
 
-          {/* Page Numbers */}
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-            <Link
-              key={p}
-              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: p === 1 ? undefined : String(p) })}`}
-              className={`rounded-lg px-4 py-2 text-sm transition min-w-[44px] text-center ${
-                p === currentPage
-                  ? "bg-indigo-600 text-white font-semibold"
-                  : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
-              }`}
-            >
-              {p}
-            </Link>
-          ))}
+            {/* Previous */}
+            {validPage > 1 ? (
+              <Link
+                href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(validPage - 1) })}`}
+                className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 hover:bg-white/10"
+              >
+                ← Prev
+              </Link>
+            ) : (
+              <span className="rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-500 cursor-not-allowed">
+                ← Prev
+              </span>
+            )}
 
-          {/* Next */}
-          {currentPage < totalPages ? (
-            <Link
-              href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(currentPage + 1) })}`}
-              className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 hover:bg-white/10"
-            >
-              Next →
-            </Link>
-          ) : (
-            <span className="rounded-lg border border-white/5 bg-white/5 px-4 py-2 text-sm text-slate-500">
-              Next →
-            </span>
-          )}
+            {/* Page Numbers with Ellipses */}
+            {pageRange.map((page, idx) => (
+              <span key={idx}>
+                {page === "..." ? (
+                  <span className="px-2 text-slate-500">...</span>
+                ) : (
+                  <Link
+                    href={`/gallery${buildQueryString({
+                      q: query || undefined,
+                      category,
+                      tag,
+                      sort,
+                      page: page === 1 ? undefined : String(page),
+                    })}`}
+                    // FIX #3: Active state from URL
+                    className={`rounded-lg px-3 py-2 text-sm min-w-[40px] text-center transition ${
+                      page === validPage
+                        ? "bg-indigo-600 text-white font-semibold"
+                        : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+                    }`}
+                  >
+                    {page}
+                  </Link>
+                )}
+              </span>
+            ))}
+
+            {/* Next */}
+            {validPage < totalPages ? (
+              <Link
+                href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(validPage + 1) })}`}
+                className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 hover:bg-white/10"
+              >
+                Next →
+              </Link>
+            ) : (
+              <span className="rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-500 cursor-not-allowed">
+                Next →
+              </span>
+            )}
+
+            {/* Last */}
+            {validPage < totalPages - 1 && (
+              <Link
+                href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort, page: String(totalPages) })}`}
+                className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 hover:bg-white/10"
+              >
+                Last
+              </Link>
+            )}
+          </nav>
         </div>
       )}
     </div>
