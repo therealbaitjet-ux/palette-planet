@@ -4,6 +4,7 @@ import BrandGrid from "@/components/BrandGrid";
 import GodLevelSearch from "@/components/GodLevelSearch";
 import TagsFilter from "@/components/TagsFilter";
 import SeoJsonLd from "@/components/SeoJsonLd";
+import GalleryPagination from "@/components/GalleryPagination";
 import { Brand, getBrands, categories } from "@/lib/data";
 import { DEFAULT_DESCRIPTION, absoluteUrl, truncate } from "@/lib/seo";
 
@@ -214,51 +215,17 @@ export default function GalleryPage({
         </div>
       )}
 
-      {/* Pagination Controls */}
-      <div className="flex items-center justify-between text-sm text-slate-300">
-        <span>
-          Showing {paginated.length} of {filtered.length} brands
-        </span>
-        <div className="flex items-center gap-3">
-          <Link
-            href={`/gallery${buildQueryString({
-              q: query || undefined,
-              category,
-              tag,
-              sort,
-              page: currentPage > 1 ? String(currentPage - 1) : undefined,
-            })}`}
-            aria-disabled={currentPage === 1}
-            className={`rounded-full border px-4 py-2 text-xs transition focus-ring ${
-              currentPage === 1
-                ? "border-white/5 text-slate-500"
-                : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30"
-            }`}
-          >
-            Previous
-          </Link>
-          <span>
-            Page {currentPage} of {totalPages}
-          </span>
-          <Link
-            href={`/gallery${buildQueryString({
-              q: query || undefined,
-              category,
-              tag,
-              sort,
-              page: currentPage < totalPages ? String(currentPage + 1) : undefined,
-            })}`}
-            aria-disabled={currentPage === totalPages}
-            className={`rounded-full border px-4 py-2 text-xs transition focus-ring ${
-              currentPage === totalPages
-                ? "border-white/5 text-slate-500"
-                : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30"
-            }`}
-          >
-            Next
-          </Link>
-        </div>
-      </div>
+      {/* Pagination with Page Numbers */}
+      <GalleryPagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        query={query}
+        category={category}
+        tag={tag}
+        sort={sort}
+        totalResults={filtered.length}
+        showingResults={paginated.length}
+      />
     </div>
   );
 }

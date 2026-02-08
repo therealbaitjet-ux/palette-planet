@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import BrandGrid from "@/components/BrandGrid";
 import SeoJsonLd from "@/components/SeoJsonLd";
+import Pagination from "@/components/Pagination";
 import { getBrands, categories, getCategoryBySlug } from "@/lib/data";
 import { absoluteUrl, truncate } from "@/lib/seo";
 
@@ -103,31 +104,12 @@ export default async function CategoryPage({
       <BrandGrid brands={paginatedBrands} />
 
       {/* Pagination */}
-      {totalPages > 1 && (
-        <div className="flex items-center justify-between border-t border-white/10 pt-6">
-          <span className="text-sm text-slate-400">
-            Page {currentPage} of {totalPages}
-          </span>
-          <div className="flex items-center gap-3">
-            {currentPage > 1 && (
-              <Link
-                href={`/category/${slug}?page=${currentPage - 1}`}
-                className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/10"
-              >
-                ← Previous
-              </Link>
-            )}
-            {currentPage < totalPages && (
-              <Link
-                href={`/category/${slug}?page=${currentPage + 1}`}
-                className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/10"
-              >
-                Next →
-              </Link>
-            )}
-          </div>
-        </div>
-      )}
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        basePath="/category"
+        slug={slug}
+      />
 
       <div className="flex flex-wrap gap-4 text-sm text-slate-300">
         <Link href="/gallery" className="hover:text-white focus-ring">
