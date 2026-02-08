@@ -5,13 +5,14 @@ import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-if (!supabaseKey) {
-  throw new Error("SUPABASE_SERVICE_ROLE_KEY not configured");
+function getSupabase() {
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!supabaseKey) {
+    throw new Error("SUPABASE_SERVICE_ROLE_KEY not configured");
+  }
+  return createClient(supabaseUrl, supabaseKey);
 }
-
-const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Cache duration in seconds
 const CACHE_DURATION = 60; // 1 minute cache for admin
@@ -27,7 +28,7 @@ export async function GET(request: Request) {
     const offset = (page - 1) * limit;
 
     // Fetch from Supabase with pagination
-    const { data: brands, error, count } = await supabase
+    const { data: brands, error, count } = await getSupabase()
       .from("brands")
       .select("*", { count: "exact" })
       .order("name")

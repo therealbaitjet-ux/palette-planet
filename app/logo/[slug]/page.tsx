@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SeoJsonLd from "@/components/SeoJsonLd";
-import { getBrandBySlug, getCategoryBySlug } from "@/lib/data";
+import { getBrands, getBrandBySlug, getCategoryBySlug } from "@/lib/data";
 import { absoluteUrl, truncate } from "@/lib/seo";
 
 export const dynamic = "force-static";
