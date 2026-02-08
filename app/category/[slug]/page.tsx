@@ -7,8 +7,8 @@ import Pagination from "@/components/Pagination";
 import { getBrands, categories, getCategoryBySlug } from "@/lib/data";
 import { absoluteUrl, truncate } from "@/lib/seo";
 
-export const dynamic = "force-static";
-export const dynamicParams = false; // Only allow pre-defined categories
+export const dynamic = "force-dynamic";
+export const dynamicParams = true;
 
 const ITEMS_PER_PAGE = 24;
 
