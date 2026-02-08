@@ -5,9 +5,15 @@ const { createClient } = require('@supabase/supabase-js');
 const fs = require('fs');
 const path = require('path');
 
-// Supabase config (same as your app)
-const supabaseUrl = "https://jqygmrgargwvjovhrbid.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpxeWdtcmdhcmd3dmpvdmhyYmlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAzMzQ5NjEsImV4cCI6MjA4NTkxMDk2MX0.S2tpjzM-81jcQQCMsriaUIDAGy_o1easT7kJvJChnwU";
+// Supabase config from environment
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+if (!supabaseKey) {
+  console.error("Error: SUPABASE_SERVICE_ROLE_KEY not set");
+  console.error("Run: export SUPABASE_SERVICE_ROLE_KEY=your_key");
+  process.exit(1);
+}
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
