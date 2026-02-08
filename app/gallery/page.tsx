@@ -75,17 +75,18 @@ const ITEMS_PER_PAGE = 24;
 
 export const dynamic = "force-dynamic";
 
-export default function GalleryPage({
+export default async function GalleryPage({
   searchParams,
 }: {
-  searchParams: Record<string, string | string[] | undefined>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
+  const params = await searchParams;
   const brands = getBrands();
-  const query = typeof searchParams.q === "string" ? searchParams.q : "";
-  const category = typeof searchParams.category === "string" ? searchParams.category : undefined;
-  const tag = typeof searchParams.tag === "string" ? searchParams.tag : undefined;
-  const sort = typeof searchParams.sort === "string" ? searchParams.sort : "popular";
-  const page = typeof searchParams.page === "string" ? parseInt(searchParams.page, 10) || 1 : 1;
+  const query = typeof params.q === "string" ? params.q : "";
+  const category = typeof params.category === "string" ? params.category : undefined;
+  const tag = typeof params.tag === "string" ? params.tag : undefined;
+  const sort = typeof params.sort === "string" ? params.sort : "popular";
+  const page = typeof params.page === "string" ? parseInt(params.page, 10) || 1 : 1;
 
   const filtered = filterBrands({ brands, query, category, tag, sort });
   const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
