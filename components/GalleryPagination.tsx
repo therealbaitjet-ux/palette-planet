@@ -46,31 +46,55 @@ export default function GalleryPagination({
   const getPageNumbers = () => {
     const pages: (number | string)[] = [];
     
-    if (totalPages <= 7) {
+    if (totalPages <= 9) {
+      // Show all pages if 9 or fewer
       for (let i = 1; i <= totalPages; i++) {
         pages.push(i);
       }
     } else {
-      pages.push(1);
+      // Complex pagination with start, middle, and end visible
+      const showStartEndCount = 2; // Pages to show at start and end
+      const showAroundCurrent = 1; // Pages around current page
       
-      if (currentPage <= 3) {
-        for (let i = 2; i <= 5; i++) {
+      // Always add first pages
+      for (let i = 1; i <= showStartEndCount; i++) {
+        pages.push(i);
+      }
+      
+      // Calculate if we need left ellipsis
+      if (currentPage > showStartEndCount + showAroundCurrent + 1) {
+        pages.push("...");
+      } else if (currentPage === showStartEndCount + showAroundCurrent + 1) {
+        // No ellipsis, just add the missing page
+        pages.push(showStartEndCount + 1);
+      }
+      
+      // Add pages around current
+      const startAround = Math.max(showStartEndCount + 1, currentPage - showAroundCurrent);
+      const endAround = Math.min(totalPages - showStartEndCount, currentPage + showAroundCurrent);
+      
+      for (let i = startAround; i <= endAround; i++) {
+        if (!pages.includes(i)) {
           pages.push(i);
         }
+      }
+      
+      // Calculate if we need right ellipsis
+      if (currentPage < totalPages - showStartEndCount - showAroundCurrent) {
         pages.push("...");
-        pages.push(totalPages);
-      } else if (currentPage >= totalPages - 2) {
-        pages.push("...");
-        for (let i = totalPages - 4; i <= totalPages; i++) {
+      } else if (currentPage === totalPages - showStartEndCount - showAroundCurrent) {
+        // No ellipsis, just add the missing page
+        const missingPage = totalPages - showStartEndCount;
+        if (!pages.includes(missingPage)) {
+          pages.push(missingPage);
+        }
+      }
+      
+      // Always add last pages
+      for (let i = totalPages - showStartEndCount + 1; i <= totalPages; i++) {
+        if (!pages.includes(i)) {
           pages.push(i);
         }
-      } else {
-        pages.push("...");
-        for (let i = currentPage - 1; i <= currentPage + 1; i++) {
-          pages.push(i);
-        }
-        pages.push("...");
-        pages.push(totalPages);
       }
     }
     
@@ -85,7 +109,7 @@ export default function GalleryPagination({
         Showing {showingResults} of {totalResults} brands • Page {currentPage} of {totalPages}
       </span>
       
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1 flex-wrap justify-center">
         {/* Previous Button */}
         {currentPage > 1 ? (
           <Link
@@ -101,26 +125,24 @@ export default function GalleryPagination({
         )}
 
         {/* Page Numbers */}
-        <div className="flex items-center gap-1">
-          {pages.map((page, index) => (
-            <span key={index}>
-              {page === "..." ? (
-                <span className="px-2 text-slate-500">...</span>
-              ) : (
-                <Link
-                  href={`/gallery${buildQueryString(page as number)}`}
-                  className={`rounded-lg px-3 py-2 text-sm transition ${
-                    page === currentPage
-                      ? "bg-indigo-600 text-white"
-                      : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
-                  }`}
-                >
-                  {page}
-                </Link>
-              )}
-            </span>
-          ))}
-        </div>
+        {pages.map((page, index) => (
+          <span key={index}>
+            {page === "..." ? (
+              <span className="px-1 text-slate-500">...</span>
+            ) : (
+              <Link
+                href={`/gallery${buildQueryString(page as number)}`}
+                className={`rounded-lg px-3 py-2 text-sm transition min-w-[36px] text-center ${
+                  page === currentPage
+                    ? "bg-indigo-600 text-white"
+                    : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+                }`}
+              >
+                {page}
+              </Link>
+            )}
+          </span>
+        ))}
 
         {/* Next Button */}
         {currentPage < totalPages ? (
