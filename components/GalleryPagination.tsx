@@ -42,74 +42,21 @@ export default function GalleryPagination({
     return queryString ? `?${queryString}` : "";
   };
 
-  // Generate page numbers to show
-  const getPageNumbers = () => {
-    const pages: (number | string)[] = [];
-    
-    if (totalPages <= 9) {
-      // Show all pages if 9 or fewer
-      for (let i = 1; i <= totalPages; i++) {
-        pages.push(i);
-      }
-    } else {
-      // Complex pagination with start, middle, and end visible
-      const showStartEndCount = 2; // Pages to show at start and end
-      const showAroundCurrent = 1; // Pages around current page
-      
-      // Always add first pages
-      for (let i = 1; i <= showStartEndCount; i++) {
-        pages.push(i);
-      }
-      
-      // Calculate if we need left ellipsis
-      if (currentPage > showStartEndCount + showAroundCurrent + 1) {
-        pages.push("...");
-      } else if (currentPage === showStartEndCount + showAroundCurrent + 1) {
-        // No ellipsis, just add the missing page
-        pages.push(showStartEndCount + 1);
-      }
-      
-      // Add pages around current
-      const startAround = Math.max(showStartEndCount + 1, currentPage - showAroundCurrent);
-      const endAround = Math.min(totalPages - showStartEndCount, currentPage + showAroundCurrent);
-      
-      for (let i = startAround; i <= endAround; i++) {
-        if (!pages.includes(i)) {
-          pages.push(i);
-        }
-      }
-      
-      // Calculate if we need right ellipsis
-      if (currentPage < totalPages - showStartEndCount - showAroundCurrent) {
-        pages.push("...");
-      } else if (currentPage === totalPages - showStartEndCount - showAroundCurrent) {
-        // No ellipsis, just add the missing page
-        const missingPage = totalPages - showStartEndCount;
-        if (!pages.includes(missingPage)) {
-          pages.push(missingPage);
-        }
-      }
-      
-      // Always add last pages
-      for (let i = totalPages - showStartEndCount + 1; i <= totalPages; i++) {
-        if (!pages.includes(i)) {
-          pages.push(i);
-        }
-      }
-    }
-    
-    return pages;
-  };
-
-  const pages = getPageNumbers();
+  // Always show all page numbers - every page must be accessible
+  const pages: number[] = [];
+  for (let i = 1; i <= totalPages; i++) {
+    pages.push(i);
+  }
 
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-white/10 pt-6">
-      <span className="text-sm text-slate-400">
+    <div className="flex flex-col gap-4 border-t border-white/10 pt-6">
+      {/* Info line */}
+      <div className="text-center text-sm text-slate-400">
         Showing {showingResults} of {totalResults} brands • Page {currentPage} of {totalPages}
-      </span>
+      </div>
       
-      <div className="flex items-center gap-1 flex-wrap justify-center">
+      {/* Full pagination bar */}
+      <div className="flex items-center justify-center gap-1 flex-wrap">
         {/* Previous Button */}
         {currentPage > 1 ? (
           <Link
@@ -124,24 +71,19 @@ export default function GalleryPagination({
           </span>
         )}
 
-        {/* Page Numbers */}
-        {pages.map((page, index) => (
-          <span key={index}>
-            {page === "..." ? (
-              <span className="px-1 text-slate-500">...</span>
-            ) : (
-              <Link
-                href={`/gallery${buildQueryString(page as number)}`}
-                className={`rounded-lg px-3 py-2 text-sm transition min-w-[36px] text-center ${
-                  page === currentPage
-                    ? "bg-indigo-600 text-white"
-                    : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
-                }`}
-              >
-                {page}
-              </Link>
-            )}
-          </span>
+        {/* All Page Numbers - No gaps, every page clickable */}
+        {pages.map((page) => (
+          <Link
+            key={page}
+            href={`/gallery${buildQueryString(page)}`}
+            className={`rounded-lg px-3 py-2 text-sm transition min-w-[40px] text-center ${
+              page === currentPage
+                ? "bg-indigo-600 text-white font-semibold"
+                : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+            }`}
+          >
+            {page}
+          </Link>
         ))}
 
         {/* Next Button */}
