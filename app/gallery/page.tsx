@@ -109,6 +109,7 @@ export default async function GalleryPage({
         })),
       }} id="gallery-itemlist" />
       
+      {/* Header */}
       <div className="space-y-4">
         <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Gallery</p>
         <h1 className="text-3xl font-semibold text-white md:text-4xl">Browse brand logos</h1>
@@ -120,61 +121,10 @@ export default async function GalleryPage({
         </p>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-        <GodLevelSearch placeholder={`Search ${brands.length}+ brand logos...`} />
-        <div className="glass flex flex-col gap-4 rounded-2xl p-4">
-          <div>
-            <label className="text-xs uppercase tracking-[0.3em] text-slate-400">Category</label>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {categories.map((cat) => (
-                <Link
-                  key={cat.slug}
-                  href={`/gallery${buildQueryString({ q: query || undefined, category: cat.slug, tag, sort })}`}
-                  className={`rounded-full border px-4 py-2 text-xs transition ${
-                    category === cat.slug
-                      ? "border-indigo-400 bg-indigo-500/20 text-indigo-100"
-                      : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30"
-                  }`}
-                >
-                  {cat.name}
-                </Link>
-              ))}
-              <Link
-                href={`/gallery${buildQueryString({ q: query || undefined, tag, sort })}`}
-                className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-slate-300 transition hover:border-white/30"
-              >
-                All
-              </Link>
-            </div>
-          </div>
-          <div>
-            <label className="text-xs uppercase tracking-[0.3em] text-slate-400">Sort</label>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {sortOptions.map((option) => (
-                <Link
-                  key={option.value}
-                  href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort: option.value })}`}
-                  className={`rounded-full border px-4 py-2 text-xs transition ${
-                    sort === option.value
-                      ? "border-indigo-400 bg-indigo-500/20 text-indigo-100"
-                      : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30"
-                  }`}
-                >
-                  {option.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-          <TagsFilter
-            tags={tagOptions}
-            selectedTag={tag}
-            basePath="/gallery"
-            queryParams={{ q: query || undefined, category, sort }}
-            brands={brands}
-          />
-        </div>
-      </div>
+      {/* Search Bar - Full Width */}
+      <GodLevelSearch placeholder={`Search ${brands.length}+ brand logos...`} />
 
+      {/* Logo Grid */}
       {paginatedBrands.length > 0 ? (
         <BrandGrid brands={paginatedBrands} />
       ) : (
@@ -188,7 +138,7 @@ export default async function GalleryPage({
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-1.5 pt-8 border-t border-white/10 mt-8">
+        <div className="flex items-center justify-center gap-1.5 pt-8 border-t border-white/10">
           {/* Previous */}
           {currentPage > 1 ? (
             <Link
@@ -199,7 +149,7 @@ export default async function GalleryPage({
               Prev
             </Link>
           ) : (
-            <span className="flex items-center gap-1 rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-600 cursor-not-allowed">
+            <span className="flex items-center gap-1 rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-500 cursor-not-allowed">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
               Prev
             </span>
@@ -258,13 +208,73 @@ export default async function GalleryPage({
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             </Link>
           ) : (
-            <span className="flex items-center gap-1 rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-600 cursor-not-allowed">
+            <span className="flex items-center gap-1 rounded-lg border border-white/5 bg-white/5 px-3 py-2 text-sm text-slate-500 cursor-not-allowed">
               Next
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             </span>
           )}
         </div>
       )}
+
+      {/* FILTERS - Moved to bottom, vertical layout */}
+      <div className="glass rounded-2xl p-6 space-y-6">
+        <h2 className="text-lg font-semibold text-white">Filter & Sort</h2>
+        
+        {/* Category - Vertical Stack */}
+        <div className="space-y-3">
+          <label className="text-xs uppercase tracking-[0.3em] text-slate-400">Category</label>
+          <div className="flex flex-col gap-2">
+            {categories.map((cat) => (
+              <Link
+                key={cat.slug}
+                href={`/gallery${buildQueryString({ q: query || undefined, category: cat.slug, tag, sort })}`}
+                className={`rounded-lg border px-4 py-3 text-sm transition ${
+                  category === cat.slug
+                    ? "border-indigo-400 bg-indigo-500/20 text-indigo-100"
+                    : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30 hover:bg-white/10"
+                }`}
+              >
+                {cat.name}
+              </Link>
+            ))}
+            <Link
+              href={`/gallery${buildQueryString({ q: query || undefined, tag, sort })}`}
+              className="rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-300 transition hover:border-white/30 hover:bg-white/10"
+            >
+              All Categories
+            </Link>
+          </div>
+        </div>
+
+        {/* Sort - Vertical Stack */}
+        <div className="space-y-3">
+          <label className="text-xs uppercase tracking-[0.3em] text-slate-400">Sort By</label>
+          <div className="flex flex-col gap-2">
+            {sortOptions.map((option) => (
+              <Link
+                key={option.value}
+                href={`/gallery${buildQueryString({ q: query || undefined, category, tag, sort: option.value })}`}
+                className={`rounded-lg border px-4 py-3 text-sm transition ${
+                  sort === option.value
+                    ? "border-indigo-400 bg-indigo-500/20 text-indigo-100"
+                    : "border-white/10 bg-white/5 text-slate-300 hover:border-white/30 hover:bg-white/10"
+                }`}
+              >
+                {option.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Tags */}
+        <TagsFilter
+          tags={tagOptions}
+          selectedTag={tag}
+          basePath="/gallery"
+          queryParams={{ q: query || undefined, category, sort }}
+          brands={brands}
+        />
+      </div>
     </div>
   );
 }
