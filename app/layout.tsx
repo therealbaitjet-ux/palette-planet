@@ -101,14 +101,32 @@ export default function RootLayout({
           </header>
           <main className="relative z-10">{children}</main>
           <footer className="relative z-10 border-t border-white/10">
-            <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-8 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
-              <div>© {new Date().getFullYear()} palette-planet.com. All rights reserved.</div>
-              <div className="flex gap-4">
-                <Link href="/gallery" className="hover:text-white focus-ring">
-                  Browse gallery
+            <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-8 text-sm text-slate-400">
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <div>© {new Date().getFullYear()} palette-planet.com. All rights reserved.</div>
+                <div className="flex flex-wrap gap-4">
+                  <Link href="/gallery" className="hover:text-white focus-ring">
+                    Browse gallery
+                  </Link>
+                  <Link href="/category" className="hover:text-white focus-ring">
+                    Explore categories
+                  </Link>
+                  <Link href="/blog" className="hover:text-white focus-ring">
+                    Blog
+                  </Link>
+                </div>
+              </div>
+              <div className="flex flex-wrap items-center justify-center gap-4 border-t border-white/10 pt-4 text-xs">
+                <Link href="/privacy" className="hover:text-white focus-ring">
+                  Privacy Policy
                 </Link>
-                <Link href="/category" className="hover:text-white focus-ring">
-                  Explore categories
+                <span className="text-slate-600">•</span>
+                <Link href="/terms" className="hover:text-white focus-ring">
+                  Terms of Service
+                </Link>
+                <span className="text-slate-600">•</span>
+                <Link href="/contact" className="hover:text-white focus-ring">
+                  Contact Us
                 </Link>
               </div>
             </div>
