@@ -133,11 +133,14 @@ export default function FeaturedLogos() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center gap-4">
             <div className="flex-1 h-1 bg-gradient-to-r from-transparent via-indigo-500/50 to-indigo-500 rounded-full" />
-            <div className="px-4 py-2 rounded-full border-2 border-indigo-500/30 bg-indigo-500/10">
+            <Link 
+              href="/gallery"
+              className="px-4 py-2 rounded-full border-2 border-indigo-500/30 bg-indigo-500/10 hover:bg-indigo-500/20 transition"
+            >
               <span className="text-sm font-medium text-indigo-300">
                 Explore All Brands
               </span>
-            </div>
+            </Link>
             <div className="flex-1 h-1 bg-gradient-to-l from-transparent via-indigo-500/50 to-indigo-500 rounded-full" />
           </div>
         </div>

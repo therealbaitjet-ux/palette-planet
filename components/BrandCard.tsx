@@ -7,18 +7,18 @@ const formatColors = (colors: string[]) =>
 
 export default function BrandCard({ brand }: { brand: Brand }) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-white/20 hover:bg-white/10">
+    <div className="group relative overflow-hidden rounded-lg border border-white/10 bg-white/5 p-3 transition hover:border-white/20 hover:bg-white/10">
       {/* Hover gradient effect */}
       <div
         className="pointer-events-none absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
         style={{ background: formatColors(brand.dominantColors) }}
       />
       
-      <div className="relative flex h-full flex-col gap-4">
+      <div className="relative flex h-full flex-col gap-2">
         {/* Logo Image Container */}
         <Link
           href={`/logo/${brand.slug}`}
-          className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/30 p-6 transition hover:border-white/30 focus-ring"
+          className="relative overflow-hidden rounded-lg border border-white/10 bg-black/30 p-2 transition hover:border-white/30 focus-ring"
           aria-label={`${brand.name} logo page`}
         >
           {/* Glow effect behind logo */}
@@ -33,7 +33,7 @@ export default function BrandCard({ brand }: { brand: Brand }) {
             alt={`${brand.name} logo`}
             width={320}
             height={180}
-            className="relative z-10 h-32 w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105 md:h-36"
+            className="relative z-10 h-36 w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105 md:h-40"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             loading="lazy"
           />
