@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import GodLevelSearch from "@/components/GodLevelSearch";
 import BrandGrid from "@/components/BrandGrid";
+import FeaturedLogos from "@/components/FeaturedLogos";
 import AdUnit from "@/components/AdUnit";
 import AffiliateCTA from "@/components/AffiliateCTA";
 import SponsorBanner from "@/components/SponsorBanner";
@@ -169,23 +170,8 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* TRENDING SECTION */}
-      <section className="space-y-6">
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="text-xs uppercase tracking-[0.4em] text-indigo-400 mb-2">Featured Intelligence</p>
-            <h2 className="text-2xl font-bold text-white">This Week's Most-Studied Brands</h2>
-          </div>
-          <Link
-            href="/gallery"
-            className="text-sm font-semibold text-indigo-400 hover:text-indigo-300"
-          >
-            View all →
-          </Link>
-        </div>
-        
-        <BrandGrid brands={featuredBrands} />
-      </section>
+      {/* FEATURED LOGOS - 24 logos, pinned on entry */}
+      <FeaturedLogos />
 
       {/* CATEGORY DEEP DIVES */}
       <section className="space-y-6">
