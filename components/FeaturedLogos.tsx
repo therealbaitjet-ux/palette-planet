@@ -86,14 +86,14 @@ export default function FeaturedLogos() {
           </div>
 
           {/* Logo Grid - 6 cols desktop, 4 tablet, 2 mobile */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
             {featuredBrands.map((brand) => (
               <Link
                 key={brand.id}
                 href={`/brand/${brand.slug}`}
-                className="group flex items-center justify-center p-4 rounded-xl border border-white/10 bg-white/5 transition hover:border-indigo-500/30 hover:bg-white/10"
+                className="group flex items-center justify-center p-2 rounded-lg border border-white/10 bg-white/5 transition hover:border-indigo-500/30 hover:bg-white/10"
               >
-                <div className="relative w-full h-14 md:h-16">
+                <div className="relative w-full h-20 md:h-24">
                   <Image
                     src={brand.logoUrl}
                     alt={`${brand.name} logo`}
