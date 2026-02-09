@@ -1,77 +1,16 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { getTopBrands } from "@/lib/data";
 
 export default function FeaturedLogos() {
-  const [isPinned, setIsPinned] = useState(true);
-  const [hasInteracted, setHasInteracted] = useState(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const spacerRef = useRef<HTMLDivElement>(null);
-
   // Get exactly 24 top brands (by views/popularity)
   const featuredBrands = getTopBrands(24);
 
-  useEffect(() => {
-    // Check for reduced motion preference
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-
-    if (prefersReducedMotion) {
-      setIsPinned(false);
-      return;
-    }
-
-    // Center the section on initial load
-    if (sectionRef.current && isPinned) {
-      sectionRef.current.scrollIntoView({ block: "center", behavior: "auto" });
-    }
-
-    // Event handlers to unpin
-    const handleInteraction = () => {
-      if (!hasInteracted) {
-        setHasInteracted(true);
-        setIsPinned(false);
-      }
-    };
-
-    // Add listeners for all interaction types
-    const events = ["wheel", "scroll", "touchstart", "keydown", "pointerdown"];
-    events.forEach((event) => {
-      window.addEventListener(event, handleInteraction, { passive: true, once: true });
-    });
-
-    return () => {
-      events.forEach((event) => {
-        window.removeEventListener(event, handleInteraction);
-      });
-    };
-  }, [hasInteracted, isPinned]);
-
   return (
     <>
-      {/* Spacer to prevent layout shift when pinned */}
-      {isPinned && (
-        <div
-          ref={spacerRef}
-          className="h-screen w-full"
-          aria-hidden="true"
-        />
-      )}
-
-      {/* Featured Section */}
-      <section
-        ref={sectionRef}
-        className={`transition-all duration-500 ${
-          isPinned
-            ? "fixed inset-0 z-50 flex items-center justify-center bg-midnight/95 backdrop-blur-sm"
-            : "relative w-full"
-        }`}
-      >
-        <div className="w-full max-w-7xl mx-auto px-6 py-12">
+      {/* Featured Section - Normal flow, no pinning */}
+      <section className="relative w-full py-12">
+        <div className="w-full max-w-7xl mx-auto px-6">
           {/* Header */}
           <div className="text-center mb-8">
             <p className="text-xs uppercase tracking-[0.4em] text-indigo-400 mb-2">
@@ -105,26 +44,6 @@ export default function FeaturedLogos() {
               </Link>
             ))}
           </div>
-
-          {/* Scroll indicator when pinned */}
-          {isPinned && (
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-center animate-bounce">
-              <p className="text-sm text-slate-400 mb-2">Scroll to explore</p>
-              <svg
-                className="w-6 h-6 text-indigo-400 mx-auto"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                />
-              </svg>
-            </div>
-          )}
         </div>
       </section>
 

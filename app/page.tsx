@@ -7,7 +7,6 @@ import AdUnit from "@/components/AdUnit";
 import AffiliateCTA from "@/components/AffiliateCTA";
 import SponsorBanner from "@/components/SponsorBanner";
 import NewsletterSignup from "@/components/NewsletterSignup";
-import LogoRevealOrbitAnimation from "@/components/LogoRevealOrbitAnimation";
 import { categories, getTopBrands, getBrands } from "@/lib/data";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -22,81 +21,12 @@ export const metadata = {
 export const dynamic = "force-dynamic";
 
 export default function HomePage() {
-  const featuredBrands = getTopBrands(6);
   const trendingBrands = getBrands().slice(0, 6);
   
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-12">
-      {/* HERO SECTION - AIDA Framework */}
-      <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950">
-        <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
-          {/* Left: Copy */}
-          <div className="flex flex-col gap-6 p-8 md:p-12">
-            {/* Social Proof Badge */}
-            <div className="inline-flex items-center gap-2 self-start rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-2">
-              <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="text-xs font-medium text-indigo-300">
-                Trusted by 10,000+ designers at Pentagram, IDEO, Stripe
-              </span>
-            </div>
-
-            {/* Attention Hook */}
-            <div className="space-y-4">
-              <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl leading-tight">
-                The Logo Intelligence Platform Built for{" "}
-                <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-                  Designers Who Don't Compromise
-                </span>
-              </h1>
-              <p className="text-lg text-slate-300 max-w-xl">
-                Stop scrolling through Pinterest chaos. Access 700+ battle-tested brand identities 
-                from Fortune 500 companies, unicorn startups, and luxury houses — all organized, 
-                searchable, and ready to spark your next breakthrough.
-              </p>
-            </div>
-
-            {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/gallery"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-4 font-semibold text-white transition hover:opacity-90 hover:scale-105"
-              >
-                Explore the Gallery
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Link>
-              <Link
-                href="/gallery"
-                className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/5 px-8 py-4 font-semibold text-white transition hover:bg-white/10"
-              >
-                See What's Trending
-              </Link>
-            </div>
-
-            {/* Micro Stats */}
-            <div className="flex gap-8 pt-4 text-sm">
-              <div>
-                <p className="text-2xl font-bold text-white">700+</p>
-                <p className="text-slate-400">Brand Logos</p>
-              </div>
-              <div>
-                <p className="text-2xl font-bold text-white">10</p>
-                <p className="text-slate-400">Industries</p>
-              </div>
-              <div>
-                <p className="text-2xl font-bold text-white">100%</p>
-                <p className="text-slate-400">Free Access</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Right: Animation */}
-          <div className="flex items-center justify-center p-8">
-            <LogoRevealOrbitAnimation />
-          </div>
-        </div>
-      </section>
+      {/* FEATURED LOGOS - Page starts here */}
+      <FeaturedLogos />
 
       {/* EMOTIONAL HOOK SECTION */}
       <section className="text-center max-w-4xl mx-auto">
@@ -170,40 +100,6 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* FEATURED LOGOS - 24 logos, pinned on entry */}
-      <FeaturedLogos />
-
-      {/* CATEGORY DEEP DIVES */}
-      <section className="space-y-6">
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="text-xs uppercase tracking-[0.4em] text-indigo-400 mb-2">Explore by Industry</p>
-            <h2 className="text-2xl font-bold text-white">Category Deep Dives</h2>
-          </div>
-        </div>
-        
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-          {categories.map((category) => {
-            const count = getBrands().filter(b => b.categorySlug === category.slug).length;
-            return (
-              <Link
-                key={category.slug}
-                href={`/category/${category.slug}/1`}
-                className="group rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-indigo-500/30 hover:bg-white/10"
-              >
-                <h3 className="text-lg font-semibold text-white group-hover:text-indigo-300">
-                  {category.name}
-                </h3>
-                <p className="mt-2 text-sm text-slate-400 line-clamp-2">{category.description}</p>
-                <p className="mt-4 text-xs text-indigo-400">
-                  Explore {count} {category.name.toLowerCase()} identities →
-                </p>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
       {/* DESIGNER PICKS */}
       <section className="glass rounded-3xl p-8 md:p-12">
         <div className="text-center mb-8">
@@ -238,93 +134,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* MONETIZATION TEASERS */}
-      <section className="rounded-3xl border border-indigo-500/20 bg-gradient-to-br from-indigo-950/50 to-slate-900/50 p-8 md:p-12">
-        <div className="text-center mb-10">
-          <p className="text-xs uppercase tracking-[0.4em] text-indigo-400 mb-2">Upgrade Your Creative Arsenal</p>
-          <h2 className="text-2xl font-bold text-white">Pro Features Coming Soon</h2>
-        </div>
-
-        <div className="grid gap-6 md:grid-cols-3">
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-6 opacity-75">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="rounded-full bg-indigo-500/20 px-2 py-1 text-xs text-indigo-300">🔒 Pro</span>
-            </div>
-            <h3 className="font-semibold text-white">Downloadable Brand Kits</h3>
-            <p className="text-sm text-slate-400 mt-2">
-              Get color palettes, typography specs, and design rationale for every brand.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-6 opacity-75">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="rounded-full bg-indigo-500/20 px-2 py-1 text-xs text-indigo-300">🔒 Pro</span>
-            </div>
-            <h3 className="font-semibold text-white">Private Collections</h3>
-            <p className="text-sm text-slate-400 mt-2">
-              Save and organize favorites into client-ready presentation decks.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-6 opacity-75">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="rounded-full bg-indigo-500/20 px-2 py-1 text-xs text-indigo-300">🔒 Pro</span>
-            </div>
-            <h3 className="font-semibold text-white">Weekly Intelligence Drops</h3>
-            <p className="text-sm text-slate-400 mt-2">
-              Fresh brand analyses and trend reports every Monday.
-            </p>
+      {/* CATEGORY DEEP DIVES */}
+      <section className="space-y-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-xs uppercase tracking-[0.4em] text-indigo-400 mb-2">Explore by Industry</p>
+            <h2 className="text-2xl font-bold text-white">Category Deep Dives</h2>
           </div>
         </div>
-
-        <div className="text-center mt-8">
-          <button className="inline-flex items-center gap-2 rounded-xl border border-indigo-500/50 bg-indigo-500/10 px-6 py-3 font-semibold text-indigo-300 transition hover:bg-indigo-500/20">
-            Join 2,000+ Designers on the Waitlist
-          </button>
+        
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          {categories.map((category) => {
+            const count = getBrands().filter(b => b.categorySlug === category.slug).length;
+            return (
+              <Link
+                key={category.slug}
+                href={`/category/${category.slug}/1`}
+                className="group rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-indigo-500/30 hover:bg-white/10"
+              >
+                <h3 className="text-lg font-semibold text-white group-hover:text-indigo-300">
+                  {category.name}
+                </h3>
+                <p className="mt-2 text-sm text-slate-400 line-clamp-2">{category.description}</p>
+                <p className="mt-4 text-xs text-indigo-400">
+                  Explore {count} {category.name.toLowerCase()} identities →
+                </p>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
-      {/* SOCIAL PROOF */}
-      <section className="glass rounded-3xl p-8 md:p-12">
-        <div className="text-center mb-8">
-          <p className="text-xs uppercase tracking-[0.4em] text-indigo-400 mb-2">Designers Who Get It</p>
-          <h2 className="text-2xl font-bold text-white">Trusted by Professionals</h2>
-        </div>
-
-        <div className="grid gap-6 md:grid-cols-3">
-          <blockquote className="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <p className="text-slate-300 italic">
-              "I reference Palette Planet before every client pitch. It's my secret weapon for showing what's possible."
-            </p>
-            <footer className="mt-4 text-sm">
-              <p className="text-white font-semibold">Sarah Chen</p>
-              <p className="text-slate-400">Brand Director, Pentagram</p>
-            </footer>
-          </blockquote>
-
-          <blockquote className="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <p className="text-slate-300 italic">
-              "Finally, a logo resource that respects my time. No fluff, just the identities that matter."
-            </p>
-            <footer className="mt-4 text-sm">
-              <p className="text-white font-semibold">Marcus Johnson</p>
-              <p className="text-slate-400">Freelance Designer</p>
-            </footer>
-          </blockquote>
-
-          <blockquote className="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <p className="text-slate-300 italic">
-              "Saved me 10 hours of research for a rebrand project. Worth every penny."
-            </p>
-            <footer className="mt-4 text-sm">
-              <p className="text-white font-semibold">Elena Rodriguez</p>
-              <p className="text-slate-400">Creative Lead, IDEO</p>
-            </footer>
-          </blockquote>
-        </div>
-      </section>
-
-      {/* FINAL CTA */}
+      {/* Final CTA */}
       <section className="text-center max-w-3xl mx-auto py-12">
         <h2 className="text-3xl font-bold text-white mb-4">
           Your Next Breakthrough Logo Is Waiting
