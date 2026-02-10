@@ -64,9 +64,12 @@ export default function AdminDashboard() {
     verifyAuth();
   }, [router, page]);
 
-  const handleLogout = () => {
-    document.cookie = "admin_auth=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT";
-    router.push("/admin");
+  const handleLogout = async () => {
+    try {
+      await fetch("/api/admin/logout", { method: "POST" });
+    } finally {
+      router.push("/admin");
+    }
   };
 
   const filteredBrands = brands.filter((brand) => {

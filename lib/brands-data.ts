@@ -3,9 +3,16 @@ import { createClient } from "@supabase/supabase-js";
 
 // Supabase client for dynamic data
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://jqygmrgargwvjovhrbid.supabase.co";
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpxeWdtcmdhcmd3dmpvdmhyYmlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAzMzQ5NjEsImV4cCI6MjA4NTkxMDk2MX0.S2tpjzM-81jcQQCMsriaUIDAGy_o1easT7kJvJChnwU";
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
-export const supabase = createClient(supabaseUrl, supabaseKey);
+if (!supabaseKey) {
+  console.warn("SUPABASE_ANON_KEY not set - using static data only");
+}
+
+export const supabase = createClient(
+  supabaseUrl, 
+  supabaseKey || "dummy-key-for-build-only"
+);
 
 // Import static brands as fallback
 import { generatedBrands } from "./brands-data-generated";

@@ -28,8 +28,7 @@ export default function AdminLoginPage() {
       const data = await res.json();
 
       if (data.success) {
-        // Set cookie/session
-        document.cookie = "admin_auth=true; path=/; max-age=86400";
+        // Cookie is set server-side, just redirect
         router.push("/admin/dashboard");
       } else {
         setError("Incorrect password");

@@ -2,14 +2,50 @@
 // Returns 200 if authenticated, 401 if not
 
 import { NextResponse } from "next/server";
+import { cookies } from "next/headers";
+import { createHash } from "crypto";
 
 export const dynamic = 'force-dynamic';
 
+// Simple token verification using ADMIN_PASSWORD
+// In production, use NextAuth.js or Clerk for proper authentication
 export async function POST() {
-  // In a production app, verify JWT or session token here
-  // For now, we rely on the cookie set by successful login
-  // This is checked client-side by the existence of the cookie
-  // A more secure implementation would use httpOnly cookies with JWT
-  
-  return NextResponse.json({ success: true });
+  try {
+    const cookieStore = await cookies();
+    const authToken = cookieStore.get("admin_auth")?.value;
+    
+    if (!authToken) {
+      return NextResponse.json(
+        { error: "Not authenticated" },
+        { status: 401 }
+      );
+    }
+    
+    // Verify token matches hashed password
+    const adminPassword = process.env.ADMIN_PASSWORD;
+    if (!adminPassword) {
+      console.error("ADMIN_PASSWORD not configured");
+      return NextResponse.json(
+        { error: "Server configuration error" },
+        { status: 500 }
+      );
+    }
+    
+    const expectedToken = createHash("sha256").update(adminPassword).digest("hex");
+    
+    if (authToken !== expectedToken) {
+      return NextResponse.json(
+        { error: "Invalid session" },
+        { status: 401 }
+      );
+    }
+    
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error("Auth verification error:", error);
+    return NextResponse.json(
+      { error: "Verification failed" },
+      { status: 500 }
+    );
+  }
 }
